@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Selectivity analysis tick data"
+    },
+    {
+      "provider": "polygon",
+      "api": "bars",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/minute_bars",
+      "notes": "Selectivity analysis minute bars"
+    }
+  ]
+}

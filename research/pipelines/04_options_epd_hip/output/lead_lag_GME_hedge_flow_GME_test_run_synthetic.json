@@ -1,0 +1,115 @@
+{
+  "symbol": "GME",
+  "hedgeFlowPath": "reports/options/hedge_flow_GME_test_run_synthetic.parquet",
+  "barsPath": "data/minute_bars/GME_2025-12-01_minute.csv",
+  "lagSecondsTested": [
+    -300,
+    -120,
+    -60,
+    -30,
+    -10,
+    -5,
+    -1,
+    0,
+    1,
+    5,
+    10,
+    30,
+    60,
+    120,
+    300
+  ],
+  "results": [
+    {
+      "lagSeconds": -300,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -120,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -60,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -30,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -10,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -5,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -1,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 0,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 1,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 5,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 10,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 30,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 60,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 120,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 300,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    }
+  ],
+  "bestByAbsCorr": null
+}

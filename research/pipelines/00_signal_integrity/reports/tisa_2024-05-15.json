@@ -1,0 +1,40 @@
+{
+  "horizons": {
+    "1": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 0.5746724556003319,
+      "scales": [],
+      "rmse_zscore": 0.5746724556003319
+    },
+    "4": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 0.8872984697339823,
+      "scales": [],
+      "rmse_zscore": 0.8872984697339823
+    },
+    "7": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 0.6957640806658348,
+      "scales": [],
+      "rmse_zscore": 0.6957640806658348
+    },
+    "30": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 1.2600577711414904,
+      "scales": [],
+      "rmse_zscore": 1.2600577711414904
+    },
+    "90": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 1.3900097149593786,
+      "scales": [],
+      "rmse_zscore": 1.3900097149593786
+    },
+    "180": {
+      "best_scale": "rmse_fallback",
+      "best_distance": 1.1903212037580169,
+      "scales": [],
+      "rmse_zscore": 1.1903212037580169
+    }
+  }
+}

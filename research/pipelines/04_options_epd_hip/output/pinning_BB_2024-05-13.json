@@ -1,0 +1,24 @@
+{
+  "symbol": "BB",
+  "date": "2024-05-13",
+  "magnet_strikes": {
+    "3.5": {
+      "gex": 3582449.8038597833,
+      "dwell_pct": 0.036671368124118475,
+      "close_dist_pct": 0.008571428571428516,
+      "is_pinned": false
+    },
+    "4.0": {
+      "gex": 1365215.2020261083,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.11750000000000005,
+      "is_pinned": false
+    },
+    "3.0": {
+      "gex": 843177.6869397017,
+      "dwell_pct": 0.04090267983074753,
+      "close_dist_pct": 0.1766666666666666,
+      "is_pinned": false
+    }
+  }
+}

@@ -1,0 +1,279 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "BB",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for BB on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "KOSS",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for KOSS on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "ALNT",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for ALNT on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GIC",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for GIC on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "MPU",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for MPU on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "JAKK",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for JAKK on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "HOWL",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for HOWL on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "AMC",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for AMC on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "MEGL",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for MEGL on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "IAGG",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for IAGG on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "KELYA",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for KELYA on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for GME on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "AMAL",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for AMAL on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "FLGC",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for FLGC on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "NCDL",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for NCDL on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "ALUR",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for ALUR on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "DJTWW",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for DJTWW on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "QCLN",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for QCLN on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "ORN",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for ORN on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "AXGN",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for AXGN on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "BNS",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for BNS on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "SPY",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for SPY on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "LEN.B",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for LEN.B on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "CNTB",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for CNTB on 2024-05-14"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "CMPX",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 24 Dragnet data for CMPX on 2024-05-14"
+    }
+  ]
+}

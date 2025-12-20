@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516080407000_hybrid",
+    "detectionTime": "2024-05-16T08:04:07.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 47760,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516103423000_hybrid",
+    "detectionTime": "2024-05-16T10:34:23.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 12.529673077168672,
+    "bestLagMinutes": 10320,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516110927000_hybrid",
+    "detectionTime": "2024-05-16T11:09:27.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 3.7314599160442405,
+    "bestLagMinutes": 39120,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120316000_hybrid",
+    "detectionTime": "2024-05-16T12:03:16.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 47520,
+    "bestScale": 64
+  }
+]

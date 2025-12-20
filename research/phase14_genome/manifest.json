@@ -1,0 +1,158 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for GME"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "SPY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for SPY"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "AAPL",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for AAPL"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GROV",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for GROV"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "CHWY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for CHWY"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "PLTR",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for PLTR"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "TSLA",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for TSLA"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "NVDA",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for NVDA"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "SIRI",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for SIRI"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "COKE",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for COKE"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "U",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for U"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "IEP",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for IEP"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "DJT",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for DJT"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "LYFT",
+      "date": "2024-05-13",
+      "start": "2024-05-13T13:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/local/{provider}/{symbol}/{date}",
+      "notes": "Phase 14 Genome data for LYFT"
+    }
+  ]
+}

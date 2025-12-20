@@ -1,0 +1,9 @@
+MASTER CYCLE BACKTEST CHECK
+===========================
+Cycle Length: 423 days
+
+Target Date 1: 2019-11-30
+  NO DATA AVAILABLE for this exact date.
+
+Target Date 2: 2018-10-03
+  NO DATA AVAILABLE for this exact date.

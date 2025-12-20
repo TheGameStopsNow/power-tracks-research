@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05",
+      "dest": "data/samples/sample_2024-05",
+      "notes": "May 2024 Data for RegA Barrier Analysis"
+    }
+  ]
+}

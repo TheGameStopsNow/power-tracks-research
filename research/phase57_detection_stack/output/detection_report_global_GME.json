@@ -1,0 +1,611 @@
+{
+  "meta": {
+    "ticker": "GME",
+    "date": "2024-05-14",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 7.910743817228366,
+      "venue_count": 16,
+      "top_venue_concentration": 39.66814318628041,
+      "flags": [
+        "High Zero-DT: 7.91%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-14 13:30:00.004283136+00:00",
+      "count": 27044,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2385376848406282,
+        "p_val": 1.4353751468205742e-100
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.6,
+            "max_power": 20.804553139532935,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "phase_variance": 0.7373193539515174
+          },
+          {
+            "freq_hz": 93.5,
+            "period_sec": 0.0106951871657754,
+            "persistence": 0.6,
+            "max_power": 7.099511529734081,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "phase_variance": 0.0
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 8.548448638610065,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "phase_variance": 0.6706482486705249
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "10"
+        ],
+        "stats": {
+          "mean_lag": -0.00018886994533447675,
+          "std_lag": 0.022310822666209207,
+          "bic_1": -36896.74828695061,
+          "bic_2": -36864.12522896536,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-14 13:35:33.978345472+00:00",
+      "count": 59940,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26867294242519535,
+        "p_val": 6.429429635361144e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 74.09075014294108,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_variance": 0.6980723878708761
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 1.0,
+            "max_power": 25.2636337497065,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_variance": 0.6440967386539113
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 23.897396278728184,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_variance": 0.3097561961848264
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0020112064205297904,
+          "std_lag": 0.023938513537703862,
+          "bic_1": -132116.7403755321,
+          "bic_2": -132257.92530405085,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.014775350646536132,
+              "weight": 0.5924859870023277
+            },
+            {
+              "mean": 0.016546625577332413,
+              "weight": 0.40751401299767226
+            }
+          ]
+        },
+        "dynamics": [
+          {
+            "idx": 0,
+            "valid": true,
+            "start": "2024-05-14 13:35:33.978345472+00:00",
+            "means": [
+              -0.015547170817089544,
+              0.00900669114981964
+            ],
+            "weights": [
+              0.40220136456453415,
+              0.5977986354354659
+            ],
+            "converged": true
+          },
+          {
+            "idx": 1,
+            "valid": true,
+            "start": "2024-05-14 13:35:44.949398271+00:00",
+            "means": [
+              -0.02317401453146499,
+              0.007898593189254127
+            ],
+            "weights": [
+              0.3589342533725753,
+              0.6410657466274247
+            ],
+            "converged": true
+          },
+          {
+            "idx": 2,
+            "valid": true,
+            "start": "2024-05-14 13:35:55.920451071+00:00",
+            "means": [
+              -0.02922147793791653,
+              0.030336097432165216
+            ],
+            "weights": [
+              0.5345188194674861,
+              0.4654811805325139
+            ],
+            "converged": true
+          },
+          {
+            "idx": 3,
+            "valid": false,
+            "reason": "insufficient_lags"
+          },
+          {
+            "idx": 4,
+            "valid": false,
+            "reason": "insufficient_lags"
+          }
+        ],
+        "switching_score": 0.0055949107224589805
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-14 13:41:16.031912704+00:00",
+      "count": 92238,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2775541530336435,
+        "p_val": 1.2192192167673844e-136
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 120.51955552768237,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_variance": 0.6707549914991582
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 47.70393789499483,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_variance": 0.4796354283291311
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.595502134011563,
+            "bins": [
+              1,
+              20
+            ],
+            "phase_variance": 0.28897843246274324
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0005082031619082588,
+          "std_lag": 0.01994974977415485,
+          "bic_1": -323377.46982983476,
+          "bic_2": -322974.25327901647,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-14 13:47:12.138776064+00:00",
+      "count": 80598,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3110519672757501,
+        "p_val": 2.643688205772508e-172
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 4.336497681756062e-05,
+          "std_lag": 0.020218037736569286,
+          "bic_1": -171184.16695624153,
+          "bic_2": -171003.57892324522,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-14 13:50:00.019202816+00:00",
+      "count": 10307,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2691025090544331,
+        "p_val": 2.4733968685206066e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 25.980223133249478,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "phase_variance": 0.5185974527716496
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 8.784860739734743,
+            "bins": [
+              10,
+              20
+            ],
+            "phase_variance": 0.7933012442974368
+          },
+          {
+            "freq_hz": 6.0,
+            "period_sec": 0.16666666666666666,
+            "persistence": 0.4,
+            "max_power": 9.953705249157379,
+            "bins": [
+              10,
+              20
+            ],
+            "phase_variance": 0.3491875461075372
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 6.949366530139314e-05,
+          "std_lag": 0.023652644596466054,
+          "bic_1": -12936.28546374008,
+          "bic_2": -12934.822304977564,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-14 13:55:47.909329920+00:00",
+      "count": 68733,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2104506072592,
+        "p_val": 3.736890326801117e-78
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 7.082602763557015,
+            "bins": [
+              1,
+              20
+            ],
+            "phase_variance": 0.38941143904051134
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0004776674334619068,
+          "std_lag": 0.021153148092063773,
+          "bic_1": -134220.7351386572,
+          "bic_2": -134085.9349039276,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-14 14:03:25.607857920+00:00",
+      "count": 38841,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2680897830578466,
+        "p_val": 2.34561985880001e-127
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 10.251472095221303,
+            "bins": [
+              1,
+              2,
+              20,
+              5
+            ],
+            "phase_variance": 0.28244124702510487
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.00015025812060634857,
+          "std_lag": 0.020847496001405157,
+          "bic_1": -69370.44985036892,
+          "bic_2": -69287.77704672355,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-14 14:05:00.011602432+00:00",
+      "count": 7488,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.34391241268313616,
+        "p_val": 1.2290628997912935e-211
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.4,
+            "max_power": 7.422888331033962,
+            "bins": [
+              1,
+              10
+            ],
+            "phase_variance": 0.6160675211297403
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 9.20812610898484,
+            "bins": [
+              10,
+              5
+            ],
+            "phase_variance": 0.5236466808740016
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.062982008498429,
+            "bins": [
+              10,
+              20
+            ],
+            "phase_variance": 0.6905506873729657
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0003149367528071969,
+          "std_lag": 0.021568540783526196,
+          "bic_1": -9814.644874432975,
+          "bic_2": -9783.5955521212,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-14 14:10:37.608145920+00:00",
+      "count": 55928,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.1941867057243604,
+        "p_val": 1.652037053544071e-66
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.00018629897032369417,
+          "std_lag": 0.02283385892865321,
+          "bic_1": -72129.23398237654,
+          "bic_2": -72074.88068468054,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-14 14:15:00.007722496+00:00",
+      "count": 45679,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23563280344051718,
+        "p_val": 4.090357381179359e-98
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.000452026671729077,
+          "std_lag": 0.02296941008238737,
+          "bic_1": -43604.02493803382,
+          "bic_2": -43558.617162024006,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null,
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

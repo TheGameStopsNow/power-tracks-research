@@ -1,0 +1,13 @@
+{
+  "phase": "76",
+  "data": [
+    {
+      "provider": "polygon",
+      "symbol": "GME",
+      "date": "2021-01-01_to_2022-12-31",
+      "type": "custom",
+      "dest": "data/bars/GME",
+      "notes": "Custom historical bars fetcher used via download_data.py"
+    }
+  ]
+}

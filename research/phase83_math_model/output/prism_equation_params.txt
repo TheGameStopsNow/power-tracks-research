@@ -1,0 +1,4 @@
+Critical Threshold (x0): 0.585143
+Stiffness (k): 8.583173
+Charm Factor (gamma): -0.692671
+R2: 0.108361

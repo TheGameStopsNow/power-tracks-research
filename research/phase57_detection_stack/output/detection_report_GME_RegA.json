@@ -1,0 +1,702 @@
+{
+  "meta": {
+    "ticker": "GME",
+    "date": "2024-05-14",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 7.910743817228366,
+      "venue_count": 17,
+      "top_venue_concentration": 39.66814318628041,
+      "flags": [
+        "High Zero-DT: 7.91%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-14 13:30:00.004283+00:00",
+      "count": 27044,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23854957304181568,
+        "p_val": 1.4023424874544722e-100
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.6,
+            "max_power": 20.79176234945847,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "plv": 0.2818675593321925,
+            "rayleigh_p": 0.013701316796831694,
+            "drift_slope_hz": -0.01241851309038324,
+            "phase_drift_rms": 2.3154073197039096,
+            "phase_var_abs": 0.7181324406678076
+          },
+          {
+            "freq_hz": 93.5,
+            "period_sec": 0.0106951871657754,
+            "persistence": 0.6,
+            "max_power": 7.110322389380313,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "plv": 0.4274508322739066,
+            "rayleigh_p": 3.122846398896194e-110,
+            "drift_slope_hz": -0.0491217009349454,
+            "phase_drift_rms": 4.857963229672814,
+            "phase_var_abs": 0.5725491677260934
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 8.549843352241936,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "plv": 0.05653081187849896,
+            "rayleigh_p": 0.9471219151930247,
+            "drift_slope_hz": 0.004121984806657528,
+            "phase_drift_rms": 1.3827357199606751,
+            "phase_var_abs": 0.943469188121501
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0,
+          19.0
+        ],
+        "weight_series_0": [
+          3.84798358658327e-39,
+          8.043875974084824e-22,
+          8.043875974084824e-22,
+          0.0005310674948992724,
+          0.0005310674948992724,
+          0.10526498058383693
+        ],
+        "weight_series_1": [
+          0.999999999999988,
+          0.9995309256501643,
+          0.9995309256501643,
+          0.9963463871853143,
+          0.9963463871853143,
+          0.5298802080505174
+        ],
+        "dominant_state": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_lags": [
+          1866,
+          1875,
+          1875,
+          1883,
+          1883,
+          19
+        ],
+        "spectral_entropy": 1.0558676507645277,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          6.890244230034992e-06,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.0002027473268150842,
+          "std_lag": 0.0032589214340052954,
+          "bic_1": -16268.143145475098,
+          "bic_2": -17245.824461700675,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.035320654352266015,
+              "weight": 0.003701745450939439,
+              "var": 1.8152850827460527e-05
+            },
+            {
+              "mean": 0.00033473450030155295,
+              "weight": 0.9962982545490606,
+              "var": 6.890244230034992e-06
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 6,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-14 13:35:33.978345+00:00",
+      "count": 59940,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26856383670150685,
+        "p_val": 8.192843411127713e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 74.0885347159819,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 1.0,
+            "max_power": 25.25419885003895,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 23.90538162509022,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "weight_series_0": [
+          0.9762613540587812,
+          0.9154415010130172,
+          0.930353930431402,
+          0.9287977031748651,
+          0.9145110800680558,
+          0.9071482162314801,
+          0.9122394537665545
+        ],
+        "weight_series_1": [
+          0.02373864592345944,
+          0.08455849890737314,
+          0.06964606952003978,
+          0.07120229678922356,
+          0.08548891989557364,
+          0.09285178372601997,
+          0.08776054622709237
+        ],
+        "dominant_state": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "n_lags": [
+          1013,
+          531,
+          743,
+          743,
+          713,
+          615,
+          438
+        ],
+        "spectral_entropy": 1.0880185908098714,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          4.8351786339152075e-05,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.0003031907944893634,
+          "std_lag": 0.011986339074908791,
+          "bic_1": -9877.770107615075,
+          "bic_2": -10080.390045648694,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0014326910034037363,
+              "weight": 0.9488692421687811,
+              "var": 9.092971712820802e-05
+            },
+            {
+              "mean": 0.032517163673563755,
+              "weight": 0.051130757831218926,
+              "var": 4.8351786339152075e-05
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 7,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-14 13:41:16.031912+00:00",
+      "count": 92238,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2771050169840066,
+        "p_val": 3.4235755288885004e-136
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 120.51610204981992,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 47.702811929738054,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "plv": 0.6011541664552406,
+            "rayleigh_p": 0.03867828348848393,
+            "drift_slope_hz": -0.00011341300016445013,
+            "phase_drift_rms": 0.9494497626980757,
+            "phase_var_abs": 0.39884583354475944
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.59515892963803,
+            "bins": [
+              1,
+              20
+            ],
+            "plv": 0.26742537937112876,
+            "rayleigh_p": 0.2569662984545062,
+            "drift_slope_hz": 0.010727118729447831,
+            "phase_drift_rms": 1.9288319052242155,
+            "phase_var_abs": 0.7325746206288712
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-14 13:47:12.138776+00:00",
+      "count": 80598,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3105515828412316,
+        "p_val": 9.716755100805902e-172
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-14 13:50:00.019202+00:00",
+      "count": 10307,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2688544713274619,
+        "p_val": 4.2947411660843495e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 25.980223133249478,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 8.784860739734743,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.09647480802628157,
+            "rayleigh_p": 0.8696966304676336,
+            "drift_slope_hz": 0.013629274217203634,
+            "phase_drift_rms": 3.4522963291878574,
+            "phase_var_abs": 0.9035251919737184
+          },
+          {
+            "freq_hz": 6.0,
+            "period_sec": 0.16666666666666666,
+            "persistence": 0.4,
+            "max_power": 9.953705249157379,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.16340739134122548,
+            "rayleigh_p": 0.2850778863494772,
+            "drift_slope_hz": -0.03148067604659792,
+            "phase_drift_rms": 3.4568967707434703,
+            "phase_var_abs": 0.8365926086587745
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-14 13:55:47.909329+00:00",
+      "count": 68733,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.21046356898063362,
+        "p_val": 3.654611959363285e-78
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 7.081432895399104,
+            "bins": [
+              1,
+              20
+            ],
+            "plv": 0.6182403530172803,
+            "rayleigh_p": 0.010186890716355477,
+            "drift_slope_hz": 0.007460015706281708,
+            "phase_drift_rms": 1.1037566812495432,
+            "phase_var_abs": 0.3817596469827197
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-14 14:03:25.607857+00:00",
+      "count": 38841,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26775046996197627,
+        "p_val": 4.974020766907654e-127
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 10.251472095221303,
+            "bins": [
+              1,
+              2,
+              20,
+              5
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (9439,) (9441,) (9439,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-14 14:05:00.011602+00:00",
+      "count": 7488,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3449448321705602,
+        "p_val": 6.060235396949226e-213
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.4,
+            "max_power": 7.422965021187291,
+            "bins": [
+              1,
+              10
+            ],
+            "plv": 0.1307945125548826,
+            "rayleigh_p": 0.9180200730140327,
+            "drift_slope_hz": -0.03283693123552201,
+            "phase_drift_rms": 0.9903406355007893,
+            "phase_var_abs": 0.8692054874451174
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 9.203658166125436,
+            "bins": [
+              10,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.066605860665447,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.38426262702623076,
+            "rayleigh_p": 0.1970622851737641,
+            "drift_slope_hz": -0.006961455911644382,
+            "phase_drift_rms": 1.4228457222307698,
+            "phase_var_abs": 0.6157373729737692
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "weight_series_0": [
+          0.04477649745101632,
+          0.05303343168838362,
+          0.030009566464350122,
+          0.051899920488242074,
+          0.05691324163325375,
+          0.06860276474162118,
+          0.08145795630457607
+        ],
+        "weight_series_1": [
+          0.9552235022532958,
+          0.9469665679887918,
+          0.9699904331536058,
+          0.9481000777655724,
+          0.9430867563831336,
+          0.9313972332079543,
+          0.9185420411671577
+        ],
+        "dominant_state": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_lags": [
+          542,
+          508,
+          418,
+          318,
+          281,
+          265,
+          217
+        ],
+        "spectral_entropy": 0.6826153702134179,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          7.447940014962133e-05,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0005076158075038158,
+          "std_lag": 0.010658545361231165,
+          "bic_1": -5244.710071722043,
+          "bic_2": -5310.02839615959,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.02746404899885936,
+              "weight": 0.0530679485839131,
+              "var": 6.321691315723968e-05
+            },
+            {
+              "mean": 0.0010030761248954227,
+              "weight": 0.9469320514160869,
+              "var": 7.447940014962133e-05
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 7,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-14 14:10:37.608145+00:00",
+      "count": 55928,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.1943585837962132,
+        "p_val": 1.258985884906031e-66
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-14 14:15:00.007722+00:00",
+      "count": 45679,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23563326731980294,
+        "p_val": 4.0866907718812145e-98
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

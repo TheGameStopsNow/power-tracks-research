@@ -1,0 +1,11 @@
+{
+  "phase": "77",
+  "data": [
+    {
+      "provider": "internal",
+      "source": "phase75",
+      "dest": "research/phase75_predictability/data/opra_ticks",
+      "notes": "Consumes OPRA ticks from Phase 75"
+    }
+  ]
+}

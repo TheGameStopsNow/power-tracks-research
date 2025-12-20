@@ -1,0 +1,124 @@
+{
+  "windows": {
+    "60-70": {
+      "low": {
+        "n": 26,
+        "corr_strength_vs_vol": -0.09640754504287548,
+        "corr_strength_vs_trend_ratio": 0.3056268563386495,
+        "mean_realized_vol": 0.0020350288605511567,
+        "mean_trend_ratio": 45.533467011468815,
+        "bucket_stats": {
+          "strongest_q1": {
+            "n": 7,
+            "mean_realized_vol": 0.0020750928074478683,
+            "mean_trend_ratio": 54.629270518778604
+          },
+          "q2": {
+            "n": 6,
+            "mean_realized_vol": 0.0019217034820462834,
+            "mean_trend_ratio": 51.6084909753275
+          },
+          "q3": {
+            "n": 6,
+            "mean_realized_vol": 0.002119700529835392,
+            "mean_trend_ratio": 36.44231041215045
+          },
+          "weakest_q4": {
+            "n": 7,
+            "mean_realized_vol": 0.0020195252358435637,
+            "mean_trend_ratio": 39.02292004883878
+          }
+        }
+      },
+      "high": {
+        "n": 26,
+        "corr_strength_vs_vol": -0.09491899713690742,
+        "corr_strength_vs_trend_ratio": 0.30948084279795746,
+        "mean_realized_vol": 0.0020350288605511567,
+        "mean_trend_ratio": 45.533467011468815,
+        "bucket_stats": {
+          "strongest_q1": {
+            "n": 7,
+            "mean_realized_vol": 0.0020750928074478683,
+            "mean_trend_ratio": 54.629270518778604
+          },
+          "q2": {
+            "n": 6,
+            "mean_realized_vol": 0.0019217034820462834,
+            "mean_trend_ratio": 51.6084909753275
+          },
+          "q3": {
+            "n": 6,
+            "mean_realized_vol": 0.002119700529835392,
+            "mean_trend_ratio": 36.44231041215045
+          },
+          "weakest_q4": {
+            "n": 7,
+            "mean_realized_vol": 0.0020195252358435637,
+            "mean_trend_ratio": 39.02292004883878
+          }
+        }
+      }
+    },
+    "70-80": {
+      "low": {
+        "n": 26,
+        "corr_strength_vs_vol": -0.29589720724749635,
+        "corr_strength_vs_trend_ratio": 0.4693694141038778,
+        "mean_realized_vol": 0.0022125785513172304,
+        "mean_trend_ratio": 40.690842614816155,
+        "bucket_stats": {
+          "strongest_q1": {
+            "n": 7,
+            "mean_realized_vol": 0.0019806470839452846,
+            "mean_trend_ratio": 68.8063239912829
+          },
+          "q2": {
+            "n": 6,
+            "mean_realized_vol": 0.002405950211263451,
+            "mean_trend_ratio": 30.7050167836468
+          },
+          "q3": {
+            "n": 6,
+            "mean_realized_vol": 0.0018374153278173054,
+            "mean_trend_ratio": 31.605647630568
+          },
+          "weakest_q4": {
+            "n": 7,
+            "mean_realized_vol": 0.0026003313588780635,
+            "mean_trend_ratio": 28.921950508707255
+          }
+        }
+      },
+      "high": {
+        "n": 26,
+        "corr_strength_vs_vol": -0.2891617120734471,
+        "corr_strength_vs_trend_ratio": 0.471339320672819,
+        "mean_realized_vol": 0.0022125785513172304,
+        "mean_trend_ratio": 40.690842614816155,
+        "bucket_stats": {
+          "strongest_q1": {
+            "n": 7,
+            "mean_realized_vol": 0.0019806470839452846,
+            "mean_trend_ratio": 68.8063239912829
+          },
+          "q2": {
+            "n": 6,
+            "mean_realized_vol": 0.002405950211263451,
+            "mean_trend_ratio": 30.7050167836468
+          },
+          "q3": {
+            "n": 6,
+            "mean_realized_vol": 0.0018374153278173054,
+            "mean_trend_ratio": 31.605647630568
+          },
+          "weakest_q4": {
+            "n": 7,
+            "mean_realized_vol": 0.0026003313588780635,
+            "mean_trend_ratio": 28.921950508707255
+          }
+        }
+      }
+    }
+  }
+}

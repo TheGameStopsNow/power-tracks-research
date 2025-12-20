@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T04:00:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/sample_2024-05-13/raw_ticks",
+      "notes": "EDGX Decode Phase - May 13"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-16",
+      "start": "2024-05-16T04:00:00Z",
+      "end": "2024-05-16T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/sample_2024-05-16/raw_ticks",
+      "notes": "EDGX Decode Phase - May 16"
+    }
+  ]
+}

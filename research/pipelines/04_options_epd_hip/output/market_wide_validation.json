@@ -1,0 +1,81 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "close": 36.9,
+    "magnet_dist_pct": 0.07859078590785905,
+    "is_pinned": false,
+    "hip_asymmetry": 0.04952324426314947,
+    "max_corr": -0.3774811491142767,
+    "best_lag": 1,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "AMC",
+    "date": "2024-05-13",
+    "close": 6.4191,
+    "magnet_dist_pct": 0.06528952656914525,
+    "is_pinned": false,
+    "hip_asymmetry": 0.032472531454895634,
+    "max_corr": 0.08117487675265626,
+    "best_lag": 300,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "KOSS",
+    "date": "2024-05-13",
+    "close": 4.81,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "CHWY",
+    "date": "2024-05-13",
+    "close": 16.19,
+    "magnet_dist_pct": 0.011735639283508417,
+    "is_pinned": false,
+    "hip_asymmetry": -0.012062345333262598,
+    "max_corr": -0.08467909446290932,
+    "best_lag": 300,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "BB",
+    "date": "2024-05-13",
+    "close": 3.53,
+    "magnet_dist_pct": 0.008498583569405044,
+    "is_pinned": true,
+    "hip_asymmetry": -0.02610960351794967,
+    "max_corr": -0.0971078411011887,
+    "best_lag": -30,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "TLRY",
+    "date": "2024-05-13",
+    "close": 2.0,
+    "magnet_dist_pct": 0.0,
+    "is_pinned": true,
+    "hip_asymmetry": 0.010450071490312726,
+    "max_corr": -0.05535986109800083,
+    "best_lag": -120,
+    "window": "2024_May",
+    "group": "Basket"
+  },
+  {
+    "symbol": "TSLA",
+    "date": "2024-05-13",
+    "close": 172.75,
+    "magnet_dist_pct": 0.001447178002894356,
+    "is_pinned": true,
+    "hip_asymmetry": 0.026783457431387384,
+    "max_corr": 0.036021226937932894,
+    "best_lag": 1,
+    "window": "2024_May",
+    "group": "Control"
+  }
+]

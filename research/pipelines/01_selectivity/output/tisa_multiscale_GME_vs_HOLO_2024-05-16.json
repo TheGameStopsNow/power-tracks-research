@@ -1,0 +1,102 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516080407000_hybrid",
+    "detectionTime": "2024-05-16T08:04:07.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 9.269138244302365,
+    "bestLagMinutes": 40320,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516084150000_hybrid",
+    "detectionTime": "2024-05-16T08:41:50.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 18.70036272582618,
+    "bestLagMinutes": 20640,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516103423000_hybrid",
+    "detectionTime": "2024-05-16T10:34:23.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 13.128914714734023,
+    "bestLagMinutes": 480,
+    "bestScale": 16
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516110927000_hybrid",
+    "detectionTime": "2024-05-16T11:09:27.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 3.247777358829861,
+    "bestLagMinutes": 41760,
+    "bestScale": 16
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120030000_hybrid",
+    "detectionTime": "2024-05-16T12:00:30.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 9.530723660267531,
+    "bestLagMinutes": 31920,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120040000_hybrid",
+    "detectionTime": "2024-05-16T12:00:40.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 7.991558993086548,
+    "bestLagMinutes": 42000,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120051000_hybrid",
+    "detectionTime": "2024-05-16T12:00:51.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 7.743340186881831,
+    "bestLagMinutes": 62160,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120154000_hybrid",
+    "detectionTime": "2024-05-16T12:01:54.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 18.7898769679853,
+    "bestLagMinutes": 51600,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120236000_hybrid",
+    "detectionTime": "2024-05-16T12:02:36.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 14.018889518886677,
+    "bestLagMinutes": 51600,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-16",
+    "trackId": "gme_20240516120316000_hybrid",
+    "detectionTime": "2024-05-16T12:03:16.000Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 12.112671098048773,
+    "bestLagMinutes": 69360,
+    "bestScale": 64
+  }
+]

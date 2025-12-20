@@ -1,0 +1,179 @@
+{
+  "dates": [
+    "2024-05-13",
+    "2024-05-14",
+    "2024-05-15",
+    "2024-05-16",
+    "2024-05-17"
+  ],
+  "horizons": [
+    "1",
+    "4",
+    "7",
+    "30",
+    "90",
+    "180"
+  ],
+  "data": {
+    "2024-05-13": {
+      "1": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.0587998481196326,
+        "rmse_zscore": 1.0587998481196326
+      },
+      "4": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.3406696795719273,
+        "rmse_zscore": 1.3406696795719273
+      },
+      "7": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.3579827123966997,
+        "rmse_zscore": 1.3579827123966997
+      },
+      "30": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.5834469542141332,
+        "rmse_zscore": 1.5834469542141332
+      },
+      "90": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.6552011469676455,
+        "rmse_zscore": 1.6552011469676455
+      },
+      "180": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.5029832948704531,
+        "rmse_zscore": 1.5029832948704531
+      }
+    },
+    "2024-05-14": {
+      "1": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.3640350964598296,
+        "rmse_zscore": 1.3640350964598296
+      },
+      "4": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.7127361324544753,
+        "rmse_zscore": 0.7127361324544753
+      },
+      "7": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.8147856743835994,
+        "rmse_zscore": 0.8147856743835994
+      },
+      "30": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.5146194989051796,
+        "rmse_zscore": 1.5146194989051796
+      },
+      "90": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.5555095254327724,
+        "rmse_zscore": 1.5555095254327724
+      },
+      "180": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.305193806104358,
+        "rmse_zscore": 1.305193806104358
+      }
+    },
+    "2024-05-15": {
+      "1": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.5746724556003319,
+        "rmse_zscore": 0.5746724556003319
+      },
+      "4": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.8872984697339823,
+        "rmse_zscore": 0.8872984697339823
+      },
+      "7": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.6957640806658348,
+        "rmse_zscore": 0.6957640806658348
+      },
+      "30": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.2600577711414904,
+        "rmse_zscore": 1.2600577711414904
+      },
+      "90": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.3900097149593786,
+        "rmse_zscore": 1.3900097149593786
+      },
+      "180": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.1903212037580169,
+        "rmse_zscore": 1.1903212037580169
+      }
+    },
+    "2024-05-16": {
+      "1": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.6428202859874744,
+        "rmse_zscore": 0.6428202859874744
+      },
+      "4": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.7187702295045766,
+        "rmse_zscore": 0.7187702295045766
+      },
+      "7": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.8124882846417821,
+        "rmse_zscore": 0.8124882846417821
+      },
+      "30": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.579141006958507,
+        "rmse_zscore": 1.579141006958507
+      },
+      "90": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.165182230562775,
+        "rmse_zscore": 1.165182230562775
+      },
+      "180": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.2029038939468941,
+        "rmse_zscore": 1.2029038939468941
+      }
+    },
+    "2024-05-17": {
+      "1": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.775060046424177,
+        "rmse_zscore": 0.775060046424177
+      },
+      "4": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 0.921363573992285,
+        "rmse_zscore": 0.921363573992285
+      },
+      "7": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.0672865368778972,
+        "rmse_zscore": 1.0672865368778972
+      },
+      "30": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.6458482342798182,
+        "rmse_zscore": 1.6458482342798182
+      },
+      "90": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.5221226519041635,
+        "rmse_zscore": 1.5221226519041635
+      },
+      "180": {
+        "best_scale": "rmse_fallback",
+        "best_distance": 1.274464092680172,
+        "rmse_zscore": 1.274464092680172
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "phase": "81",
+    "name": "Precision (Universe)",
+    "description": "Validation of the Prism Model across a broader universe (TSLA, AMD) to verify signal precision and eliminate false positives.",
+    "sources": [
+        {
+            "id": "universe_opra",
+            "provider": "thetadata",
+            "description": "Historical OPRA trades for TSLA & AMD (Feb-Apr 2024)",
+            "dest": "data/opra_universe"
+        },
+        {
+            "id": "universe_bars",
+            "provider": "polygon",
+            "description": "Minute bars for TSLA & AMD (Feb-Apr 2024)",
+            "dest": "data/bars"
+        }
+    ]
+}

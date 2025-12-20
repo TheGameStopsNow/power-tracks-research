@@ -1,0 +1,104 @@
+# Local/untracked data
+data/samples/local/
+data/private/
+data/raw/
+data/ticks/
+data/basket_raw/
+data/basket_sweep/
+data/expanded_bars/
+data/rosetta_raw/
+data/tmp/
+results/
+charts/
+artifacts/latest/
+artifacts/v*/
+storage/
+pipelines/00_signal_integrity/bars/
+pipelines/00_signal_integrity/bars_range/
+pipelines/00_signal_integrity/features/
+pipelines/00_signal_integrity/test_ticks/
+pipelines/00_signal_integrity/test-data/
+
+# Demo outputs
+getting-started/demo_output.png
+
+# Environments / caches
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+.DS_Store
+*.swp
+
+# Research Data (Large files)
+research/phase30_interconnectedness/*.csv
+research/phase30_interconnectedness/*.txt
+
+# Accidental data dumps
+docs/research/
+docs/demo/
+_archive/
+
+# Strict Data Blocking
+*.csv
+*.json
+*.parquet
+*.pkl
+*.h5
+*.npy
+*.db
+*.sqlite
+*.log
+
+# Exceptions (Allow manifest.json and small config files if needed, but better to allow-list explicitly)
+!manifest.json
+!**/*manifest.json
+# Allow all research output JSONs (derived analysis)
+!research/**/output/*.json
+# Allow requirements.txt
+!requirements.txt
+
+# Phase-local data folders
+# Phase-local data folders
+research/**/data/
+research/**/data */
+
+# Large output files (keep summary JSON/Markdowns)
+research/**/output/*.csv
+research/**/output/*.png
+!research/**/output/README.md
+
+# OS Files
+.DS_Store
+/data
+/docs/research/phase13_temporal/data
+/docs/research/phase15_atlas/data
+/docs/research/phase18_ripple/data
+/docs/data
+/research/pipelines/00_signal_integrity/bars_range
+/data
+/docs/analysis/diagnostics_clusters/
+
+# Specific large files
+research/pipelines/04_options_epd_hip/MASTER_VALIDATION_TABLE.csv
+# Environments
+theta_env_11/
+theta_env/
+
+# Signal Integrity Test Data
+research/pipelines/00_signal_integrity/features/
+research/pipelines/00_signal_integrity/test_ticks/
+research/pipelines/00_signal_integrity/bars_range/
+research/pipelines/00_signal_integrity/test_workflow/
+test-data/
+_archive/
+
+# Agent & Editor
+.agent/
+.cursor/
+.cursorrules
+.cursorignore
+.windsurfrules
+.vscode/
+.idea/

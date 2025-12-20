@@ -1,0 +1,6369 @@
+{
+  "perBurst": [
+    {
+      "trackId": "d7c9dd24ac4a53c8",
+      "symbol": "BNED",
+      "date": "2024-06-24",
+      "scan_metrics": {
+        "open": 6.35,
+        "high": 7.42,
+        "runup": 0.16850393700787408
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e3760b0293347960",
+      "symbol": "BNED",
+      "date": "2024-06-13",
+      "scan_metrics": {
+        "open": 7.14,
+        "high": 10.42,
+        "runup": 0.4593837535014006
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "bd2d791c05258a3c",
+      "symbol": "AMC",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 5.13,
+        "high": 6.88,
+        "runup": 0.341130604288499
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6017f5bbed495218",
+      "symbol": "KOSS",
+      "date": "2021-03-29",
+      "scan_metrics": {
+        "open": 21.5,
+        "high": 26.5,
+        "runup": 0.23255813953488372
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f4d29bac57a935ca",
+      "symbol": "HOLO",
+      "date": "2024-05-15",
+      "scan_metrics": {
+        "open": 2464.0,
+        "high": 2712.0,
+        "runup": 0.10064935064935066
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7701868a96b9d191",
+      "symbol": "BYND",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 7.18,
+        "high": 8.29,
+        "runup": 0.15459610027855145
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d84611a05c1594df",
+      "symbol": "MVIS",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 1.3,
+        "high": 1.69,
+        "runup": 0.29999999999999993
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2cc818fe9480ae65",
+      "symbol": "KOSS",
+      "date": "2021-03-09",
+      "scan_metrics": {
+        "open": 19.0,
+        "high": 21.54,
+        "runup": 0.13368421052631574
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ab98e60673ccb6c4",
+      "symbol": "BNED",
+      "date": "2024-05-21",
+      "scan_metrics": {
+        "open": 30.0,
+        "high": 112.0,
+        "runup": 2.7333333333333334
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "167dcc0feac7d5b0",
+      "symbol": "GME",
+      "date": "2021-03-26",
+      "scan_metrics": {
+        "open": 48.6,
+        "high": 54.7336,
+        "runup": 0.12620576131687244
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "04ca4dc9f77dfc85",
+      "symbol": "KOSS",
+      "date": "2021-02-01",
+      "scan_metrics": {
+        "open": 61.0,
+        "high": 85.0,
+        "runup": 0.39344262295081966
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a8402b563dbf0b04",
+      "symbol": "CLOV",
+      "date": "2024-05-07",
+      "scan_metrics": {
+        "open": 0.7188,
+        "high": 0.9,
+        "runup": 0.2520868113522538
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e992a0d4965d89d8",
+      "symbol": "CLOV",
+      "date": "2024-05-30",
+      "scan_metrics": {
+        "open": 1.02,
+        "high": 1.18,
+        "runup": 0.15686274509803913
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9ddcb0539ebcb119",
+      "symbol": "GME",
+      "date": "2021-02-25",
+      "scan_metrics": {
+        "open": 38.325,
+        "high": 46.17,
+        "runup": 0.20469667318982382
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d0db40a347af6a3e",
+      "symbol": "CHWY",
+      "date": "2024-07-01",
+      "scan_metrics": {
+        "open": 27.23,
+        "high": 35.25,
+        "runup": 0.2945280940139552
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0c961629b19138f1",
+      "symbol": "KOSS",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 4.56,
+        "high": 6.9499,
+        "runup": 0.5241008771929827
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6373ff36d5b45a59",
+      "symbol": "GME",
+      "date": "2021-02-05",
+      "scan_metrics": {
+        "open": 13.375,
+        "high": 23.75,
+        "runup": 0.7757009345794392
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5cccd030a126dc51",
+      "symbol": "WKHS",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 40.0,
+        "high": 52.976,
+        "runup": 0.32439999999999997
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "495af39185d62615",
+      "symbol": "KOSS",
+      "date": "2024-07-03",
+      "scan_metrics": {
+        "open": 5.46,
+        "high": 18.73,
+        "runup": 2.43040293040293
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7a656e87adc0a2a1",
+      "symbol": "GOEV",
+      "date": "2024-06-14",
+      "scan_metrics": {
+        "open": 46.6,
+        "high": 53.0,
+        "runup": 0.1373390557939914
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "963a68cf3721869d",
+      "symbol": "GME",
+      "date": "2024-06-13",
+      "scan_metrics": {
+        "open": 26.4,
+        "high": 30.85,
+        "runup": 0.1685606060606062
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "104a3cc18158aa1a",
+      "symbol": "GME",
+      "date": "2021-03-17",
+      "scan_metrics": {
+        "open": 50.9375,
+        "high": 57.8675,
+        "runup": 0.13604907975460123
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "405ff548ae07cf7c",
+      "symbol": "SPCE",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 19.2,
+        "high": 21.4,
+        "runup": 0.1145833333333333
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1ddeec1ea447d4dd",
+      "symbol": "GME",
+      "date": "2021-02-03",
+      "scan_metrics": {
+        "open": 19.5825,
+        "high": 30.34,
+        "runup": 0.5493425252138389
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "049c0f065ae20fba",
+      "symbol": "AMC",
+      "date": "2024-07-08",
+      "scan_metrics": {
+        "open": 5.07,
+        "high": 5.73,
+        "runup": 0.13017751479289943
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "12814e963ab060ff",
+      "symbol": "LYFT",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 15.49,
+        "high": 17.35,
+        "runup": 0.12007746933505495
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8de8b7d644b213d9",
+      "symbol": "GOEV",
+      "date": "2024-04-25",
+      "scan_metrics": {
+        "open": 59.8,
+        "high": 69.4,
+        "runup": 0.16053511705685633
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "abe5a6c6a358c49c",
+      "symbol": "GME",
+      "date": "2021-01-26",
+      "scan_metrics": {
+        "open": 22.5,
+        "high": 62.225,
+        "runup": 1.7655555555555555
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "01fcf7a02769af84",
+      "symbol": "GME",
+      "date": "2021-01-11",
+      "scan_metrics": {
+        "open": 4.375,
+        "high": 5.455,
+        "runup": 0.24685714285714289
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "29f50b6199e57642",
+      "symbol": "TTEC",
+      "date": "2024-07-09",
+      "scan_metrics": {
+        "open": 5.64,
+        "high": 6.25,
+        "runup": 0.10815602836879439
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f4a118608dfde8bb",
+      "symbol": "GME",
+      "date": "2021-02-08",
+      "scan_metrics": {
+        "open": 17.025,
+        "high": 18.95,
+        "runup": 0.11306901615271664
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "fe40fe53cf6314a9",
+      "symbol": "GROV",
+      "date": "2024-07-01",
+      "scan_metrics": {
+        "open": 1.5609,
+        "high": 1.77,
+        "runup": 0.13396117624447437
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8de2a256a54b1ac0",
+      "symbol": "BNED",
+      "date": "2024-05-30",
+      "scan_metrics": {
+        "open": 69.13,
+        "high": 83.0,
+        "runup": 0.20063648199045284
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "87909ea458e2d244",
+      "symbol": "HOLO",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 760.0,
+        "high": 848.0,
+        "runup": 0.11578947368421053
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "491434bd3529828e",
+      "symbol": "IHRT",
+      "date": "2024-06-11",
+      "scan_metrics": {
+        "open": 1.1,
+        "high": 1.31,
+        "runup": 0.19090909090909086
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "12e26621cb76b5fc",
+      "symbol": "BNED",
+      "date": "2024-04-04",
+      "scan_metrics": {
+        "open": 64.46,
+        "high": 74.99,
+        "runup": 0.1633571206950047
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7da97d5ac6ab833d",
+      "symbol": "AMC",
+      "date": "2024-04-26",
+      "scan_metrics": {
+        "open": 3.3,
+        "high": 3.7435,
+        "runup": 0.13439393939393948
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b734cbe68d91f563",
+      "symbol": "IHRT",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 1.21,
+        "high": 1.37,
+        "runup": 0.1322314049586778
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "59788b1903ca209a",
+      "symbol": "GME",
+      "date": "2024-09-20",
+      "scan_metrics": {
+        "open": 19.61,
+        "high": 22.03,
+        "runup": 0.12340642529321784
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8779736d6acfa579",
+      "symbol": "GROV",
+      "date": "2024-05-07",
+      "scan_metrics": {
+        "open": 1.6,
+        "high": 1.84,
+        "runup": 0.15
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d3322cef5e7bc8bd",
+      "symbol": "KOSS",
+      "date": "2021-01-29",
+      "scan_metrics": {
+        "open": 77.0,
+        "high": 120.0,
+        "runup": 0.5584415584415584
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e84b85cf26655a3d",
+      "symbol": "BB",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 2.93,
+        "high": 3.53,
+        "runup": 0.20477815699658689
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a7024d21060754aa",
+      "symbol": "SIRI",
+      "date": "2024-07-03",
+      "scan_metrics": {
+        "open": 31.0,
+        "high": 35.5,
+        "runup": 0.14516129032258066
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "24a343f160682df8",
+      "symbol": "CLOV",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 0.8379,
+        "high": 0.95,
+        "runup": 0.13378684807256233
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "afca78969fe3e4af",
+      "symbol": "HOLO",
+      "date": "2024-04-29",
+      "scan_metrics": {
+        "open": 2128.0,
+        "high": 2464.0,
+        "runup": 0.15789473684210525
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d42f33d7527ac748",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 20.5,
+        "high": 38.2,
+        "runup": 0.8634146341463416
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "291a617d25a143f5",
+      "symbol": "GME",
+      "date": "2024-05-24",
+      "scan_metrics": {
+        "open": 18.3,
+        "high": 23.8,
+        "runup": 0.3005464480874317
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f3069bf8fa173f89",
+      "symbol": "GME",
+      "date": "2021-01-14",
+      "scan_metrics": {
+        "open": 8.37,
+        "high": 10.8925,
+        "runup": 0.3013739545997612
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d86dc860e74abfb9",
+      "symbol": "GOEV",
+      "date": "2024-04-17",
+      "scan_metrics": {
+        "open": 58.6,
+        "high": 69.8,
+        "runup": 0.19112627986348116
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eebde1c3951ee3e2",
+      "symbol": "GME",
+      "date": "2021-03-05",
+      "scan_metrics": {
+        "open": 32.425,
+        "high": 37.8825,
+        "runup": 0.16831148804934476
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6eaff9511985b72e",
+      "symbol": "GME",
+      "date": "2021-02-11",
+      "scan_metrics": {
+        "open": 12.3725,
+        "high": 13.83,
+        "runup": 0.11780157607597491
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6e419710a3d2d750",
+      "symbol": "GME",
+      "date": "2021-02-26",
+      "scan_metrics": {
+        "open": 28.75,
+        "high": 35.725,
+        "runup": 0.24260869565217397
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9618a1e84363f8b9",
+      "symbol": "KOSS",
+      "date": "2021-02-02",
+      "scan_metrics": {
+        "open": 28.33,
+        "high": 32.0,
+        "runup": 0.12954465231203677
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ea87b1b834164818",
+      "symbol": "BNED",
+      "date": "2024-05-29",
+      "scan_metrics": {
+        "open": 65.68,
+        "high": 87.46,
+        "runup": 0.3316077953714979
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0c899c56201d88c6",
+      "symbol": "GME",
+      "date": "2021-03-12",
+      "scan_metrics": {
+        "open": 62.5,
+        "high": 73.875,
+        "runup": 0.182
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "146a3a570a664885",
+      "symbol": "SPCE",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 18.05,
+        "high": 19.996,
+        "runup": 0.10781163434903035
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "20fbc16188b5ca5e",
+      "symbol": "CLOV",
+      "date": "2024-06-21",
+      "scan_metrics": {
+        "open": 1.13,
+        "high": 1.39,
+        "runup": 0.23008849557522126
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "290a63e867a7b0b3",
+      "symbol": "KOSS",
+      "date": "2021-01-27",
+      "scan_metrics": {
+        "open": 10.88,
+        "high": 96.58,
+        "runup": 7.876838235294118
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "15710ecfb9d021a1",
+      "symbol": "KOSS",
+      "date": "2021-03-01",
+      "scan_metrics": {
+        "open": 17.6,
+        "high": 20.88,
+        "runup": 0.1863636363636362
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "127dd2cf104e6c6b",
+      "symbol": "GME",
+      "date": "2021-03-25",
+      "scan_metrics": {
+        "open": 31.775,
+        "high": 48.2475,
+        "runup": 0.5184107002360347
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f0506477ca168bd4",
+      "symbol": "GOEV",
+      "date": "2024-06-26",
+      "scan_metrics": {
+        "open": 33.6,
+        "high": 40.0,
+        "runup": 0.19047619047619044
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "020c7a46b660d751",
+      "symbol": "KOSS",
+      "date": "2024-06-05",
+      "scan_metrics": {
+        "open": 4.39,
+        "high": 4.8399,
+        "runup": 0.10248291571753997
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "61fc1cff127996b4",
+      "symbol": "WKHS",
+      "date": "2024-07-08",
+      "scan_metrics": {
+        "open": 17.0,
+        "high": 19.75,
+        "runup": 0.16176470588235295
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5bbe48e68826cb8a",
+      "symbol": "GME",
+      "date": "2021-03-19",
+      "scan_metrics": {
+        "open": 51.1975,
+        "high": 56.75,
+        "runup": 0.10845256116021294
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "74d84937c15c78d4",
+      "symbol": "AMC",
+      "date": "2024-05-20",
+      "scan_metrics": {
+        "open": 4.42,
+        "high": 4.95,
+        "runup": 0.1199095022624435
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "af3954d043ee7551",
+      "symbol": "MSTR",
+      "date": "2024-05-15",
+      "scan_metrics": {
+        "open": 132.574,
+        "high": 152.5,
+        "runup": 0.15030096398992251
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "999bd5644f3c6d55",
+      "symbol": "HOLO",
+      "date": "2024-06-04",
+      "scan_metrics": {
+        "open": 1232.0,
+        "high": 1840.0,
+        "runup": 0.4935064935064935
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ac66a6620d356b36",
+      "symbol": "GME",
+      "date": "2021-01-28",
+      "scan_metrics": {
+        "open": 77.825,
+        "high": 128.28,
+        "runup": 0.6483135239318984
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "97b73bb5860e7e70",
+      "symbol": "SPCE",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 18.136,
+        "high": 23.0,
+        "runup": 0.26819585355094844
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b1a27518740b92b0",
+      "symbol": "DJT",
+      "date": "2024-06-26",
+      "scan_metrics": {
+        "open": 35.82,
+        "high": 39.48,
+        "runup": 0.10217755443886088
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8ab818ba877d3581",
+      "symbol": "CHWY",
+      "date": "2024-05-29",
+      "scan_metrics": {
+        "open": 17.3,
+        "high": 22.05,
+        "runup": 0.2745664739884393
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1acc8b237cf5fc66",
+      "symbol": "WKHS",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 51.674,
+        "high": 60.25,
+        "runup": 0.16596354065874522
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1ddde6d4110fd9ee",
+      "symbol": "BNED",
+      "date": "2024-05-24",
+      "scan_metrics": {
+        "open": 64.0,
+        "high": 75.41,
+        "runup": 0.17828124999999995
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c9e810677bb292c2",
+      "symbol": "GME",
+      "date": "2021-01-19",
+      "scan_metrics": {
+        "open": 9.75,
+        "high": 11.38,
+        "runup": 0.16717948717948725
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "10f4ebcc85d4ab6d",
+      "symbol": "AMC",
+      "date": "2024-06-03",
+      "scan_metrics": {
+        "open": 5.12,
+        "high": 5.9,
+        "runup": 0.15234375000000006
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a3331a1233301cb9",
+      "symbol": "GME",
+      "date": "2021-03-08",
+      "scan_metrics": {
+        "open": 35.0,
+        "high": 52.7175,
+        "runup": 0.5062142857142857
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "61390cdaf70eb365",
+      "symbol": "KOSS",
+      "date": "2021-02-18",
+      "scan_metrics": {
+        "open": 13.22,
+        "high": 17.7,
+        "runup": 0.3388804841149772
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "849294311f80faa8",
+      "symbol": "GME",
+      "date": "2024-06-07",
+      "scan_metrics": {
+        "open": 58.31,
+        "high": 64.32,
+        "runup": 0.10306979934831059
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eed868e50067de96",
+      "symbol": "AMC",
+      "date": "2024-04-19",
+      "scan_metrics": {
+        "open": 2.87,
+        "high": 3.3,
+        "runup": 0.14982578397212534
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "78f8f7dc5119d892",
+      "symbol": "GME",
+      "date": "2021-01-25",
+      "scan_metrics": {
+        "open": 18.125,
+        "high": 39.795,
+        "runup": 1.195586206896552
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d4925c0482f29798",
+      "symbol": "KOSS",
+      "date": "2021-03-10",
+      "scan_metrics": {
+        "open": 19.02,
+        "high": 40.48,
+        "runup": 1.1282860147213458
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9ad609c3dedac622",
+      "symbol": "KOSS",
+      "date": "2021-02-24",
+      "scan_metrics": {
+        "open": 11.9,
+        "high": 33.39,
+        "runup": 1.8058823529411765
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "426dc00410f5cea3",
+      "symbol": "WKHS",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 45.0,
+        "high": 50.0,
+        "runup": 0.1111111111111111
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cca3b40bddc4a8ee",
+      "symbol": "GME",
+      "date": "2024-05-02",
+      "scan_metrics": {
+        "open": 11.04,
+        "high": 12.88,
+        "runup": 0.16666666666666682
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "36fa9c6f87b8e857",
+      "symbol": "SPCE",
+      "date": "2024-06-17",
+      "scan_metrics": {
+        "open": 10.0,
+        "high": 12.72,
+        "runup": 0.2720000000000001
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ca7566f00d1a4039",
+      "symbol": "GME",
+      "date": "2024-12-05",
+      "scan_metrics": {
+        "open": 26.82,
+        "high": 30.87,
+        "runup": 0.151006711409396
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e9dc0fb8f6a96245",
+      "symbol": "KOSS",
+      "date": "2021-01-26",
+      "scan_metrics": {
+        "open": 9.55,
+        "high": 13.9,
+        "runup": 0.4554973821989528
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "46d0df4c1509866c",
+      "symbol": "KOSS",
+      "date": "2021-02-03",
+      "scan_metrics": {
+        "open": 18.2,
+        "high": 35.8,
+        "runup": 0.9670329670329669
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "54ceb9dcf2b860fd",
+      "symbol": "GME",
+      "date": "2021-02-10",
+      "scan_metrics": {
+        "open": 12.5,
+        "high": 15.7075,
+        "runup": 0.25659999999999994
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8d59d5467b71564b",
+      "symbol": "KOSS",
+      "date": "2021-03-17",
+      "scan_metrics": {
+        "open": 26.99,
+        "high": 29.88,
+        "runup": 0.10707669507224901
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9e19bd5dfe256101",
+      "symbol": "GME",
+      "date": "2021-03-04",
+      "scan_metrics": {
+        "open": 30.6375,
+        "high": 36.9675,
+        "runup": 0.2066095471236231
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "19febff536a7eefe",
+      "symbol": "GME",
+      "date": "2021-01-22",
+      "scan_metrics": {
+        "open": 11.165,
+        "high": 19.1893,
+        "runup": 0.7187012987012987
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e57684915cd71513",
+      "symbol": "BNED",
+      "date": "2024-05-08",
+      "scan_metrics": {
+        "open": 23.96,
+        "high": 33.0,
+        "runup": 0.37729549248747907
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f38bfa4fb17f761e",
+      "symbol": "HOLO",
+      "date": "2024-05-17",
+      "scan_metrics": {
+        "open": 1568.0,
+        "high": 2152.0,
+        "runup": 0.37244897959183676
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8db09e946a7a9f91",
+      "symbol": "GME",
+      "date": "2021-01-29",
+      "scan_metrics": {
+        "open": 90.0,
+        "high": 117.5,
+        "runup": 0.3055555555555556
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "fd064bbbf5047925",
+      "symbol": "DJT",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 51.39,
+        "high": 56.55,
+        "runup": 0.10040863981319316
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "900a49fb55a44b6e",
+      "symbol": "BNED",
+      "date": "2024-04-17",
+      "scan_metrics": {
+        "open": 24.44,
+        "high": 27.89,
+        "runup": 0.14116202945990175
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0006c7da7574ae5a",
+      "symbol": "MSTR",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 113.4,
+        "high": 127.0,
+        "runup": 0.11992945326278653
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "34751964d20c987b",
+      "symbol": "HOLO",
+      "date": "2024-06-25",
+      "scan_metrics": {
+        "open": 864.0,
+        "high": 968.0,
+        "runup": 0.12037037037037036
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "803d6054a71eef88",
+      "symbol": "HOLO",
+      "date": "2024-06-03",
+      "scan_metrics": {
+        "open": 1176.0,
+        "high": 1576.0,
+        "runup": 0.3401360544217687
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9b4f8b24294ed267",
+      "symbol": "WKHS",
+      "date": "2024-05-09",
+      "scan_metrics": {
+        "open": 48.226,
+        "high": 55.226,
+        "runup": 0.14514991913075934
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b75dde84b6d4f6f6",
+      "symbol": "GME",
+      "date": "2021-03-09",
+      "scan_metrics": {
+        "open": 52.0,
+        "high": 65.465,
+        "runup": 0.25894230769230775
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e3ef4491738798dc",
+      "symbol": "GME",
+      "date": "2025-02-13",
+      "scan_metrics": {
+        "open": 25.8,
+        "high": 31.66,
+        "runup": 0.2271317829457364
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3d84ea324d100ceb",
+      "symbol": "WKHS",
+      "date": "2024-05-15",
+      "scan_metrics": {
+        "open": 52.176,
+        "high": 57.5,
+        "runup": 0.10203925176326276
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "bf0074f44a3972a9",
+      "symbol": "WKHS",
+      "date": "2024-05-22",
+      "scan_metrics": {
+        "open": 51.674,
+        "high": 57.726,
+        "runup": 0.11711886054882532
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cba381feccab464e",
+      "symbol": "SLE",
+      "date": "2024-06-28",
+      "scan_metrics": {
+        "open": 32.44,
+        "high": 38.48,
+        "runup": 0.18618988902589395
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8cfff5d07330fecf",
+      "symbol": "KOSS",
+      "date": "2021-02-05",
+      "scan_metrics": {
+        "open": 17.95,
+        "high": 24.49,
+        "runup": 0.3643454038997214
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "60543bd0d99daf9e",
+      "symbol": "GME",
+      "date": "2024-11-11",
+      "scan_metrics": {
+        "open": 25.7,
+        "high": 28.79,
+        "runup": 0.12023346303501946
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b52d5ff3a4d18579",
+      "symbol": "GME",
+      "date": "2024-06-11",
+      "scan_metrics": {
+        "open": 24.88,
+        "high": 32.3443,
+        "runup": 0.30001205787781343
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d024402fdef10406",
+      "symbol": "KOSS",
+      "date": "2021-01-20",
+      "scan_metrics": {
+        "open": 3.81,
+        "high": 5.16,
+        "runup": 0.35433070866141736
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "db3bffe3b936bbb6",
+      "symbol": "GME",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 40.31,
+        "high": 80.0,
+        "runup": 0.9846192011907714
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "79fec9a5cc0ece0f",
+      "symbol": "GOEV",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 51.8,
+        "high": 57.6,
+        "runup": 0.11196911196911205
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6e0d8329f86891d7",
+      "symbol": "CLOV",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 0.9398,
+        "high": 1.14,
+        "runup": 0.2130240476697169
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e445bb9d1fa61fca",
+      "symbol": "HOLO",
+      "date": "2024-04-19",
+      "scan_metrics": {
+        "open": 2152.0,
+        "high": 2472.0,
+        "runup": 0.14869888475836432
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e2f9c48c53c974b1",
+      "symbol": "KOSS",
+      "date": "2021-02-25",
+      "scan_metrics": {
+        "open": 28.0,
+        "high": 39.45,
+        "runup": 0.40892857142857153
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3e4bbb6cd25d21b5",
+      "symbol": "GME",
+      "date": "2021-03-02",
+      "scan_metrics": {
+        "open": 29.3125,
+        "high": 33.3,
+        "runup": 0.13603411513859265
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "dda429b08b088600",
+      "symbol": "GME",
+      "date": "2021-01-13",
+      "scan_metrics": {
+        "open": 5.0375,
+        "high": 9.6625,
+        "runup": 0.9181141439205956
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9f0669ecb33fd75e",
+      "symbol": "BB",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 3.59,
+        "high": 4.1,
+        "runup": 0.1420612813370473
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8b115e52fd8b1a21",
+      "symbol": "KOSS",
+      "date": "2021-03-08",
+      "scan_metrics": {
+        "open": 14.78,
+        "high": 20.38,
+        "runup": 0.37889039242219213
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "75196777fedc9eb6",
+      "symbol": "KOSS",
+      "date": "2021-01-19",
+      "scan_metrics": {
+        "open": 2.84,
+        "high": 3.84,
+        "runup": 0.35211267605633806
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3106d3c102269af1",
+      "symbol": "AMC",
+      "date": "2024-05-22",
+      "scan_metrics": {
+        "open": 4.6,
+        "high": 5.23,
+        "runup": 0.13695652173913062
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "900fdab5777e18d6",
+      "symbol": "HOLO",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 1336.0,
+        "high": 1472.0,
+        "runup": 0.10179640718562874
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "50246f0e96cb1f9a",
+      "symbol": "AMC",
+      "date": "2024-04-16",
+      "scan_metrics": {
+        "open": 2.46,
+        "high": 2.89,
+        "runup": 0.17479674796747974
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "86288ceb8a782496",
+      "symbol": "SLE",
+      "date": "2024-07-05",
+      "scan_metrics": {
+        "open": 35.96,
+        "high": 43.12,
+        "runup": 0.19911012235817566
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b3cc1b43fa4bd158",
+      "symbol": "KOPN",
+      "date": "2024-07-03",
+      "scan_metrics": {
+        "open": 0.885,
+        "high": 0.9799,
+        "runup": 0.10723163841807908
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eb260881df378522",
+      "symbol": "KOSS",
+      "date": "2021-03-23",
+      "scan_metrics": {
+        "open": 23.01,
+        "high": 25.4699,
+        "runup": 0.10690569317687951
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3fa5b893ba58b6cd",
+      "symbol": "GME",
+      "date": "2021-01-21",
+      "scan_metrics": {
+        "open": 9.8,
+        "high": 11.8675,
+        "runup": 0.21096938775510193
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ad46a6f72b7dee6a",
+      "symbol": "SLE",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 49.6,
+        "high": 58.0,
+        "runup": 0.16935483870967738
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "50f01a13779ac784",
+      "symbol": "GOEV",
+      "date": "2024-04-22",
+      "scan_metrics": {
+        "open": 56.8,
+        "high": 68.2,
+        "runup": 0.2007042253521128
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ee973d5f6c71870d",
+      "symbol": "GME",
+      "date": "2021-03-30",
+      "scan_metrics": {
+        "open": 45.75,
+        "high": 51.075,
+        "runup": 0.11639344262295089
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7f51721ba1467ca8",
+      "symbol": "GME",
+      "date": "2021-02-24",
+      "scan_metrics": {
+        "open": 11.2425,
+        "high": 50.0,
+        "runup": 3.4474093840338003
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c9014ec9d02f7bee",
+      "symbol": "SNDL",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 2.4,
+        "high": 2.93,
+        "runup": 0.22083333333333344
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0dc65fefc69e975e",
+      "symbol": "KOSS",
+      "date": "2021-01-25",
+      "scan_metrics": {
+        "open": 3.75,
+        "high": 10.72,
+        "runup": 1.858666666666667
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "028ca4067e357da0",
+      "symbol": "CLOV",
+      "date": "2024-06-14",
+      "scan_metrics": {
+        "open": 1.01,
+        "high": 1.13,
+        "runup": 0.1188118811881187
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b93b63316dfc4b84",
+      "symbol": "GME",
+      "date": "2021-03-10",
+      "scan_metrics": {
+        "open": 67.8,
+        "high": 87.125,
+        "runup": 0.2850294985250738
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5a21842edb4170bb",
+      "symbol": "GOEV",
+      "date": "2024-06-13",
+      "scan_metrics": {
+        "open": 41.2,
+        "high": 52.2,
+        "runup": 0.2669902912621359
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c7dd77a3c81b4ab9",
+      "symbol": "GME",
+      "date": "2021-01-27",
+      "scan_metrics": {
+        "open": 61.665,
+        "high": 96.25,
+        "runup": 0.5608529960269196
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7c7cc3a1831fe6cb",
+      "symbol": "GME",
+      "date": "2024-06-05",
+      "scan_metrics": {
+        "open": 26.94,
+        "high": 32.94,
+        "runup": 0.22271714922048982
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9b98942bd80a160e",
+      "symbol": "FUBO",
+      "date": "2024-06-11",
+      "scan_metrics": {
+        "open": 1.13,
+        "high": 1.26,
+        "runup": 0.11504424778761073
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ecfb00a8fac6a9ee",
+      "symbol": "HOLO",
+      "date": "2024-07-08",
+      "scan_metrics": {
+        "open": 648.0,
+        "high": 776.8,
+        "runup": 0.19876543209876535
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c628642c577e5988",
+      "symbol": "GME",
+      "date": "2021-03-01",
+      "scan_metrics": {
+        "open": 26.875,
+        "high": 33.4975,
+        "runup": 0.2464186046511629
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "4629912ff9c9c282",
+      "symbol": "KOSS",
+      "date": "2021-03-25",
+      "scan_metrics": {
+        "open": 17.5,
+        "high": 26.0,
+        "runup": 0.4857142857142857
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a9bd5e424facc356",
+      "symbol": "KOSS",
+      "date": "2021-03-12",
+      "scan_metrics": {
+        "open": 25.11,
+        "high": 33.99,
+        "runup": 0.3536439665471925
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c763b5064ee70f3c",
+      "symbol": "SLE",
+      "date": "2024-07-08",
+      "scan_metrics": {
+        "open": 37.2,
+        "high": 43.2,
+        "runup": 0.16129032258064516
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "df9af20f5865343f",
+      "symbol": "WKHS",
+      "date": "2024-05-01",
+      "scan_metrics": {
+        "open": 38.276,
+        "high": 42.4,
+        "runup": 0.10774375587835706
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e369120dddc497e3",
+      "symbol": "KOSS",
+      "date": "2021-02-26",
+      "scan_metrics": {
+        "open": 19.54,
+        "high": 22.62,
+        "runup": 0.15762538382804514
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f0b6e3957231afaa",
+      "symbol": "GME",
+      "date": "2024-08-29",
+      "scan_metrics": {
+        "open": 20.36,
+        "high": 22.45,
+        "runup": 0.10265225933202357
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c5b66bf0679ea6fd",
+      "symbol": "KOPN",
+      "date": "2024-06-26",
+      "scan_metrics": {
+        "open": 0.6924,
+        "high": 0.84,
+        "runup": 0.21317157712305018
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ee7e144a2c746656",
+      "symbol": "KOSS",
+      "date": "2021-03-05",
+      "scan_metrics": {
+        "open": 14.24,
+        "high": 16.13,
+        "runup": 0.13272471910112352
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "27c04a2c8407e431",
+      "symbol": "GME",
+      "date": "2021-02-22",
+      "scan_metrics": {
+        "open": 11.0,
+        "high": 12.25,
+        "runup": 0.11363636363636363
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a76d5157ffaf4ada",
+      "symbol": "KOSS",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 3.69,
+        "high": 5.53,
+        "runup": 0.4986449864498646
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a13a98c6bd3549b3",
+      "symbol": "FUBO",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 1.46,
+        "high": 1.62,
+        "runup": 0.10958904109589052
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "04949155ca23e8f3",
+      "symbol": "KOSS",
+      "date": "2021-01-28",
+      "scan_metrics": {
+        "open": 53.6,
+        "high": 174.0,
+        "runup": 2.246268656716418
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2b742d5b728df0e9",
+      "symbol": "IHRT",
+      "date": "2024-06-07",
+      "scan_metrics": {
+        "open": 1.105,
+        "high": 1.28,
+        "runup": 0.15837104072398195
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "dc879995063952a0",
+      "symbol": "GROV",
+      "date": "2024-06-14",
+      "scan_metrics": {
+        "open": 1.62,
+        "high": 1.85,
+        "runup": 0.1419753086419753
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "85b033f6d5984452",
+      "symbol": "HOLO",
+      "date": "2024-06-20",
+      "scan_metrics": {
+        "open": 720.0,
+        "high": 960.0,
+        "runup": 0.3333333333333333
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "002f786a689f42b5",
+      "symbol": "DJT",
+      "date": "2024-06-24",
+      "scan_metrics": {
+        "open": 28.56,
+        "high": 36.0899,
+        "runup": 0.2636519607843138
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6f45d2d9a2640412",
+      "symbol": "SLE",
+      "date": "2024-06-20",
+      "scan_metrics": {
+        "open": 33.5,
+        "high": 37.072,
+        "runup": 0.10662686567164187
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1e004073d2afce4e",
+      "symbol": "KOSS",
+      "date": "2024-07-09",
+      "scan_metrics": {
+        "open": 10.14,
+        "high": 12.89,
+        "runup": 0.27120315581854043
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c83bb211a9600e6e",
+      "symbol": "COKE",
+      "date": "2024-05-07",
+      "scan_metrics": {
+        "open": 91.0,
+        "high": 103.0,
+        "runup": 0.13186813186813187
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "33496cf752996bf9",
+      "symbol": "MVIS",
+      "date": "2024-06-21",
+      "scan_metrics": {
+        "open": 0.91,
+        "high": 1.02,
+        "runup": 0.12087912087912087
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "54ceb9dcf2b860fd",
+      "symbol": "GME",
+      "date": "2021-02-10",
+      "scan_metrics": {
+        "open": 12.5,
+        "high": 15.7075,
+        "runup": 0.25659999999999994
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "46d0df4c1509866c",
+      "symbol": "KOSS",
+      "date": "2021-02-03",
+      "scan_metrics": {
+        "open": 18.2,
+        "high": 35.8,
+        "runup": 0.9670329670329669
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1424d65d62866d64",
+      "symbol": "BNED",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 58.49,
+        "high": 73.0,
+        "runup": 0.24807659428962212
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "def100a5d6a95ea1",
+      "symbol": "WKHS",
+      "date": "2024-05-24",
+      "scan_metrics": {
+        "open": 49.75,
+        "high": 55.0,
+        "runup": 0.10552763819095477
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "76bc8dccfc99eb02",
+      "symbol": "KOPN",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 0.818,
+        "high": 0.92,
+        "runup": 0.12469437652811748
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "522b22113f770e5e",
+      "symbol": "SPY",
+      "date": "2025-04-09",
+      "scan_metrics": {
+        "open": 490.62,
+        "high": 548.62,
+        "runup": 0.11821776527658881
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e9dc0fb8f6a96245",
+      "symbol": "KOSS",
+      "date": "2021-01-26",
+      "scan_metrics": {
+        "open": 9.55,
+        "high": 13.9,
+        "runup": 0.4554973821989528
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8d59d5467b71564b",
+      "symbol": "KOSS",
+      "date": "2021-03-17",
+      "scan_metrics": {
+        "open": 26.99,
+        "high": 29.88,
+        "runup": 0.10707669507224901
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "19febff536a7eefe",
+      "symbol": "GME",
+      "date": "2021-01-22",
+      "scan_metrics": {
+        "open": 11.165,
+        "high": 19.1893,
+        "runup": 0.7187012987012987
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9ab996cde2963555",
+      "symbol": "GOEV",
+      "date": "2024-04-16",
+      "scan_metrics": {
+        "open": 48.8,
+        "high": 65.97,
+        "runup": 0.35184426229508203
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9e19bd5dfe256101",
+      "symbol": "GME",
+      "date": "2021-03-04",
+      "scan_metrics": {
+        "open": 30.6375,
+        "high": 36.9675,
+        "runup": 0.2066095471236231
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "13094fa56e93255b",
+      "symbol": "AMC",
+      "date": "2024-05-16",
+      "scan_metrics": {
+        "open": 4.95,
+        "high": 5.45,
+        "runup": 0.10101010101010101
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ce4078aa357fbc46",
+      "symbol": "PLTR",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 23.77,
+        "high": 26.44,
+        "runup": 0.11232646192679856
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8db09e946a7a9f91",
+      "symbol": "GME",
+      "date": "2021-01-29",
+      "scan_metrics": {
+        "open": 90.0,
+        "high": 117.5,
+        "runup": 0.3055555555555556
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f6fa252e8e8a055b",
+      "symbol": "HOLO",
+      "date": "2024-04-03",
+      "scan_metrics": {
+        "open": 2560.0,
+        "high": 3536.0,
+        "runup": 0.38125
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b75dde84b6d4f6f6",
+      "symbol": "GME",
+      "date": "2021-03-09",
+      "scan_metrics": {
+        "open": 52.0,
+        "high": 65.465,
+        "runup": 0.25894230769230775
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "063dfa0c97e1d383",
+      "symbol": "HOLO",
+      "date": "2024-04-25",
+      "scan_metrics": {
+        "open": 1912.0,
+        "high": 2296.0,
+        "runup": 0.200836820083682
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2414e43fd5e3690d",
+      "symbol": "GME",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 24.0,
+        "high": 26.66,
+        "runup": 0.11083333333333334
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "412e33709cd9b9a6",
+      "symbol": "MVIS",
+      "date": "2024-05-10",
+      "scan_metrics": {
+        "open": 1.2,
+        "high": 1.33,
+        "runup": 0.10833333333333343
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "15cb6b9bc74199e7",
+      "symbol": "BNED",
+      "date": "2024-04-11",
+      "scan_metrics": {
+        "open": 66.5,
+        "high": 75.0,
+        "runup": 0.12781954887218044
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0e1b6491d4d2422e",
+      "symbol": "SLE",
+      "date": "2024-06-14",
+      "scan_metrics": {
+        "open": 40.0,
+        "high": 45.6,
+        "runup": 0.14000000000000004
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6222639582e40204",
+      "symbol": "DJT",
+      "date": "2024-05-09",
+      "scan_metrics": {
+        "open": 49.83,
+        "high": 55.25,
+        "runup": 0.10876981737908895
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b5102917f2dc77ce",
+      "symbol": "TSLA",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 208.86,
+        "high": 231.42,
+        "runup": 0.1080149382361389
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d024402fdef10406",
+      "symbol": "KOSS",
+      "date": "2021-01-20",
+      "scan_metrics": {
+        "open": 3.81,
+        "high": 5.16,
+        "runup": 0.35433070866141736
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f154a305b9e33b39",
+      "symbol": "BNED",
+      "date": "2024-07-08",
+      "scan_metrics": {
+        "open": 6.499,
+        "high": 7.25,
+        "runup": 0.1155562394214495
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e7a19ffc6d175687",
+      "symbol": "GME",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 12.65,
+        "high": 17.45,
+        "runup": 0.37944664031620545
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "31a150fc05e489a9",
+      "symbol": "CLOV",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 0.652,
+        "high": 0.72,
+        "runup": 0.10429447852760729
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8cfff5d07330fecf",
+      "symbol": "KOSS",
+      "date": "2021-02-05",
+      "scan_metrics": {
+        "open": 17.95,
+        "high": 24.49,
+        "runup": 0.3643454038997214
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "dda429b08b088600",
+      "symbol": "GME",
+      "date": "2021-01-13",
+      "scan_metrics": {
+        "open": 5.0375,
+        "high": 9.6625,
+        "runup": 0.9181141439205956
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ec3bb3624c8966e5",
+      "symbol": "GME",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 32.0,
+        "high": 67.5,
+        "runup": 1.109375
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b61474f880e15ce3",
+      "symbol": "SPCE",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 19.02,
+        "high": 21.8,
+        "runup": 0.146161934805468
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3e4bbb6cd25d21b5",
+      "symbol": "GME",
+      "date": "2021-03-02",
+      "scan_metrics": {
+        "open": 29.3125,
+        "high": 33.3,
+        "runup": 0.13603411513859265
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "92e69ff58d87e4f6",
+      "symbol": "SNDL",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 2.37,
+        "high": 2.63,
+        "runup": 0.10970464135021088
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "15eb8c9d0868ee51",
+      "symbol": "GOEV",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 40.6,
+        "high": 47.2,
+        "runup": 0.16256157635467983
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e2f9c48c53c974b1",
+      "symbol": "KOSS",
+      "date": "2021-02-25",
+      "scan_metrics": {
+        "open": 28.0,
+        "high": 39.45,
+        "runup": 0.40892857142857153
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "51a24f994fed31fa",
+      "symbol": "BNED",
+      "date": "2024-04-23",
+      "scan_metrics": {
+        "open": 20.15,
+        "high": 22.84,
+        "runup": 0.133498759305211
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8b115e52fd8b1a21",
+      "symbol": "KOSS",
+      "date": "2021-03-08",
+      "scan_metrics": {
+        "open": 14.78,
+        "high": 20.38,
+        "runup": 0.37889039242219213
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "75196777fedc9eb6",
+      "symbol": "KOSS",
+      "date": "2021-01-19",
+      "scan_metrics": {
+        "open": 2.84,
+        "high": 3.84,
+        "runup": 0.35211267605633806
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6ba5906eef7f5e70",
+      "symbol": "BNED",
+      "date": "2024-05-20",
+      "scan_metrics": {
+        "open": 43.54,
+        "high": 49.2,
+        "runup": 0.1299954065227378
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "22892d781df0a57f",
+      "symbol": "BNED",
+      "date": "2024-05-17",
+      "scan_metrics": {
+        "open": 18.4,
+        "high": 60.0,
+        "runup": 2.2608695652173916
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "249bf7b5dc614c46",
+      "symbol": "BB",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 2.75,
+        "high": 3.08,
+        "runup": 0.12000000000000002
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "742ad2eb3230c497",
+      "symbol": "IHRT",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 1.1,
+        "high": 1.24,
+        "runup": 0.12727272727272718
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "02b0d224b934d07a",
+      "symbol": "BNED",
+      "date": "2024-06-12",
+      "scan_metrics": {
+        "open": 7.05,
+        "high": 8.91,
+        "runup": 0.2638297872340426
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5feebd85c4fab306",
+      "symbol": "SLE",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 54.0,
+        "high": 72.0,
+        "runup": 0.3333333333333333
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "abe8ba55af9a09d7",
+      "symbol": "HOLO",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 1824.0,
+        "high": 3376.0,
+        "runup": 0.8508771929824561
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8b225d02fe8757a9",
+      "symbol": "KOSS",
+      "date": "2024-05-09",
+      "scan_metrics": {
+        "open": 3.2,
+        "high": 3.74,
+        "runup": 0.16875
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6427de1c9a0ca334",
+      "symbol": "HOLO",
+      "date": "2024-04-17",
+      "scan_metrics": {
+        "open": 1856.0,
+        "high": 2544.0,
+        "runup": 0.3706896551724138
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eb260881df378522",
+      "symbol": "KOSS",
+      "date": "2021-03-23",
+      "scan_metrics": {
+        "open": 23.01,
+        "high": 25.4699,
+        "runup": 0.10690569317687951
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ee973d5f6c71870d",
+      "symbol": "GME",
+      "date": "2021-03-30",
+      "scan_metrics": {
+        "open": 45.75,
+        "high": 51.075,
+        "runup": 0.11639344262295089
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cc5a5c7ba646df15",
+      "symbol": "KOPN",
+      "date": "2024-04-26",
+      "scan_metrics": {
+        "open": 0.8158,
+        "high": 0.8999,
+        "runup": 0.10308899240009814
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3fa5b893ba58b6cd",
+      "symbol": "GME",
+      "date": "2021-01-21",
+      "scan_metrics": {
+        "open": 9.8,
+        "high": 11.8675,
+        "runup": 0.21096938775510193
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b09a62db9ac4ecb7",
+      "symbol": "GME",
+      "date": "2024-06-03",
+      "scan_metrics": {
+        "open": 35.2,
+        "high": 47.5,
+        "runup": 0.34943181818181807
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9244caddcb64b784",
+      "symbol": "GME",
+      "date": "2025-04-07",
+      "scan_metrics": {
+        "open": 21.68,
+        "high": 25.02,
+        "runup": 0.1540590405904059
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0dc65fefc69e975e",
+      "symbol": "KOSS",
+      "date": "2021-01-25",
+      "scan_metrics": {
+        "open": 3.75,
+        "high": 10.72,
+        "runup": 1.858666666666667
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b93b63316dfc4b84",
+      "symbol": "GME",
+      "date": "2021-03-10",
+      "scan_metrics": {
+        "open": 67.8,
+        "high": 87.125,
+        "runup": 0.2850294985250738
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7f51721ba1467ca8",
+      "symbol": "GME",
+      "date": "2021-02-24",
+      "scan_metrics": {
+        "open": 11.2425,
+        "high": 50.0,
+        "runup": 3.4474093840338003
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b49e7ef0378de1b4",
+      "symbol": "GME",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 15.72,
+        "high": 17.4,
+        "runup": 0.10687022900763345
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "bac3700a1672f1a9",
+      "symbol": "GME",
+      "date": "2024-05-20",
+      "scan_metrics": {
+        "open": 22.56,
+        "high": 25.08,
+        "runup": 0.11170212765957445
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5b1d2ec1c1511047",
+      "symbol": "FUBO",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 1.55,
+        "high": 1.8,
+        "runup": 0.16129032258064516
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a462cf143c030910",
+      "symbol": "GME",
+      "date": "2024-05-17",
+      "scan_metrics": {
+        "open": 29.82,
+        "high": 33.0,
+        "runup": 0.10663983903420522
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e369120dddc497e3",
+      "symbol": "KOSS",
+      "date": "2021-02-26",
+      "scan_metrics": {
+        "open": 19.54,
+        "high": 22.62,
+        "runup": 0.15762538382804514
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "654af56585033789",
+      "symbol": "WKHS",
+      "date": "2024-06-24",
+      "scan_metrics": {
+        "open": 21.75,
+        "high": 24.6,
+        "runup": 0.13103448275862076
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c628642c577e5988",
+      "symbol": "GME",
+      "date": "2021-03-01",
+      "scan_metrics": {
+        "open": 26.875,
+        "high": 33.4975,
+        "runup": 0.2464186046511629
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2c390367125fdc56",
+      "symbol": "CHWY",
+      "date": "2024-06-25",
+      "scan_metrics": {
+        "open": 27.05,
+        "high": 30.3,
+        "runup": 0.12014787430683918
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c7dd77a3c81b4ab9",
+      "symbol": "GME",
+      "date": "2021-01-27",
+      "scan_metrics": {
+        "open": 61.665,
+        "high": 96.25,
+        "runup": 0.5608529960269196
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "4629912ff9c9c282",
+      "symbol": "KOSS",
+      "date": "2021-03-25",
+      "scan_metrics": {
+        "open": 17.5,
+        "high": 26.0,
+        "runup": 0.4857142857142857
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a9bd5e424facc356",
+      "symbol": "KOSS",
+      "date": "2021-03-12",
+      "scan_metrics": {
+        "open": 25.11,
+        "high": 33.99,
+        "runup": 0.3536439665471925
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ce1cb443ddcab53a",
+      "symbol": "KOSS",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 4.59,
+        "high": 5.89,
+        "runup": 0.28322440087145967
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8a6378abc0f885b9",
+      "symbol": "WKHS",
+      "date": "2024-05-16",
+      "scan_metrics": {
+        "open": 58.45,
+        "high": 69.0,
+        "runup": 0.18049615055603074
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "18f4b9a29706a29c",
+      "symbol": "TLRY",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 2.0,
+        "high": 2.38,
+        "runup": 0.18999999999999995
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "27c04a2c8407e431",
+      "symbol": "GME",
+      "date": "2021-02-22",
+      "scan_metrics": {
+        "open": 11.0,
+        "high": 12.25,
+        "runup": 0.11363636363636363
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8ae0eeaefc336bc8",
+      "symbol": "GME",
+      "date": "2025-05-22",
+      "scan_metrics": {
+        "open": 28.22,
+        "high": 31.9,
+        "runup": 0.13040396881644223
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ae701e10fbce60ef",
+      "symbol": "GME",
+      "date": "2024-06-12",
+      "scan_metrics": {
+        "open": 29.5,
+        "high": 33.7,
+        "runup": 0.1423728813559323
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ee7e144a2c746656",
+      "symbol": "KOSS",
+      "date": "2021-03-05",
+      "scan_metrics": {
+        "open": 14.24,
+        "high": 16.13,
+        "runup": 0.13272471910112352
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "04949155ca23e8f3",
+      "symbol": "KOSS",
+      "date": "2021-01-28",
+      "scan_metrics": {
+        "open": 53.6,
+        "high": 174.0,
+        "runup": 2.246268656716418
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7fd522d86d5e2f0f",
+      "symbol": "DJT",
+      "date": "2024-05-01",
+      "scan_metrics": {
+        "open": 49.91,
+        "high": 54.98,
+        "runup": 0.10158284912843119
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "10945da0ff481f6c",
+      "symbol": "BNED",
+      "date": "2024-06-03",
+      "scan_metrics": {
+        "open": 49.0,
+        "high": 55.0,
+        "runup": 0.12244897959183673
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cd6b10a57d38d566",
+      "symbol": "AMC",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 3.15,
+        "high": 6.51,
+        "runup": 1.0666666666666667
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f0af3defa71db642",
+      "symbol": "BNED",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 22.0,
+        "high": 27.57,
+        "runup": 0.2531818181818182
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5e6887d71598fa43",
+      "symbol": "BNED",
+      "date": "2024-05-31",
+      "scan_metrics": {
+        "open": 72.36,
+        "high": 81.28,
+        "runup": 0.1232725262576009
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "fc64ea631513b389",
+      "symbol": "AMC",
+      "date": "2024-05-24",
+      "scan_metrics": {
+        "open": 4.64,
+        "high": 5.25,
+        "runup": 0.1314655172413794
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b923f18198dc2b3e",
+      "symbol": "SLE",
+      "date": "2024-07-03",
+      "scan_metrics": {
+        "open": 32.12,
+        "high": 36.0,
+        "runup": 0.1207970112079702
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a9068ad95ca82150",
+      "symbol": "BYND",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 7.05,
+        "high": 8.59,
+        "runup": 0.21843971631205675
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3dc4496c7ac000a9",
+      "symbol": "BNED",
+      "date": "2024-05-01",
+      "scan_metrics": {
+        "open": 20.0,
+        "high": 22.9,
+        "runup": 0.14499999999999993
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e383b06c59cfc1ef",
+      "symbol": "AMC",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 7.34,
+        "high": 13.3,
+        "runup": 0.8119891008174388
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "71ef478f1989c632",
+      "symbol": "HOLO",
+      "date": "2024-06-07",
+      "scan_metrics": {
+        "open": 1480.0,
+        "high": 1752.0,
+        "runup": 0.1837837837837838
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "357b55c3e14855ec",
+      "symbol": "BYND",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 8.25,
+        "high": 10.31,
+        "runup": 0.24969696969696975
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6017f5bbed495218",
+      "symbol": "KOSS",
+      "date": "2021-03-29",
+      "scan_metrics": {
+        "open": 21.5,
+        "high": 26.5,
+        "runup": 0.23255813953488372
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a3b33d3ead4169c8",
+      "symbol": "MVIS",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 1.09,
+        "high": 1.2,
+        "runup": 0.10091743119266043
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "4a0ffb86f8ea9415",
+      "symbol": "TTEC",
+      "date": "2024-06-27",
+      "scan_metrics": {
+        "open": 5.21,
+        "high": 5.78,
+        "runup": 0.10940499040307107
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "dd4816374a535a0d",
+      "symbol": "BNED",
+      "date": "2024-06-04",
+      "scan_metrics": {
+        "open": 43.56,
+        "high": 51.18,
+        "runup": 0.17493112947658396
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8187e6d0cfe70ca7",
+      "symbol": "GOEV",
+      "date": "2024-04-08",
+      "scan_metrics": {
+        "open": 43.2,
+        "high": 50.8,
+        "runup": 0.1759259259259258
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ec8bbe0785f1dad6",
+      "symbol": "AMC",
+      "date": "2024-06-11",
+      "scan_metrics": {
+        "open": 4.69,
+        "high": 5.495,
+        "runup": 0.17164179104477603
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2cc818fe9480ae65",
+      "symbol": "KOSS",
+      "date": "2021-03-09",
+      "scan_metrics": {
+        "open": 19.0,
+        "high": 21.54,
+        "runup": 0.13368421052631574
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2376f44a58749024",
+      "symbol": "DJT",
+      "date": "2024-05-31",
+      "scan_metrics": {
+        "open": 47.58,
+        "high": 55.51,
+        "runup": 0.16666666666666666
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6d3a30cfa299f861",
+      "symbol": "SIRI",
+      "date": "2024-07-05",
+      "scan_metrics": {
+        "open": 34.6,
+        "high": 41.6,
+        "runup": 0.20231213872832368
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "04ca4dc9f77dfc85",
+      "symbol": "KOSS",
+      "date": "2021-02-01",
+      "scan_metrics": {
+        "open": 61.0,
+        "high": 85.0,
+        "runup": 0.39344262295081966
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9ddcb0539ebcb119",
+      "symbol": "GME",
+      "date": "2021-02-25",
+      "scan_metrics": {
+        "open": 38.325,
+        "high": 46.17,
+        "runup": 0.20469667318982382
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e7dbc8e7f127f8e8",
+      "symbol": "DJT",
+      "date": "2024-06-28",
+      "scan_metrics": {
+        "open": 38.6,
+        "high": 43.0,
+        "runup": 0.11398963730569944
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8404123670e98908",
+      "symbol": "KOSS",
+      "date": "2024-07-05",
+      "scan_metrics": {
+        "open": 12.66,
+        "high": 18.5,
+        "runup": 0.4612954186413902
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "e7e02490e91874f7",
+      "symbol": "GME",
+      "date": "2024-07-16",
+      "scan_metrics": {
+        "open": 27.07,
+        "high": 29.99,
+        "runup": 0.10786848910232723
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "167dcc0feac7d5b0",
+      "symbol": "GME",
+      "date": "2021-03-26",
+      "scan_metrics": {
+        "open": 48.6,
+        "high": 54.7336,
+        "runup": 0.12620576131687244
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5f530fd69b654ea6",
+      "symbol": "KOSS",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 4.8,
+        "high": 6.4,
+        "runup": 0.3333333333333335
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "dfa686082628a9b7",
+      "symbol": "BNED",
+      "date": "2024-04-29",
+      "scan_metrics": {
+        "open": 18.97,
+        "high": 20.9,
+        "runup": 0.10173958882445966
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "522c9a1545e2d75b",
+      "symbol": "KOPN",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 0.8086,
+        "high": 0.92,
+        "runup": 0.13776898342814747
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6373ff36d5b45a59",
+      "symbol": "GME",
+      "date": "2021-02-05",
+      "scan_metrics": {
+        "open": 13.375,
+        "high": 23.75,
+        "runup": 0.7757009345794392
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cff3554db53d77bd",
+      "symbol": "KOSS",
+      "date": "2024-05-03",
+      "scan_metrics": {
+        "open": 2.39,
+        "high": 3.35,
+        "runup": 0.40167364016736395
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a65d992bc1936a38",
+      "symbol": "GME",
+      "date": "2024-12-10",
+      "scan_metrics": {
+        "open": 27.96,
+        "high": 31.0,
+        "runup": 0.10872675250357651
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "104a3cc18158aa1a",
+      "symbol": "GME",
+      "date": "2021-03-17",
+      "scan_metrics": {
+        "open": 50.9375,
+        "high": 57.8675,
+        "runup": 0.13604907975460123
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0651c34a847229b6",
+      "symbol": "GOEV",
+      "date": "2024-05-31",
+      "scan_metrics": {
+        "open": 42.8,
+        "high": 49.4,
+        "runup": 0.15420560747663556
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1bda5bab8f2e41ec",
+      "symbol": "IHRT",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 0.8351,
+        "high": 0.9488,
+        "runup": 0.13615135911866846
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "abe5a6c6a358c49c",
+      "symbol": "GME",
+      "date": "2021-01-26",
+      "scan_metrics": {
+        "open": 22.5,
+        "high": 62.225,
+        "runup": 1.7655555555555555
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "01fcf7a02769af84",
+      "symbol": "GME",
+      "date": "2021-01-11",
+      "scan_metrics": {
+        "open": 4.375,
+        "high": 5.455,
+        "runup": 0.24685714285714289
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7fa2935ae86b2636",
+      "symbol": "SLE",
+      "date": "2024-07-09",
+      "scan_metrics": {
+        "open": 41.2,
+        "high": 48.0,
+        "runup": 0.16504854368932032
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1ddeec1ea447d4dd",
+      "symbol": "GME",
+      "date": "2021-02-03",
+      "scan_metrics": {
+        "open": 19.5825,
+        "high": 30.34,
+        "runup": 0.5493425252138389
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "4b50fd5c9dda06c0",
+      "symbol": "SLE",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 54.0,
+        "high": 61.6,
+        "runup": 0.14074074074074078
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "bbb93f8190096bee",
+      "symbol": "HOLO",
+      "date": "2024-05-13",
+      "scan_metrics": {
+        "open": 1368.0,
+        "high": 1904.0,
+        "runup": 0.391812865497076
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b63d501accdf144a",
+      "symbol": "CHWY",
+      "date": "2024-06-18",
+      "scan_metrics": {
+        "open": 22.83,
+        "high": 27.08,
+        "runup": 0.18615856329391153
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f4a118608dfde8bb",
+      "symbol": "GME",
+      "date": "2021-02-08",
+      "scan_metrics": {
+        "open": 17.025,
+        "high": 18.95,
+        "runup": 0.11306901615271664
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d3322cef5e7bc8bd",
+      "symbol": "KOSS",
+      "date": "2021-01-29",
+      "scan_metrics": {
+        "open": 77.0,
+        "high": 120.0,
+        "runup": 0.5584415584415584
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ab1313b0ca724642",
+      "symbol": "IHRT",
+      "date": "2024-06-06",
+      "scan_metrics": {
+        "open": 1.02,
+        "high": 1.13,
+        "runup": 0.10784313725490184
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1d8cee51a8d4bbe4",
+      "symbol": "HOLO",
+      "date": "2024-06-21",
+      "scan_metrics": {
+        "open": 800.0,
+        "high": 960.0,
+        "runup": 0.2
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8504c0f3acf5a3b4",
+      "symbol": "SLE",
+      "date": "2024-06-21",
+      "scan_metrics": {
+        "open": 33.2,
+        "high": 38.0,
+        "runup": 0.14457831325301196
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7db137611c136eca",
+      "symbol": "BNED",
+      "date": "2024-05-10",
+      "scan_metrics": {
+        "open": 30.45,
+        "high": 33.55,
+        "runup": 0.10180623973727415
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eebde1c3951ee3e2",
+      "symbol": "GME",
+      "date": "2021-03-05",
+      "scan_metrics": {
+        "open": 32.425,
+        "high": 37.8825,
+        "runup": 0.16831148804934476
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5504169771eda0ac",
+      "symbol": "SPCE",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 21.6,
+        "high": 29.6,
+        "runup": 0.37037037037037035
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f3069bf8fa173f89",
+      "symbol": "GME",
+      "date": "2021-01-14",
+      "scan_metrics": {
+        "open": 8.37,
+        "high": 10.8925,
+        "runup": 0.3013739545997612
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "41058e43160deb5c",
+      "symbol": "GOEV",
+      "date": "2024-07-05",
+      "scan_metrics": {
+        "open": 44.8,
+        "high": 52.8,
+        "runup": 0.17857142857142858
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ec5e93027e46e919",
+      "symbol": "BNED",
+      "date": "2024-05-09",
+      "scan_metrics": {
+        "open": 30.0,
+        "high": 40.68,
+        "runup": 0.356
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "290a63e867a7b0b3",
+      "symbol": "KOSS",
+      "date": "2021-01-27",
+      "scan_metrics": {
+        "open": 10.88,
+        "high": 96.58,
+        "runup": 7.876838235294118
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "15710ecfb9d021a1",
+      "symbol": "KOSS",
+      "date": "2021-03-01",
+      "scan_metrics": {
+        "open": 17.6,
+        "high": 20.88,
+        "runup": 0.1863636363636362
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "0c899c56201d88c6",
+      "symbol": "GME",
+      "date": "2021-03-12",
+      "scan_metrics": {
+        "open": 62.5,
+        "high": 73.875,
+        "runup": 0.182
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "127dd2cf104e6c6b",
+      "symbol": "GME",
+      "date": "2021-03-25",
+      "scan_metrics": {
+        "open": 31.775,
+        "high": 48.2475,
+        "runup": 0.5184107002360347
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9618a1e84363f8b9",
+      "symbol": "KOSS",
+      "date": "2021-02-02",
+      "scan_metrics": {
+        "open": 28.33,
+        "high": 32.0,
+        "runup": 0.12954465231203677
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "14fa0de4976a9ec8",
+      "symbol": "SPCE",
+      "date": "2024-06-11",
+      "scan_metrics": {
+        "open": 16.42,
+        "high": 18.6,
+        "runup": 0.1327649208282582
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6eaff9511985b72e",
+      "symbol": "GME",
+      "date": "2021-02-11",
+      "scan_metrics": {
+        "open": 12.3725,
+        "high": 13.83,
+        "runup": 0.11780157607597491
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "cc4facb9f8bb1276",
+      "symbol": "KOSS",
+      "date": "2024-05-20",
+      "scan_metrics": {
+        "open": 4.5,
+        "high": 5.5,
+        "runup": 0.2222222222222222
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "6e419710a3d2d750",
+      "symbol": "GME",
+      "date": "2021-02-26",
+      "scan_metrics": {
+        "open": 28.75,
+        "high": 35.725,
+        "runup": 0.24260869565217397
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "65317c0dcf5944ab",
+      "symbol": "BNED",
+      "date": "2024-04-16",
+      "scan_metrics": {
+        "open": 65.03,
+        "high": 85.0,
+        "runup": 0.30708903582961705
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5bbe48e68826cb8a",
+      "symbol": "GME",
+      "date": "2021-03-19",
+      "scan_metrics": {
+        "open": 51.1975,
+        "high": 56.75,
+        "runup": 0.10845256116021294
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "bee9b5e04880eacc",
+      "symbol": "SPCE",
+      "date": "2024-05-08",
+      "scan_metrics": {
+        "open": 19.798,
+        "high": 22.0,
+        "runup": 0.1112233558945349
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "631026829ec31872",
+      "symbol": "BNED",
+      "date": "2024-05-15",
+      "scan_metrics": {
+        "open": 19.0,
+        "high": 21.0,
+        "runup": 0.10526315789473684
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "87972d0078407eaf",
+      "symbol": "BNED",
+      "date": "2024-05-22",
+      "scan_metrics": {
+        "open": 92.2,
+        "high": 135.0,
+        "runup": 0.46420824295010843
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3569cec55ff48e6c",
+      "symbol": "SLE",
+      "date": "2024-06-24",
+      "scan_metrics": {
+        "open": 32.16,
+        "high": 36.192,
+        "runup": 0.12537313432835834
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f2bfd1321002eb5e",
+      "symbol": "HOLO",
+      "date": "2024-06-24",
+      "scan_metrics": {
+        "open": 768.08,
+        "high": 864.0,
+        "runup": 0.12488282470575976
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "79dee56b1c7af50d",
+      "symbol": "MSTR",
+      "date": "2024-05-02",
+      "scan_metrics": {
+        "open": 103.353,
+        "high": 114.2302,
+        "runup": 0.10524319564986022
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "2e24be2a0c50fdeb",
+      "symbol": "BNED",
+      "date": "2024-06-10",
+      "scan_metrics": {
+        "open": 19.01,
+        "high": 21.0,
+        "runup": 0.10468174644923715
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b2fe3144ae9f3249",
+      "symbol": "AMC",
+      "date": "2024-06-05",
+      "scan_metrics": {
+        "open": 4.77,
+        "high": 5.31,
+        "runup": 0.11320754716981134
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "ac66a6620d356b36",
+      "symbol": "GME",
+      "date": "2021-01-28",
+      "scan_metrics": {
+        "open": 77.825,
+        "high": 128.28,
+        "runup": 0.6483135239318984
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "98316f74ba634435",
+      "symbol": "IHRT",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 2.14,
+        "high": 2.38,
+        "runup": 0.11214953271028026
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c5d5365153134dd8",
+      "symbol": "IEP",
+      "date": "2024-05-08",
+      "scan_metrics": {
+        "open": 17.27,
+        "high": 19.1,
+        "runup": 0.10596409959467296
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "11400d8988676d08",
+      "symbol": "BNED",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 6.13,
+        "high": 6.9,
+        "runup": 0.1256117455138663
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1d5dee74c4ef989e",
+      "symbol": "GME",
+      "date": "2024-05-09",
+      "scan_metrics": {
+        "open": 16.02,
+        "high": 18.74,
+        "runup": 0.1697877652933832
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3ad6056231634087",
+      "symbol": "GME",
+      "date": "2024-09-23",
+      "scan_metrics": {
+        "open": 21.57,
+        "high": 24.0,
+        "runup": 0.11265646731571625
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "61390cdaf70eb365",
+      "symbol": "KOSS",
+      "date": "2021-02-18",
+      "scan_metrics": {
+        "open": 13.22,
+        "high": 17.7,
+        "runup": 0.3388804841149772
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "eec4a15d596a1b79",
+      "symbol": "GROV",
+      "date": "2024-07-02",
+      "scan_metrics": {
+        "open": 1.61,
+        "high": 1.8,
+        "runup": 0.1180124223602484
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "7a526fcfeae7b670",
+      "symbol": "HOLO",
+      "date": "2024-07-01",
+      "scan_metrics": {
+        "open": 671.52,
+        "high": 790.4,
+        "runup": 0.17703121277102693
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "a3331a1233301cb9",
+      "symbol": "GME",
+      "date": "2021-03-08",
+      "scan_metrics": {
+        "open": 35.0,
+        "high": 52.7175,
+        "runup": 0.5062142857142857
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "c9e810677bb292c2",
+      "symbol": "GME",
+      "date": "2021-01-19",
+      "scan_metrics": {
+        "open": 9.75,
+        "high": 11.38,
+        "runup": 0.16717948717948725
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "3134eb4f3528be15",
+      "symbol": "FUBO",
+      "date": "2024-05-01",
+      "scan_metrics": {
+        "open": 1.37,
+        "high": 1.51,
+        "runup": 0.10218978102189773
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8501ef70c03cbf89",
+      "symbol": "KOSS",
+      "date": "2024-05-06",
+      "scan_metrics": {
+        "open": 3.09,
+        "high": 3.75,
+        "runup": 0.21359223300970878
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "1593be516b5e4364",
+      "symbol": "HOLO",
+      "date": "2024-04-18",
+      "scan_metrics": {
+        "open": 2424.0,
+        "high": 2896.0,
+        "runup": 0.19471947194719472
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "5a4bc4497b7c4835",
+      "symbol": "CLOV",
+      "date": "2024-05-22",
+      "scan_metrics": {
+        "open": 0.9172,
+        "high": 1.02,
+        "runup": 0.11208024422154383
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9ad609c3dedac622",
+      "symbol": "KOSS",
+      "date": "2021-02-24",
+      "scan_metrics": {
+        "open": 11.9,
+        "high": 33.39,
+        "runup": 1.8058823529411765
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "4fab249991545ad6",
+      "symbol": "CHWY",
+      "date": "2024-06-27",
+      "scan_metrics": {
+        "open": 29.1,
+        "high": 39.1,
+        "runup": 0.3436426116838488
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "b030e558111ab4de",
+      "symbol": "WKHS",
+      "date": "2024-06-26",
+      "scan_metrics": {
+        "open": 21.875,
+        "high": 24.125,
+        "runup": 0.10285714285714286
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "d4925c0482f29798",
+      "symbol": "KOSS",
+      "date": "2021-03-10",
+      "scan_metrics": {
+        "open": 19.02,
+        "high": 40.48,
+        "runup": 1.1282860147213458
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "69df74cfe635f1e9",
+      "symbol": "DJT",
+      "date": "2024-05-28",
+      "scan_metrics": {
+        "open": 45.85,
+        "high": 50.45,
+        "runup": 0.10032715376226829
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "78f8f7dc5119d892",
+      "symbol": "GME",
+      "date": "2021-01-25",
+      "scan_metrics": {
+        "open": 18.125,
+        "high": 39.795,
+        "runup": 1.195586206896552
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "9f0a8114c1ae0519",
+      "symbol": "WKHS",
+      "date": "2024-05-14",
+      "scan_metrics": {
+        "open": 45.824,
+        "high": 52.85,
+        "runup": 0.15332576815642465
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8e82a3da1269097d",
+      "symbol": "NVDA",
+      "date": "2024-06-25",
+      "scan_metrics": {
+        "open": 115.26,
+        "high": 127.83,
+        "runup": 0.10905778240499733
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "fb24303e04dc96e1",
+      "symbol": "WKHS",
+      "date": "2024-05-23",
+      "scan_metrics": {
+        "open": 53.026,
+        "high": 98.85,
+        "runup": 0.8641798363067172
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "8e18cd5edbb11b6d",
+      "symbol": "GOEV",
+      "date": "2024-06-17",
+      "scan_metrics": {
+        "open": 38.6,
+        "high": 44.0,
+        "runup": 0.1398963730569948
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    },
+    {
+      "trackId": "f0849e114bde3399",
+      "symbol": "GME",
+      "date": "2024-06-27",
+      "scan_metrics": {
+        "open": 24.09,
+        "high": 26.69,
+        "runup": 0.10792860107928608
+      },
+      "cluster": -1,
+      "horizons": {
+        "30": {
+          "logReturn": 0.0
+        },
+        "90": {
+          "logReturn": 0.0
+        }
+      }
+    }
+  ]
+}

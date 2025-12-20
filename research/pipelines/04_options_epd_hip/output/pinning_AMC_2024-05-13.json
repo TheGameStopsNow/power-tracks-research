@@ -1,0 +1,24 @@
+{
+  "symbol": "AMC",
+  "date": "2024-05-13",
+  "magnet_strikes": {
+    "6.0": {
+      "gex": 3552492.06753365,
+      "dwell_pct": 0.03463203463203463,
+      "close_dist_pct": 0.06985000000000004,
+      "is_pinned": false
+    },
+    "8.0": {
+      "gex": 3062145.2163144564,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.19761249999999997,
+      "is_pinned": false
+    },
+    "5.0": {
+      "gex": 2425046.7768419352,
+      "dwell_pct": 0.003246753246753247,
+      "close_dist_pct": 0.28382000000000007,
+      "is_pinned": false
+    }
+  }
+}

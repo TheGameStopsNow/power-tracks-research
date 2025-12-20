@@ -1,0 +1,8 @@
+{
+  "n_samples": 45,
+  "auc": 0.0,
+  "log_loss": 1.2461254959049433,
+  "intercept": -2.074558496318915,
+  "coefficient": -5.162132841153921,
+  "critical_threshold": -0.40188010656757467
+}

@@ -1,0 +1,1060 @@
+openapi: 3.1.0
+info:
+  title: Power Tracks Engine API
+  description: |
+    REST API for Power Tracks Engine daemon providing access to:
+    - Power track detection and catalog
+    - Macro track stitching and correlation
+    - Real-time state aggregation
+    - Options data and analytics
+    - Composite snapshots and streaming
+    
+    All endpoints require API key authentication via `x-api-key` header or `Authorization: Bearer <key>` header,
+    except for `/health` and `/metrics` which are public.
+  version: 1.0.0
+  contact:
+    name: Power Tracks Team
+  license:
+    name: MIT
+
+servers:
+  - url: http://localhost:4020
+    description: "Local development server"
+  - url: https://api.powertracks.example.com
+    description: "Production server (example)"
+
+tags:
+  - name: Health
+    description: "Health check and status endpoints"
+  - name: Metrics
+    description: "Prometheus metrics endpoint"
+  - name: Tracks
+    description: "Power track catalog and retrieval"
+  - name: Macro
+    description: "Macro track stitching and correlation"
+  - name: State
+    description: "Real-time state aggregation"
+  - name: Options
+    description: "Options data and analytics"
+  - name: Stream
+    description: "Server-sent events streaming"
+
+security:
+  - ApiKeyAuth: []
+
+components:
+  securitySchemes:
+    ApiKeyAuth:
+      type: apiKey
+      in: header
+      name: x-api-key
+      description: "API key for authentication (alternative: use `Authorization: Bearer <key>` header)"
+    BearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+      description: "Bearer token authentication (alternative to `x-api-key` header)"
+
+  schemas:
+    Error:
+      type: object
+      required:
+        - error
+      properties:
+        error:
+          type: string
+          description: "Error message"
+        details:
+          type: string
+          description: "Additional error details (optional)"
+
+    HealthStatus:
+      type: object
+      required:
+        - status
+      properties:
+        status:
+          type: string
+          enum: [healthy]
+          example: healthy
+
+    ServerStatus:
+      type: object
+      required:
+        - status
+        - uptime
+      properties:
+        status:
+          type: string
+          enum: [ok]
+        uptime:
+          type: number
+          description: "Server uptime in seconds"
+        detector:
+          type: object
+          description: "Detector statistics"
+        sinks:
+          type: array
+          items:
+            type: object
+          description: "Sink status information"
+        feed:
+          type: object
+          description: "Feed connection status"
+        server:
+          type: object
+          description: "Server configuration"
+        data:
+          type: object
+          description: "Data loader configuration"
+
+    PowerTrack:
+      type: object
+      properties:
+        id:
+          type: string
+          description: "Unique track identifier (format: PT-YYYYMMDD-HHMMSS-XXXX)"
+        symbol:
+          type: string
+          description: "Trading symbol"
+        timestamp:
+          type: string
+          format: date-time
+          description: "Detection timestamp"
+        spectral_power:
+          type: number
+          description: "Spectral power value"
+        roc_value:
+          type: number
+          description: "Rate-of-change percentage"
+        venue:
+          type: string
+          description: "Primary venue (EDGX, CBOE, OTC)"
+        cluster_type:
+          type: string
+          enum: [impactor, binder, echo, macro]
+          description: "Cluster classification"
+        decodability:
+          type: object
+          description: "Decodability metrics"
+        regime:
+          type: string
+          enum: [scripted, organic, transitional]
+          description: "Regime classification"
+
+    TrackListResponse:
+      type: object
+      required:
+        - symbol
+        - tracks
+        - count
+        - generated_at
+      properties:
+        symbol:
+          type: string
+          description: "Symbol queried (or 'ALL' for all symbols)"
+        tracks:
+          type: array
+          items:
+            $ref: '#/components/schemas/PowerTrack'
+        count:
+          type: integer
+          description: "Number of tracks returned"
+        offset:
+          type: integer
+          description: "Pagination offset"
+        generated_at:
+          type: string
+          format: date-time
+          description: "Response generation timestamp"
+
+    MacroTrack:
+      type: object
+      properties:
+        symbol:
+          type: string
+        start_date:
+          type: string
+          format: date
+        end_date:
+          type: string
+          format: date
+        tracks:
+          type: array
+          items:
+            $ref: '#/components/schemas/PowerTrack'
+        correlation:
+          type: number
+          description: "Correlation coefficient"
+        stitched_count:
+          type: integer
+          description: "Number of tracks stitched together"
+
+    TrackPricePath:
+      type: object
+      properties:
+        track_id:
+          type: string
+        symbol:
+          type: string
+        path:
+          type: array
+          items:
+            type: object
+            properties:
+              timestamp:
+                type: string
+                format: date-time
+              price:
+                type: number
+        limit:
+          type: integer
+          description: "Number of points returned"
+        decoded_burst:
+          type: object
+          nullable: true
+          description: "Decoded burst artifact (header, payload, diagnostics) when available."
+
+    DailyStats:
+      type: object
+      properties:
+        symbol:
+          type: string
+        start_date:
+          type: string
+          format: date
+        end_date:
+          type: string
+          format: date
+        total_tracks:
+          type: integer
+        tracks_by_type:
+          type: object
+          additionalProperties:
+            type: integer
+        generated_at:
+          type: string
+          format: date-time
+
+    CompositeSnapshot:
+      type: object
+      properties:
+        symbol:
+          type: string
+        date:
+          type: string
+          format: date
+        generated_at:
+          type: string
+          format: date-time
+        composite:
+          type: object
+          description: "Composite state data"
+
+    OptionsSnapshot:
+      type: object
+      properties:
+        symbol:
+          type: string
+        timestamp:
+          type: string
+          format: date-time
+        options:
+          type: array
+          items:
+            type: object
+          description: "Options chain data"
+
+paths:
+  /health:
+    get:
+      tags:
+        - Health
+      summary: Health check endpoint
+      description: "Returns server health status. Public endpoint (no authentication required)."
+      security: []
+      responses:
+        '200':
+          description: "Server is healthy"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthStatus'
+
+  /status:
+    get:
+      tags:
+        - Health
+      summary: Server status and statistics
+      description: "Returns detailed server status including detector stats, sink status, and feed connection state."
+      responses:
+        '200':
+          description: "Server status"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ServerStatus'
+        '401':
+          description: "Unauthorized"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /metrics:
+    get:
+      tags:
+        - Metrics
+      summary: Prometheus metrics
+      description: "Returns Prometheus-formatted metrics. Public endpoint (no authentication required)."
+      security: []
+      responses:
+        '200':
+          description: "Metrics in Prometheus format"
+          content:
+            text/plain:
+              schema:
+                type: string
+
+  /v1/tracks:
+    get:
+      tags:
+        - Tracks
+      summary: List power tracks
+      description: "List power tracks for a symbol with optional pagination and date filtering."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol (default: first symbol from config, or 'ALL' for all symbols)"
+          schema:
+            type: string
+            example: GME
+        - name: limit
+          in: query
+          description: "Maximum number of tracks to return (default: 100)"
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 1000
+            default: 100
+        - name: offset
+          in: query
+          description: "Pagination offset (default: 0)"
+          schema:
+            type: integer
+            minimum: 0
+            default: 0
+        - name: date
+          in: query
+          description: "Filter by date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+            example: '2024-05-13'
+      responses:
+        '200':
+          description: "List of power tracks"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrackListResponse'
+        '401':
+          description: "Unauthorized"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: "Service unavailable (no data loader)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/tracks/daily:
+    get:
+      tags:
+        - Tracks
+      summary: Daily track statistics
+      description: "Get daily statistics for tracks including counts by type."
+      parameters:
+        - name: symbol
+          in: query
+          required: true
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: start
+          in: query
+          description: "Start date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: end
+          in: query
+          description: "End date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: window
+          in: query
+          description: "Window size in days"
+          schema:
+            type: integer
+            minimum: 1
+      responses:
+        '200':
+          description: "Daily statistics"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DailyStats'
+        '400':
+          description: "Bad request (missing symbol)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/tracks/path:
+    get:
+      tags:
+        - Tracks
+      summary: Get track price path
+      description: "Retrieve the price path (unfolded) for a specific track."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol (default: first symbol from config)"
+          schema:
+            type: string
+            example: GME
+        - name: trackId
+          in: query
+          description: "Track ID (alternative: track_id)"
+          schema:
+            type: string
+            example: PT-20240513-133000-XXXX
+        - name: limit
+          in: query
+          description: "Maximum number of price points (default: 240)"
+          schema:
+            type: integer
+            minimum: 1
+            default: 240
+      responses:
+        '200':
+          description: "Track price path"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrackPricePath'
+        '400':
+          description: "Bad request (missing trackId)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/tracks/snapshot:
+    get:
+      tags:
+        - Tracks
+      summary: Track snapshot
+      description: "Get snapshot of tracks and macros for a symbol and date range."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Specific date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: start
+          in: query
+          description: "Start date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: end
+          in: query
+          description: "End date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: include
+          in: query
+          description: "Comma-separated list of types to include (default: all)"
+          schema:
+            type: string
+            example: macro,track
+        - name: status
+          in: query
+          description: "Filter by status (active, expired, archived, upcoming)"
+          schema:
+            type: string
+            example: active
+      responses:
+        '200':
+          description: "Track snapshot"
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  symbol:
+                    type: string
+                  date:
+                    type: string
+                    format: date
+                    nullable: true
+                  start:
+                    type: string
+                    format: date
+                    nullable: true
+                  end:
+                    type: string
+                    format: date
+                    nullable: true
+                  tracks:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/PowerTrack'
+                  macros:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/MacroTrack'
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/macro:
+    get:
+      tags:
+        - Macro
+      summary: Get macro tracks
+      description: "Retrieve stitched macro tracks for a symbol with optional date range and filtering."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol (default: first symbol from config)"
+          schema:
+            type: string
+            example: GME
+        - name: start
+          in: query
+          description: "Start date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: end
+          in: query
+          description: "End date (YYYY-MM-DD format)"
+          schema:
+            type: string
+            format: date
+        - name: lookback
+          in: query
+          description: "Lookback window in days"
+          schema:
+            type: integer
+            minimum: 1
+        - name: min_days
+          in: query
+          description: "Minimum days for macro track"
+          schema:
+            type: integer
+            minimum: 1
+        - name: mask_drift
+          in: query
+          description: "Mask drift tolerance"
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: "Macro tracks"
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/MacroTrack'
+        '503':
+          description: "Service unavailable (no filesystem loader)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /tracks/{symbol}/composite:
+    get:
+      tags:
+        - State
+      summary: Get composite snapshot for symbol
+      description: "Retrieve composite state snapshot for a trading symbol."
+      parameters:
+        - name: symbol
+          in: path
+          required: true
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+      responses:
+        '200':
+          description: "Composite snapshot"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/CompositeSnapshot'
+        '400':
+          description: "Bad request (missing symbol)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: "Service unavailable (composite subsystem disabled)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/stream:
+    get:
+      tags:
+        - Stream
+      summary: Server-sent events stream
+      description: "Stream real-time composite snapshots via Server-Sent Events (SSE)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol to stream (default: first symbol from config)"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date filter (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "SSE stream"
+          content:
+            text/event-stream:
+              schema:
+                type: string
+                description: "Server-sent events stream with composite snapshots"
+        '400':
+          description: "Bad request"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '503':
+          description: "Service unavailable (composite subsystem disabled)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/options:
+    get:
+      tags:
+        - Options
+      summary: Get options snapshot
+      description: "Retrieve current options chain snapshot from Polygon API."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol (default: first symbol from config)"
+          schema:
+            type: string
+            example: GME
+      responses:
+        '200':
+          description: "Options snapshot"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OptionsSnapshot'
+        '401':
+          description: "Unauthorized"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/options-hinges:
+    get:
+      tags:
+        - Options
+      summary: Get options hinges
+      description: "Retrieve options hinges data (same as /v1/options)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol (default: first symbol from config)"
+          schema:
+            type: string
+            example: GME
+      responses:
+        '200':
+          description: "Options snapshot"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/OptionsSnapshot'
+
+  /v1/state:
+    get:
+      tags:
+        - State
+      summary: Get state data
+      description: "Retrieve state aggregation data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "State data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable (no data loader)"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/forecast:
+    get:
+      tags:
+        - State
+      summary: Get forecast data
+      description: "Retrieve forecast data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Forecast data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/flip:
+    get:
+      tags:
+        - State
+      summary: Get flip data
+      description: "Retrieve flip data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Flip data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/summary:
+    get:
+      tags:
+        - State
+      summary: Get summary data
+      description: "Retrieve summary data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Summary data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/calibration:
+    get:
+      tags:
+        - State
+      summary: Get calibration data
+      description: "Retrieve calibration data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Calibration data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/keyframes:
+    get:
+      tags:
+        - State
+      summary: Get keyframes data
+      description: "Retrieve keyframes data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Keyframes data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/raw-bars:
+    get:
+      tags:
+        - State
+      summary: Get raw bars data
+      description: "Retrieve raw bars data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Raw bars data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/bursts:
+    get:
+      tags:
+        - State
+      summary: Get bursts data
+      description: "Retrieve bursts data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Bursts data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/entropy:
+    get:
+      tags:
+        - State
+      summary: Get entropy data
+      description: "Retrieve entropy data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "Entropy data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+  /v1/d-score:
+    get:
+      tags:
+        - State
+      summary: Get D-score data
+      description: "Retrieve D-score (decodability) data (requires data loader)."
+      parameters:
+        - name: symbol
+          in: query
+          description: "Trading symbol"
+          schema:
+            type: string
+            example: GME
+        - name: date
+          in: query
+          description: "Date (YYYY-MM-DD format, default: today)"
+          schema:
+            type: string
+            format: date
+      responses:
+        '200':
+          description: "D-score data"
+          content:
+            application/json:
+              schema:
+                type: object
+        '503':
+          description: "Service unavailable"
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'

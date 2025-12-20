@@ -1,0 +1,50 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "003ecf004c956109",
+    "realBest": 2.5780303012910846,
+    "bestTime": "2024-05-13T00:00:00+00:00",
+    "nullMean": 2.612648952242626,
+    "nullMin": 2.525262981354615,
+    "nullMax": 2.7118266733421588,
+    "pValue": 0.5,
+    "baseWindowMinutes": 1
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "004ed511d2f5024d",
+    "realBest": 2.5060473733551003,
+    "bestTime": "2024-05-13T00:00:00+00:00",
+    "nullMean": 2.592627910694648,
+    "nullMin": 2.4997070140818503,
+    "nullMax": 2.747379788657731,
+    "pValue": 0.1,
+    "baseWindowMinutes": 1
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "00956c3c8c906f27",
+    "realBest": 2.5041469511841754,
+    "bestTime": "2024-05-13T00:00:00+00:00",
+    "nullMean": 2.633242331616625,
+    "nullMin": 2.5112539665225024,
+    "nullMax": 2.732365332912128,
+    "pValue": 0.0,
+    "baseWindowMinutes": 1
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "02875c7c5197ac46",
+    "realBest": 2.5143144878375896,
+    "bestTime": "2024-05-13T00:00:00+00:00",
+    "nullMean": 2.61141505981984,
+    "nullMin": 2.5047805854505505,
+    "nullMax": 2.756650339406505,
+    "pValue": 0.1,
+    "baseWindowMinutes": 1
+  }
+]

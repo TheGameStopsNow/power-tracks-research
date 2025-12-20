@@ -1,0 +1,24 @@
+{
+  "symbol": "CHWY",
+  "date": "2024-05-13",
+  "magnet_strikes": {
+    "17.0": {
+      "gex": 258964.80486476317,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.047647058823529334,
+      "is_pinned": false
+    },
+    "16.0": {
+      "gex": 154185.61110969548,
+      "dwell_pct": 0.35,
+      "close_dist_pct": 0.01187500000000008,
+      "is_pinned": false
+    },
+    "15.5": {
+      "gex": 126566.03244113538,
+      "dwell_pct": 0.07391304347826087,
+      "close_dist_pct": 0.04451612903225815,
+      "is_pinned": false
+    }
+  }
+}

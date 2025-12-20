@@ -1,0 +1,50 @@
+{
+  "windows": {
+    "60-70": {
+      "n": 26,
+      "corr_strength_vs_drawdown": 0.47554487610539886,
+      "mean_drawdown": 0.028800118226717776,
+      "bucket_stats": {
+        "strongest_q1": {
+          "n": 7,
+          "mean_drawdown": 0.16920500494288496
+        },
+        "q2": {
+          "n": 6,
+          "mean_drawdown": 0.2066365370461126
+        },
+        "q3": {
+          "n": 6,
+          "mean_drawdown": -0.17031100415945147
+        },
+        "weakest_q4": {
+          "n": 7,
+          "mean_drawdown": -0.09336930828935704
+        }
+      }
+    },
+    "70-80": {
+      "n": 26,
+      "corr_strength_vs_drawdown": -0.10239987381725874,
+      "mean_drawdown": -0.025658281776018817,
+      "bucket_stats": {
+        "strongest_q1": {
+          "n": 7,
+          "mean_drawdown": -0.12795674638624668
+        },
+        "q2": {
+          "n": 6,
+          "mean_drawdown": 0.03323559729140183
+        },
+        "q3": {
+          "n": 6,
+          "mean_drawdown": 0.08929493619163197
+        },
+        "weakest_q4": {
+          "n": 7,
+          "mean_drawdown": -0.07237161462442358
+        }
+      }
+    }
+  }
+}

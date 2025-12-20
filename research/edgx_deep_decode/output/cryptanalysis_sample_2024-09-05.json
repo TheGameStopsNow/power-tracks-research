@@ -1,0 +1,15 @@
+[
+  {
+    "name": "price_lsb_1c",
+    "n_bits": 50000,
+    "ones_ratio": 0.48612,
+    "entropy": 0.9994440454874631,
+    "chi2_statistic": 38.53088,
+    "chi2_pvalue": 5.38941706822209e-10,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 4142,
+      "expected_runs": 24981.73456,
+      "z_score": -186.5418717893139,
+      "p_value": 0.0,
+      "is_random": 

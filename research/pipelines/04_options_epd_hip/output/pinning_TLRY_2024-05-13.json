@@ -1,0 +1,24 @@
+{
+  "symbol": "TLRY",
+  "date": "2024-05-13",
+  "magnet_strikes": {
+    "2.0": {
+      "gex": 3751793.409603331,
+      "dwell_pct": 0.5351437699680511,
+      "close_dist_pct": 0.0,
+      "is_pinned": true
+    },
+    "2.5": {
+      "gex": 1329060.3737763008,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.2,
+      "is_pinned": false
+    },
+    "3.0": {
+      "gex": 154159.92243389421,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.3333333333333333,
+      "is_pinned": false
+    }
+  }
+}

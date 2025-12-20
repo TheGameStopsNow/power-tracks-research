@@ -1,0 +1,92 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Options/EPD trades"
+    },
+    {
+      "provider": "polygon",
+      "api": "bars",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/minute_bars",
+      "notes": "Options/EPD minute bars"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "GME Options Flow"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "AMC",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "AMC Options Flow"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "BB",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "BB Options Flow"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "TLRY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "TLRY Options Flow"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "CHWY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "CHWY Options Flow"
+    },
+    {
+      "provider": "polygon",
+      "api": "options-flow",
+      "symbol": "TSLA",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/flow",
+      "notes": "TSLA Options Flow"
+    }
+  ]
+}

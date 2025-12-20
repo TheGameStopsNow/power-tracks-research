@@ -1,0 +1,3 @@
+--- CLASSIFICATION REPORT FOR research/phase57_detection_stack/GME_2024-05-13_patch2_scored.json ---
+Window 55: LEVEL 1 | Pillars: ['A']
+  - Atlas Flag: Strong 5.0Hz (Pow 13.0 > 6.1)

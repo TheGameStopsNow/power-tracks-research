@@ -1,0 +1,30 @@
+{
+  "folds": [
+    {
+      "fold": 1,
+      "test_count": 529,
+      "test_auc": 0.8363331810567991
+    },
+    {
+      "fold": 2,
+      "test_count": 529,
+      "test_auc": 0.8690117252931324
+    },
+    {
+      "fold": 3,
+      "test_count": 529,
+      "test_auc": 0.7844677935130198
+    },
+    {
+      "fold": 4,
+      "test_count": 529,
+      "test_auc": 0.7659118541033435
+    },
+    {
+      "fold": 5,
+      "test_count": 528,
+      "test_auc": 0.8074872844465488
+    }
+  ],
+  "overall_auc": 0.8117969450618006
+}

@@ -1,0 +1,12 @@
+{
+  "sources": [
+    {
+      "provider": "internal",
+      "api": "derived",
+      "symbol": "GME",
+      "date": "2024",
+      "dest": "data/derived",
+      "notes": "Requires calculated Greek metrics from Phase 77/80/81"
+    }
+  ]
+}

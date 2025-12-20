@@ -1,0 +1,352 @@
+{
+  "meta": {
+    "ticker": "GME",
+    "date": "2023-03-10",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 4.06496320815374,
+      "venue_count": 16,
+      "top_venue_concentration": 38.33257923939704,
+      "flags": [
+        "High Zero-DT: 4.06%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2023-03-10 14:30:15.957829120+00:00",
+      "count": 1171,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3717578380837747,
+        "p_val": 1.2646914956829331e-145
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "12",
+          "10"
+        ],
+        "stats": {
+          "mean_lag": -0.0004525857587014475,
+          "std_lag": 0.0011729431495533143,
+          "bic_1": -1296.4778156511313,
+          "bic_2": -1362.934561636772,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.00815248279772439,
+              "weight": 0.01612903554605838
+            },
+            {
+              "mean": -0.00032635791223550506,
+              "weight": 0.9838709644539416
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2023-03-10 14:35:15.919409152+00:00",
+      "count": 1002,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26748584255980473,
+        "p_val": 9.97391582377302e-64
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "8",
+          "10"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2023-03-10 14:40:16.323175680+00:00",
+      "count": 1654,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3578749214079839,
+        "p_val": 5.088426477771088e-190
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "8",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.00089373319379745,
+          "std_lag": 0.005190174905419473,
+          "bic_1": -1894.466856741033,
+          "bic_2": -2682.093603764748,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -7.515739491638544e-05,
+              "weight": 0.9545118633892681
+            },
+            {
+              "mean": 0.021224694850190663,
+              "weight": 0.04548813661073198
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2023-03-10 14:45:16.900097536+00:00",
+      "count": 1049,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.21937851146588416,
+        "p_val": 9.038326412678587e-45
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "10",
+          "8"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2023-03-10 14:50:16.099636992+00:00",
+      "count": 877,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26051337506872213,
+        "p_val": 6.16806913024587e-53
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "10",
+          "12"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2023-03-10 14:55:16.396174848+00:00",
+      "count": 601,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2520947424734841,
+        "p_val": 4.312908724157091e-34
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "12",
+          "10"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2023-03-10 15:00:16.296071936+00:00",
+      "count": 746,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3450849527759145,
+        "p_val": 9.605018100549008e-80
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "12",
+          "10"
+        ],
+        "stats": {
+          "mean_lag": -0.001733467560405879,
+          "std_lag": 0.006229033765730708,
+          "bic_1": -934.4146070073169,
+          "bic_2": -1189.382817586266,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0006715030670166015,
+              "weight": 0.9689922480620154
+            },
+            {
+              "mean": -0.03491985797882079,
+              "weight": 0.03100775193798451
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2023-03-10 15:05:16.232820736+00:00",
+      "count": 592,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.28971086104770194,
+        "p_val": 2.0164743665113615e-44
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "12",
+          "8"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2023-03-10 18:30:15.734185984+00:00",
+      "count": 502,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3325437379586916,
+        "p_val": 6.970719873894764e-50
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": null,
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2023-03-10 18:40:17.515081728+00:00",
+      "count": 665,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4101090483082901,
+        "p_val": 1.639518515958591e-101
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 8.356994664073603,
+            "bins": [
+              1,
+              2
+            ]
+          },
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.4,
+            "max_power": 7.849611995971451,
+            "bins": [
+              1,
+              2
+            ]
+          },
+          {
+            "freq_hz": 2.5,
+            "period_sec": 0.4,
+            "persistence": 0.4,
+            "max_power": 7.415126584656659,
+            "bins": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "8",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -7.647325184719621e-05,
+          "std_lag": 0.0018509695438527322,
+          "bic_1": -1166.0505229752484,
+          "bic_2": -1324.1762902108026,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": 7.961193720499675e-05,
+              "weight": 0.9917355371900827
+            },
+            {
+              "mean": -0.01880669593811031,
+              "weight": 0.008264462809917373
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

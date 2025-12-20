@@ -1,0 +1,36 @@
+PHASE 30D: GME INTERCONNECTEDNESS AUDIT
+=======================================
+
+1. DATASET SUMMARY
+   GME Days Analyzed: 233
+   TSLA Signal Events: 116191
+   MSFT Signal Events: 27728
+   Common Dates: 236
+
+2. CORRELATION MATRIX (GME Opcode Density vs Signal Count)
+ Lag_Days  GME_vs_TSLA_Corr  GME_vs_MSFT_Corr
+       -5         -0.295444         -0.110396
+       -4         -0.244020         -0.047802
+       -3         -0.269672         -0.059376
+       -2         -0.304278         -0.073507
+       -1         -0.283934         -0.064060
+        0         -0.343678         -0.050702
+        1         -0.230526         -0.024172
+        2         -0.249259         -0.039653
+        3         -0.179769         -0.134678
+        4         -0.262049         -0.039134
+        5         -0.182139         -0.078305
+
+3. KEY FINDINGS
+   Max TSLA Correlation: -0.3437 at Lag 0
+   Max MSFT Correlation: -0.1347 at Lag 3
+   -> SYNCHRONOUS: GME and TSLA move together.
+
+4. ANOMALY DETECTION (Zombie Mode)
+   Found 4 days where GME was shouting (>8% density) but TSLA was silent.
+   Top 5 Zombie Days:
+date
+2025-09-24    11.311417
+2025-09-23    10.496851
+2025-10-10     9.364732
+2025-08-08     9.087394

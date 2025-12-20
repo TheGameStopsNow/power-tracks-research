@@ -1,0 +1,19 @@
+{
+  "candidate_id": "gme_20240513t1331081040000000_hybrid_nopass",
+  "detection_time": "2024-05-13T13:31:08.104000+00:00",
+  "detection_mode": "hybrid",
+  "venues": [],
+  "frames": 22,
+  "decode_errors": [
+    "Decoding incomplete - no valid frames found"
+  ],
+  "decoded_fields_csv": "reports/diagnostics/pipeline_outputs/gme_20240513t1331081040000000_hybrid_nopass/decoded_fields.csv",
+  "unfolded_paths_csv": "reports/diagnostics/pipeline_outputs/gme_20240513t1331081040000000_hybrid_nopass/unfolded_paths.csv",
+  "extraction_stats": {
+    "frameCount": 22,
+    "payloadBytes": 1204,
+    "trailerBytes": 1,
+    "passCount": 1,
+    "failCount": 21
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:00:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/GME_2024-05-14",
+      "notes": "Phase 27 Options Control data for GME"
+    }
+  ]
+}

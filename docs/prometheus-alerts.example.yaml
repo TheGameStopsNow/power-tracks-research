@@ -1,0 +1,34 @@
+groups:
+  - name: powertracks-engine
+    rules:
+      - alert: PowerTracksNoDetections30m
+        expr: increase(powertracks_track_detections_total[30m]) < 1
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "No tracks detected in the last 30 minutes"
+          description: >
+            Track detections have stalled. Investigate Polygon feed connectivity,
+            detector health, or upstream data ingestion.
+
+      - alert: PowerTracksFeedReconnectFlood
+        expr: increase(powertracks_feed_reconnects_total[5m]) > 3
+        for: 1m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Polygon feed reconnect storm"
+          description: >
+            The websocket feed has reconnected more than three times in the last five minutes.
+            Check Polygon status and engine network connectivity.
+
+      - alert: PowerTracksSinkWriteErrors
+        expr: increase(powertracks_sink_errors_total[5m]) > 0
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Track sink writes are failing"
+          description: >
+            One or more sink writes failed in the last five minutes. Inspect daemon logs for the failing sink.

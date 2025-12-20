@@ -1,0 +1,11 @@
+services:
+  - type: worker
+    name: steamroller-tracker
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python steamroller_tracker.py
+    envVars:
+      - key: POLYGON_API_KEY
+        sync: false
+    healthCheckPath: /health
+

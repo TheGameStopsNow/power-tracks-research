@@ -1,0 +1,102 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "003a8382b0db1dd1",
+    "detectionTime": "2024-05-14T19:07:45.472Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 28.857196931517578,
+    "bestLagMinutes": 41520,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "003c4b4081d279fe",
+    "detectionTime": "2024-05-14T19:03:11.576Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 16.431536611936654,
+    "bestLagMinutes": 62640,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "00f5455ff6d541a2",
+    "detectionTime": "2024-05-14T14:27:16.029Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 17.63449466253916,
+    "bestLagMinutes": 8880,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "0187b4956d3feda5",
+    "detectionTime": "2024-05-14T17:37:14.380Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 16.46752546863471,
+    "bestLagMinutes": 39600,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "01e8badf2c256e9b",
+    "detectionTime": "2024-05-14T17:18:34.588Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 20.534762150407424,
+    "bestLagMinutes": 68640,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "0213791a1bbebe65",
+    "detectionTime": "2024-05-14T17:18:34.588Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 20.534762150407424,
+    "bestLagMinutes": 68640,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "034d76e9e64439c9",
+    "detectionTime": "2024-05-14T16:00:44.879Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 20.284574444933643,
+    "bestLagMinutes": 7920,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "03999a614cca8050",
+    "detectionTime": "2024-05-14T17:44:26.956Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 10.755901715032408,
+    "bestLagMinutes": 28800,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "03ba01558b66417e",
+    "detectionTime": "2024-05-14T18:23:35.507Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 30.399399637740682,
+    "bestLagMinutes": 41040,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "03e6cb74efef882a",
+    "detectionTime": "2024-05-14T19:00:40.203Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 16.900898653136196,
+    "bestLagMinutes": 78960,
+    "bestScale": 64
+  }
+]

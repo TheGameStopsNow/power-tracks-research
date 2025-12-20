@@ -1,0 +1,616 @@
+{
+  "meta": {
+    "ticker": "BB",
+    "date": "2024-05-14",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 9.682266526757607,
+      "venue_count": 16,
+      "top_venue_concentration": 40.43609653725079,
+      "flags": [
+        "High Zero-DT: 9.68%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-14 13:30:00.872801+00:00",
+      "count": 19229,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5804114414722589,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 10.241474276400547,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_var_abs": 0.3162660009849402,
+            "phase_mean_abs_deg": 19.327293855724722,
+            "phase_mean_abs_rad": 0.3373249132828663,
+            "phase_locking_score": 0.6837339990150598,
+            "phase_drift_seg": 0.3162660009849402
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -1.8057745311491543e-05,
+          "std_lag": 0.006258788543141983,
+          "bic_1": -15202.774419582855,
+          "bic_2": -19850.440324608946,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.001366565849958069,
+              "weight": 0.14430632430867404
+            },
+            {
+              "mean": 0.00020935803840899198,
+              "weight": 0.8556936756913259
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 1.5759238883670608,
+          "min_weight": 0.14430632430867404,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.001366565849958069,
+              "weight": 0.14430632430867404
+            },
+            {
+              "mean": 0.00020935803840899198,
+              "weight": 0.8556936756913259
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-14 13:35:00.897611+00:00",
+      "count": 12690,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4115913090387712,
+        "p_val": 7.183875846415996e-307
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.0005645971188600036,
+          "std_lag": 0.007688532964749019,
+          "bic_1": -8987.585912997018,
+          "bic_2": -9878.42053292019,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0004025842639774202,
+              "weight": 0.9746216600165983
+            },
+            {
+              "mean": 0.03770792191845999,
+              "weight": 0.02537833998340177
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 38.110506182437405,
+          "min_weight": 0.02537833998340177,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0004025842639774202,
+              "weight": 0.9746216600165983
+            },
+            {
+              "mean": 0.03770792191845999,
+              "weight": 0.02537833998340177
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-14 13:40:01.010754+00:00",
+      "count": 11433,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.43288534536680057,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.00019023104856156147,
+          "std_lag": 0.006228365972890684,
+          "bic_1": -9946.841786598075,
+          "bic_2": -13621.383210923868,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -5.8625853467572706e-05,
+              "weight": 0.1220314762918909
+            },
+            {
+              "mean": 0.00022482041517322613,
+              "weight": 0.8779685237081091
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 0.2834462686407988,
+          "min_weight": 0.1220314762918909,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -5.8625853467572706e-05,
+              "weight": 0.1220314762918909
+            },
+            {
+              "mean": 0.00022482041517322613,
+              "weight": 0.8779685237081091
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-14 13:45:00.962907+00:00",
+      "count": 8014,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.36028961732773934,
+        "p_val": 6.824926125152462e-233
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.0006796142232719655,
+          "std_lag": 0.006157761711077934,
+          "bic_1": -5500.502236244964,
+          "bic_2": -5890.8219686473385,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0002758389310090046,
+              "weight": 0.9592388726025812
+            },
+            {
+              "mean": 0.023164463516108114,
+              "weight": 0.04076112739741889
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 23.440302447117116,
+          "min_weight": 0.04076112739741889,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0002758389310090046,
+              "weight": 0.9592388726025812
+            },
+            {
+              "mean": 0.023164463516108114,
+              "weight": 0.04076112739741889
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-14 13:50:00.911927+00:00",
+      "count": 6262,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38874890215408653,
+        "p_val": 1.6056466113289407e-272
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.00014988420640721042,
+          "std_lag": 0.005735107508292066,
+          "bic_1": -4058.6852855195225,
+          "bic_2": -4351.876437547452,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0006019575534374116,
+              "weight": 0.9705879735550664
+            },
+            {
+              "mean": 0.02496043479828474,
+              "weight": 0.029412026444933674
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 25.562392351722153,
+          "min_weight": 0.029412026444933674,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0006019575534374116,
+              "weight": 0.9705879735550664
+            },
+            {
+              "mean": 0.02496043479828474,
+              "weight": 0.029412026444933674
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-14 13:55:01.408773+00:00",
+      "count": 7304,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3394387061967572,
+        "p_val": 5.043838354867697e-206
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "7"
+        ],
+        "stats": {
+          "mean_lag": 0.00011158885171033829,
+          "std_lag": 0.007563050191792385,
+          "bic_1": -3861.7403759457607,
+          "bic_2": -4012.3784754829258,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0006260234673897425,
+              "weight": 0.9769414737617358
+            },
+            {
+              "mean": 0.03136267830297997,
+              "weight": 0.023058526238264286
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 31.988701770369715,
+          "min_weight": 0.023058526238264286,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0006260234673897425,
+              "weight": 0.9769414737617358
+            },
+            {
+              "mean": 0.03136267830297997,
+              "weight": 0.023058526238264286
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-14 14:00:01.121340+00:00",
+      "count": 6336,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.41828300397873264,
+        "p_val": 2.2588395e-317
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "7"
+        ],
+        "stats": {
+          "mean_lag": 0.0009109612475050257,
+          "std_lag": 0.010536208380683108,
+          "bic_1": -2344.892998491626,
+          "bic_2": -2488.259251315409,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.00038027819935542166,
+              "weight": 0.9707646173261946
+            },
+            {
+              "mean": 0.04378673207266623,
+              "weight": 0.029235382673805387
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 44.16701027202165,
+          "min_weight": 0.029235382673805387,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.00038027819935542166,
+              "weight": 0.9707646173261946
+            },
+            {
+              "mean": 0.04378673207266623,
+              "weight": 0.029235382673805387
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-14 14:05:00.971908+00:00",
+      "count": 5286,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.42820190507448685,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.00033487392072918036,
+          "std_lag": 0.0036608078096220594,
+          "bic_1": -3976.424123352998,
+          "bic_2": -4848.7645231826355,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": 0.0001265074637027246,
+              "weight": 0.9156435984941841
+            },
+            {
+              "mean": 0.0025965803130298753,
+              "weight": 0.08435640150581591
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 2.4700728493271504,
+          "min_weight": 0.08435640150581591,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": 0.0001265074637027246,
+              "weight": 0.9156435984941841
+            },
+            {
+              "mean": 0.0025965803130298753,
+              "weight": 0.08435640150581591
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-14 14:10:01.123111+00:00",
+      "count": 3425,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4037357911679495,
+        "p_val": 8.498752422951581e-295
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0002695125211436429,
+          "std_lag": 0.003964731495736141,
+          "bic_1": -2627.3640305070194,
+          "bic_2": -3080.7124016738717,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.04479670524597163,
+              "weight": 0.006230529595015583
+            },
+            {
+              "mean": 9.654831363115939e-06,
+              "weight": 0.9937694704049844
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 44.806360077334745,
+          "min_weight": 0.006230529595015583,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.04479670524597163,
+              "weight": 0.006230529595015583
+            },
+            {
+              "mean": 9.654831363115939e-06,
+              "weight": 0.9937694704049844
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-14 14:15:01.009310+00:00",
+      "count": 3895,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3973320639895756,
+        "p_val": 3.7024247211919156e-285
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "7",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0006815288703479067,
+          "std_lag": 0.006630180795430456,
+          "bic_1": -1363.5720397031714,
+          "bic_2": -1477.9315949818679,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0015122007670784622,
+              "weight": 0.9737689378469571
+            },
+            {
+              "mean": 0.030155289168482258,
+              "weight": 0.026231062153042956
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": false,
+          "valid_switch": false,
+          "sep_ms": 0.0,
+          "min_weight": 0.0,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": []
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

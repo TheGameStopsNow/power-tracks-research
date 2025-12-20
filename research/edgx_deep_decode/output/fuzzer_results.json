@@ -1,0 +1,7 @@
+{
+  "signal": "price_lsb_1c",
+  "max_score": 0.25655307994757537,
+  "frame_length": 436,
+  "offset": 72,
+  "bit_skip": 8
+}

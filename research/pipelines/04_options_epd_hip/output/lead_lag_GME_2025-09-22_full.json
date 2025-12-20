@@ -1,0 +1,164 @@
+{
+  "symbol": "GME",
+  "hedgeFlowPath": "reports/options/hedge_flow_GME_2025-09-22_full.parquet",
+  "barsPath": "data/minute_bars/GME_2025-09-22_minute.csv",
+  "lagSecondsTested": [
+    -3600,
+    -1800,
+    -900,
+    -300,
+    -120,
+    -60,
+    -30,
+    -10,
+    -5,
+    -1,
+    0,
+    1,
+    5,
+    10,
+    30,
+    60,
+    120,
+    300,
+    600,
+    900,
+    1800,
+    3600
+  ],
+  "results": [
+    {
+      "lagSeconds": -3600,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 22
+    },
+    {
+      "lagSeconds": -1800,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -900,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -300,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -120,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -60,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -30,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -10,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -5,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": -1,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 0,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 1,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 5,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 10,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 30,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 60,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 120,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 300,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 600,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 900,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 1800,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    },
+    {
+      "lagSeconds": 3600,
+      "hyCorr": null,
+      "hyCov": 0.0,
+      "nOverlaps": 0
+    }
+  ],
+  "bestByAbsCorr": null
+}

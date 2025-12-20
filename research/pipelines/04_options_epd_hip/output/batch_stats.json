@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": "KOSS",
+    "date": "2024-05-13",
+    "close": 4.81
+  },
+  {
+    "symbol": "CHWY",
+    "date": "2024-05-13",
+    "close": 16.19,
+    "magnet_dist": 0.19000000000000128,
+    "magnet_dist_pct": 0.011735639283508417,
+    "nearest_magnet": 16.0,
+    "hip_asymmetry": -0.012062345333262598,
+    "max_corr": -0.08467909446290932,
+    "best_lag": 300
+  }
+]

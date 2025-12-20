@@ -1,0 +1,385 @@
+/**
+ * OpenAPI Specification for Power Tracks Engine API
+ * 
+ * Complete API documentation in OpenAPI 3.0 format.
+ * Export as TypeScript module for easy import.
+ */
+
+export const openApiSpec = {
+  openapi: '3.0.0',
+  info: {
+    title: 'Power Tracks Engine API',
+    version: '1.0.0',
+    description: 'REST API for Power Tracks detection, decoding, and analysis',
+    contact: {
+      name: 'Power Tracks Team'
+    }
+  },
+  servers: [
+    {
+      url: 'http://localhost:3001',
+      description: 'Local development server'
+    },
+    {
+      url: 'https://api.powertracks.io',
+      description: 'Production server'
+    }
+  ],
+  tags: [
+    { name: 'Health', description: 'Health check endpoints' },
+    { name: 'Status', description: 'Engine status and metrics' },
+    { name: 'Tracks', description: 'Power track detection and retrieval' },
+    { name: 'Data', description: 'Market data endpoints' },
+    { name: 'Macro', description: 'Macro track analysis' },
+    { name: 'Stream', description: 'Real-time event streaming' }
+  ],
+  paths: {
+    '/health': {
+      get: {
+        tags: ['Health'],
+        summary: 'Health check',
+        description: 'Returns health status of the engine',
+        operationId: 'getHealth',
+        responses: {
+          '200': {
+            description: 'Engine is healthy',
+            content: {
+              'application/json': {
+                schema: {
+                  type: 'object',
+                  properties: {
+                    status: {
+                      type: 'string',
+                      example: 'healthy'
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    '/status': {
+      get: {
+        tags: ['Status'],
+        summary: 'Get engine status',
+        description: 'Returns detailed status including detector stats, sinks, and feed status',
+        operationId: 'getStatus',
+        responses: {
+          '200': {
+            description: 'Engine status',
+            content: {
+              'application/json': {
+                schema: {
+                  type: 'object',
+                  properties: {
+                    status: { type: 'string' },
+                    uptime: { type: 'number' },
+                    detector: { type: 'object' },
+                    sinks: { type: 'array' },
+                    feed: { type: 'object' },
+                    server: { type: 'object' },
+                    data: { type: 'object' }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    '/metrics': {
+      get: {
+        tags: ['Status'],
+        summary: 'Get Prometheus metrics',
+        description: 'Returns Prometheus-formatted metrics',
+        operationId: 'getMetrics',
+        responses: {
+          '200': {
+            description: 'Prometheus metrics',
+            content: {
+              'text/plain': {
+                schema: {
+                  type: 'string'
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    '/v1/tracks': {
+      get: {
+        tags: ['Tracks'],
+        summary: 'List power tracks',
+        description: 'Retrieve list of detected power tracks with optional filtering',
+        operationId: 'listTracks',
+        parameters: [
+          {
+            name: 'symbol',
+            in: 'query',
+            description: 'Stock symbol (e.g., GME)',
+            required: false,
+            schema: { type: 'string' }
+          },
+          {
+            name: 'date',
+            in: 'query',
+            description: 'Date in YYYY-MM-DD format',
+            required: false,
+            schema: { type: 'string', format: 'date' }
+          },
+          {
+            name: 'limit',
+            in: 'query',
+            description: 'Maximum number of tracks to return',
+            required: false,
+            schema: { type: 'integer', default: 100 }
+          },
+          {
+            name: 'offset',
+            in: 'query',
+            description: 'Offset for pagination',
+            required: false,
+            schema: { type: 'integer', default: 0 }
+          }
+        ],
+        responses: {
+          '200': {
+            description: 'List of power tracks',
+            content: {
+              'application/json': {
+                schema: {
+                  type: 'object',
+                  properties: {
+                    tracks: {
+                      type: 'array',
+                      items: { $ref: '#/components/schemas/PowerTrack' }
+                    },
+                    total: { type: 'integer' },
+                    limit: { type: 'integer' },
+                    offset: { type: 'integer' }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    '/v1/tracks/{trackId}': {
+      get: {
+        tags: ['Tracks'],
+        summary: 'Get track details',
+        description: 'Retrieve detailed information about a specific power track',
+        operationId: 'getTrack',
+        parameters: [
+          {
+            name: 'trackId',
+            in: 'path',
+            required: true,
+            description: 'Power track ID',
+            schema: { type: 'string' }
+          }
+        ],
+        responses: {
+          '200': {
+            description: 'Track details',
+            content: {
+              'application/json': {
+                schema: { $ref: '#/components/schemas/TrackDetail' }
+              }
+            }
+          },
+          '404': {
+            description: 'Track not found'
+          }
+        }
+      }
+    },
+    '/v1/macro': {
+      get: {
+        tags: ['Macro'],
+        summary: 'Get macro tracks',
+        description: 'Retrieve macro tracks (stitched multi-day patterns)',
+        operationId: 'getMacroTracks',
+        parameters: [
+          {
+            name: 'symbol',
+            in: 'query',
+            required: true,
+            description: 'Stock symbol',
+            schema: { type: 'string' }
+          },
+          {
+            name: 'startDate',
+            in: 'query',
+            description: 'Start date (YYYY-MM-DD)',
+            schema: { type: 'string', format: 'date' }
+          },
+          {
+            name: 'endDate',
+            in: 'query',
+            description: 'End date (YYYY-MM-DD)',
+            schema: { type: 'string', format: 'date' }
+          },
+          {
+            name: 'lookbackDays',
+            in: 'query',
+            description: 'Number of days to look back',
+            schema: { type: 'integer', default: 30 }
+          }
+        ],
+        responses: {
+          '200': {
+            description: 'Macro tracks',
+            content: {
+              'application/json': {
+                schema: { $ref: '#/components/schemas/MacroTracksResponse' }
+              }
+            }
+          }
+        }
+      }
+    },
+    '/v1/stream': {
+      get: {
+        tags: ['Stream'],
+        summary: 'Real-time event stream',
+        description: 'Server-Sent Events (SSE) stream for real-time power track detections',
+        operationId: 'streamEvents',
+        parameters: [
+          {
+            name: 'symbol',
+            in: 'query',
+            description: 'Filter by symbol',
+            schema: { type: 'string' }
+          },
+          {
+            name: 'date',
+            in: 'query',
+            description: 'Filter by date',
+            schema: { type: 'string', format: 'date' }
+          }
+        ],
+        responses: {
+          '200': {
+            description: 'Event stream',
+            content: {
+              'text/event-stream': {
+                schema: {
+                  type: 'string',
+                  description: 'SSE formatted events'
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  components: {
+    schemas: {
+      PowerTrack: {
+        type: 'object',
+        properties: {
+          trackId: { type: 'string' },
+          symbol: { type: 'string' },
+          detectionTime: { type: 'number' },
+          date: { type: 'string', format: 'date' },
+          spectralPower: { type: 'number' },
+          rocValue: { type: 'number' },
+          cluster: { type: 'string', enum: ['impactor', 'binder', 'echo', 'macro'] },
+          regime: { type: 'string', enum: ['scripted', 'organic', 'transitional'] },
+          metrics: { type: 'object' }
+        }
+      },
+      TrackDetail: {
+        type: 'object',
+        properties: {
+          trackId: { type: 'string' },
+          symbol: { type: 'string' },
+          detectionTime: { type: 'number' },
+          date: { type: 'string' },
+          pricePath: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                ts: { type: 'number' },
+                price: { type: 'number' }
+              }
+            }
+          },
+          projections: {
+            type: 'array',
+            items: { $ref: '#/components/schemas/Projection' }
+          }
+        }
+      },
+      Projection: {
+        type: 'object',
+        properties: {
+          lag: { type: 'string' },
+          start: { type: 'string' },
+          end: { type: 'string' },
+          line: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                ts: { type: 'number' },
+                price: { type: 'number' }
+              }
+            }
+          }
+        }
+      },
+      MacroTracksResponse: {
+        type: 'object',
+        properties: {
+          symbol: { type: 'string' },
+          status: { type: 'string', enum: ['ready', 'empty', 'unavailable'] },
+          tracks: {
+            type: 'array',
+            items: { $ref: '#/components/schemas/MacroTrack' }
+          },
+          available_dates: {
+            type: 'array',
+            items: { type: 'string', format: 'date' }
+          },
+          stats: {
+            type: 'object',
+            properties: {
+              totalTracks: { type: 'number' },
+              totalFrames: { type: 'number' },
+              maxDays: { type: 'number' }
+            }
+          }
+        }
+      },
+      MacroTrack: {
+        type: 'object',
+        properties: {
+          trackId: { type: 'string' },
+          symbol: { type: 'string' },
+          startDate: { type: 'string', format: 'date' },
+          endDate: { type: 'string', format: 'date' },
+          days: { type: 'number' },
+          pricePath: {
+            type: 'array',
+            items: {
+              type: 'object',
+              properties: {
+                ts: { type: 'number' },
+                price: { type: 'number' }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+};
+

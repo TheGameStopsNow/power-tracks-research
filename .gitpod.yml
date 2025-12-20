@@ -1,0 +1,8 @@
+image: gitpod/workspace-full:latest
+tasks:
+  - name: setup
+    init: |
+      cp .env.example .env
+      ./scripts/one_click.sh
+    command: |
+      make test

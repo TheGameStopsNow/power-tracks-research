@@ -1,0 +1,19 @@
+{
+  "date": "2024-05-14",
+  "windows": {
+    "60-70": {
+      "real_z_rmse": 1.3204597848175248,
+      "shuffled_mean": 1.4163273092568862,
+      "shuffled_p10": 1.404496326176664,
+      "shuffled_p90": 1.4294351653880897,
+      "pvalue_real_vs_shuffled": 0.0
+    },
+    "70-80": {
+      "real_z_rmse": 1.440831518229368,
+      "shuffled_mean": 1.4171749046855695,
+      "shuffled_p10": 1.4031842279959206,
+      "shuffled_p90": 1.4329022116408012,
+      "pvalue_real_vs_shuffled": 1.0
+    }
+  }
+}

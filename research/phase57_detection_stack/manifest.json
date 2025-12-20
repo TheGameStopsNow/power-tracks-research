@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-14",
+      "start": "2024-05-14T13:30:00Z",
+      "end": "2024-05-14T20:00:00Z",
+      "venue": "all",
+      "dest": "data/samples/sample_2024-05-14",
+      "notes": "Detection Stack Benchmark"
+    }
+  ]
+}

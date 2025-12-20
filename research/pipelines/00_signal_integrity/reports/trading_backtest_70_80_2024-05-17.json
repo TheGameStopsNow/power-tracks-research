@@ -1,0 +1,313 @@
+{
+  "symbol": "GME",
+  "window": "70-80",
+  "train_end": "2024-05-17",
+  "mapping": {
+    "segment_index": 2,
+    "component": "low",
+    "counts": 4
+  },
+  "train_summary": {
+    "n_trades": 16,
+    "hit_rate": 0.8125,
+    "mean_return": -0.07606543197287383,
+    "mean_abs_return": 0.0984362648504622
+  },
+  "test_summary": {
+    "n_trades": 10,
+    "hit_rate": 0.6,
+    "mean_return": -0.021423703989650832,
+    "mean_abs_return": 0.06375862532074958
+  },
+  "thresholds": [
+    0.09305336241047674,
+    1.4101884152828432,
+    2.64579389051777,
+    3.0804399221974954,
+    3.3309176548615094
+  ],
+  "train_thresholds": [
+    {
+      "threshold": 0.09305336241047674,
+      "n_trades": 16,
+      "hit_rate": 0.8125,
+      "mean_return": -0.07606543197287383,
+      "mean_abs_return": 0.0984362648504622
+    },
+    {
+      "threshold": 1.4101884152828432,
+      "n_trades": 12,
+      "hit_rate": 0.8333333333333334,
+      "mean_return": -0.06787853548388624,
+      "mean_abs_return": 0.09770631265400408
+    },
+    {
+      "threshold": 2.64579389051777,
+      "n_trades": 8,
+      "hit_rate": 0.875,
+      "mean_return": -0.0739475789101233,
+      "mean_abs_return": 0.0999987618466924
+    },
+    {
+      "threshold": 3.0804399221974954,
+      "n_trades": 4,
+      "hit_rate": 1.0,
+      "mean_return": -0.06783527533362455,
+      "mean_abs_return": 0.08998074465503858
+    },
+    {
+      "threshold": 3.3309176548615094,
+      "n_trades": 2,
+      "hit_rate": 1.0,
+      "mean_return": -0.07814895696844909,
+      "mean_abs_return": 0.07814895696844909
+    }
+  ],
+  "test_thresholds": [
+    {
+      "threshold": 0.09305336241047674,
+      "n_trades": 10,
+      "hit_rate": 0.6,
+      "mean_return": -0.021423703989650832,
+      "mean_abs_return": 0.06375862532074958
+    },
+    {
+      "threshold": 1.4101884152828432,
+      "n_trades": 8,
+      "hit_rate": 0.625,
+      "mean_return": -0.01826447016883083,
+      "mean_abs_return": 0.07118312183270427
+    },
+    {
+      "threshold": 2.64579389051777,
+      "n_trades": 3,
+      "hit_rate": 0.6666666666666666,
+      "mean_return": -0.02548667285997012,
+      "mean_abs_return": 0.06563841449153233
+    },
+    {
+      "threshold": 3.0804399221974954,
+      "n_trades": 1,
+      "hit_rate": 1.0,
+      "mean_return": -0.13668763102725368,
+      "mean_abs_return": 0.13668763102725368
+    },
+    {
+      "threshold": 3.3309176548615094,
+      "n_trades": 0,
+      "hit_rate": null,
+      "mean_return": null,
+      "mean_abs_return": null
+    }
+  ],
+  "per_trade": [
+    {
+      "date": "2023-03-02",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": 0.05856937109937599,
+      "hit": true,
+      "score": 2.6164309913593846
+    },
+    {
+      "date": "2023-03-10",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": 0.01619256017505455,
+      "hit": true,
+      "score": 2.03055699274823
+    },
+    {
+      "date": "2023-03-16",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": 0.059913793103448354,
+      "hit": true,
+      "score": 2.915160781313827
+    },
+    {
+      "date": "2023-03-20",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.08473118279569891,
+      "hit": true,
+      "score": -3.4535146097014735
+    },
+    {
+      "date": "2023-03-27",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": 0.04429093864282807,
+      "hit": true,
+      "score": 3.2083207000215452
+    },
+    {
+      "date": "2023-03-29",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.02478017585931258,
+      "hit": true,
+      "score": -2.675156789676156
+    },
+    {
+      "date": "2024-05-06",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.07156673114119927,
+      "hit": true,
+      "score": -3.7674283886470183
+    },
+    {
+      "date": "2024-05-07",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": -0.10913140311804015,
+      "hit": false,
+      "score": 1.0667643670794187
+    },
+    {
+      "date": "2024-05-08",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": -0.16787314719062396,
+      "hit": false,
+      "score": 3.068597232657341
+    },
+    {
+      "date": "2024-05-09",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.132590729428674,
+      "hit": true,
+      "score": -0.09305336241047674
+    },
+    {
+      "date": "2024-05-10",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.06795366795366786,
+      "hit": true,
+      "score": -1.3742609750555568
+    },
+    {
+      "date": "2024-05-13",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.09282868525896426,
+      "hit": true,
+      "score": -1.2783959896464614
+    },
+    {
+      "date": "2024-05-14",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.15933412604042807,
+      "hit": true,
+      "score": -3.1159679908179596
+    },
+    {
+      "date": "2024-05-15",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.17147372580007902,
+      "hit": true,
+      "score": -2.506849670075694
+    },
+    {
+      "date": "2024-05-16",
+      "set": "train",
+      "pred_sign": 1,
+      "realized_return": -0.12625000000000008,
+      "hit": false,
+      "score": 1.4221642286919387
+    },
+    {
+      "date": "2024-05-17",
+      "set": "train",
+      "pred_sign": -1,
+      "realized_return": -0.1875,
+      "hit": true,
+      "score": -2.7136257898772413
+    },
+    {
+      "date": "2024-05-20",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": -0.1322314049586777,
+      "hit": true,
+      "score": -2.054815703310661
+    },
+    {
+      "date": "2024-05-21",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": -0.07454468445573903,
+      "hit": true,
+      "score": -1.7653091547594728
+    },
+    {
+      "date": "2024-05-22",
+      "set": "test",
+      "pred_sign": 1,
+      "realized_return": -0.033424175824175895,
+      "hit": false,
+      "score": 0.36363363604214005
+    },
+    {
+      "date": "2024-05-23",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": -0.0346971027216858,
+      "hit": true,
+      "score": -0.6583691021588708
+    },
+    {
+      "date": "2024-05-24",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": 0.036756247053276736,
+      "hit": false,
+      "score": -2.3993399078426028
+    },
+    {
+      "date": "2024-06-03",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": 0.02136363636363625,
+      "hit": false,
+      "score": -2.9903514808140157
+    },
+    {
+      "date": "2024-06-24",
+      "set": "test",
+      "pred_sign": -1,
+      "realized_return": -0.13668763102725368,
+      "hit": true,
+      "score": -3.327237026303954
+    },
+    {
+      "date": "2024-07-10",
+      "set": "test",
+      "pred_sign": 1,
+      "realized_return": 0.1146907471548737,
+      "hit": true,
+      "score": 2.2183570173250504
+    },
+    {
+      "date": "2024-08-05",
+      "set": "test",
+      "pred_sign": 1,
+      "realized_return": -0.014326647564469996,
+      "hit": false,
+      "score": 2.427868381955969
+    },
+    {
+      "date": "2024-09-05",
+      "set": "test",
+      "pred_sign": 1,
+      "realized_return": 0.038863976083707064,
+      "hit": true,
+      "score": 2.8740852718508734
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+Logistic regression predicting P(return_250d > 20%) for tweet-linked bursts (training samples=2153, positives=169, AUC=0.998).
+
+logit(p) = 23.8894
+           -0.0539 * min_lag
+           +0.0006 * duration_seconds
+           -0.8029 * max
+           +0.0001 * count
+           +3.0003 * cluster_-1.0
+           -2.0942 * cluster_0.0
+           +0.5223 * cluster_1.0
+           -0.4331 * cluster_2.0
+           -0.1561 * cluster_3.0
+           +0.5641 * cluster_4.0
+           -1.3447 * cluster_5.0
+
+Outputs per burst are stored in tweet_burst_250d_probabilities.csv.

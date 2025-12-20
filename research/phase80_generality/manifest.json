@@ -1,0 +1,21 @@
+{
+    "phase": "80",
+    "name": "Generality (NVDA)",
+    "description": "Testing the universality of the Prism/Gamma signal by applying the exact same pipeline to NVDA (high liquidity, high options volume control) during a volatile period.",
+    "sources": [
+        {
+            "id": "nvda_opra",
+            "provider": "thetadata",
+            "symbol": "NVDA",
+            "description": "Historical OPRA trades for NVDA (Feb-Apr 2024)",
+            "dest": "data/opra"
+        },
+        {
+            "id": "nvda_bars",
+            "provider": "polygon",
+            "symbol": "NVDA",
+            "description": "Minute bars for NVDA (Feb-Apr 2024)",
+            "dest": "data/bars"
+        }
+    ]
+}

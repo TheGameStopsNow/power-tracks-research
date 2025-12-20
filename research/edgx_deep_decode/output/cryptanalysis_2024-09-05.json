@@ -1,0 +1,181 @@
+[
+  {
+    "name": "price_lsb_1c",
+    "n_bits": 50000,
+    "ones_ratio": 0.48612,
+    "entropy": 0.9994440454874631,
+    "chi2_statistic": 38.53088,
+    "chi2_pvalue": 5.38941706822209e-10,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 4142,
+      "expected_runs": 24981.73456,
+      "z_score": -186.5418717893139,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.8342289366589949,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "price_lsb_01c",
+    "n_bits": 50000,
+    "ones_ratio": 0.49506,
+    "entropy": 0.9999295849489871,
+    "chi2_statistic": 4.88072,
+    "chi2_pvalue": 0.027158288383802118,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 19584,
+      "expected_runs": 24998.55964,
+      "z_score": -48.43450600275958,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.21658785840820005,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "price_lsb_001c",
+    "n_bits": 50000,
+    "ones_ratio": 0.33478,
+    "entropy": 0.9197357121124876,
+    "chi2_statistic": 5459.52968,
+    "chi2_pvalue": 0.0,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 18873,
+      "expected_runs": 22271.23516,
+      "z_score": -34.12078671517045,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.15258236739022965,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "volume_lsb",
+    "n_bits": 50000,
+    "ones_ratio": 0.44602,
+    "entropy": 0.9915760249839298,
+    "chi2_statistic": 582.76808,
+    "chi2_pvalue": 9.374960358044028e-129,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 22138,
+      "expected_runs": 24709.61596,
+      "z_score": -23.272719804704433,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.10405936065166731,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "timestamp_us_lsb",
+    "n_bits": 50000,
+    "ones_ratio": 0.49458,
+    "entropy": 0.9999152359667147,
+    "chi2_statistic": 5.87528,
+    "chi2_pvalue": 0.015354930760318006,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 24999,
+      "expected_runs": 24998.06236,
+      "z_score": 0.008387576588631162,
+      "p_value": 0.9933077606055858,
+      "is_random": true
+    },
+    "max_pattern_length": 22,
+    "n_pattern_lengths": 15,
+    "max_autocorr": 0.010471288903276603,
+    "autocorr_lag_at_max": 51
+  },
+  {
+    "name": "timestamp_ns_lsb",
+    "n_bits": 50000,
+    "ones_ratio": 0.0,
+    "entropy": 0.0,
+    "chi2_statistic": 50000.0,
+    "chi2_pvalue": 0.0,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 1,
+      "expected_runs": 0,
+      "z_score": null,
+      "p_value": null
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.0,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "odd_lot_pattern",
+    "n_bits": 50000,
+    "ones_ratio": 0.4163,
+    "entropy": 0.9796903677728135,
+    "chi2_statistic": 1401.138,
+    "chi2_pvalue": 1.1888835169396629e-306,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 21318,
+      "expected_runs": 24300.431,
+      "z_score": -27.445041784334173,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 52,
+    "n_pattern_lengths": 45,
+    "max_autocorr": 0.12271810307713789,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "timing_1ms",
+    "n_bits": 49999,
+    "ones_ratio": 0.8866977339546791,
+    "entropy": 0.5097969333080614,
+    "chi2_statistic": 29906.42934858697,
+    "chi2_pvalue": 0.0,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 6109,
+      "expected_runs": 10047.285325706514,
+      "z_score": -87.65962342642933,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.3920125287857442,
+    "autocorr_lag_at_max": 1
+  },
+  {
+    "name": "timing_10ms",
+    "n_bits": 49999,
+    "ones_ratio": 0.7790555811116222,
+    "entropy": 0.7618882385739184,
+    "chi2_statistic": 15574.091981839636,
+    "chi2_pvalue": 0.0,
+    "random_by_chi2": false,
+    "runs_test": {
+      "runs": 10689,
+      "expected_runs": 17213.454009080182,
+      "z_score": -84.75987615038986,
+      "p_value": 0.0,
+      "is_random": false
+    },
+    "max_pattern_length": 64,
+    "n_pattern_lengths": 57,
+    "max_autocorr": 0.3790507372955363,
+    "autocorr_lag_at_max": 1
+  }
+]

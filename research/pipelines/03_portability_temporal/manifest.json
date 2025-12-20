@@ -1,0 +1,81 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel GME"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "AMC",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel AMC"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "BB",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel BB"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "TLRY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel TLRY"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "CHWY",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel CHWY"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "TSLA",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/trades",
+      "notes": "Portability panel TSLA"
+    },
+    {
+      "provider": "polygon",
+      "api": "bars",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "start": "2024-05-13T09:30:00Z",
+      "end": "2024-05-13T20:00:00Z",
+      "venue": "all",
+      "dest": "data/minute_bars",
+      "notes": "Portability panel minute bars"
+    }
+  ]
+}

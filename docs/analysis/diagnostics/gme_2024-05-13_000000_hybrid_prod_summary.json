@@ -1,0 +1,47 @@
+{
+  "symbol": "GME",
+  "ticksProcessed": 4479213,
+  "processingMs": 304352,
+  "processingSeconds": 304.352,
+  "candidateCount": 578,
+  "detectionModes": {
+    "hybrid": 578
+  },
+  "spectralSummary": {
+    "count": 578,
+    "min": 2.274735261833057e-7,
+    "max": 0.1437905176059316,
+    "mean": 0.01067979904682796,
+    "median": 0.005246612692787599,
+    "stddev": 0.015249002623477921
+  },
+  "rocSummary": {
+    "count": 578,
+    "min": 0.007004669779853264,
+    "max": 0.06416615003099804,
+    "mean": 0.011918865494693886,
+    "median": 0.009726447363364116,
+    "stddev": 0.0066954094036764744
+  },
+  "priceSpanSummary": {
+    "count": 578,
+    "min": 0.25,
+    "max": 25.47,
+    "mean": 1.998042041522492,
+    "median": 1.25,
+    "stddev": 3.182171678280277
+  },
+  "detectorConfig": {
+    "window": 30,
+    "step": 5,
+    "fftRange": [
+      0.5,
+      3
+    ],
+    "powerThresh": 0.5,
+    "rocLookback": 5,
+    "rocThreshold": 0.007,
+    "hybridMinSamples": 5,
+    "hybridConfirmWindow": 2
+  }
+}

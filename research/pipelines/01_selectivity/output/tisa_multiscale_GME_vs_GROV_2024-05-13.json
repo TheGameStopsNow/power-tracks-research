@@ -1,0 +1,42 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "003ecf004c956109",
+    "detectionTime": "2024-05-13T13:48:43.985Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 144.30723169646387,
+    "bestLagMinutes": 30000,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "03477974a14843c2",
+    "detectionTime": "2024-05-13T15:05:45.635Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 2880,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "04701e086b173f8f",
+    "detectionTime": "2024-05-13T14:38:14.574Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 2880,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "047dadbed1c4188d",
+    "detectionTime": "2024-05-13T14:55:32.712Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 2880,
+    "bestScale": 64
+  }
+]

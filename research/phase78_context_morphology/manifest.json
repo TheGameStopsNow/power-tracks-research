@@ -1,0 +1,13 @@
+{
+  "phase": "78",
+  "data": [
+    {
+      "provider": "thetadata",
+      "symbol": "GME",
+      "date": "Burst-Driven",
+      "type": "custom",
+      "dest": "data/open_interest",
+      "notes": "Custom OI fetcher used via download_data.py, driven by Phase 77 bursts"
+    }
+  ]
+}

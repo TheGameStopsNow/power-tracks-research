@@ -1,0 +1,24 @@
+{
+  "symbol": "GME",
+  "date": "2025-12-01",
+  "magnet_strikes": {
+    "23.0": {
+      "gex": 1413015.6066578485,
+      "dwell_pct": 0.1085814360770578,
+      "close_dist_pct": 0.007826086956521728,
+      "is_pinned": false
+    },
+    "25.0": {
+      "gex": 1125490.2779382744,
+      "dwell_pct": 0.0,
+      "close_dist_pct": 0.08719999999999999,
+      "is_pinned": false
+    },
+    "22.0": {
+      "gex": 854685.1698111013,
+      "dwell_pct": 0.06304728546409807,
+      "close_dist_pct": 0.037272727272727284,
+      "is_pinned": false
+    }
+  }
+}

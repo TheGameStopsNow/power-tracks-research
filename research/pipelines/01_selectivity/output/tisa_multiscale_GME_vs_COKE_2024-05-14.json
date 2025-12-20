@@ -1,0 +1,22 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "003c4b4081d279fe",
+    "detectionTime": "2024-05-14T19:03:11.576Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 32880,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-14",
+    "trackId": "03ba01558b66417e",
+    "detectionTime": "2024-05-14T18:23:35.507Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 1e+18,
+    "bestLagMinutes": 32880,
+    "bestScale": 64
+  }
+]

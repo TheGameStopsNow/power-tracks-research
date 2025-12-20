@@ -1,0 +1,406 @@
+{
+  "top_sentences": [
+    {
+      "hex": "FE",
+      "count": 12
+    },
+    {
+      "hex": "80",
+      "count": 10
+    },
+    {
+      "hex": "BF",
+      "count": 8
+    },
+    {
+      "hex": "01",
+      "count": 8
+    },
+    {
+      "hex": "7F",
+      "count": 8
+    },
+    {
+      "hex": "04",
+      "count": 7
+    },
+    {
+      "hex": "EF",
+      "count": 7
+    },
+    {
+      "hex": "20",
+      "count": 7
+    },
+    {
+      "hex": "FB",
+      "count": 6
+    },
+    {
+      "hex": "03",
+      "count": 6
+    },
+    {
+      "hex": "02",
+      "count": 5
+    },
+    {
+      "hex": "E0",
+      "count": 5
+    },
+    {
+      "hex": "3F",
+      "count": 5
+    },
+    {
+      "hex": "40",
+      "count": 4
+    },
+    {
+      "hex": "FD",
+      "count": 4
+    },
+    {
+      "hex": "F0",
+      "count": 4
+    },
+    {
+      "hex": "08",
+      "count": 3
+    },
+    {
+      "hex": "0C",
+      "count": 3
+    },
+    {
+      "hex": "C0",
+      "count": 3
+    },
+    {
+      "hex": "DF",
+      "count": 3
+    },
+    {
+      "hex": "A0",
+      "count": 2
+    },
+    {
+      "hex": "7B",
+      "count": 2
+    },
+    {
+      "hex": "8F",
+      "count": 2
+    },
+    {
+      "hex": "5F",
+      "count": 2
+    },
+    {
+      "hex": "07",
+      "count": 2
+    },
+    {
+      "hex": "10",
+      "count": 2
+    },
+    {
+      "hex": "1F",
+      "count": 2
+    },
+    {
+      "hex": "F7",
+      "count": 2
+    },
+    {
+      "hex": "01 40",
+      "count": 2
+    },
+    {
+      "hex": "FE BF",
+      "count": 2
+    },
+    {
+      "hex": "80 00 00 00 01",
+      "count": 2
+    },
+    {
+      "hex": "00 00 01 00 0C 79 EF AB 18 30 08 21 03 44 00 10 20 00 20 24 00 02 70 3F FF FF F0 23 FF FF 41 DF EE 18 00 02 A8 AB 01 01 80 3B EF EC 1F E7 FF FF D6 D0 00 0A 6C 18 1C 78",
+      "count": 1
+    },
+    {
+      "hex": "40 22 5F B3 87 FF FC 3A E2 73 A2 3A 80",
+      "count": 1
+    },
+    {
+      "hex": "08 40 08 00 00 00 00 20 01 C1 C0 00 02",
+      "count": 1
+    },
+    {
+      "hex": "80 FE 80 00 57 37",
+      "count": 1
+    },
+    {
+      "hex": "80 07 FF 7F FF BF FF FF 9D F7 FC F4 F7 5F FE 08 00 20",
+      "count": 1
+    },
+    {
+      "hex": "02 41 8C 21 11 7F FF FF FF FF E0 1D A3 74 83 7F F8 40 03",
+      "count": 1
+    },
+    {
+      "hex": "BF FF FF 90 00 18 00 00 00 02 EF FF CF FF 7F",
+      "count": 1
+    },
+    {
+      "hex": "1A",
+      "count": 1
+    },
+    {
+      "hex": "02 00 00 00 00 87 FF FF FF 7F FF FC BC FF 00 7F BF",
+      "count": 1
+    },
+    {
+      "hex": "FE FF FF 66 00 00 14",
+      "count": 1
+    },
+    {
+      "hex": "06",
+      "count": 1
+    },
+    {
+      "hex": "B0 93 EB F3",
+      "count": 1
+    },
+    {
+      "hex": "07 FF FF FF FF FE 6F 00 75 00 00 1F FF FF 81 9B FF FD",
+      "count": 1
+    },
+    {
+      "hex": "41",
+      "count": 1
+    },
+    {
+      "hex": "17 FF FF EF",
+      "count": 1
+    },
+    {
+      "hex": "04 01 C0",
+      "count": 1
+    },
+    {
+      "hex": "02 00 00 00 07 FF FF FF FE F1 FF CC 1F F7 6F FF F6 00 00 00 00 08 00 20 00 30 6D",
+      "count": 1
+    },
+    {
+      "hex": "DF C0 00 00 00 00 1D FF FF FF FF FB",
+      "count": 1
+    },
+    {
+      "hex": "F0 4B FD 00 00 17 F0 E0 00 08",
+      "count": 1
+    }
+  ],
+  "top_3grams": [
+    {
+      "hex": "00 00 00",
+      "count": 156
+    },
+    {
+      "hex": "FF FF FF",
+      "count": 156
+    },
+    {
+      "hex": "00 00 01",
+      "count": 25
+    },
+    {
+      "hex": "80 00 00",
+      "count": 23
+    },
+    {
+      "hex": "7F FF FF",
+      "count": 20
+    },
+    {
+      "hex": "FF FF FB",
+      "count": 18
+    },
+    {
+      "hex": "BF FF FF",
+      "count": 17
+    },
+    {
+      "hex": "FF FF FE",
+      "count": 17
+    },
+    {
+      "hex": "00 00 02",
+      "count": 16
+    },
+    {
+      "hex": "FF FF FD",
+      "count": 15
+    },
+    {
+      "hex": "00 00 04",
+      "count": 15
+    },
+    {
+      "hex": "10 00 00",
+      "count": 15
+    },
+    {
+      "hex": "08 00 00",
+      "count": 14
+    },
+    {
+      "hex": "00 00 20",
+      "count": 14
+    },
+    {
+      "hex": "FB FF FF",
+      "count": 14
+    },
+    {
+      "hex": "FF FF EF",
+      "count": 13
+    },
+    {
+      "hex": "04 00 00",
+      "count": 13
+    },
+    {
+      "hex": "FD FF FF",
+      "count": 13
+    },
+    {
+      "hex": "F7 FF FF",
+      "count": 13
+    },
+    {
+      "hex": "DF FF FF",
+      "count": 12
+    },
+    {
+      "hex": "00 00 10",
+      "count": 12
+    },
+    {
+      "hex": "00 00 80",
+      "count": 12
+    },
+    {
+      "hex": "FF 7F FF",
+      "count": 11
+    },
+    {
+      "hex": "FF FF 7F",
+      "count": 11
+    },
+    {
+      "hex": "00 08 00",
+      "count": 11
+    },
+    {
+      "hex": "FF FD FF",
+      "count": 11
+    },
+    {
+      "hex": "02 00 00",
+      "count": 10
+    },
+    {
+      "hex": "FE FF FF",
+      "count": 10
+    },
+    {
+      "hex": "07 FF FF",
+      "count": 10
+    },
+    {
+      "hex": "01 00 00",
+      "count": 10
+    },
+    {
+      "hex": "FF FF FC",
+      "count": 10
+    },
+    {
+      "hex": "00 00 08",
+      "count": 9
+    },
+    {
+      "hex": "00 02 00",
+      "count": 9
+    },
+    {
+      "hex": "40 00 00",
+      "count": 9
+    },
+    {
+      "hex": "00 80 00",
+      "count": 9
+    },
+    {
+      "hex": "00 10 00",
+      "count": 9
+    },
+    {
+      "hex": "F8 00 00",
+      "count": 9
+    },
+    {
+      "hex": "FF FF F0",
+      "count": 8
+    },
+    {
+      "hex": "FF FF BF",
+      "count": 8
+    },
+    {
+      "hex": "00 00 1F",
+      "count": 7
+    },
+    {
+      "hex": "C0 00 00",
+      "count": 7
+    },
+    {
+      "hex": "FC 00 00",
+      "count": 7
+    },
+    {
+      "hex": "FF FB FF",
+      "count": 7
+    },
+    {
+      "hex": "FF F8 00",
+      "count": 7
+    },
+    {
+      "hex": "FF FF F8",
+      "count": 7
+    },
+    {
+      "hex": "00 04 00",
+      "count": 7
+    },
+    {
+      "hex": "00 00 40",
+      "count": 7
+    },
+    {
+      "hex": "F0 00 00",
+      "count": 7
+    },
+    {
+      "hex": "20 00 00",
+      "count": 7
+    },
+    {
+      "hex": "3F FF FF",
+      "count": 6
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "Arm":"Baseline (All)",
+    "N":36,
+    "Win Rate (>10%)":0.9444444444,
+    "Mean Return":1.6697854168
+  },
+  {
+    "Arm":"Cluster Only",
+    "N":13,
+    "Win Rate (>10%)":1.0,
+    "Mean Return":1.5894947754
+  },
+  {
+    "Arm":"K-Spike Only",
+    "N":5,
+    "Win Rate (>10%)":0.8,
+    "Mean Return":0.6485357913
+  },
+  {
+    "Arm":"Gated (Both)",
+    "N":3,
+    "Win Rate (>10%)":1.0,
+    "Mean Return":0.8785714286
+  }
+]

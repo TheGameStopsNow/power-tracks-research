@@ -1,0 +1,139 @@
+{
+    "meta": {
+        "version": "2.1",
+        "updated": "2025-12-11",
+        "maintainer": "Power-Tracks Research (Antigravity)"
+    },
+    "opcodes": {
+        "0xA0": {
+            "mnemonic": "FLOOR",
+            "type": "Constraint",
+            "description": "Hard Price Support / Flush Initiator / War Grammar"
+        },
+        "0x98": {
+            "mnemonic": "CEILING",
+            "type": "Constraint",
+            "description": "Hard Price Resistance / Ceiling"
+        },
+        "0x80": {
+            "mnemonic": "PIVOT",
+            "type": "Stabilizer",
+            "description": "Mean Reversion Point (VWAP)"
+        },
+        "0x10": {
+            "mnemonic": "STATION",
+            "type": "Maintenance",
+            "description": "Standard HFT / Station Keeping"
+        },
+        "0x01": {
+            "mnemonic": "LIFT",
+            "type": "Impulse",
+            "description": "Directional Upward / Reversal Confirm"
+        },
+        "0x02": {
+            "mnemonic": "DROP",
+            "type": "Impulse",
+            "description": "Directional Downward Tick"
+        },
+        "0xDF": {
+            "mnemonic": "SEED",
+            "type": "Control",
+            "description": "Market State Reset / Cooling / Local Top Marker"
+        },
+        "0x08": {
+            "mnemonic": "AGGRESS",
+            "type": "War Dialect",
+            "description": "High-Intensity Suppression"
+        },
+        "0xF8": {
+            "mnemonic": "COMBAT",
+            "type": "War Dialect",
+            "description": "Peak Intensity / DEFCON 1"
+        }
+    },
+    "sequences": {
+        "FLUSH_AND_REVERSE": {
+            "pattern": [
+                "PIVOT",
+                "FLOOR",
+                "PRICE_CRASH",
+                "LIFT"
+            ],
+            "description": "Bear Trap: Baits stop losses then reverses.",
+            "observed": [
+                "Classic GME"
+            ]
+        },
+        "WAR_ESCALATION": {
+            "pattern": [
+                "STATION",
+                "AGGRESS",
+                "COMBAT"
+            ],
+            "description": "Intensity Ramp-Up: Step-function increase in pressure.",
+            "observed": [
+                "War Dialect"
+            ]
+        },
+        "STATION_KEEPING": {
+            "pattern": [
+                "PIVOT",
+                "PIVOT",
+                "PIVOT"
+            ],
+            "description": "Equilibrium Loop: Holding pattern.",
+            "observed": [
+                "Common"
+            ]
+        },
+        "FAILED_LIFT": {
+            "pattern": [
+                "FLOOR",
+                "LIFT",
+                "FLOOR"
+            ],
+            "description": "Stutter: Specific reversal attempt fails, re-flush.",
+            "observed": [
+                "Rare"
+            ]
+        },
+        "LOCK_SEQUENCE": {
+            "pattern": [
+                "SEED",
+                "0xFF",
+                "0xC1",
+                "FLOOR",
+                "CEILING"
+            ],
+            "description": "State Freeze: Seed masked by noise, then clamped.",
+            "observed": [
+                "GME 2025-09-24"
+            ]
+        },
+        "NOISE_COVER": {
+            "pattern": [
+                "0xFF",
+                "0xFF",
+                "SEED",
+                "0xFF",
+                "0xFF"
+            ],
+            "description": "Steganographic Transmission: Critical signal hidden in max entropy.",
+            "observed": [
+                "GME 2025"
+            ]
+        },
+        "EMPTY_ROOM": {
+            "pattern": [
+                "0x00",
+                "0x00",
+                "0x00",
+                "FLOOR"
+            ],
+            "description": "Vacuum Defense: Floor deployed in zero liquidity.",
+            "observed": [
+                "GME Low Vol Days"
+            ]
+        }
+    }
+}

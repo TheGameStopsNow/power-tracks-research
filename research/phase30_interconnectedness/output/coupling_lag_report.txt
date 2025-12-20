@@ -1,0 +1,11 @@
+PHASE 30F: COUPLING LAG REPORT
+==============================
+
+         date  max_corr_lag  max_corr_val  pseudo_granger_p
+0  2025-06-11             0      0.549239               1.0
+1  2025-09-08             2      0.442194               0.0
+2  2025-07-17             0      0.404062               1.0
+
+INTERPRETATION:
+- Max Corr Lag > 0 implies GME leads TSLA.
+- Pseudo-P < 0.05 implies Strong Lead signal.

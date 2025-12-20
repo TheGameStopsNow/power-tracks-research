@@ -1,0 +1,667 @@
+{
+  "meta": {
+    "ticker": "GME",
+    "date": "2024-05-13",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 6.55230432453832,
+      "venue_count": 15,
+      "top_venue_concentration": 45.5048787871731,
+      "flags": [
+        "High Zero-DT: 6.55%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-13 13:30:00.078653696+00:00",
+      "count": 55236,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.48919963001179056,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 0.8,
+            "max_power": 37.87635089249612,
+            "bins": [
+              1,
+              2,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 2.5,
+            "period_sec": 0.4,
+            "persistence": 0.8,
+            "max_power": 13.86535862065107,
+            "bins": [
+              1,
+              2,
+              10,
+              5
+            ]
+          },
+          {
+            "freq_hz": 4.0,
+            "period_sec": 0.25,
+            "persistence": 0.8,
+            "max_power": 15.306149789469334,
+            "bins": [
+              1,
+              2,
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0013309554279249314,
+          "std_lag": 0.021420624301695758,
+          "bic_1": -73184.94154295659,
+          "bic_2": -73098.62136956077,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-13 13:35:00.079656448+00:00",
+      "count": 10074,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35340739182828396,
+        "p_val": 7.98552701504314e-224
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 1.0,
+            "max_power": 13.957765463798673,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 1.0,
+            "max_power": 8.63452882260876,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 3.5,
+            "period_sec": 0.2857142857142857,
+            "persistence": 0.8,
+            "max_power": 8.039797866147655,
+            "bins": [
+              1,
+              2,
+              10,
+              20
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0014782103458769085,
+          "std_lag": 0.021120701517194515,
+          "bic_1": -11416.458579742737,
+          "bic_2": -11380.621566928723,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-13 13:40:46.735517184+00:00",
+      "count": 36635,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3430422404567272,
+        "p_val": 1.541114116436758e-210
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 0.8,
+            "max_power": 12.497545890585892,
+            "bins": [
+              1,
+              2,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.4,
+            "max_power": 7.068864981296717,
+            "bins": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.00034159145846961826,
+          "std_lag": 0.02176823897608543,
+          "bic_1": -65185.0112524791,
+          "bic_2": -65102.97343894873,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-13 13:47:32.915622144+00:00",
+      "count": 46973,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4546493396969331,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 1.0,
+            "max_power": 18.087074638174283,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 1.0,
+            "max_power": 9.642917228218598,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 4.0,
+            "period_sec": 0.25,
+            "persistence": 1.0,
+            "max_power": 9.228104966439222,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0009547756232467352,
+          "std_lag": 0.02052024911744774,
+          "bic_1": -88066.71400150072,
+          "bic_2": -87941.27864793646,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-13 13:54:20.206550016+00:00",
+      "count": 8267,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.430073800217602,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 1.0,
+            "max_power": 23.75951883985644,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.4,
+            "max_power": 9.799820890605561,
+            "bins": [
+              1,
+              5
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.0010793096470561895,
+          "std_lag": 0.01819489875443469,
+          "bic_1": -14557.889357920669,
+          "bic_2": -14530.816674103184,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-13 13:59:43.745181440+00:00",
+      "count": 13398,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.45903217692452314,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 56.451672324716434,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 1.0,
+            "max_power": 31.719494544045507,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 2.5,
+            "period_sec": 0.4,
+            "persistence": 1.0,
+            "max_power": 13.703992967819419,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.00021961803772211543,
+          "std_lag": 0.014645228425347765,
+          "bic_1": -37245.59861220582,
+          "bic_2": -38671.297178038294,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.00018611815058163512,
+              "weight": 0.43736388875109145
+            },
+            {
+              "mean": -0.0002456590980443184,
+              "weight": 0.5626361112489086
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-13 14:00:00.103012096+00:00",
+      "count": 1430,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.45841782749958515,
+        "p_val": 3.797187652506306e-275
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 16.0,
+            "period_sec": 0.0625,
+            "persistence": 0.6,
+            "max_power": 5.753735569380433,
+            "bins": [
+              10,
+              20,
+              5
+            ]
+          },
+          {
+            "freq_hz": 29.0,
+            "period_sec": 0.034482758620689655,
+            "persistence": 0.4,
+            "max_power": 5.698083164927178,
+            "bins": [
+              2,
+              5
+            ]
+          },
+          {
+            "freq_hz": 32.0,
+            "period_sec": 0.03125,
+            "persistence": 0.4,
+            "max_power": 5.814445490218361,
+            "bins": [
+              10,
+              5
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.004164278030395508,
+          "std_lag": 0.02771532686453867,
+          "bic_1": -532.0510590830977,
+          "bic_2": -571.3421181479118,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": 0.036326706893261125,
+              "weight": 0.2571292212945587
+            },
+            {
+              "mean": -0.018179387685149897,
+              "weight": 0.7428707787054414
+            }
+          ]
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-13 14:05:09.834157312+00:00",
+      "count": 18937,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3461097615707648,
+        "p_val": 2.0061349022925574e-214
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.6,
+            "max_power": 33.245489737571624,
+            "bins": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "freq_hz": 2.5,
+            "period_sec": 0.4,
+            "persistence": 0.6,
+            "max_power": 30.695390481647046,
+            "bins": [
+              1,
+              2,
+              5
+            ]
+          },
+          {
+            "freq_hz": 3.5,
+            "period_sec": 0.2857142857142857,
+            "persistence": 0.4,
+            "max_power": 27.135449366826457,
+            "bins": [
+              1,
+              2
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0007729876504597732,
+          "std_lag": 0.020408855477569852,
+          "bic_1": -38677.170731833205,
+          "bic_2": -38629.27563789321,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-13 14:10:38.910291712+00:00",
+      "count": 54989,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2655271064996656,
+        "p_val": 6.681173659103215e-125
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 14.389471294784899,
+            "bins": [
+              1,
+              2,
+              20
+            ]
+          },
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 0.6,
+            "max_power": 13.790371957946247,
+            "bins": [
+              2,
+              10,
+              20
+            ]
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.339144265271433,
+            "bins": [
+              1,
+              20
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.00022921074811954806,
+          "std_lag": 0.02069844978547567,
+          "bic_1": -106931.01907474201,
+          "bic_2": -106809.18054376193,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-13 14:17:46.454577664+00:00",
+      "count": 37769,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.25647032327238317,
+        "p_val": 1.9876635504729774e-116
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 13.570003344698991,
+            "bins": [
+              1,
+              2
+            ]
+          },
+          {
+            "freq_hz": 0.0,
+            "period_sec": 0,
+            "persistence": 0.4,
+            "max_power": 6.556505426290672,
+            "bins": [
+              2,
+              5
+            ]
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "EDGX",
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.0004348319079890999,
+          "std_lag": 0.022608262834136954,
+          "bic_1": -60803.37879078089,
+          "bic_2": -60789.313133877244,
+          "multimodal": "False",
+          "components": []
+        },
+        "dynamics": null
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

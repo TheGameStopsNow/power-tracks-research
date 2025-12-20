@@ -1,0 +1,44 @@
+{
+  "sources": [
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-13",
+      "dest": "data/samples/sample_2024-05-13",
+      "notes": "May 2024 Volatility Event - Day 1"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-14",
+      "dest": "data/samples/sample_2024-05-14",
+      "notes": "May 2024 Volatility Event - Day 2 (High Periodicity)"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-15",
+      "dest": "data/samples/sample_2024-05-15",
+      "notes": "May 2024 Volatility Event - Day 3"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-16",
+      "dest": "data/samples/sample_2024-05-16",
+      "notes": "May 2024 Volatility Event - Day 4"
+    },
+    {
+      "provider": "polygon",
+      "api": "trades",
+      "symbol": "GME",
+      "date": "2024-05-17",
+      "dest": "data/samples/sample_2024-05-17",
+      "notes": "May 2024 Volatility Event - Day 5"
+    }
+  ]
+}

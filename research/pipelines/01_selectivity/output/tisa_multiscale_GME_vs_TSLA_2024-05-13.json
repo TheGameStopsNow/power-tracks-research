@@ -1,0 +1,82 @@
+[
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "003ecf004c956109",
+    "detectionTime": "2024-05-13T13:48:43.985Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 28.05283084192265,
+    "bestLagMinutes": 31680,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "004ed511d2f5024d",
+    "detectionTime": "2024-05-13T14:26:02.519Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 25.442060337542266,
+    "bestLagMinutes": 0,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "00956c3c8c906f27",
+    "detectionTime": "2024-05-13T13:30:38.098Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 33.85501335754439,
+    "bestLagMinutes": 35760,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "02875c7c5197ac46",
+    "detectionTime": "2024-05-13T14:17:57.468Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 71.14391214916233,
+    "bestLagMinutes": 23280,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "02a2c2cb18c479f6",
+    "detectionTime": "2024-05-13T14:18:27.511Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 32.95235512048717,
+    "bestLagMinutes": 21600,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "03477974a14843c2",
+    "detectionTime": "2024-05-13T15:05:45.635Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 32.3921996873812,
+    "bestLagMinutes": 42000,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "04701e086b173f8f",
+    "detectionTime": "2024-05-13T14:38:14.574Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 17.27867357407425,
+    "bestLagMinutes": 14400,
+    "bestScale": 64
+  },
+  {
+    "symbol": "GME",
+    "date": "2024-05-13",
+    "trackId": "047dadbed1c4188d",
+    "detectionTime": "2024-05-13T14:55:32.712Z",
+    "baseWindowMinutes": 1,
+    "bestDistance": 13.661396447897346,
+    "bestLagMinutes": 14640,
+    "bestScale": 64
+  }
+]

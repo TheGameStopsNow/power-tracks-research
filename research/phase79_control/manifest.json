@@ -1,0 +1,13 @@
+{
+    "phase": "79",
+    "name": "Control (Low Gamma)",
+    "description": "Validation of the Gamma Hypothesis by running the Prism Strategy on 'Low Gamma' periods (Control Group).",
+    "sources": [
+        {
+            "id": "phase77_bursts",
+            "provider": "internal",
+            "path": "../phase77_greek_echo/output/burst_fingerprints_enhanced.csv",
+            "description": "Enhanced burst timestamps with Greek context from Phase 77."
+        }
+    ]
+}

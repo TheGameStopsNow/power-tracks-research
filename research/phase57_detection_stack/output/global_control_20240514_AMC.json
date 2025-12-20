@@ -1,0 +1,763 @@
+{
+  "meta": {
+    "ticker": "AMC",
+    "date": "2024-05-14",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 9.165391830048469,
+      "venue_count": 17,
+      "top_venue_concentration": 39.704648493268465,
+      "flags": [
+        "High Zero-DT: 9.17%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-14 13:30:00.021106+00:00",
+      "count": 59272,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4883249212600048,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 9.433858996830693,
+            "bins": [
+              2,
+              20,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 2.5,
+            "period_sec": 0.4,
+            "persistence": 0.4,
+            "max_power": 6.81768730574221,
+            "bins": [
+              1,
+              2
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.00024304833867181818,
+          "std_lag": 0.010754671225959819,
+          "bic_1": -40114.93251559609,
+          "bic_2": -51730.56597055085,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0012719396972832107,
+              "weight": 0.3165333741239189
+            },
+            {
+              "mean": 0.0002334613269329193,
+              "weight": 0.683466625876081
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 1.50540102421613,
+          "min_weight": 0.3165333741239189,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0012719396972832107,
+              "weight": 0.3165333741239189
+            },
+            {
+              "mean": 0.0002334613269329193,
+              "weight": 0.683466625876081
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-14 13:35:01.292917+00:00",
+      "count": 128311,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.24237890926692912,
+        "p_val": 7.281343220835462e-104
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 0.0003762715917584547,
+          "std_lag": 0.01177283194564576,
+          "bic_1": -54825.21006760154,
+          "bic_2": -56414.81096150572,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0013168221705720975,
+              "weight": 0.9508747852272874
+            },
+            {
+              "mean": 0.03314804012395375,
+              "weight": 0.04912521477271259
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 34.464862294525844,
+          "min_weight": 0.04912521477271259,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0013168221705720975,
+              "weight": 0.9508747852272874
+            },
+            {
+              "mean": 0.03314804012395375,
+              "weight": 0.04912521477271259
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-14 13:40:00.022733+00:00",
+      "count": 1088,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23005305632674722,
+        "p_val": 4.677699082899726e-51
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "3",
+          "11"
+        ],
+        "stats": null,
+        "coherence": {},
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-14 13:45:12.505397+00:00",
+      "count": 45347,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3284877201371795,
+        "p_val": 1.2512765086364971e-192
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.4,
+            "max_power": 6.374678479327775,
+            "bins": [
+              1,
+              20
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 12.494585140086134,
+            "bins": [
+              10,
+              20
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 14.0,
+            "period_sec": 0.07142857142857142,
+            "persistence": 0.4,
+            "max_power": 8.339375280726106,
+            "bins": [
+              10,
+              20
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0001425986192317701,
+          "std_lag": 0.012200663633847059,
+          "bic_1": -26821.219803614782,
+          "bic_2": -27611.74647454974,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0349446445555271,
+              "weight": 0.04732448579551232
+            },
+            {
+              "mean": 0.001586205054222835,
+              "weight": 0.9526755142044877
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 36.530849609749936,
+          "min_weight": 0.04732448579551232,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0349446445555271,
+              "weight": 0.04732448579551232
+            },
+            {
+              "mean": 0.001586205054222835,
+              "weight": 0.9526755142044877
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-14 13:51:39.129045+00:00",
+      "count": 15758,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.19625137351001476,
+        "p_val": 6.214738282031415e-68
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 45.17448516940739,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 11.0,
+            "period_sec": 0.09090909090909091,
+            "persistence": 0.8,
+            "max_power": 6.739152699301155,
+            "bins": [
+              1,
+              10,
+              20,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 10.0,
+            "period_sec": 0.1,
+            "persistence": 0.6,
+            "max_power": 6.5068659688294685,
+            "bins": [
+              1,
+              10,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "8"
+        ],
+        "stats": {
+          "mean_lag": -0.0010758987218023386,
+          "std_lag": 0.013480293926865965,
+          "bic_1": -7268.198247027692,
+          "bic_2": -7567.725955104212,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.03700578264350944,
+              "weight": 0.06601771653649022
+            },
+            {
+              "mean": 0.001463773533153156,
+              "weight": 0.9339822834635098
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 38.46955617666259,
+          "min_weight": 0.06601771653649022,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.03700578264350944,
+              "weight": 0.06601771653649022
+            },
+            {
+              "mean": 0.001463773533153156,
+              "weight": 0.9339822834635098
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-14 13:57:21.916761+00:00",
+      "count": 58794,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2655582605350205,
+        "p_val": 6.239702526939603e-125
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0004674016528732174,
+          "std_lag": 0.012573254673111165,
+          "bic_1": -34428.532783243616,
+          "bic_2": -35385.367301592596,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.03288269340234443,
+              "weight": 0.061487875116994224
+            },
+            {
+              "mean": 0.0016563294723063139,
+              "weight": 0.9385121248830057
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 34.53902287465075,
+          "min_weight": 0.061487875116994224,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.03288269340234443,
+              "weight": 0.061487875116994224
+            },
+            {
+              "mean": 0.0016563294723063139,
+              "weight": 0.9385121248830057
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-14 14:04:27.974410+00:00",
+      "count": 20144,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.30850131893385274,
+        "p_val": 1.9651718230175074e-169
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.6,
+            "max_power": 13.842537480311556,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 16.82298145867462,
+            "bins": [
+              1,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          },
+          {
+            "freq_hz": 49.0,
+            "period_sec": 0.02040816326530612,
+            "persistence": 0.4,
+            "max_power": 14.064579330529176,
+            "bins": [
+              10,
+              5
+            ],
+            "phase_var_abs": 1.0,
+            "phase_mean_abs_deg": 0.0,
+            "phase_mean_abs_rad": 0.0,
+            "phase_locking_score": 0.0,
+            "phase_drift_seg": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0010241990298468285,
+          "std_lag": 0.011610336981374387,
+          "bic_1": -14531.223700417273,
+          "bic_2": -14701.275808307808,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.022322152809992474,
+              "weight": 0.06793190420576503
+            },
+            {
+              "mean": 0.0005280593968712384,
+              "weight": 0.9320680957942349
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 22.850212206863713,
+          "min_weight": 0.06793190420576503,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.022322152809992474,
+              "weight": 0.06793190420576503
+            },
+            {
+              "mean": 0.0005280593968712384,
+              "weight": 0.9320680957942349
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-14 14:05:00.034000+00:00",
+      "count": 77765,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2414141391725449,
+        "p_val": 4.953937365308363e-103
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.00018628556058349465,
+          "std_lag": 0.010587287223786873,
+          "bic_1": -52783.080236582085,
+          "bic_2": -54820.48314984885,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0015027536592696793,
+              "weight": 0.9639796647453155
+            },
+            {
+              "mean": 0.03504515988395513,
+              "weight": 0.03602033525468457
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 36.54791354322481,
+          "min_weight": 0.03602033525468457,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.0015027536592696793,
+              "weight": 0.9639796647453155
+            },
+            {
+              "mean": 0.03504515988395513,
+              "weight": 0.03602033525468457
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-14 14:10:00.033044+00:00",
+      "count": 55056,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3425323161492924,
+        "p_val": 6.760371940938711e-210
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": 3.318467126456049e-05,
+          "std_lag": 0.010515936960440495,
+          "bic_1": -34803.84123335482,
+          "bic_2": -36069.8017754774,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.03405699339200981,
+              "weight": 0.037005801087829214
+            },
+            {
+              "mean": 0.0013431970782793495,
+              "weight": 0.9629941989121708
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": false,
+          "sep_ms": 35.40019047028916,
+          "min_weight": 0.037005801087829214,
+          "switching_score": 0.0,
+          "switching_p": 1.0,
+          "w_series": [],
+          "components": [
+            {
+              "mean": -0.03405699339200981,
+              "weight": 0.037005801087829214
+            },
+            {
+              "mean": 0.0013431970782793495,
+              "weight": 0.9629941989121708
+            }
+          ]
+        },
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-14 14:15:00.022587+00:00",
+      "count": 48789,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26355966963901295,
+        "p_val": 4.9230106362047595e-123
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0002341720125143156,
+          "std_lag": 0.008252973912065996,
+          "bic_1": -36163.24638253763,
+          "bic_2": -49541.24320279559,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.002253128129731828,
+              "weight": 0.16407775699820884
+            },
+            {
+              "mean": 0.00016211579291754993,
+              "weight": 0.8359222430017911
+            }
+          ]
+        },
+        "coherence": {
+          "multimodal": true,
+          "valid_switch": true,
+          "sep_ms": 2.4152439226493776,
+          "min_weight": 0.16407775699820884,
+          "switching_score": 0.18737269561860104,
+          "switching_p": 0.004975124378109453,
+          "w_series": [
+            0.8318633942319212,
+            0.8498800804910746,
+            0.7956149085663954,
+            0.8668308977381768,
+            0.8229560494751896
+          ],
+          "components": [
+            {
+              "mean": -0.002253128129731828,
+              "weight": 0.16407775699820884
+            },
+            {
+              "mean": 0.00016211579291754993,
+              "weight": 0.8359222430017911
+            }
+          ],
+          "n_by_seg": [
+            699,
+            1146,
+            714,
+            1174,
+            1622
+          ]
+        },
+        "switching_score": 0.18737269561860104
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

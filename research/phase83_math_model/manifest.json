@@ -1,0 +1,8 @@
+{
+  "project_id": "phase83_math_model",
+  "description": "Mathematical Formalization of the Prism Equation",
+  "dependencies": [
+    "research/phase77_greek_echo/results/burst_fingerprints_enhanced.csv"
+  ],
+  "sources": []
+}

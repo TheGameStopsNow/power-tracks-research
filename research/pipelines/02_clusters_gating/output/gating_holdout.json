@@ -1,0 +1,19 @@
+{
+  "results": [
+    {
+      "Arm": "Baseline",
+      "N": 269,
+      "Win Rate": 0.0037174721189591076,
+      "Mean Return": -0.057235489294978355
+    },
+    {
+      "Arm": "Cluster Gated",
+      "N": 114,
+      "Win Rate": 0.0,
+      "Mean Return": -0.035067744812035236
+    }
+  ],
+  "p_value": 2.4964388897650235e-05,
+  "test_start": "2024-06-01",
+  "test_end": "2024-12-09"
+}

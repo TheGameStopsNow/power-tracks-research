@@ -1,0 +1,569 @@
+{
+  "bitstream_length": 50000,
+  "sync_markers": [
+    {
+      "pattern": "00000000",
+      "length": 8,
+      "occurrences": 19093,
+      "regularity": 0.11592182016553597,
+      "mean_spacing": 2.608841399539074,
+      "spacing_stats": {
+        "regularity": 0.11592182016553597,
+        "mean_spacing": 2.608841399539074,
+        "std_spacing": 19.896338348446744,
+        "min_spacing": 1,
+        "max_spacing": 722,
+        "spacing_histogram": [
+          [
+            1,
+            18620
+          ],
+          [
+            9,
+            137
+          ],
+          [
+            10,
+            21
+          ],
+          [
+            11,
+            16
+          ],
+          [
+            16,
+            14
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "11111111",
+      "length": 8,
+      "occurrences": 18008,
+      "regularity": 0.11266459588218092,
+      "mean_spacing": 2.7659243627478203,
+      "spacing_stats": {
+        "regularity": 0.11266459588218092,
+        "mean_spacing": 2.7659243627478203,
+        "std_spacing": 21.78415138278885,
+        "min_spacing": 1,
+        "max_spacing": 990,
+        "spacing_histogram": [
+          [
+            1,
+            17586
+          ],
+          [
+            9,
+            116
+          ],
+          [
+            10,
+            17
+          ],
+          [
+            13,
+            11
+          ],
+          [
+            11,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "00000001",
+      "length": 8,
+      "occurrences": 516,
+      "regularity": 0.45521944727771535,
+      "mean_spacing": 96.68543689320389,
+      "spacing_stats": {
+        "regularity": 0.45521944727771535,
+        "mean_spacing": 96.68543689320389,
+        "std_spacing": 115.70759128561879,
+        "min_spacing": 8,
+        "max_spacing": 733,
+        "spacing_histogram": [
+          [
+            13,
+            16
+          ],
+          [
+            33,
+            12
+          ],
+          [
+            17,
+            12
+          ],
+          [
+            18,
+            11
+          ],
+          [
+            20,
+            10
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "000000000000",
+      "length": 12,
+      "occurrences": 17373,
+      "regularity": 0.1093844168004537,
+      "mean_spacing": 2.8648975362652545,
+      "spacing_stats": {
+        "regularity": 0.1093844168004537,
+        "mean_spacing": 2.8648975362652545,
+        "std_spacing": 23.32619640622557,
+        "min_spacing": 1,
+        "max_spacing": 968,
+        "spacing_histogram": [
+          [
+            1,
+            17000
+          ],
+          [
+            13,
+            96
+          ],
+          [
+            14,
+            15
+          ],
+          [
+            15,
+            10
+          ],
+          [
+            20,
+            9
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "111111111111",
+      "length": 12,
+      "occurrences": 16474,
+      "regularity": 0.10954650018529294,
+      "mean_spacing": 3.023250166939841,
+      "spacing_stats": {
+        "regularity": 0.10954650018529294,
+        "mean_spacing": 3.023250166939841,
+        "std_spacing": 24.574620708224135,
+        "min_spacing": 1,
+        "max_spacing": 994,
+        "spacing_histogram": [
+          [
+            1,
+            16146
+          ],
+          [
+            13,
+            77
+          ],
+          [
+            14,
+            6
+          ],
+          [
+            17,
+            6
+          ],
+          [
+            21,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "000000000001",
+      "length": 12,
+      "occurrences": 390,
+      "regularity": 0.4868981060091105,
+      "mean_spacing": 127.91259640102828,
+      "spacing_stats": {
+        "regularity": 0.4868981060091105,
+        "mean_spacing": 127.91259640102828,
+        "std_spacing": 134.79657174396937,
+        "min_spacing": 12,
+        "max_spacing": 807,
+        "spacing_histogram": [
+          [
+            13,
+            10
+          ],
+          [
+            33,
+            8
+          ],
+          [
+            14,
+            7
+          ],
+          [
+            17,
+            7
+          ],
+          [
+            74,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "0000000000000000",
+      "length": 16,
+      "occurrences": 16004,
+      "regularity": 0.10568018823947282,
+      "mean_spacing": 3.109729425732675,
+      "spacing_stats": {
+        "regularity": 0.10568018823947282,
+        "mean_spacing": 3.109729425732675,
+        "std_spacing": 26.316121129018264,
+        "min_spacing": 1,
+        "max_spacing": 1053,
+        "spacing_histogram": [
+          [
+            1,
+            15704
+          ],
+          [
+            17,
+            60
+          ],
+          [
+            32,
+            7
+          ],
+          [
+            18,
+            7
+          ],
+          [
+            33,
+            6
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "1111111111111111",
+      "length": 16,
+      "occurrences": 15236,
+      "regularity": 0.10321711301333752,
+      "mean_spacing": 3.268657696094519,
+      "spacing_stats": {
+        "regularity": 0.10321711301333752,
+        "mean_spacing": 3.268657696094519,
+        "std_spacing": 28.399130722596762,
+        "min_spacing": 1,
+        "max_spacing": 1339,
+        "spacing_histogram": [
+          [
+            1,
+            14959
+          ],
+          [
+            17,
+            62
+          ],
+          [
+            21,
+            6
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            34,
+            5
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "0000000000000001",
+      "length": 16,
+      "occurrences": 315,
+      "regularity": 0.49596052804202245,
+      "mean_spacing": 158.46496815286625,
+      "spacing_stats": {
+        "regularity": 0.49596052804202245,
+        "mean_spacing": 158.46496815286625,
+        "std_spacing": 161.0462816203004,
+        "min_spacing": 16,
+        "max_spacing": 1097,
+        "spacing_histogram": [
+          [
+            42,
+            5
+          ],
+          [
+            33,
+            5
+          ],
+          [
+            74,
+            5
+          ],
+          [
+            137,
+            5
+          ],
+          [
+            77,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "000000000000000000000000",
+      "length": 24,
+      "occurrences": 13996,
+      "regularity": 0.09847735865957877,
+      "mean_spacing": 3.5235441229010362,
+      "spacing_stats": {
+        "regularity": 0.09847735865957877,
+        "mean_spacing": 3.5235441229010362,
+        "std_spacing": 32.25670192412579,
+        "min_spacing": 1,
+        "max_spacing": 1064,
+        "spacing_histogram": [
+          [
+            1,
+            13786
+          ],
+          [
+            25,
+            26
+          ],
+          [
+            120,
+            4
+          ],
+          [
+            69,
+            4
+          ],
+          [
+            31,
+            4
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "111111111111111111111111",
+      "length": 24,
+      "occurrences": 13322,
+      "regularity": 0.10009858927350887,
+      "mean_spacing": 3.7377073793258764,
+      "spacing_stats": {
+        "regularity": 0.10009858927350887,
+        "mean_spacing": 3.7377073793258764,
+        "std_spacing": 33.60255292257492,
+        "min_spacing": 1,
+        "max_spacing": 1347,
+        "spacing_histogram": [
+          [
+            1,
+            13119
+          ],
+          [
+            25,
+            32
+          ],
+          [
+            29,
+            4
+          ],
+          [
+            32,
+            4
+          ],
+          [
+            42,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "000000000000000000000001",
+      "length": 24,
+      "occurrences": 218,
+      "regularity": 0.525708435885094,
+      "mean_spacing": 229.2995391705069,
+      "spacing_stats": {
+        "regularity": 0.525708435885094,
+        "mean_spacing": 229.2995391705069,
+        "std_spacing": 206.8729159746218,
+        "min_spacing": 24,
+        "max_spacing": 1097,
+        "spacing_histogram": [
+          [
+            137,
+            4
+          ],
+          [
+            206,
+            4
+          ],
+          [
+            86,
+            3
+          ],
+          [
+            78,
+            3
+          ],
+          [
+            68,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "00000000000000000000000000000000",
+      "length": 32,
+      "occurrences": 12430,
+      "regularity": 0.09805937583867677,
+      "mean_spacing": 3.952369458524419,
+      "spacing_stats": {
+        "regularity": 0.09805937583867677,
+        "mean_spacing": 3.952369458524419,
+        "std_spacing": 36.353510777004445,
+        "min_spacing": 1,
+        "max_spacing": 1072,
+        "spacing_histogram": [
+          [
+            1,
+            12252
+          ],
+          [
+            33,
+            18
+          ],
+          [
+            39,
+            4
+          ],
+          [
+            128,
+            3
+          ],
+          [
+            49,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "11111111111111111111111111111111",
+      "length": 32,
+      "occurrences": 11833,
+      "regularity": 0.09221964681666095,
+      "mean_spacing": 4.144945909398242,
+      "spacing_stats": {
+        "regularity": 0.09221964681666095,
+        "mean_spacing": 4.144945909398242,
+        "std_spacing": 40.80150587694053,
+        "min_spacing": 1,
+        "max_spacing": 1602,
+        "spacing_histogram": [
+          [
+            1,
+            11664
+          ],
+          [
+            33,
+            23
+          ],
+          [
+            37,
+            4
+          ],
+          [
+            50,
+            3
+          ],
+          [
+            34,
+            3
+          ]
+        ]
+      }
+    },
+    {
+      "pattern": "10000000000000000000000000000000",
+      "length": 32,
+      "occurrences": 180,
+      "regularity": 0.5322657025025966,
+      "mean_spacing": 273.58659217877096,
+      "spacing_stats": {
+        "regularity": 0.5322657025025966,
+        "mean_spacing": 273.58659217877096,
+        "std_spacing": 240.41720497071057,
+        "min_spacing": 32,
+        "max_spacing": 1283,
+        "spacing_histogram": [
+          [
+            72,
+            3
+          ],
+          [
+            176,
+            3
+          ],
+          [
+            88,
+            3
+          ],
+          [
+            292,
+            3
+          ],
+          [
+            101,
+            2
+          ]
+        ]
+      }
+    }
+  ],
+  "correlation_peaks": [
+    {
+      "lag": 25,
+      "correlation": 1.0
+    },
+    {
+      "lag": 93,
+      "correlation": 1.0
+    },
+    {
+      "lag": 201,
+      "correlation": 1.0
+    },
+    {
+      "lag": 292,
+      "correlation": 1.0
+    },
+    {
+      "lag": 443,
+      "correlation": 1.0
+    }
+  ],
+  "recommended_frame_length": null,
+  "confidence": 0
+}

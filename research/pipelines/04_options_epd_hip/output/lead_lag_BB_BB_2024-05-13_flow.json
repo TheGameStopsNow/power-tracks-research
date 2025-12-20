@@ -1,0 +1,120 @@
+{
+  "symbol": "BB",
+  "hedgeFlowPath": "data/flow/BB_2024-05-13_flow.parquet",
+  "barsPath": "data/minute_bars/BB_2024-05-13_minute.csv",
+  "lagSecondsTested": [
+    -300,
+    -120,
+    -60,
+    -30,
+    -10,
+    -5,
+    -1,
+    0,
+    1,
+    5,
+    10,
+    30,
+    60,
+    120,
+    300
+  ],
+  "results": [
+    {
+      "lagSeconds": -300,
+      "hyCorr": 0.03899058207628783,
+      "hyCov": 20.015737556213672,
+      "nOverlaps": 384
+    },
+    {
+      "lagSeconds": -120,
+      "hyCorr": 0.045869579272735383,
+      "hyCov": 23.54705704933196,
+      "nOverlaps": 387
+    },
+    {
+      "lagSeconds": -60,
+      "hyCorr": -0.028547429668240823,
+      "hyCov": -14.654766092642472,
+      "nOverlaps": 388
+    },
+    {
+      "lagSeconds": -30,
+      "hyCorr": -0.0971078411011887,
+      "hyCov": -49.85011658274131,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": -10,
+      "hyCorr": -0.0971078411011887,
+      "hyCov": -49.85011658274131,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": -5,
+      "hyCorr": -0.0971078411011887,
+      "hyCov": -49.85011658274131,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": -1,
+      "hyCorr": -0.0971078411011887,
+      "hyCov": -49.85011658274131,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 0,
+      "hyCorr": -0.07982751172571574,
+      "hyCov": -40.979293957224705,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 1,
+      "hyCorr": -0.06774757777139685,
+      "hyCov": -34.7780839508451,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 5,
+      "hyCorr": -0.06774757777139685,
+      "hyCov": -34.7780839508451,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 10,
+      "hyCorr": -0.06774757777139685,
+      "hyCov": -34.7780839508451,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 30,
+      "hyCorr": -0.06774757777139685,
+      "hyCov": -34.7780839508451,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 60,
+      "hyCorr": -0.015440465397659874,
+      "hyCov": -7.926332121451168,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 120,
+      "hyCorr": -0.014062855430962995,
+      "hyCov": -7.219138792193381,
+      "nOverlaps": 389
+    },
+    {
+      "lagSeconds": 300,
+      "hyCorr": -0.005398909524690836,
+      "hyCov": -2.771519438322846,
+      "nOverlaps": 389
+    }
+  ],
+  "bestByAbsCorr": {
+    "lagSeconds": -30,
+    "hyCorr": -0.0971078411011887,
+    "hyCov": -49.85011658274131,
+    "nOverlaps": 389
+  }
+}

@@ -1,0 +1,19 @@
+PHASE 30E: DAMPING FIELD REPORT
+===============================
+
+Analyzed 5 Zombie Days.
+
+HYPOTHESIS CHECK:
+1. GME Density vs TSLA Volatility: 0.0488
+   (Exp: Negative. Result: INCONCLUSIVE)
+
+2. GME Density vs TSLA Signals: 0.2272
+   (Exp: Negative. Result: INCONCLUSIVE)
+
+DAY-BY-DAY BREAKDOWN:
+         date  corr_vol  corr_sig  lag1_corr  lag5_corr  avg_density   avg_vol
+0  2025-08-21  0.008309  0.162535  -0.014280  -0.022335     0.320781  0.125482
+1  2025-08-26 -0.025421  0.076051  -0.020813  -0.038577     0.462555  0.136238
+2  2025-09-08  0.059054  0.249736   0.051259   0.008257     0.633903  0.166590
+3  2025-07-17  0.046701  0.267889   0.063249   0.035184     0.504532  0.101202
+4  2025-06-11  0.155215  0.379716   0.137971   0.133389     0.813202  0.177058

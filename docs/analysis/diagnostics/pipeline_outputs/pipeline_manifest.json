@@ -1,0 +1,73 @@
+{
+  "ledger": "reports/demo-notebook/tmpcy2bytxn.csv",
+  "processed_at": "2025-11-25T01:27:30.181Z",
+  "detections_attempted": 6,
+  "detections": [
+    {
+      "candidateId": "gme_20240513t1330380980000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1330380980000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:30:38.098000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.0220364741641338",
+      "spectralPower": "0.0127344844232405",
+      "status": "ok"
+    },
+    {
+      "candidateId": "gme_20240513t1331081040000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1331081040000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:31:08.104000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.0091017016224772",
+      "spectralPower": "0.0040912413363139",
+      "status": "ok"
+    },
+    {
+      "candidateId": "gme_20240513t1331181130000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1331181130000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:31:18.113000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.0074276778733385",
+      "spectralPower": "0.0041835079076919",
+      "status": "ok"
+    },
+    {
+      "candidateId": "gme_20240513t1331381250000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1331381250000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:31:38.125000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.0082514734774067",
+      "spectralPower": "0.0039314251344668",
+      "status": "ok"
+    },
+    {
+      "candidateId": "gme_20240513t1331481250000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1331481250000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:31:48.125000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.0073901205756514",
+      "spectralPower": "0.0035878837661435",
+      "status": "ok"
+    },
+    {
+      "candidateId": "gme_20240513t1332181350000000_hybrid_nopass",
+      "stageDir": "reports/diagnostics/pipeline_outputs/gme_20240513t1332181350000000_hybrid_nopass",
+      "decodedRows": 22,
+      "decodeErrors": 1,
+      "detectionTime": "2024-05-13T13:32:18.135000+00:00",
+      "detectionMode": "hybrid",
+      "rocValue": "0.008108108108108",
+      "spectralPower": "0.0034623811578751",
+      "status": "ok"
+    }
+  ]
+}

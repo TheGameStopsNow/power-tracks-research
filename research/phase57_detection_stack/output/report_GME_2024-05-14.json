@@ -1,0 +1,4500 @@
+{
+  "meta": {
+    "ticker": "GME",
+    "date": "2024-05-14",
+    "qa": {
+      "valid": true,
+      "zero_dt_pct": 7.910743817228366,
+      "venue_count": 17,
+      "top_venue_concentration": 39.66814318628041,
+      "flags": [
+        "High Zero-DT: 7.91%"
+      ]
+    }
+  },
+  "windows": [
+    {
+      "window_id": 1,
+      "start": "2024-05-14 08:00:00.017724+00:00",
+      "count": 6545,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.47467671468623174,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 2,
+      "start": "2024-05-14 08:05:00.108493+00:00",
+      "count": 4213,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5217502916553802,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 3,
+      "start": "2024-05-14 08:10:00.079840+00:00",
+      "count": 8183,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4917662249069783,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 4,
+      "start": "2024-05-14 08:15:00.190382+00:00",
+      "count": 6094,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5084305609795914,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 5,
+      "start": "2024-05-14 08:20:00.173199+00:00",
+      "count": 4720,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5115164529877924,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 6,
+      "start": "2024-05-14 08:25:00.424019+00:00",
+      "count": 2454,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5041065896916338,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 7,
+      "start": "2024-05-14 08:30:00.177285+00:00",
+      "count": 4264,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5505945793925491,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 8,
+      "start": "2024-05-14 08:35:00.306083+00:00",
+      "count": 2915,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5128926899462106,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "8"
+        ],
+        "stats": {
+          "mean_lag": 0.001977827304448837,
+          "std_lag": 0.012771256143879221,
+          "bic_1": -3658.257469382708,
+          "bic_2": -3652.153828716746,
+          "multimodal": "False",
+          "components": []
+        },
+        "coherence": {},
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 9,
+      "start": "2024-05-14 08:40:00.424080+00:00",
+      "count": 2275,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5000324036213895,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 10,
+      "start": "2024-05-14 08:45:00.029124+00:00",
+      "count": 2295,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5383081733857044,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 11,
+      "start": "2024-05-14 08:50:00.431464+00:00",
+      "count": 1876,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5047218544448613,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "8"
+        ],
+        "stats": {
+          "mean_lag": -0.0020653319685426477,
+          "std_lag": 0.011935000645446206,
+          "bic_1": -2624.0079634649346,
+          "bic_2": -2629.897551564977,
+          "multimodal": "False",
+          "components": []
+        },
+        "coherence": {},
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 12,
+      "start": "2024-05-14 08:55:00.104089+00:00",
+      "count": 1766,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5270662175924172,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 13,
+      "start": "2024-05-14 09:00:00.058691+00:00",
+      "count": 1575,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5381529030076129,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 14,
+      "start": "2024-05-14 09:05:01.056193+00:00",
+      "count": 2263,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5261874776342115,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 15,
+      "start": "2024-05-14 09:10:01.054511+00:00",
+      "count": 1779,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4935968401765015,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 16,
+      "start": "2024-05-14 09:15:00.471882+00:00",
+      "count": 1606,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5083915028016893,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 17,
+      "start": "2024-05-14 09:20:01.522856+00:00",
+      "count": 2179,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.528383416021116,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 18,
+      "start": "2024-05-14 09:25:00.133734+00:00",
+      "count": 2682,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.48779298178352537,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 19,
+      "start": "2024-05-14 09:30:00.065486+00:00",
+      "count": 3406,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5472176199668444,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 20,
+      "start": "2024-05-14 09:35:00.290393+00:00",
+      "count": 1451,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.473340888384425,
+        "p_val": 9.329340533405837e-299
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 21,
+      "start": "2024-05-14 09:40:00.845061+00:00",
+      "count": 2424,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5183784774417605,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 22,
+      "start": "2024-05-14 09:45:00.104553+00:00",
+      "count": 5274,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.531760268571174,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 23,
+      "start": "2024-05-14 09:50:00.069291+00:00",
+      "count": 5786,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4907448621185344,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 24,
+      "start": "2024-05-14 09:55:00.221000+00:00",
+      "count": 4823,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5192783249409324,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 25,
+      "start": "2024-05-14 10:00:00.827550+00:00",
+      "count": 6590,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5116884603860713,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 6.84060684613562,
+            "bins": [
+              1,
+              10,
+              5
+            ],
+            "plv": 0.33410185680150134,
+            "rayleigh_p": 0.07673839059831392,
+            "drift_slope_hz": -0.0063756557758294875,
+            "phase_drift_rms": 2.503557488809021,
+            "phase_var_abs": 0.6658981431984987
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 26,
+      "start": "2024-05-14 10:05:00.806818+00:00",
+      "count": 3418,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5181777563942361,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 27,
+      "start": "2024-05-14 10:10:00.737758+00:00",
+      "count": 3674,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.47374212362879375,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 28,
+      "start": "2024-05-14 10:15:00.325409+00:00",
+      "count": 3659,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4925468746087408,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 29,
+      "start": "2024-05-14 10:20:00.354893+00:00",
+      "count": 3109,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5124326339770313,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 30,
+      "start": "2024-05-14 10:25:02.125300+00:00",
+      "count": 3142,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5497910459590694,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 31,
+      "start": "2024-05-14 10:30:00.107921+00:00",
+      "count": 4896,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5734870282980593,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 32,
+      "start": "2024-05-14 10:35:00.287734+00:00",
+      "count": 6309,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5012592070590385,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 33,
+      "start": "2024-05-14 10:40:00.037845+00:00",
+      "count": 9089,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5896728853851754,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 34,
+      "start": "2024-05-14 10:45:00.030215+00:00",
+      "count": 5900,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4727575971226897,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 35,
+      "start": "2024-05-14 10:50:00.245099+00:00",
+      "count": 6741,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4841280166359122,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 36,
+      "start": "2024-05-14 10:55:00.054416+00:00",
+      "count": 4784,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4152789273074828,
+        "p_val": 1.24073550985e-312
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 37,
+      "start": "2024-05-14 11:00:00.018642+00:00",
+      "count": 12369,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5187033515634025,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 38,
+      "start": "2024-05-14 11:05:00.102269+00:00",
+      "count": 9639,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4543112671787376,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 39,
+      "start": "2024-05-14 11:10:00.032195+00:00",
+      "count": 19818,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5530134308937672,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 40,
+      "start": "2024-05-14 11:15:00.026900+00:00",
+      "count": 25449,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4832890842038282,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 41,
+      "start": "2024-05-14 11:20:00.058790+00:00",
+      "count": 16100,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3945630608468673,
+        "p_val": 4.79250866232916e-281
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 42,
+      "start": "2024-05-14 11:25:00.046158+00:00",
+      "count": 26856,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5466893653502073,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 43,
+      "start": "2024-05-14 11:30:00.058803+00:00",
+      "count": 29567,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38818174192234456,
+        "p_val": 1.0699680471757173e-271
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 44,
+      "start": "2024-05-14 11:35:00.021657+00:00",
+      "count": 34432,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4837192796911892,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 45,
+      "start": "2024-05-14 11:40:00.029419+00:00",
+      "count": 22023,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.434914110054224,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 46,
+      "start": "2024-05-14 11:45:00.192332+00:00",
+      "count": 24489,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.49284949641918674,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 47,
+      "start": "2024-05-14 11:50:00.023232+00:00",
+      "count": 20777,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5380244584960524,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 48,
+      "start": "2024-05-14 11:55:00.040624+00:00",
+      "count": 17069,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5388682057675392,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 49,
+      "start": "2024-05-14 12:00:00.143645+00:00",
+      "count": 78549,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.03767299707062177,
+        "p_val": 0.006688818636419259
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 38.73094661338145,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "plv": 0.12782497732515993,
+            "rayleigh_p": 0.68673817629865,
+            "drift_slope_hz": 0.0008105727430431334,
+            "phase_drift_rms": 2.6193095489175335,
+            "phase_var_abs": 0.87217502267484
+          },
+          {
+            "freq_hz": 100.0,
+            "period_sec": 0.01,
+            "persistence": 0.6,
+            "max_power": 75.68303405016175,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "plv": 0.032568072610784836,
+            "rayleigh_p": 0.13715378982788082,
+            "drift_slope_hz": -0.49668615317758785,
+            "phase_drift_rms": 117.75316186308747,
+            "phase_var_abs": 0.9674319273892151
+          },
+          {
+            "freq_hz": 200.0,
+            "period_sec": 0.005,
+            "persistence": 0.4,
+            "max_power": 20.05692501960503,
+            "bins": [
+              1,
+              2
+            ],
+            "plv": 0.032568072610784836,
+            "rayleigh_p": 0.13715378982788082,
+            "drift_slope_hz": -0.49668615317758863,
+            "phase_drift_rms": 117.7531618630873,
+            "phase_var_abs": 0.9674319273892151
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 50,
+      "start": "2024-05-14 12:05:00.037866+00:00",
+      "count": 39337,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3040624350385881,
+        "p_val": 1.6922607166001156e-164
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 51,
+      "start": "2024-05-14 12:10:00.058600+00:00",
+      "count": 35273,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3932309835392478,
+        "p_val": 4.4337948753219346e-279
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 52,
+      "start": "2024-05-14 12:15:00.071294+00:00",
+      "count": 22526,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.34738232455979845,
+        "p_val": 4.776015623823533e-216
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 53,
+      "start": "2024-05-14 12:20:00.020192+00:00",
+      "count": 32423,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3736509933515058,
+        "p_val": 4.565817391574635e-251
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 54,
+      "start": "2024-05-14 12:25:00.055778+00:00",
+      "count": 17891,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38029942760098656,
+        "p_val": 2.1533238070303498e-260
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 55,
+      "start": "2024-05-14 12:30:00.118236+00:00",
+      "count": 27793,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4405346616485796,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 56,
+      "start": "2024-05-14 12:35:00.049498+00:00",
+      "count": 17956,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.44430080017370344,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 57,
+      "start": "2024-05-14 12:40:00.094562+00:00",
+      "count": 12615,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.41580262685586084,
+        "p_val": 1.8634825106e-313
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 58,
+      "start": "2024-05-14 12:45:00.091158+00:00",
+      "count": 13765,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4073289009898104,
+        "p_val": 2.762586976584555e-300
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 59,
+      "start": "2024-05-14 12:50:00.092445+00:00",
+      "count": 22298,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.31213681767194135,
+        "p_val": 1.5601572432420926e-173
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 60,
+      "start": "2024-05-14 12:55:00.136637+00:00",
+      "count": 25823,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.5573885669737223,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 61,
+      "start": "2024-05-14 13:00:00.042964+00:00",
+      "count": 17469,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.42311233008875687,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 62,
+      "start": "2024-05-14 13:05:00.190937+00:00",
+      "count": 11905,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4188248447842269,
+        "p_val": 3.123443e-318
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 63,
+      "start": "2024-05-14 13:10:00.173058+00:00",
+      "count": 12000,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.42963440563924116,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 64,
+      "start": "2024-05-14 13:15:00.058840+00:00",
+      "count": 22574,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3902209370051934,
+        "p_val": 1.1513243374364006e-274
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 65,
+      "start": "2024-05-14 13:20:00.046989+00:00",
+      "count": 12983,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3842339184443654,
+        "p_val": 5.301149103332179e-266
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 66,
+      "start": "2024-05-14 13:25:00.028654+00:00",
+      "count": 20786,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.48759465413228376,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 67,
+      "start": "2024-05-14 13:30:00.021066+00:00",
+      "count": 27043,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23846840205678865,
+        "p_val": 1.6439260701390068e-100
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.6,
+            "max_power": 20.7657162247114,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "plv": 0.2933844777788873,
+            "rayleigh_p": 0.009580548851176797,
+            "drift_slope_hz": -0.012461613577880141,
+            "phase_drift_rms": 2.3074378218399603,
+            "phase_var_abs": 0.7066155222211127
+          },
+          {
+            "freq_hz": 93.5,
+            "period_sec": 0.0106951871657754,
+            "persistence": 0.6,
+            "max_power": 9.139237602264787,
+            "bins": [
+              1,
+              2,
+              5
+            ],
+            "plv": 0.4138806377533509,
+            "rayleigh_p": 2.579124955495452e-103,
+            "drift_slope_hz": -0.046784571648664834,
+            "phase_drift_rms": 10.662425228846269,
+            "phase_var_abs": 0.5861193622466492
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 13.331736098116934,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "plv": 0.05573136675735171,
+            "rayleigh_p": 0.9485680483204466,
+            "drift_slope_hz": 0.004126675401049573,
+            "phase_drift_rms": 1.384463334308253,
+            "phase_var_abs": 0.9442686332426483
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0,
+          19.0
+        ],
+        "weight_series_0": [
+          3.84798358658327e-39,
+          8.043875974084824e-22,
+          8.043875974084824e-22,
+          0.0005310674948992724,
+          0.0005310674948992724,
+          0.10526498058383693
+        ],
+        "weight_series_1": [
+          0.999999999999988,
+          0.9995309256501643,
+          0.9995309256501643,
+          0.9963463871853143,
+          0.9963463871853143,
+          0.5298802080505174
+        ],
+        "dominant_state": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_lags": [
+          1866,
+          1875,
+          1875,
+          1883,
+          1883,
+          19
+        ],
+        "spectral_entropy": 1.0558676507645277,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          6.890244230034992e-06,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.0002027473268150842,
+          "std_lag": 0.0032589214340052954,
+          "bic_1": -16268.143145475098,
+          "bic_2": -17245.824461700675,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.035320654352266015,
+              "weight": 0.003701745450939439,
+              "var": 1.8152850827460527e-05
+            },
+            {
+              "mean": 0.00033473450030155295,
+              "weight": 0.9962982545490606,
+              "var": 6.890244230034992e-06
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 6,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 68,
+      "start": "2024-05-14 13:35:33.978345+00:00",
+      "count": 59940,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26856383670150685,
+        "p_val": 8.192843411127713e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 74.0885347159819,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 1.0,
+            "max_power": 25.25419885003895,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 23.90538162509022,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (5486,) (5488,) (5486,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "weight_series_0": [
+          0.9762613540587812,
+          0.9154415010130172,
+          0.930353930431402,
+          0.9287977031748651,
+          0.9145110800680558,
+          0.9071482162314801,
+          0.9122394537665545
+        ],
+        "weight_series_1": [
+          0.02373864592345944,
+          0.08455849890737314,
+          0.06964606952003978,
+          0.07120229678922356,
+          0.08548891989557364,
+          0.09285178372601997,
+          0.08776054622709237
+        ],
+        "dominant_state": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "n_lags": [
+          1013,
+          531,
+          743,
+          743,
+          713,
+          615,
+          438
+        ],
+        "spectral_entropy": 1.0880185908098714,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          4.8351786339152075e-05,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": 0.0003031907944893634,
+          "std_lag": 0.011986339074908791,
+          "bic_1": -9877.770107615075,
+          "bic_2": -10080.390045648694,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.0014326910034037363,
+              "weight": 0.9488692421687811,
+              "var": 9.092971712820802e-05
+            },
+            {
+              "mean": 0.032517163673563755,
+              "weight": 0.051130757831218926,
+              "var": 4.8351786339152075e-05
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 7,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 69,
+      "start": "2024-05-14 13:41:16.031912+00:00",
+      "count": 92238,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2771050169840066,
+        "p_val": 3.4235755288885004e-136
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 120.51610204981992,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.8,
+            "max_power": 47.702811929738054,
+            "bins": [
+              2,
+              10,
+              20,
+              5
+            ],
+            "plv": 0.6011541664552406,
+            "rayleigh_p": 0.03867828348848393,
+            "drift_slope_hz": -0.00011341300016445013,
+            "phase_drift_rms": 0.9494497626980757,
+            "phase_var_abs": 0.39884583354475944
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.59515892963803,
+            "bins": [
+              1,
+              20
+            ],
+            "plv": 0.26742537937112876,
+            "rayleigh_p": 0.2569662984545062,
+            "drift_slope_hz": 0.010727118729447831,
+            "phase_drift_rms": 1.9288319052242155,
+            "phase_var_abs": 0.7325746206288712
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 70,
+      "start": "2024-05-14 13:47:12.138776+00:00",
+      "count": 80598,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3105515828412316,
+        "p_val": 9.716755100805902e-172
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 71,
+      "start": "2024-05-14 13:50:00.019202+00:00",
+      "count": 10307,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2688544713274619,
+        "p_val": 4.2947411660843495e-128
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 25.980223133249478,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 8.784860739734743,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.09647480802628157,
+            "rayleigh_p": 0.8696966304676336,
+            "drift_slope_hz": 0.013629274217203634,
+            "phase_drift_rms": 3.4522963291878574,
+            "phase_var_abs": 0.9035251919737184
+          },
+          {
+            "freq_hz": 6.0,
+            "period_sec": 0.16666666666666666,
+            "persistence": 0.4,
+            "max_power": 9.953705249157379,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.16340739134122548,
+            "rayleigh_p": 0.2850778863494772,
+            "drift_slope_hz": -0.03148067604659792,
+            "phase_drift_rms": 3.4568967707434703,
+            "phase_var_abs": 0.8365926086587745
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 72,
+      "start": "2024-05-14 13:55:47.909329+00:00",
+      "count": 68733,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.21046356898063362,
+        "p_val": 3.654611959363285e-78
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 7.081432895399104,
+            "bins": [
+              1,
+              20
+            ],
+            "plv": 0.6182403530172803,
+            "rayleigh_p": 0.010186890716355477,
+            "drift_slope_hz": 0.007460015706281708,
+            "phase_drift_rms": 1.1037566812495432,
+            "phase_var_abs": 0.3817596469827197
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 73,
+      "start": "2024-05-14 14:03:25.607857+00:00",
+      "count": 38842,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26775046996197627,
+        "p_val": 4.974020766907654e-127
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.8,
+            "max_power": 10.251472095221303,
+            "bins": [
+              1,
+              2,
+              20,
+              5
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (9441,) (9443,) (9441,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 74,
+      "start": "2024-05-14 14:05:00.025321+00:00",
+      "count": 7487,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.34493712903624757,
+        "p_val": 6.198095342328118e-213
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.4,
+            "max_power": 7.022325497179698,
+            "bins": [
+              1,
+              10
+            ],
+            "plv": 0.13334248991825087,
+            "rayleigh_p": 0.9149360580253374,
+            "drift_slope_hz": -0.03287108727273952,
+            "phase_drift_rms": 0.9925006938278611,
+            "phase_var_abs": 0.8666575100817491
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 8.918551274184454,
+            "bins": [
+              10,
+              5
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 7.090608111443977,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.3833108168912247,
+            "rayleigh_p": 0.19865234227957632,
+            "drift_slope_hz": -0.007043444927511615,
+            "phase_drift_rms": 1.428842660431595,
+            "phase_var_abs": 0.6166891831087753
+          }
+        ]
+      },
+      "L3_dense": {
+        "time_axis": [
+          5.0,
+          7.0,
+          9.0,
+          11.0,
+          13.0,
+          15.0,
+          17.0
+        ],
+        "weight_series_0": [
+          0.04477649745101632,
+          0.05303343168838362,
+          0.030009566464350122,
+          0.052077317332170754,
+          0.05691324163325375,
+          0.06860276474162118,
+          0.08145795630457607
+        ],
+        "weight_series_1": [
+          0.9552235022532958,
+          0.9469665679887918,
+          0.9699904331536058,
+          0.9479226809158059,
+          0.9430867563831336,
+          0.9313972332079543,
+          0.9185420411671577
+        ],
+        "dominant_state": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "n_lags": [
+          542,
+          508,
+          418,
+          317,
+          281,
+          265,
+          217
+        ],
+        "spectral_entropy": 0.6843591480608759,
+        "status": "ok"
+      },
+      "L3": {
+        "pair": [
+          7.447940014962133e-05,
+          "11"
+        ],
+        "stats": {
+          "mean_lag": -0.0005076158075038158,
+          "std_lag": 0.010658545361231165,
+          "bic_1": -5244.710071722043,
+          "bic_2": -5310.02839615959,
+          "multimodal": "True",
+          "components": [
+            {
+              "mean": -0.02746404899885936,
+              "weight": 0.0530679485839131,
+              "var": 6.321691315723968e-05
+            },
+            {
+              "mean": 0.0010030761248954227,
+              "weight": 0.9469320514160869,
+              "var": 7.447940014962133e-05
+            }
+          ]
+        },
+        "coherence": {
+          "n_valid": 7,
+          "status": "insufficient_valid_subwindows"
+        },
+        "switching_score": 1.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 75,
+      "start": "2024-05-14 14:10:37.608145+00:00",
+      "count": 55929,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.1943585837962132,
+        "p_val": 1.258985884906031e-66
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 76,
+      "start": "2024-05-14 14:15:00.035860+00:00",
+      "count": 45678,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23558732005806726,
+        "p_val": 4.466276690207097e-98
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 77,
+      "start": "2024-05-14 14:20:00.102871+00:00",
+      "count": 14117,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29367888528142355,
+        "p_val": 2.9409018532262174e-153
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 9.020799131114018,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.5792259860430581,
+            "rayleigh_p": 0.1335851125035625,
+            "drift_slope_hz": 0.0016351262449888638,
+            "phase_drift_rms": 1.093552911175777,
+            "phase_var_abs": 0.4207740139569419
+          },
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.4,
+            "max_power": 5.3905012621852055,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.3044481359594354,
+            "rayleigh_p": 0.13013919315447148,
+            "drift_slope_hz": 0.01761943355090362,
+            "phase_drift_rms": 1.784223282040244,
+            "phase_var_abs": 0.6955518640405647
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 78,
+      "start": "2024-05-14 14:26:24.843284+00:00",
+      "count": 36883,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23815536235387857,
+        "p_val": 3.0329197516330667e-100
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 79,
+      "start": "2024-05-14 14:30:00.060128+00:00",
+      "count": 29833,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.383528413125942,
+        "p_val": 5.432548458263914e-265
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 80,
+      "start": "2024-05-14 14:35:00.050046+00:00",
+      "count": 40794,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2914133330929887,
+        "p_val": 7.320638685780705e-151
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 81,
+      "start": "2024-05-14 14:40:00.034189+00:00",
+      "count": 48044,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3734145432364746,
+        "p_val": 9.721401790151366e-251
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 82,
+      "start": "2024-05-14 14:45:00.062714+00:00",
+      "count": 37380,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3093244800504927,
+        "p_val": 2.34219265435057e-170
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 83,
+      "start": "2024-05-14 14:50:00.070513+00:00",
+      "count": 33034,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3863060595381478,
+        "p_val": 5.541017820667142e-269
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 84,
+      "start": "2024-05-14 14:55:00.091343+00:00",
+      "count": 30755,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2712580137309183,
+        "p_val": 1.9988430616786288e-130
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 85,
+      "start": "2024-05-14 15:00:00.078189+00:00",
+      "count": 13749,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4153565341120604,
+        "p_val": 9.37011260907e-313
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 17.782834780060952,
+            "bins": [
+              10,
+              20,
+              5
+            ],
+            "plv": 0.6330990204486853,
+            "rayleigh_p": 0.13478533887613542,
+            "drift_slope_hz": -0.004944225238113106,
+            "phase_drift_rms": 0.8303995104062571,
+            "phase_var_abs": 0.36690097955131473
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 86,
+      "start": "2024-05-14 15:06:16.692094+00:00",
+      "count": 42678,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2108772667520203,
+        "p_val": 1.7943560492116307e-78
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 87,
+      "start": "2024-05-14 15:10:00.024561+00:00",
+      "count": 35695,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.33347279983521205,
+        "p_val": 1.1495845339615262e-198
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 88,
+      "start": "2024-05-14 15:15:00.044206+00:00",
+      "count": 23407,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29777819240189596,
+        "p_val": 1.2072722731629754e-157
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 89,
+      "start": "2024-05-14 15:20:00.018986+00:00",
+      "count": 17640,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3106880306591788,
+        "p_val": 6.81503076266338e-172
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 90,
+      "start": "2024-05-14 15:25:00.099394+00:00",
+      "count": 16559,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2882810680508991,
+        "p_val": 1.393696414135542e-147
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 91,
+      "start": "2024-05-14 15:30:00.043090+00:00",
+      "count": 21630,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38155282230840776,
+        "p_val": 3.5776561960347885e-262
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 92,
+      "start": "2024-05-14 15:35:00.041907+00:00",
+      "count": 19690,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3751627975719387,
+        "p_val": 3.5923740748790136e-253
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 93,
+      "start": "2024-05-14 15:40:00.028076+00:00",
+      "count": 24819,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2954466361519067,
+        "p_val": 3.8450921733207835e-155
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 94,
+      "start": "2024-05-14 15:45:00.065994+00:00",
+      "count": 16553,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.30049891947481916,
+        "p_val": 1.3609195205327123e-160
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 95,
+      "start": "2024-05-14 15:50:00.066554+00:00",
+      "count": 16665,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.30480329993667693,
+        "p_val": 2.571707818490296e-165
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 96,
+      "start": "2024-05-14 15:55:00.057849+00:00",
+      "count": 14833,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3452339519257937,
+        "p_val": 2.604138638104614e-213
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 97,
+      "start": "2024-05-14 16:00:00.035775+00:00",
+      "count": 17064,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35114541911473673,
+        "p_val": 6.91168218954497e-221
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 98,
+      "start": "2024-05-14 16:05:00.321664+00:00",
+      "count": 18153,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3353298620278999,
+        "p_val": 6.106785017599404e-201
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 99,
+      "start": "2024-05-14 16:10:00.058754+00:00",
+      "count": 20567,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2666367844466415,
+        "p_val": 5.8219488929600644e-126
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 100,
+      "start": "2024-05-14 16:15:00.039070+00:00",
+      "count": 16535,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3530638036726861,
+        "p_val": 2.237900634294019e-223
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 101,
+      "start": "2024-05-14 16:20:00.058873+00:00",
+      "count": 20750,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.40655348597317453,
+        "p_val": 4.270982552116292e-299
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 102,
+      "start": "2024-05-14 16:25:00.034220+00:00",
+      "count": 12976,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.32448261825675306,
+        "p_val": 7.488553714259345e-188
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 103,
+      "start": "2024-05-14 16:30:00.084901+00:00",
+      "count": 12620,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3514262577620243,
+        "p_val": 2.99266615953209e-221
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 104,
+      "start": "2024-05-14 16:35:00.389339+00:00",
+      "count": 14656,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29264200414499564,
+        "p_val": 3.6948099695585673e-152
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 105,
+      "start": "2024-05-14 16:40:00.030044+00:00",
+      "count": 21901,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.39402493374905256,
+        "p_val": 2.990890155058659e-280
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 106,
+      "start": "2024-05-14 16:45:00.119118+00:00",
+      "count": 12056,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.406137291170663,
+        "p_val": 1.852332139291046e-298
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.6,
+            "max_power": 9.065049440962794,
+            "bins": [
+              1,
+              10,
+              20
+            ],
+            "plv": 0.31770600898740936,
+            "rayleigh_p": 0.4031550815485912,
+            "drift_slope_hz": 0.01120884849398648,
+            "phase_drift_rms": 0.7690045177563166,
+            "phase_var_abs": 0.6822939910125907
+          },
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 10.138871367754946,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 107,
+      "start": "2024-05-14 16:51:04.195992+00:00",
+      "count": 43066,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.25489203546755007,
+        "p_val": 5.533239407120843e-115
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 14.342139722195332,
+            "bins": [
+              1,
+              5
+            ],
+            "phase_error": "operands could not be broadcast together with shapes (22268,) (22270,) (22268,) ",
+            "plv": 0.0,
+            "rayleigh_p": 1.0
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 108,
+      "start": "2024-05-14 16:55:25.321825+00:00",
+      "count": 16950,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.17980538204366936,
+        "p_val": 5.123297759037867e-57
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 1.0,
+            "max_power": 29.245063608998546,
+            "bins": [
+              1,
+              2,
+              5,
+              10,
+              20
+            ],
+            "plv": 0.3638674200473506,
+            "rayleigh_p": 0.06201434890201846,
+            "drift_slope_hz": -0.00029305871610799626,
+            "phase_drift_rms": 1.7301108572808104,
+            "phase_var_abs": 0.6361325799526494
+          },
+          {
+            "freq_hz": 1.0,
+            "period_sec": 1.0,
+            "persistence": 0.6,
+            "max_power": 14.432817029878473,
+            "bins": [
+              2,
+              10,
+              5
+            ],
+            "plv": 0.6413301314373477,
+            "rayleigh_p": 1.3816658300644459e-08,
+            "drift_slope_hz": 0.0004801235948646054,
+            "phase_drift_rms": 1.1620107562327777,
+            "phase_var_abs": 0.35866986856265226
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 109,
+      "start": "2024-05-14 17:00:00.033081+00:00",
+      "count": 27303,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.33332295473139045,
+        "p_val": 1.7517571644177346e-198
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 110,
+      "start": "2024-05-14 17:10:02.678779+00:00",
+      "count": 32268,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3911727560538205,
+        "p_val": 4.6727162058550726e-276
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 111,
+      "start": "2024-05-14 17:16:53.415281+00:00",
+      "count": 37571,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3249550955099827,
+        "p_val": 2.0617280737250282e-188
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 112,
+      "start": "2024-05-14 17:20:00.059014+00:00",
+      "count": 12737,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29786846564502784,
+        "p_val": 9.648502913579482e-158
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 113,
+      "start": "2024-05-14 17:27:07.134552+00:00",
+      "count": 30425,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.1905121496949313,
+        "p_val": 5.186568378654799e-64
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 114,
+      "start": "2024-05-14 17:30:00.025077+00:00",
+      "count": 12457,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2507585597816844,
+        "p_val": 3.030954324583044e-111
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 115,
+      "start": "2024-05-14 17:36:48.292315+00:00",
+      "count": 21482,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.20233599306526096,
+        "p_val": 3.1936716130842915e-72
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 116,
+      "start": "2024-05-14 17:40:00.023312+00:00",
+      "count": 17230,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.348740179552654,
+        "p_val": 8.701265095759216e-218
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 117,
+      "start": "2024-05-14 17:45:00.077785+00:00",
+      "count": 14437,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3031078572887732,
+        "p_val": 1.9034556360052074e-163
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 118,
+      "start": "2024-05-14 17:50:00.028925+00:00",
+      "count": 16287,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3023523966849345,
+        "p_val": 1.2847434859064205e-162
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 119,
+      "start": "2024-05-14 17:55:00.145603+00:00",
+      "count": 13140,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3001893747349365,
+        "p_val": 2.955992560216533e-160
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 120,
+      "start": "2024-05-14 18:00:00.299952+00:00",
+      "count": 16391,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3491771733965707,
+        "p_val": 2.3886133071775154e-218
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 121,
+      "start": "2024-05-14 18:05:00.066995+00:00",
+      "count": 17256,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35361062880370736,
+        "p_val": 4.338582830601223e-224
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 122,
+      "start": "2024-05-14 18:10:00.048794+00:00",
+      "count": 17672,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29326970510239664,
+        "p_val": 7.993225840469347e-153
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 123,
+      "start": "2024-05-14 18:18:33.340217+00:00",
+      "count": 11694,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2115279005026524,
+        "p_val": 5.844720312534261e-79
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 11.750166436298038,
+            "bins": [
+              1,
+              20
+            ],
+            "plv": 0.6439301085988055,
+            "rayleigh_p": 0.08308626209304765,
+            "drift_slope_hz": -0.005280852684861046,
+            "phase_drift_rms": 0.6993363593117634,
+            "phase_var_abs": 0.3560698914011945
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 124,
+      "start": "2024-05-14 18:20:00.037184+00:00",
+      "count": 26502,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.28969324337828645,
+        "p_val": 4.68066317903735e-149
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 125,
+      "start": "2024-05-14 18:29:06.015439+00:00",
+      "count": 6771,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2939085253039675,
+        "p_val": 1.6768252633695013e-153
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.6,
+            "max_power": 21.17831678143507,
+            "bins": [
+              1,
+              10,
+              20
+            ],
+            "plv": 0.0,
+            "rayleigh_p": 1.0,
+            "drift_slope_hz": 0.0,
+            "phase_drift_rms": 0.0,
+            "phase_var_abs": 1.0
+          },
+          {
+            "freq_hz": 12.5,
+            "period_sec": 0.08,
+            "persistence": 0.4,
+            "max_power": 7.013626222304103,
+            "bins": [
+              10,
+              20
+            ],
+            "plv": 0.10792635383144283,
+            "rayleigh_p": 0.27446298796370455,
+            "drift_slope_hz": -0.04629863237994915,
+            "phase_drift_rms": 2.8592527864166826,
+            "phase_var_abs": 0.8920736461685572
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 126,
+      "start": "2024-05-14 18:30:00.037702+00:00",
+      "count": 19557,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3397554852417804,
+        "p_val": 2.0323669028787522e-206
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 127,
+      "start": "2024-05-14 18:35:00.049701+00:00",
+      "count": 14277,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.33658224322128366,
+        "p_val": 1.7531183373617492e-202
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 128,
+      "start": "2024-05-14 18:40:00.057547+00:00",
+      "count": 13757,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3016719842237462,
+        "p_val": 7.141306648788161e-162
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 129,
+      "start": "2024-05-14 18:45:00.061070+00:00",
+      "count": 12743,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.30644062161578334,
+        "p_val": 3.927981705414184e-167
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 130,
+      "start": "2024-05-14 18:50:00.083796+00:00",
+      "count": 18811,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3316115025803906,
+        "p_val": 2.1200702006484858e-196
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 131,
+      "start": "2024-05-14 18:55:00.150120+00:00",
+      "count": 14609,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35397124515469025,
+        "p_val": 1.4682379901942227e-224
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 132,
+      "start": "2024-05-14 19:00:00.019812+00:00",
+      "count": 13160,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.31467236589555153,
+        "p_val": 2.0057957677790653e-176
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 133,
+      "start": "2024-05-14 19:05:00.138654+00:00",
+      "count": 13251,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3425099249236141,
+        "p_val": 7.213446346912381e-210
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 134,
+      "start": "2024-05-14 19:10:00.083073+00:00",
+      "count": 14300,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2835937324200326,
+        "p_val": 9.560553393311038e-143
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 135,
+      "start": "2024-05-14 19:15:00.028543+00:00",
+      "count": 13372,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35742701537185206,
+        "p_val": 4.265839671254777e-229
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 136,
+      "start": "2024-05-14 19:20:00.137147+00:00",
+      "count": 16997,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2914176496322223,
+        "p_val": 7.244407702234299e-151
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 137,
+      "start": "2024-05-14 19:25:00.074851+00:00",
+      "count": 14610,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2907974400078843,
+        "p_val": 3.254220627076966e-150
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 138,
+      "start": "2024-05-14 19:30:00.139578+00:00",
+      "count": 26514,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38700933906532253,
+        "p_val": 5.341864717987637e-270
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 139,
+      "start": "2024-05-14 19:35:00.027948+00:00",
+      "count": 20317,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3212453029766494,
+        "p_val": 4.878766775371792e-184
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 140,
+      "start": "2024-05-14 19:40:00.052780+00:00",
+      "count": 18555,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3005928524975691,
+        "p_val": 1.075306703328157e-160
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 141,
+      "start": "2024-05-14 19:45:00.021250+00:00",
+      "count": 38838,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3840610592924986,
+        "p_val": 9.379700888544662e-266
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 142,
+      "start": "2024-05-14 19:50:00.018817+00:00",
+      "count": 47323,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.36599265166573125,
+        "p_val": 1.4757738289244174e-240
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 143,
+      "start": "2024-05-14 19:55:00.056514+00:00",
+      "count": 36287,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3492070503474329,
+        "p_val": 2.1864116289188253e-218
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 144,
+      "start": "2024-05-14 20:00:00.096804+00:00",
+      "count": 5556,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.37637727531216175,
+        "p_val": 7.210922502219761e-255
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 145,
+      "start": "2024-05-14 20:05:00.399853+00:00",
+      "count": 11960,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4433261643521713,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 146,
+      "start": "2024-05-14 20:10:00.042047+00:00",
+      "count": 10383,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.41901102918160427,
+        "p_val": 1.581514e-318
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 147,
+      "start": "2024-05-14 20:15:00.420681+00:00",
+      "count": 10294,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.45891230928876214,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 148,
+      "start": "2024-05-14 20:20:00.070160+00:00",
+      "count": 17625,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.40430947003183465,
+        "p_val": 1.140194617865722e-295
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 149,
+      "start": "2024-05-14 20:25:00.150907+00:00",
+      "count": 9196,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3442176097783117,
+        "p_val": 5.054054953896642e-212
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 150,
+      "start": "2024-05-14 20:30:00.628705+00:00",
+      "count": 19871,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.41996725296512677,
+        "p_val": 4.7707e-320
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 488.33537309916727,
+            "bins": [
+              1,
+              10
+            ],
+            "plv": 0.0997293202141127,
+            "rayleigh_p": 0.7955221733328681,
+            "drift_slope_hz": -0.005348936853522166,
+            "phase_drift_rms": 1.4794454679574207,
+            "phase_var_abs": 0.9002706797858873
+          },
+          {
+            "freq_hz": 6.5,
+            "period_sec": 0.15384615384615385,
+            "persistence": 0.4,
+            "max_power": 19.866590691777265,
+            "bins": [
+              1,
+              2
+            ],
+            "plv": 0.05605214928348539,
+            "rayleigh_p": 0.3613322895577668,
+            "drift_slope_hz": -0.025959472461328417,
+            "phase_drift_rms": 10.585913586516194,
+            "phase_var_abs": 0.9439478507165147
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 151,
+      "start": "2024-05-14 20:35:00.035297+00:00",
+      "count": 5106,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.42819161730903094,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 152,
+      "start": "2024-05-14 20:40:00.243472+00:00",
+      "count": 5176,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4913139419353544,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 153,
+      "start": "2024-05-14 20:45:00.054659+00:00",
+      "count": 4233,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4213689083485364,
+        "p_val": 2.47e-322
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 154,
+      "start": "2024-05-14 20:50:00.136101+00:00",
+      "count": 5514,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4678277111881184,
+        "p_val": 0.0
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 155,
+      "start": "2024-05-14 20:55:00.242445+00:00",
+      "count": 4029,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3910044879292446,
+        "p_val": 8.239046267593466e-276
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 156,
+      "start": "2024-05-14 21:00:00.444107+00:00",
+      "count": 2722,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.408027419993509,
+        "p_val": 2.3320663415898325e-301
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 157,
+      "start": "2024-05-14 21:05:00.091307+00:00",
+      "count": 2751,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.37511826124825326,
+        "p_val": 4.144832534223191e-253
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 158,
+      "start": "2024-05-14 21:10:00.665380+00:00",
+      "count": 1937,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.32072183176860375,
+        "p_val": 1.164333006389473e-177
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 159,
+      "start": "2024-05-14 21:15:00.105112+00:00",
+      "count": 1671,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3393696408183777,
+        "p_val": 3.9775360041423e-172
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 160,
+      "start": "2024-05-14 21:20:00.644338+00:00",
+      "count": 1998,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.38869810391653475,
+        "p_val": 3.560868477433498e-272
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 161,
+      "start": "2024-05-14 21:25:00.523064+00:00",
+      "count": 1556,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3309008969488053,
+        "p_val": 3.2173996719258066e-152
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 162,
+      "start": "2024-05-14 21:30:00.099119+00:00",
+      "count": 1858,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.30740700038023305,
+        "p_val": 2.696324968086952e-156
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 163,
+      "start": "2024-05-14 21:35:00.346978+00:00",
+      "count": 2080,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3086427107540311,
+        "p_val": 1.3643249046648098e-169
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 164,
+      "start": "2024-05-14 21:40:00.314268+00:00",
+      "count": 1279,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2433317679033326,
+        "p_val": 4.177658119065223e-67
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 165,
+      "start": "2024-05-14 21:45:00.256542+00:00",
+      "count": 1057,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.24446448259639525,
+        "p_val": 4.702674257260339e-56
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 166,
+      "start": "2024-05-14 21:50:00.188649+00:00",
+      "count": 1255,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.29736121473703053,
+        "p_val": 8.527019679909246e-99
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 167,
+      "start": "2024-05-14 21:55:01.160397+00:00",
+      "count": 804,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.20760170087546248,
+        "p_val": 7.829510456894284e-31
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 168,
+      "start": "2024-05-14 22:00:00.443501+00:00",
+      "count": 1430,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.27580259393033385,
+        "p_val": 1.4280179307375984e-96
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "pair": [
+          "11",
+          "12"
+        ],
+        "stats": {
+          "mean_lag": -0.0028464476267496745,
+          "std_lag": 0.011020213012717809,
+          "bic_1": -2119.7704153032005,
+          "bic_2": -2121.1644281515423,
+          "multimodal": "False",
+          "components": []
+        },
+        "coherence": {},
+        "switching_score": 0.0
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 169,
+      "start": "2024-05-14 22:05:00.381468+00:00",
+      "count": 890,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2207591318004018,
+        "p_val": 1.5690512692509863e-38
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 170,
+      "start": "2024-05-14 22:10:00.996754+00:00",
+      "count": 770,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.22777912037067588,
+        "p_val": 1.5069299655604834e-35
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 171,
+      "start": "2024-05-14 22:15:00.717992+00:00",
+      "count": 1927,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.33808686135562704,
+        "p_val": 6.709005293166183e-197
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 172,
+      "start": "2024-05-14 22:20:00.043016+00:00",
+      "count": 2180,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.4191280803835181,
+        "p_val": 1.03079e-318
+      },
+      "L2": {
+        "signals": [
+          {
+            "freq_hz": 0.5,
+            "period_sec": 2.0,
+            "persistence": 0.4,
+            "max_power": 7.116169788993819,
+            "bins": [
+              1,
+              2
+            ],
+            "plv": 0.1635287658826356,
+            "rayleigh_p": 0.540609475668238,
+            "drift_slope_hz": 0.0011426884598223187,
+            "phase_drift_rms": 1.7182661195065676,
+            "phase_var_abs": 0.8364712341173643
+          },
+          {
+            "freq_hz": 1.5,
+            "period_sec": 0.6666666666666666,
+            "persistence": 0.4,
+            "max_power": 6.336894655254175,
+            "bins": [
+              1,
+              2
+            ],
+            "plv": 0.16025601452659707,
+            "rayleigh_p": 0.15338789814341963,
+            "drift_slope_hz": 0.008947161683086813,
+            "phase_drift_rms": 2.518286507842901,
+            "phase_var_abs": 0.8397439854734029
+          },
+          {
+            "freq_hz": 2.0,
+            "period_sec": 0.5,
+            "persistence": 0.4,
+            "max_power": 6.839914393060536,
+            "bins": [
+              1,
+              2
+            ],
+            "plv": 0.0675618182857794,
+            "rayleigh_p": 0.6393324266179895,
+            "drift_slope_hz": -0.010220588983630548,
+            "phase_drift_rms": 4.153294203943462,
+            "phase_var_abs": 0.9324381817142207
+          }
+        ]
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 173,
+      "start": "2024-05-14 22:25:00.131702+00:00",
+      "count": 2389,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2797046183005442,
+        "p_val": 8.478679186279537e-139
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 174,
+      "start": "2024-05-14 22:30:00.173721+00:00",
+      "count": 1976,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2484453610650207,
+        "p_val": 7.087786773236083e-108
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 175,
+      "start": "2024-05-14 22:35:00.063337+00:00",
+      "count": 1330,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.24664122942133881,
+        "p_val": 1.089908873117184e-71
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 176,
+      "start": "2024-05-14 22:40:00.034197+00:00",
+      "count": 1176,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.22379297123730552,
+        "p_val": 3.514991492606641e-52
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 177,
+      "start": "2024-05-14 22:45:00.409913+00:00",
+      "count": 991,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2458281259857686,
+        "p_val": 3.5813238439227574e-53
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 178,
+      "start": "2024-05-14 22:50:00.459568+00:00",
+      "count": 1469,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.27934864768131323,
+        "p_val": 8.51229659906987e-102
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 179,
+      "start": "2024-05-14 22:55:00.227788+00:00",
+      "count": 1517,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2601175932007013,
+        "p_val": 5.654608670974681e-91
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 180,
+      "start": "2024-05-14 23:00:00.237740+00:00",
+      "count": 1856,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3520427769313748,
+        "p_val": 4.325318857731807e-206
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 181,
+      "start": "2024-05-14 23:05:00.021478+00:00",
+      "count": 3284,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.3639882543797122,
+        "p_val": 7.561709845996711e-238
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 182,
+      "start": "2024-05-14 23:10:00.089551+00:00",
+      "count": 2099,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2666803768263456,
+        "p_val": 5.288586647294152e-126
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 183,
+      "start": "2024-05-14 23:15:00.353631+00:00",
+      "count": 1583,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.26273571769642373,
+        "p_val": 7.431264712602895e-97
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 184,
+      "start": "2024-05-14 23:20:00.215489+00:00",
+      "count": 1960,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.31340678947180073,
+        "p_val": 1.736846611663922e-171
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 185,
+      "start": "2024-05-14 23:25:00.405400+00:00",
+      "count": 1196,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2611831469438025,
+        "p_val": 2.0734699764324252e-72
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 186,
+      "start": "2024-05-14 23:30:00.190624+00:00",
+      "count": 2344,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.36829960600267647,
+        "p_val": 1.0700215724106329e-243
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 187,
+      "start": "2024-05-14 23:35:00.146800+00:00",
+      "count": 1487,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2761330248415576,
+        "p_val": 1.1976861433425418e-100
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 188,
+      "start": "2024-05-14 23:40:00.282510+00:00",
+      "count": 1156,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.23110091548467948,
+        "p_val": 1.0216269848446389e-54
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 189,
+      "start": "2024-05-14 23:45:00.122131+00:00",
+      "count": 1108,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.2668479867763327,
+        "p_val": 4.3779631009499586e-70
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 190,
+      "start": "2024-05-14 23:50:00.123325+00:00",
+      "count": 4837,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.35527696088415106,
+        "p_val": 2.8740400825544863e-226
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    },
+    {
+      "window_id": 191,
+      "start": "2024-05-14 23:55:00.035131+00:00",
+      "count": 6075,
+      "regime": "High Volume Flow (Healthy)",
+      "L1": {
+        "ks_stat": 0.18491235192255115,
+        "p_val": 2.6620886359076267e-60
+      },
+      "L2": {
+        "signals": []
+      },
+      "L3": {
+        "error": "name '_bernoulli_transition_null' is not defined"
+      },
+      "L4": {
+        "top_motifs": []
+      }
+    }
+  ]
+}

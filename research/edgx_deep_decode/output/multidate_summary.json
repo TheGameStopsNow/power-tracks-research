@@ -1,0 +1,35 @@
+{
+  "total_messages": 297,
+  "unique_dates": 19,
+  "message_types": 137,
+  "top_performers": {
+    "Count": {
+      "0xDF": 2,
+      "0x81": 1,
+      "0xA0": 5,
+      "0x57": 1,
+      "0xD8": 1
+    },
+    "Mean Alpha (bps)": {
+      "0xDF": 510.8,
+      "0x81": 313.03,
+      "0xA0": 228.79,
+      "0x57": 191.42,
+      "0xD8": 144.2
+    },
+    "Std Dev": {
+      "0xDF": 697.91,
+      "0x81": NaN,
+      "0xA0": 562.39,
+      "0x57": NaN,
+      "0xD8": NaN
+    },
+    "Win Rate": {
+      "0xDF": 1.0,
+      "0x81": 1.0,
+      "0xA0": 0.6,
+      "0x57": 1.0,
+      "0xD8": 1.0
+    }
+  }
+}

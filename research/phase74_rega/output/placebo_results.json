@@ -1,0 +1,7 @@
+{
+  "test_type": "time_shuffle",
+  "n_iter": 1000,
+  "real_slope": -0.385563142746965,
+  "p_value": 0.496,
+  "significant": false
+}

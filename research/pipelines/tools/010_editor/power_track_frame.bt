@@ -1,0 +1,122 @@
+// Power Track Frame Format Template for 010 Editor
+// Frame Structure: 56-bit frames with XOR mask and CRC-7 validation
+
+typedef struct {
+    // Byte 0: Opcode and Version
+    struct {
+        ubyte opcode : 6;      // Instruction type (0x1A, 0x1F, 0x3F, 0x7A, 0x91, etc.)
+        ubyte version : 2;     // Protocol version (0-3)
+    } header_byte0;
+    
+    // Byte 1-2: Start Timestamp (little-endian)
+    struct {
+        ubyte start_time_lsb;  // Least significant byte
+        ubyte start_time_msb;  // Most significant byte
+    } timestamp;
+    
+    // Byte 3: Duration and Compression
+    struct {
+        ubyte duration_scale : 6;    // Temporal scaling factor (0-63)
+        ubyte compression_ratio : 2; // Time compression (0=1x, 1=2x, 2=4x, 3=8x)
+    } timing;
+    
+    // Byte 4: Anchor Price
+    ubyte anchor_price;        // Reference price in cents (0-255)
+    
+    // Byte 5: Volume Code and Parity
+    struct {
+        ubyte volume_code : 6; // Volume scaling cluster (0-63)
+        ubyte parity : 2;      // CRC-7 remainder bits
+    } volume;
+    
+    // Byte 6: CRC-7 and Stop Bit
+    struct {
+        ubyte crc7 : 7;        // CRC-7 checksum (polynomial 0x09)
+        ubyte stop_bit : 1;    // Frame terminator (should be 1)
+    } trailer;
+    
+    // Payload: Variable length varints
+    ubyte payload[0];          // Varint-encoded price deltas
+    
+} PowerTrackFrame;
+
+// CRC-7 calculation function
+// Polynomial: 0x09 (x^7 + x^3 + 1)
+ubyte CalculateCRC7(ubyte data[], int length, ubyte polynomial = 0x09) {
+    ubyte crc = 0;
+    int i, j;
+    
+    for (i = 0; i < length; i++) {
+        crc ^= data[i];
+        for (j = 0; j < 8; j++) {
+            if (crc & 0x80) {
+                crc = ((crc << 1) ^ polynomial) & 0xFF;
+            } else {
+                crc = (crc << 1) & 0xFF;
+            }
+        }
+    }
+    
+    return crc & 0x7F;
+}
+
+// XOR mask application
+void ApplyXORMask(ubyte data[], int length, ubyte mask) {
+    int i;
+    for (i = 0; i < length; i++) {
+        data[i] ^= mask;
+    }
+}
+
+// Frame validation
+local int frame_valid = 0;
+local ubyte computed_crc = 0;
+local ubyte expected_crc = 0;
+local ubyte xor_mask = 0x07; // Default mask, adjust as needed
+
+// Apply XOR mask to frame
+ubyte frame_bytes[7];
+ReadBytes(frame_bytes, 0, 7);
+ApplyXORMask(frame_bytes, 7, xor_mask);
+
+// Extract header (bytes 0-5) for CRC calculation
+ubyte header[6];
+ReadBytes(header, 0, 6);
+ApplyXORMask(header, 6, xor_mask);
+
+// Calculate CRC-7 over header
+computed_crc = CalculateCRC7(header, 6);
+
+// Extract expected CRC from trailer (byte 6, bits 7-1)
+ubyte trailer_byte = frame_bytes[6];
+expected_crc = (trailer_byte >> 1) & 0x7F;
+
+// Validate CRC
+if (computed_crc == expected_crc) {
+    frame_valid = 1;
+}
+
+// Display frame information
+Printf("Power Track Frame Analysis\n");
+Printf("========================\n");
+Printf("XOR Mask: 0x%02X\n", xor_mask);
+Printf("Opcode: 0x%02X\n", (frame_bytes[0] >> 2) & 0x3F);
+Printf("Version: %d\n", frame_bytes[0] & 0x03);
+Printf("Start Time: %d microseconds\n", 
+       frame_bytes[1] | (frame_bytes[2] << 8));
+Printf("Duration Scale: %d\n", (frame_bytes[3] >> 2) & 0x3F);
+Printf("Compression Ratio: %dx\n", 1 << (frame_bytes[3] & 0x03));
+Printf("Anchor Price: $%.2f\n", frame_bytes[4] / 100.0);
+Printf("Volume Code: %d\n", (frame_bytes[5] >> 2) & 0x3F);
+Printf("CRC-7 Expected: 0x%02X\n", expected_crc);
+Printf("CRC-7 Computed: 0x%02X\n", computed_crc);
+Printf("CRC Valid: %s\n", frame_valid ? "YES" : "NO");
+Printf("Stop Bit: %d\n", trailer_byte & 0x01);
+
+// Set file type
+SetFileType("Power Track Frame");
+
+// Set file extension
+SetFileExtension("ptf");
+
+
