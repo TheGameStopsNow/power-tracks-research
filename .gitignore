@@ -102,3 +102,6 @@ _archive/
 .windsurfrules
 .vscode/
 .idea/
+# Local demo files
+research/00_getting-started/00_magic_demo.py
+research/00_getting-started/01_magic_demo.ipynb

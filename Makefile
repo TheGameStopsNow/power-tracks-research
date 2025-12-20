@@ -36,35 +36,7 @@ data:
 micro-sample:
 	.venv/bin/python3 tools/build_micro_sample.py --source $(MICRO_SOURCE) --out $(MICRO_OUT)
 
-demo:
-	.venv/bin/python3 getting-started/00_magic_demo.py --rows $${ROWS:-800}
 
-suite-signal:
-	.venv/bin/python3 pipelines/run_suite.py signal
-
-suite-selectivity:
-	.venv/bin/python3 pipelines/run_suite.py selectivity
-
-suite-clusters:
-	.venv/bin/python3 pipelines/run_suite.py clusters
-
-suite-gating:
-	.venv/bin/python3 pipelines/run_suite.py gating
-
-suite-portability:
-	.venv/bin/python3 pipelines/run_suite.py portability
-
-suite-temporal:
-	.venv/bin/python3 pipelines/run_suite.py temporal
-
-suite-options:
-	.venv/bin/python3 pipelines/run_suite.py options
-
-suite-risk:
-	.venv/bin/python3 pipelines/run_suite.py risk
-
-lab-00:
-	.venv/bin/jupyter notebook labs/00_packet_analysis.ipynb
 
 test:
 	.venv/bin/pytest

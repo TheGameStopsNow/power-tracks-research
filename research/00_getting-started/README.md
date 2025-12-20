@@ -8,8 +8,7 @@ Demonstrate the Power Tracks pipeline: loading data, detecting anomalies (bursts
 *   Simple statistical filters (z-score on returns) are often enough to find interesting events.
 
 ## Artifacts
-*   `output/demo_output.png`: Visualization of top 3 anomalies on the price path.
-*   `01_magic_demo.ipynb`: Interactive walkthrough.
+
 
 ## Usage
 
@@ -18,10 +17,7 @@ Demonstrate the Power Tracks pipeline: loading data, detecting anomalies (bursts
     python download_data.py
     ```
 
-2.  **Run Demo**:
-    ```bash
-    python 00_magic_demo.py
-    ```
+
 
 ## Data
 Contains a small sample slice of GME trades (May 17, 2024).
