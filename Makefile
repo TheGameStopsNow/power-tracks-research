@@ -22,52 +22,55 @@ help:
 	@echo "make publish-artifacts VERSION=vYYYYMMDD SRC=path/to/artifacts - Copy artifacts into versioned folder and refresh latest"
 	@echo "make check-size           - Fail if large files are tracked outside allowed dirs"
 	@echo "make clean                - Remove temp files"
-	@echo "Env: POLYGON_API_KEY, MASSIVE_API_KEY, POWER_TRACKS_PRICE_PATHS, POWER_TRACKS_SAMPLE_ROWS"
+	@echo "Env: POLYGON_API_KEY, POWER_TRACKS_PRICE_PATHS, POWER_TRACKS_SAMPLE_ROWS"
 
 install:
-	pip install -r requirements.txt
+	test -d .venv || /opt/homebrew/bin/python3.12 -m venv .venv
+	.venv/bin/pip install --upgrade pip wheel
+	.venv/bin/pip install -r requirements.txt
+	.venv/bin/python -m ipykernel install --user --name=power-tracks --display-name "Python (Power Tracks)"
 
 data:
-	python3 tools/fetch_samples.py --symbol $(SYMBOL) --date $(DATE) --out $(OUT)
+	.venv/bin/python3 tools/fetch_samples.py --symbol $(SYMBOL) --date $(DATE) --out $(OUT)
 
 micro-sample:
-	python3 tools/build_micro_sample.py --source $(MICRO_SOURCE) --out $(MICRO_OUT)
+	.venv/bin/python3 tools/build_micro_sample.py --source $(MICRO_SOURCE) --out $(MICRO_OUT)
 
 demo:
-	python3 getting-started/00_magic_demo.py --rows $${ROWS:-800}
+	.venv/bin/python3 getting-started/00_magic_demo.py --rows $${ROWS:-800}
 
 suite-signal:
-	python3 pipelines/run_suite.py signal
+	.venv/bin/python3 pipelines/run_suite.py signal
 
 suite-selectivity:
-	python3 pipelines/run_suite.py selectivity
+	.venv/bin/python3 pipelines/run_suite.py selectivity
 
 suite-clusters:
-	python3 pipelines/run_suite.py clusters
+	.venv/bin/python3 pipelines/run_suite.py clusters
 
 suite-gating:
-	python3 pipelines/run_suite.py gating
+	.venv/bin/python3 pipelines/run_suite.py gating
 
 suite-portability:
-	python3 pipelines/run_suite.py portability
+	.venv/bin/python3 pipelines/run_suite.py portability
 
 suite-temporal:
-	python3 pipelines/run_suite.py temporal
+	.venv/bin/python3 pipelines/run_suite.py temporal
 
 suite-options:
-	python3 pipelines/run_suite.py options
+	.venv/bin/python3 pipelines/run_suite.py options
 
 suite-risk:
-	python3 pipelines/run_suite.py risk
+	.venv/bin/python3 pipelines/run_suite.py risk
 
 lab-00:
-	jupyter notebook labs/00_packet_analysis.ipynb
+	.venv/bin/jupyter notebook labs/00_packet_analysis.ipynb
 
 test:
-	pytest
+	.venv/bin/pytest
 
 test-nbval:
-	pytest --nbval-lax getting-started/01_magic_demo.ipynb labs/00_packet_analysis.ipynb labs/01_spectral_primer.ipynb
+	.venv/bin/pytest --nbval-lax getting-started/01_magic_demo.ipynb labs/00_packet_analysis.ipynb labs/01_spectral_primer.ipynb
 
 publish-artifacts:
 	@if [ -z "$(VERSION)" ]; then echo "VERSION is required (e.g., VERSION=v20240513)"; exit 1; fi
@@ -78,7 +81,7 @@ publish-artifacts:
 	ln -s $(VERSION) artifacts/latest
 
 check-size:
-	python tools/check_size.py --limit-mb 5 --root .
+	.venv/bin/python tools/check_size.py --limit-mb 5 --root .
 
 clean:
 	find . -type d -name "__pycache__" -exec rm -rf {} +

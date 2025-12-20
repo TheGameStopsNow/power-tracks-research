@@ -8,7 +8,7 @@
       "start": "2024-05-17T13:30:00Z",
       "end": "2024-05-17T20:00:00Z",
       "venue": "all",
-      "dest": "data/samples/sample_2024-05-17",
+      "dest": "../../data/samples/gme_20240517",
       "notes": "Getting Started Demo Data"
     }
   ]

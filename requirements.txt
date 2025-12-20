@@ -6,3 +6,4 @@ jupyter
 requests
 pytest
 nbval
+python-dotenv

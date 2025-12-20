@@ -27,8 +27,18 @@ import pandas as pd
 
 def load_price_paths(path: Path, rows: int) -> pd.DataFrame:
     df = pd.read_csv(path, nrows=rows)
-    if not {"timestamp_us", "price"}.issubset(df.columns):
-        raise ValueError("price_paths.csv must include timestamp_us and price columns")
+    if not {"timestamp", "price"}.issubset(df.columns) and not {"timestamp_us", "price"}.issubset(df.columns):
+        raise ValueError("price_paths.csv must include timestamp/timestamp_us and price columns")
+
+    # Normalize timestamp column
+    if "timestamp_us" not in df.columns and "timestamp" in df.columns:
+        # Check if timestamp is already numeric (us) or datetime string
+        if pd.api.types.is_numeric_dtype(df["timestamp"]):
+             df["timestamp_us"] = df["timestamp"]
+        else:
+             df["timestamp"] = pd.to_datetime(df["timestamp"])
+             df["timestamp_us"] = df["timestamp"].astype(np.int64) // 1000
+
     df = df.sort_values("timestamp_us").reset_index(drop=True)
     return df
 
@@ -83,6 +93,10 @@ def resolve_input_path(cli_input: Optional[str]) -> Path:
     candidates = [
         Path("data/samples/micro/price_paths.csv"),
         Path("data/samples/local/gme_20240513/price_paths.csv"),
+        Path("data/samples/gme_20240517/gme-trades-2024-05-17.csv"), # Manifest standard
+        Path("data/samples/gme_20240517/trades.csv"), # Fallback
+        Path("../../data/samples/gme_20240517/trades.csv"), # Relative from research/00
+        Path("../../data/samples/gme_20240517/gme-trades-2024-05-17.csv"),
     ]
 
     for p in candidates:

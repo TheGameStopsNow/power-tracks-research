@@ -5,7 +5,7 @@ This directory contains the complete research history of the Power Tracks Engine
 ## Prerequisites
 
 > **New to Power Tracks?**
-> If you are looking for a high-level explanation of the concepts, start with our **[Labs](../labs/00_packet_analysis.ipynb)** before diving into the research.
+> If you are looking for a high-level explanation of the concepts, start with our **[Labs](../00_getting-started/01_magic_demo.ipynb)** before diving into the research.
 
 ## Setup
 

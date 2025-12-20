@@ -36,7 +36,7 @@ def build_price_paths(source: Path, out: Path, limit: int | None) -> None:
     if "t" in df.columns:  # polygon aggregates use milliseconds
         df["timestamp_us"] = pd.to_numeric(df["t"], errors="coerce") * 1000
     elif "sip_timestamp" in df.columns:  # polygon trades v3
-        df["timestamp_us"] = pd.to_numeric(df["sip_timestamp"], errors="coerce")
+        df["timestamp_us"] = pd.to_numeric(df["sip_timestamp"], errors="coerce") // 1000
     elif "timestamp" in df.columns:
         df["timestamp_us"] = pd.to_datetime(df["timestamp"]).view("int64") // 1000
     else:
