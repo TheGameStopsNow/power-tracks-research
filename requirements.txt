@@ -7,3 +7,5 @@ requests
 pytest
 nbval
 python-dotenv
+scikit-learn
+scipy
