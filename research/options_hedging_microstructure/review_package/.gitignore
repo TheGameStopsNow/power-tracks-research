@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# PDF manuscript (uploaded separately after notebook links are added)
+*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# Environment
+.env
+.venv/
+
+# Reddit posts (published separately)
+REDDIT_POST_PART1.md
+REDDIT_POST_PART2.md
+REDDIT_COMPILED.md
+
+# Large media (animation frames & spectrograms — too large for Git)
+animations/
+figures/sort_spectrograms/
+
+# Temp / working files
+*.tmp
+*.bak

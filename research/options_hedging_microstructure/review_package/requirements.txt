@@ -1,0 +1,18 @@
+# Core scientific computing
+numpy>=1.24
+pandas>=2.0
+scipy>=1.10
+scikit-learn>=1.3
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+
+# Interactive app (for gamma_spectrogram.py only)
+streamlit>=1.30
+
+# Data acquisition (optional — only needed for full replication)
+# Polygon.io API key required as POLYGON_API_KEY env var
+# ThetaData Theta Terminal required running on localhost:25510
+requests>=2.28
+pyarrow>=12.0
