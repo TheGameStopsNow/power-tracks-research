@@ -1,9 +1,6 @@
 # macOS
 .DS_Store
 
-# PDF manuscript (uploaded separately after notebook links are added)
-*.pdf
-
 # Python
 __pycache__/
 *.pyc
