@@ -1,0 +1,143 @@
+{
+  "GME": {
+    "ticker": "GME",
+    "n_records": 499,
+    "min_dist_regression": {
+      "slope": -1.466e-05,
+      "r_squared": 1e-06,
+      "p_value": 0.985455,
+      "n": 499
+    },
+    "top_dist_regression": {
+      "slope": 4.973e-05,
+      "r_squared": 0.000754,
+      "p_value": 0.540645
+    },
+    "tercile_analysis": {
+      "Near Wall": {
+        "n": 167,
+        "mean_abs_return": 0.024491,
+        "median_abs_return": 0.017881,
+        "mean_dist": 0.375
+      },
+      "Mid": {
+        "n": 165,
+        "mean_abs_return": 0.043689,
+        "median_abs_return": 0.017584,
+        "mean_dist": 1.362
+      },
+      "Far from Wall": {
+        "n": 167,
+        "mean_abs_return": 0.03407,
+        "median_abs_return": 0.022696,
+        "mean_dist": 6.402
+      }
+    },
+    "ttest_near_vs_far": {
+      "t_stat": -1.8893,
+      "p_value": 0.060128,
+      "direction": "NEAR < FAR (containment \u2713)",
+      "near_mean": 0.024491,
+      "far_mean": 0.03407
+    },
+    "multivariate": {
+      "beta_wall_dist": -0.00079917,
+      "beta_rv20d": 0.84121292,
+      "r_squared_multi": 0.307856
+    }
+  },
+  "AAPL": {
+    "ticker": "AAPL",
+    "n_records": 310,
+    "min_dist_regression": {
+      "slope": 0.00488899,
+      "r_squared": 0.011899,
+      "p_value": 0.055036,
+      "n": 310
+    },
+    "top_dist_regression": {
+      "slope": 0.00119074,
+      "r_squared": 0.016275,
+      "p_value": 0.024687
+    },
+    "tercile_analysis": {
+      "Near Wall": {
+        "n": 103,
+        "mean_abs_return": 0.009158,
+        "median_abs_return": 0.006143,
+        "mean_dist": 0.12
+      },
+      "Mid": {
+        "n": 103,
+        "mean_abs_return": 0.014307,
+        "median_abs_return": 0.009054,
+        "mean_dist": 0.338
+      },
+      "Far from Wall": {
+        "n": 104,
+        "mean_abs_return": 0.016899,
+        "median_abs_return": 0.010968,
+        "mean_dist": 0.843
+      }
+    },
+    "ttest_near_vs_far": {
+      "t_stat": -2.4425,
+      "p_value": 0.01609,
+      "direction": "NEAR < FAR (containment \u2713)",
+      "near_mean": 0.009158,
+      "far_mean": 0.016899
+    },
+    "multivariate": {
+      "beta_wall_dist": 0.00659874,
+      "beta_rv20d": 0.28050186,
+      "r_squared_multi": 0.05592
+    }
+  },
+  "TSLA": {
+    "ticker": "TSLA",
+    "n_records": 417,
+    "min_dist_regression": {
+      "slope": 0.00100287,
+      "r_squared": 0.009764,
+      "p_value": 0.043723,
+      "n": 417
+    },
+    "top_dist_regression": {
+      "slope": 0.00055109,
+      "r_squared": 0.00817,
+      "p_value": 0.065174
+    },
+    "tercile_analysis": {
+      "Near Wall": {
+        "n": 139,
+        "mean_abs_return": 0.022157,
+        "median_abs_return": 0.017358,
+        "mean_dist": 0.138
+      },
+      "Mid": {
+        "n": 139,
+        "mean_abs_return": 0.028887,
+        "median_abs_return": 0.018871,
+        "mean_dist": 0.863
+      },
+      "Far from Wall": {
+        "n": 139,
+        "mean_abs_return": 0.031224,
+        "median_abs_return": 0.023885,
+        "mean_dist": 4.464
+      }
+    },
+    "ttest_near_vs_far": {
+      "t_stat": -3.4282,
+      "p_value": 0.000706,
+      "direction": "NEAR < FAR (containment \u2713)",
+      "near_mean": 0.022157,
+      "far_mean": 0.031224
+    },
+    "multivariate": {
+      "beta_wall_dist": 0.00051969,
+      "beta_rv20d": 0.91397896,
+      "r_squared_multi": 0.080013
+    }
+  }
+}

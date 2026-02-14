@@ -1,0 +1,5 @@
+{
+  "implied_delta_exposure": {
+    "error": "too many indices for array: array is 0-dimensional, but 1 were indexed"
+  }
+}

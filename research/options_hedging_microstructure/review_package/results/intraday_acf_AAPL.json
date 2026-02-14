@@ -1,0 +1,93 @@
+{
+  "09:30\u201310:00": {
+    "mean_acf1": -0.086,
+    "median_acf1": -0.1094,
+    "std_acf1": 0.1913,
+    "n_days": 199,
+    "pct_dampened": 69.3
+  },
+  "10:00\u201310:30": {
+    "mean_acf1": -0.033,
+    "median_acf1": -0.05,
+    "std_acf1": 0.1891,
+    "n_days": 199,
+    "pct_dampened": 58.8
+  },
+  "10:30\u201311:00": {
+    "mean_acf1": -0.0647,
+    "median_acf1": -0.042,
+    "std_acf1": 0.1767,
+    "n_days": 199,
+    "pct_dampened": 67.3
+  },
+  "11:00\u201311:30": {
+    "mean_acf1": -0.0416,
+    "median_acf1": -0.034,
+    "std_acf1": 0.1852,
+    "n_days": 199,
+    "pct_dampened": 56.8
+  },
+  "11:30\u201312:00": {
+    "mean_acf1": -0.0621,
+    "median_acf1": -0.0588,
+    "std_acf1": 0.194,
+    "n_days": 199,
+    "pct_dampened": 59.3
+  },
+  "12:00\u201312:30": {
+    "mean_acf1": -0.0715,
+    "median_acf1": -0.0694,
+    "std_acf1": 0.1863,
+    "n_days": 199,
+    "pct_dampened": 64.8
+  },
+  "12:30\u201313:00": {
+    "mean_acf1": -0.0614,
+    "median_acf1": -0.0678,
+    "std_acf1": 0.184,
+    "n_days": 199,
+    "pct_dampened": 60.3
+  },
+  "13:00\u201313:30": {
+    "mean_acf1": -0.0693,
+    "median_acf1": -0.0624,
+    "std_acf1": 0.1838,
+    "n_days": 199,
+    "pct_dampened": 61.8
+  },
+  "13:30\u201314:00": {
+    "mean_acf1": -0.0528,
+    "median_acf1": -0.0565,
+    "std_acf1": 0.1841,
+    "n_days": 199,
+    "pct_dampened": 61.3
+  },
+  "14:00\u201314:30": {
+    "mean_acf1": -0.0635,
+    "median_acf1": -0.0609,
+    "std_acf1": 0.1966,
+    "n_days": 199,
+    "pct_dampened": 60.8
+  },
+  "14:30\u201315:00": {
+    "mean_acf1": -0.0964,
+    "median_acf1": -0.0847,
+    "std_acf1": 0.1916,
+    "n_days": 199,
+    "pct_dampened": 70.9
+  },
+  "15:00\u201315:30": {
+    "mean_acf1": -0.0835,
+    "median_acf1": -0.0862,
+    "std_acf1": 0.189,
+    "n_days": 199,
+    "pct_dampened": 67.8
+  },
+  "15:30\u201316:00": {
+    "mean_acf1": -0.0515,
+    "median_acf1": -0.0518,
+    "std_acf1": 0.1995,
+    "n_days": 199,
+    "pct_dampened": 62.8
+  }
+}

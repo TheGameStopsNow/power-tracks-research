@@ -1,0 +1,525 @@
+{
+  "analysis": "multi_event_wall_fatigue",
+  "events": [
+    {
+      "ticker": "GME",
+      "peak_date": "2021-01-28",
+      "n_trading_days": 74,
+      "n_wall_tests": 31,
+      "n_held": 31,
+      "n_cascade": 0,
+      "cascade_rate": 0.0,
+      "energy_ratio": null,
+      "wall_tests": [
+        {
+          "date": "2020-11-04",
+          "close": 11.1572,
+          "high": 12.05,
+          "wall": 12.0,
+          "approach_pct": 7.55,
+          "breached": true,
+          "result": "HELD",
+          "energy": 81370,
+          "days_to_peak": 85
+        },
+        {
+          "date": "2020-11-05",
+          "close": 11.6299,
+          "high": 11.84,
+          "wall": 12.0,
+          "approach_pct": 3.18,
+          "breached": false,
+          "result": "HELD",
+          "energy": 99177,
+          "days_to_peak": 84
+        },
+        {
+          "date": "2020-11-06",
+          "close": 11.68,
+          "high": 12.18,
+          "wall": 12.0,
+          "approach_pct": 2.74,
+          "breached": true,
+          "result": "HELD",
+          "energy": 312615,
+          "days_to_peak": 83
+        },
+        {
+          "date": "2020-11-09",
+          "close": 12.0839,
+          "high": 12.95,
+          "wall": 13.0,
+          "approach_pct": 7.58,
+          "breached": false,
+          "result": "HELD",
+          "energy": 190746,
+          "days_to_peak": 80
+        },
+        {
+          "date": "2020-11-12",
+          "close": 11.71,
+          "high": 11.9,
+          "wall": 12.0,
+          "approach_pct": 2.48,
+          "breached": false,
+          "result": "HELD",
+          "energy": 146674,
+          "days_to_peak": 77
+        },
+        {
+          "date": "2020-11-13",
+          "close": 11.1638,
+          "high": 11.55,
+          "wall": 12.0,
+          "approach_pct": 7.49,
+          "breached": false,
+          "result": "HELD",
+          "energy": 170029,
+          "days_to_peak": 76
+        },
+        {
+          "date": "2020-11-16",
+          "close": 11.965,
+          "high": 12.22,
+          "wall": 12.0,
+          "approach_pct": 0.29,
+          "breached": true,
+          "result": "HELD",
+          "energy": 721526,
+          "days_to_peak": 73
+        },
+        {
+          "date": "2020-11-17",
+          "close": 11.3185,
+          "high": 12.15,
+          "wall": 12.0,
+          "approach_pct": 6.02,
+          "breached": true,
+          "result": "HELD",
+          "energy": 290238,
+          "days_to_peak": 72
+        },
+        {
+          "date": "2020-11-18",
+          "close": 11.873,
+          "high": 12.04,
+          "wall": 12.0,
+          "approach_pct": 1.07,
+          "breached": true,
+          "result": "HELD",
+          "energy": 157602,
+          "days_to_peak": 71
+        },
+        {
+          "date": "2020-11-19",
+          "close": 11.765,
+          "high": 12.22,
+          "wall": 12.0,
+          "approach_pct": 2.0,
+          "breached": true,
+          "result": "HELD",
+          "energy": 976833,
+          "days_to_peak": 70
+        },
+        {
+          "date": "2020-11-20",
+          "close": 13.21,
+          "high": 13.46,
+          "wall": 13.5,
+          "approach_pct": 2.2,
+          "breached": false,
+          "result": "HELD",
+          "energy": 273527,
+          "days_to_peak": 69
+        },
+        {
+          "date": "2020-11-23",
+          "close": 13.19,
+          "high": 13.6675,
+          "wall": 14.0,
+          "approach_pct": 6.14,
+          "breached": false,
+          "result": "HELD",
+          "energy": 916308,
+          "days_to_peak": 66
+        },
+        {
+          "date": "2020-11-24",
+          "close": 14.1,
+          "high": 14.5,
+          "wall": 15.0,
+          "approach_pct": 6.38,
+          "breached": false,
+          "result": "HELD",
+          "energy": 603010,
+          "days_to_peak": 65
+        },
+        {
+          "date": "2020-11-25",
+          "close": 14.112,
+          "high": 14.6,
+          "wall": 15.0,
+          "approach_pct": 6.29,
+          "breached": false,
+          "result": "HELD",
+          "energy": 1448480,
+          "days_to_peak": 64
+        },
+        {
+          "date": "2020-11-27",
+          "close": 16.3122,
+          "high": 17.37,
+          "wall": 17.0,
+          "approach_pct": 4.22,
+          "breached": true,
+          "result": "HELD",
+          "energy": 2835601,
+          "days_to_peak": 62
+        },
+        {
+          "date": "2020-11-30",
+          "close": 18.21,
+          "high": 19.84,
+          "wall": 20.0,
+          "approach_pct": 9.83,
+          "breached": false,
+          "result": "HELD",
+          "energy": 9851147,
+          "days_to_peak": 59
+        },
+        {
+          "date": "2020-12-04",
+          "close": 16.829,
+          "high": 18.67,
+          "wall": 17.0,
+          "approach_pct": 1.02,
+          "breached": true,
+          "result": "HELD",
+          "energy": 1409221,
+          "days_to_peak": 55
+        },
+        {
+          "date": "2020-12-10",
+          "close": 13.865,
+          "high": 14.1,
+          "wall": 14.0,
+          "approach_pct": 0.97,
+          "breached": true,
+          "result": "HELD",
+          "energy": 810487,
+          "days_to_peak": 49
+        },
+        {
+          "date": "2020-12-16",
+          "close": 13.8301,
+          "high": 14.24,
+          "wall": 14.0,
+          "approach_pct": 1.23,
+          "breached": true,
+          "result": "HELD",
+          "energy": 271457,
+          "days_to_peak": 43
+        },
+        {
+          "date": "2020-12-17",
+          "close": 14.05,
+          "high": 14.4,
+          "wall": 15.0,
+          "approach_pct": 6.76,
+          "breached": false,
+          "result": "HELD",
+          "energy": 728096,
+          "days_to_peak": 42
+        },
+        {
+          "date": "2020-12-18",
+          "close": 15.9201,
+          "high": 15.98,
+          "wall": 16.0,
+          "approach_pct": 0.5,
+          "breached": false,
+          "result": "HELD",
+          "energy": 521182,
+          "days_to_peak": 41
+        },
+        {
+          "date": "2020-12-21",
+          "close": 15.7178,
+          "high": 17.01,
+          "wall": 16.0,
+          "approach_pct": 1.8,
+          "breached": true,
+          "result": "HELD",
+          "energy": 551931,
+          "days_to_peak": 38
+        },
+        {
+          "date": "2020-12-22",
+          "close": 19.11,
+          "high": 19.74,
+          "wall": 20.0,
+          "approach_pct": 4.66,
+          "breached": false,
+          "result": "HELD",
+          "energy": 5187148,
+          "days_to_peak": 37
+        },
+        {
+          "date": "2020-12-29",
+          "close": 19.15,
+          "high": 21.38,
+          "wall": 20.0,
+          "approach_pct": 4.44,
+          "breached": true,
+          "result": "HELD",
+          "energy": 1296981,
+          "days_to_peak": 30
+        },
+        {
+          "date": "2020-12-31",
+          "close": 19.08,
+          "high": 19.8,
+          "wall": 20.0,
+          "approach_pct": 4.82,
+          "breached": false,
+          "result": "HELD",
+          "energy": 1214557,
+          "days_to_peak": 28
+        },
+        {
+          "date": "2021-01-06",
+          "close": 18.395,
+          "high": 18.48,
+          "wall": 20.0,
+          "approach_pct": 8.73,
+          "breached": false,
+          "result": "HELD",
+          "energy": 1226986,
+          "days_to_peak": 22
+        },
+        {
+          "date": "2021-01-07",
+          "close": 18.865,
+          "high": 19.45,
+          "wall": 20.0,
+          "approach_pct": 6.02,
+          "breached": false,
+          "result": "HELD",
+          "energy": 810887,
+          "days_to_peak": 21
+        },
+        {
+          "date": "2021-01-11",
+          "close": 19.33,
+          "high": 21.82,
+          "wall": 20.0,
+          "approach_pct": 3.47,
+          "breached": true,
+          "result": "HELD",
+          "energy": 2808376,
+          "days_to_peak": 17
+        },
+        {
+          "date": "2021-01-15",
+          "close": 36.62,
+          "high": 42.5,
+          "wall": 40.0,
+          "approach_pct": 9.23,
+          "breached": true,
+          "result": "HELD",
+          "energy": 12017116,
+          "days_to_peak": 13
+        },
+        {
+          "date": "2021-02-12",
+          "close": 53.68,
+          "high": 54.14,
+          "wall": 55.0,
+          "approach_pct": 2.46,
+          "breached": false,
+          "result": "HELD",
+          "energy": 4247083,
+          "days_to_peak": -15
+        },
+        {
+          "date": "2021-02-17",
+          "close": 47.925,
+          "high": 51.19,
+          "wall": 50.0,
+          "approach_pct": 4.33,
+          "breached": true,
+          "result": "HELD",
+          "energy": 2513912,
+          "days_to_peak": -20
+        }
+      ],
+      "fatigue_events": [
+        {
+          "strike": 20.0,
+          "first_seen": "2020-10-30",
+          "total_tests": 7,
+          "holds_before_cascade": 7,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 15.0,
+          "first_seen": "2020-10-30",
+          "total_tests": 3,
+          "holds_before_cascade": 3,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 12.0,
+          "first_seen": "2020-10-30",
+          "total_tests": 9,
+          "holds_before_cascade": 9,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 14.0,
+          "first_seen": "2020-10-30",
+          "total_tests": 3,
+          "holds_before_cascade": 3,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 16.0,
+          "first_seen": "2020-11-03",
+          "total_tests": 2,
+          "holds_before_cascade": 2,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 17.0,
+          "first_seen": "2020-11-12",
+          "total_tests": 2,
+          "holds_before_cascade": 2,
+          "cascade": false,
+          "cascade_date": null
+        }
+      ]
+    },
+    {
+      "ticker": "DJT",
+      "peak_date": "2024-03-26",
+      "n_trading_days": 22,
+      "n_wall_tests": 7,
+      "n_held": 7,
+      "n_cascade": 0,
+      "cascade_rate": 0.0,
+      "energy_ratio": null,
+      "wall_tests": [
+        {
+          "date": "2024-03-27",
+          "close": 68.1,
+          "high": 72.4,
+          "wall": 70.0,
+          "approach_pct": 2.79,
+          "breached": true,
+          "result": "HELD",
+          "energy": 10599087,
+          "days_to_peak": -1
+        },
+        {
+          "date": "2024-04-04",
+          "close": 46.88,
+          "high": 50.5,
+          "wall": 50.0,
+          "approach_pct": 6.66,
+          "breached": true,
+          "result": "HELD",
+          "energy": 587680,
+          "days_to_peak": -9
+        },
+        {
+          "date": "2024-04-09",
+          "close": 36.51,
+          "high": 41.93,
+          "wall": 40.0,
+          "approach_pct": 9.56,
+          "breached": true,
+          "result": "HELD",
+          "energy": 673474,
+          "days_to_peak": -14
+        },
+        {
+          "date": "2024-04-11",
+          "close": 32.72,
+          "high": 34.97,
+          "wall": 35.0,
+          "approach_pct": 6.97,
+          "breached": false,
+          "result": "HELD",
+          "energy": 836332,
+          "days_to_peak": -16
+        },
+        {
+          "date": "2024-04-15",
+          "close": 27.64,
+          "high": 32.9681,
+          "wall": 30.0,
+          "approach_pct": 8.54,
+          "breached": true,
+          "result": "HELD",
+          "energy": 1907169,
+          "days_to_peak": -20
+        },
+        {
+          "date": "2024-04-19",
+          "close": 34.0093,
+          "high": 37.47,
+          "wall": 35.0,
+          "approach_pct": 2.91,
+          "breached": true,
+          "result": "HELD",
+          "energy": 4027905,
+          "days_to_peak": -24
+        },
+        {
+          "date": "2024-04-25",
+          "close": 37.5311,
+          "high": 39.4,
+          "wall": 40.0,
+          "approach_pct": 6.58,
+          "breached": false,
+          "result": "HELD",
+          "energy": 1518433,
+          "days_to_peak": -30
+        }
+      ],
+      "fatigue_events": [
+        {
+          "strike": 40.0,
+          "first_seen": "2024-04-08",
+          "total_tests": 2,
+          "holds_before_cascade": 2,
+          "cascade": false,
+          "cascade_date": null
+        },
+        {
+          "strike": 35.0,
+          "first_seen": "2024-04-11",
+          "total_tests": 2,
+          "holds_before_cascade": 2,
+          "cascade": false,
+          "cascade_date": null
+        }
+      ]
+    }
+  ],
+  "comparison": {
+    "n_events": 2,
+    "cascade_rates": [
+      0.0,
+      0.0
+    ],
+    "mean_cascade_rate": 0.0,
+    "holds_before_cascade": []
+  },
+  "timestamp": "20260212_110823"
+}

@@ -1,0 +1,50 @@
+{
+  "analysis": "counterfactual",
+  "ticker": "GME",
+  "timestamp": "20260213_202538",
+  "periods": [
+    {
+      "name": "GME Squeeze (Jan 2021)",
+      "center_date": "2021-01-28",
+      "n_days": 74,
+      "wall_breach_rate": 0.6389,
+      "wall_cascade_rate": 0.2222,
+      "delta_abs_max": 30779375,
+      "pin_mean": 21.01
+    },
+    {
+      "name": "GME Calm 2022 Q1",
+      "center_date": "2022-03-15",
+      "n_days": 76,
+      "wall_breach_rate": 0.2903,
+      "wall_cascade_rate": 0.1935,
+      "delta_abs_max": 1585173,
+      "pin_mean": 24.51
+    },
+    {
+      "name": "GME Calm 2023 Q1",
+      "center_date": "2023-03-15",
+      "n_days": 75,
+      "wall_breach_rate": 0.2889,
+      "wall_cascade_rate": 0.1556,
+      "delta_abs_max": 155428,
+      "pin_mean": 11.11
+    },
+    {
+      "name": "GME Calm 2024 Q1",
+      "center_date": "2024-03-15",
+      "n_days": 74,
+      "wall_breach_rate": 0.1746,
+      "wall_cascade_rate": 0.0317,
+      "delta_abs_max": 150748,
+      "pin_mean": 16.11
+    }
+  ],
+  "comparison": {
+    "breach_z": 7.15,
+    "cascade_z": 1.38,
+    "pin_z": 0.68,
+    "delta_z": 44.66,
+    "fisher_p": 0.094336
+  }
+}

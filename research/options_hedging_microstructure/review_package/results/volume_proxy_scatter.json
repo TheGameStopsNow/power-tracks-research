@@ -1,0 +1,261 @@
+[
+  {
+    "symbol": "SNOW",
+    "mean_acf1": -0.2531,
+    "mean_intensity": 4.8,
+    "correlation": 0.0072,
+    "n_days": 100
+  },
+  {
+    "symbol": "DUOL",
+    "mean_acf1": -0.3607,
+    "mean_intensity": 18.4,
+    "correlation": 0.3678,
+    "n_days": 100
+  },
+  {
+    "symbol": "IHRT",
+    "mean_acf1": -0.2714,
+    "mean_intensity": 21.7,
+    "correlation": 0.0009,
+    "n_days": 32
+  },
+  {
+    "symbol": "NET",
+    "mean_acf1": -0.2617,
+    "mean_intensity": 23.0,
+    "correlation": 0.0165,
+    "n_days": 100
+  },
+  {
+    "symbol": "W",
+    "mean_acf1": -0.1791,
+    "mean_intensity": 27.7,
+    "correlation": 0.1236,
+    "n_days": 100
+  },
+  {
+    "symbol": "ZM",
+    "mean_acf1": -0.2061,
+    "mean_intensity": 56.5,
+    "correlation": 0.2947,
+    "n_days": 99
+  },
+  {
+    "symbol": "CRWD",
+    "mean_acf1": -0.1736,
+    "mean_intensity": 56.8,
+    "correlation": 0.1209,
+    "n_days": 97
+  },
+  {
+    "symbol": "PINS",
+    "mean_acf1": -0.1748,
+    "mean_intensity": 102.9,
+    "correlation": 0.434,
+    "n_days": 49
+  },
+  {
+    "symbol": "AFRM",
+    "mean_acf1": -0.245,
+    "mean_intensity": 104.8,
+    "correlation": 0.3351,
+    "n_days": 100
+  },
+  {
+    "symbol": "DASH",
+    "mean_acf1": -0.2249,
+    "mean_intensity": 109.8,
+    "correlation": 0.3096,
+    "n_days": 100
+  },
+  {
+    "symbol": "LYFT",
+    "mean_acf1": -0.1765,
+    "mean_intensity": 130.1,
+    "correlation": 0.3226,
+    "n_days": 99
+  },
+  {
+    "symbol": "RDDT",
+    "mean_acf1": -0.2612,
+    "mean_intensity": 135.6,
+    "correlation": 0.5176,
+    "n_days": 100
+  },
+  {
+    "symbol": "CHWY",
+    "mean_acf1": -0.2908,
+    "mean_intensity": 137.6,
+    "correlation": 0.1579,
+    "n_days": 494
+  },
+  {
+    "symbol": "UBER",
+    "mean_acf1": -0.1756,
+    "mean_intensity": 177.1,
+    "correlation": 0.3635,
+    "n_days": 99
+  },
+  {
+    "symbol": "BYND",
+    "mean_acf1": -0.1377,
+    "mean_intensity": 181.0,
+    "correlation": 0.34,
+    "n_days": 99
+  },
+  {
+    "symbol": "SNAP",
+    "mean_acf1": -0.2076,
+    "mean_intensity": 197.4,
+    "correlation": -0.0057,
+    "n_days": 100
+  },
+  {
+    "symbol": "U",
+    "mean_acf1": -0.2631,
+    "mean_intensity": 206.6,
+    "correlation": 0.3765,
+    "n_days": 269
+  },
+  {
+    "symbol": "ARM",
+    "mean_acf1": -0.2202,
+    "mean_intensity": 230.0,
+    "correlation": 0.5081,
+    "n_days": 59
+  },
+  {
+    "symbol": "DJT",
+    "mean_acf1": -0.2111,
+    "mean_intensity": 239.8,
+    "correlation": 0.3941,
+    "n_days": 100
+  },
+  {
+    "symbol": "DKNG",
+    "mean_acf1": -0.1491,
+    "mean_intensity": 240.7,
+    "correlation": 0.3451,
+    "n_days": 100
+  },
+  {
+    "symbol": "SOFI",
+    "mean_acf1": -0.1455,
+    "mean_intensity": 264.1,
+    "correlation": 0.4649,
+    "n_days": 100
+  },
+  {
+    "symbol": "ABNB",
+    "mean_acf1": -0.2203,
+    "mean_intensity": 273.8,
+    "correlation": 0.4086,
+    "n_days": 100
+  },
+  {
+    "symbol": "RBLX",
+    "mean_acf1": -0.1619,
+    "mean_intensity": 308.7,
+    "correlation": 0.3651,
+    "n_days": 100
+  },
+  {
+    "symbol": "HOOD",
+    "mean_acf1": -0.1393,
+    "mean_intensity": 343.6,
+    "correlation": 0.4498,
+    "n_days": 100
+  },
+  {
+    "symbol": "GME",
+    "mean_acf1": -0.1629,
+    "mean_intensity": 599.5,
+    "correlation": 0.1522,
+    "n_days": 492
+  },
+  {
+    "symbol": "RIVN",
+    "mean_acf1": -0.093,
+    "mean_intensity": 642.9,
+    "correlation": 0.0795,
+    "n_days": 100
+  },
+  {
+    "symbol": "LCID",
+    "mean_acf1": -0.0901,
+    "mean_intensity": 847.5,
+    "correlation": 0.488,
+    "n_days": 100
+  },
+  {
+    "symbol": "PLTR",
+    "mean_acf1": -0.0779,
+    "mean_intensity": 857.1,
+    "correlation": 0.3953,
+    "n_days": 100
+  },
+  {
+    "symbol": "IWM",
+    "mean_acf1": -0.1648,
+    "mean_intensity": 876.7,
+    "correlation": 0.0521,
+    "n_days": 17
+  },
+  {
+    "symbol": "AMD",
+    "mean_acf1": -0.2362,
+    "mean_intensity": 989.3,
+    "correlation": 0.21,
+    "n_days": 17
+  },
+  {
+    "symbol": "MSFT",
+    "mean_acf1": -0.3678,
+    "mean_intensity": 1133.5,
+    "correlation": 0.039,
+    "n_days": 39
+  },
+  {
+    "symbol": "AAPL",
+    "mean_acf1": -0.2269,
+    "mean_intensity": 1652.0,
+    "correlation": 0.1551,
+    "n_days": 418
+  },
+  {
+    "symbol": "SPY",
+    "mean_acf1": -0.1724,
+    "mean_intensity": 1803.2,
+    "correlation": 0.264,
+    "n_days": 39
+  },
+  {
+    "symbol": "AMC",
+    "mean_acf1": -0.0963,
+    "mean_intensity": 2008.3,
+    "correlation": 0.2025,
+    "n_days": 204
+  },
+  {
+    "symbol": "QQQ",
+    "mean_acf1": -0.1226,
+    "mean_intensity": 2256.7,
+    "correlation": -0.3017,
+    "n_days": 17
+  },
+  {
+    "symbol": "TSLA",
+    "mean_acf1": -0.1313,
+    "mean_intensity": 3534.2,
+    "correlation": 0.075,
+    "n_days": 418
+  },
+  {
+    "symbol": "NVDA",
+    "mean_acf1": -0.1743,
+    "mean_intensity": 4153.0,
+    "correlation": 0.0479,
+    "n_days": 39
+  }
+]

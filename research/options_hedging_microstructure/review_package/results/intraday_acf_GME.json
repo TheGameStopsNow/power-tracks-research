@@ -1,0 +1,93 @@
+{
+  "09:30\u201310:00": {
+    "mean_acf1": -0.1011,
+    "median_acf1": -0.0854,
+    "std_acf1": 0.1901,
+    "n_days": 198,
+    "pct_dampened": 70.7
+  },
+  "10:00\u201310:30": {
+    "mean_acf1": -0.0848,
+    "median_acf1": -0.0723,
+    "std_acf1": 0.2063,
+    "n_days": 199,
+    "pct_dampened": 63.3
+  },
+  "10:30\u201311:00": {
+    "mean_acf1": -0.068,
+    "median_acf1": -0.0842,
+    "std_acf1": 0.1732,
+    "n_days": 199,
+    "pct_dampened": 63.8
+  },
+  "11:00\u201311:30": {
+    "mean_acf1": -0.0703,
+    "median_acf1": -0.0676,
+    "std_acf1": 0.1798,
+    "n_days": 199,
+    "pct_dampened": 68.8
+  },
+  "11:30\u201312:00": {
+    "mean_acf1": -0.0662,
+    "median_acf1": -0.0556,
+    "std_acf1": 0.1949,
+    "n_days": 199,
+    "pct_dampened": 60.8
+  },
+  "12:00\u201312:30": {
+    "mean_acf1": -0.0867,
+    "median_acf1": -0.0655,
+    "std_acf1": 0.1767,
+    "n_days": 199,
+    "pct_dampened": 68.8
+  },
+  "12:30\u201313:00": {
+    "mean_acf1": -0.0738,
+    "median_acf1": -0.0784,
+    "std_acf1": 0.1851,
+    "n_days": 199,
+    "pct_dampened": 66.3
+  },
+  "13:00\u201313:30": {
+    "mean_acf1": -0.0911,
+    "median_acf1": -0.0861,
+    "std_acf1": 0.1691,
+    "n_days": 199,
+    "pct_dampened": 73.9
+  },
+  "13:30\u201314:00": {
+    "mean_acf1": -0.1029,
+    "median_acf1": -0.0967,
+    "std_acf1": 0.1857,
+    "n_days": 199,
+    "pct_dampened": 71.4
+  },
+  "14:00\u201314:30": {
+    "mean_acf1": -0.1044,
+    "median_acf1": -0.1145,
+    "std_acf1": 0.1971,
+    "n_days": 198,
+    "pct_dampened": 69.2
+  },
+  "14:30\u201315:00": {
+    "mean_acf1": -0.0819,
+    "median_acf1": -0.091,
+    "std_acf1": 0.192,
+    "n_days": 199,
+    "pct_dampened": 65.8
+  },
+  "15:00\u201315:30": {
+    "mean_acf1": -0.079,
+    "median_acf1": -0.0809,
+    "std_acf1": 0.1874,
+    "n_days": 198,
+    "pct_dampened": 65.2
+  },
+  "15:30\u201316:00": {
+    "mean_acf1": -0.0957,
+    "median_acf1": -0.0922,
+    "std_acf1": 0.1847,
+    "n_days": 199,
+    "pct_dampened": 70.9
+  }
+}

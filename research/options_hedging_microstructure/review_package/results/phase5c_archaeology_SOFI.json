@@ -1,0 +1,59 @@
+{
+  "target_date": "2021-08-24",
+  "reconstruction_corr": 1.0,
+  "residual_pct": 0.0,
+  "n_components": 5,
+  "n_sources": 31,
+  "top_contributors": [
+    {
+      "date": "2021-08-12",
+      "nmf_weight": 20207.0093,
+      "profile_corr": 0.5725
+    },
+    {
+      "date": "2021-08-02",
+      "nmf_weight": 7249.9962,
+      "profile_corr": -0.0535
+    },
+    {
+      "date": "2021-08-06",
+      "nmf_weight": 4717.8556,
+      "profile_corr": -0.1328
+    },
+    {
+      "date": "2021-08-13",
+      "nmf_weight": 3126.7298,
+      "profile_corr": -0.2402
+    },
+    {
+      "date": "2021-07-16",
+      "nmf_weight": 2773.9414,
+      "profile_corr": -0.0488
+    },
+    {
+      "date": "2021-08-03",
+      "nmf_weight": 2586.7941,
+      "profile_corr": -0.1057
+    },
+    {
+      "date": "2021-07-21",
+      "nmf_weight": 2578.8936,
+      "profile_corr": -0.1349
+    },
+    {
+      "date": "2021-07-22",
+      "nmf_weight": 2465.3616,
+      "profile_corr": -0.2283
+    },
+    {
+      "date": "2021-07-13",
+      "nmf_weight": 2037.7116,
+      "profile_corr": -0.0425
+    },
+    {
+      "date": "2021-07-14",
+      "nmf_weight": 1586.5155,
+      "profile_corr": -0.3092
+    }
+  ]
+}

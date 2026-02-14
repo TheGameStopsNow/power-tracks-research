@@ -1,0 +1,117 @@
+{
+  "ticker": "PLTR",
+  "status": "OK",
+  "n_expirations": 41,
+  "n_trade_dates": 100,
+  "density_summary": {
+    "min": 0.0,
+    "mean": 5.14,
+    "median": 4.62,
+    "max": 12.97,
+    "std": 3.89
+  },
+  "amplification": {
+    "status": "OK",
+    "n_high": 6,
+    "n_low": 3,
+    "high_stack": {
+      "mean_acf1": -0.0545,
+      "std_acf1": 0.0206,
+      "mean_pct_amplified": 17.8,
+      "mean_rv": 0.00515482,
+      "mean_density": 9.38,
+      "mean_tranches": 1.0
+    },
+    "low_stack": {
+      "mean_acf1": -0.0779,
+      "std_acf1": 0.0721,
+      "mean_pct_amplified": 24.4,
+      "mean_rv": 0.00780737,
+      "mean_density": 1.15,
+      "mean_tranches": 1.0
+    },
+    "delta": {
+      "acf1_diff": 0.0234,
+      "rv_ratio": 0.66,
+      "amplified_diff": -6.7
+    },
+    "statistics": {
+      "t_acf": 0.452,
+      "p_acf": 0.6933,
+      "t_rv": -1.039,
+      "p_rv": 0.3773
+    }
+  },
+  "wrinkles": {
+    "n_tested": 5,
+    "charm_matches": 0,
+    "mean_rv_acceleration": 0.923,
+    "details": [
+      {
+        "n_days": 76,
+        "peak_period_days": 76.0,
+        "peak_power_ratio": 0.286,
+        "closest_charm_period": 30,
+        "charm_match": false,
+        "rv_acceleration_ratio": 1.192,
+        "mean_rv": 0.00653352,
+        "final_5d_rv": 0.00532976,
+        "expiration": "2020-11-20",
+        "stacking_density": 12.04
+      },
+      {
+        "n_days": 114,
+        "peak_period_days": 114.0,
+        "peak_power_ratio": 0.251,
+        "closest_charm_period": 30,
+        "charm_match": false,
+        "rv_acceleration_ratio": 0.423,
+        "mean_rv": 0.00727574,
+        "final_5d_rv": 0.00189314,
+        "expiration": "2020-12-18",
+        "stacking_density": 11.71
+      },
+      {
+        "n_days": 140,
+        "peak_period_days": 140.0,
+        "peak_power_ratio": 0.374,
+        "closest_charm_period": 30,
+        "charm_match": false,
+        "rv_acceleration_ratio": 1.875,
+        "mean_rv": 0.00631209,
+        "final_5d_rv": 0.00546238,
+        "expiration": "2021-01-15",
+        "stacking_density": 11.04
+      },
+      {
+        "n_days": 130,
+        "peak_period_days": 130.0,
+        "peak_power_ratio": 0.324,
+        "closest_charm_period": 30,
+        "charm_match": false,
+        "rv_acceleration_ratio": 0.5,
+        "mean_rv": 0.00680131,
+        "final_5d_rv": 0.0022355,
+        "expiration": "2020-12-31",
+        "stacking_density": 10.26
+      },
+      {
+        "n_days": 140,
+        "peak_period_days": 140.0,
+        "peak_power_ratio": 0.323,
+        "closest_charm_period": 30,
+        "charm_match": false,
+        "rv_acceleration_ratio": 0.627,
+        "mean_rv": 0.00656023,
+        "final_5d_rv": 0.00280098,
+        "expiration": "2021-01-08",
+        "stacking_density": 8.69
+      }
+    ]
+  },
+  "dispersion_buying": {
+    "n_events": 235,
+    "n_target_expirations": 37,
+    "pct_expirations": 90.2
+  }
+}

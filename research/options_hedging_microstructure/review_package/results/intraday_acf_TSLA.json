@@ -1,0 +1,93 @@
+{
+  "09:30\u201310:00": {
+    "mean_acf1": 0.0204,
+    "median_acf1": 0.0321,
+    "std_acf1": 0.1866,
+    "n_days": 199,
+    "pct_dampened": 45.2
+  },
+  "10:00\u201310:30": {
+    "mean_acf1": -0.0055,
+    "median_acf1": 0.0006,
+    "std_acf1": 0.1624,
+    "n_days": 199,
+    "pct_dampened": 49.7
+  },
+  "10:30\u201311:00": {
+    "mean_acf1": 0.0043,
+    "median_acf1": 0.0016,
+    "std_acf1": 0.1971,
+    "n_days": 199,
+    "pct_dampened": 49.7
+  },
+  "11:00\u201311:30": {
+    "mean_acf1": -0.0411,
+    "median_acf1": -0.0349,
+    "std_acf1": 0.1766,
+    "n_days": 199,
+    "pct_dampened": 59.8
+  },
+  "11:30\u201312:00": {
+    "mean_acf1": -0.0505,
+    "median_acf1": -0.0524,
+    "std_acf1": 0.1824,
+    "n_days": 199,
+    "pct_dampened": 65.3
+  },
+  "12:00\u201312:30": {
+    "mean_acf1": -0.043,
+    "median_acf1": -0.0446,
+    "std_acf1": 0.1801,
+    "n_days": 199,
+    "pct_dampened": 58.8
+  },
+  "12:30\u201313:00": {
+    "mean_acf1": -0.0595,
+    "median_acf1": -0.0459,
+    "std_acf1": 0.1827,
+    "n_days": 199,
+    "pct_dampened": 62.3
+  },
+  "13:00\u201313:30": {
+    "mean_acf1": -0.0469,
+    "median_acf1": -0.0565,
+    "std_acf1": 0.1889,
+    "n_days": 199,
+    "pct_dampened": 60.8
+  },
+  "13:30\u201314:00": {
+    "mean_acf1": -0.0425,
+    "median_acf1": -0.0242,
+    "std_acf1": 0.1917,
+    "n_days": 199,
+    "pct_dampened": 55.8
+  },
+  "14:00\u201314:30": {
+    "mean_acf1": -0.0626,
+    "median_acf1": -0.0693,
+    "std_acf1": 0.1928,
+    "n_days": 199,
+    "pct_dampened": 62.3
+  },
+  "14:30\u201315:00": {
+    "mean_acf1": -0.0619,
+    "median_acf1": -0.047,
+    "std_acf1": 0.1835,
+    "n_days": 199,
+    "pct_dampened": 58.3
+  },
+  "15:00\u201315:30": {
+    "mean_acf1": -0.0473,
+    "median_acf1": -0.0567,
+    "std_acf1": 0.1822,
+    "n_days": 199,
+    "pct_dampened": 62.3
+  },
+  "15:30\u201316:00": {
+    "mean_acf1": -0.0496,
+    "median_acf1": -0.0546,
+    "std_acf1": 0.1962,
+    "n_days": 199,
+    "pct_dampened": 62.3
+  }
+}

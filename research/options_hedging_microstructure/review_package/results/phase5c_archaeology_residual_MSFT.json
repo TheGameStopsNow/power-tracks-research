@@ -1,0 +1,63 @@
+{
+  "target_date": "2025-12-23",
+  "r_raw": 1.0,
+  "r_residual": 1.0,
+  "residual_pct_raw": 0.1,
+  "residual_pct_resid": 0.0,
+  "n_components": 5,
+  "n_sources": 22,
+  "mean_profile_var": 3943333.52,
+  "target_deviation_var": 23313524077.63,
+  "top_contributors_residual": [
+    {
+      "date": "2025-12-17",
+      "nmf_weight": 32208.9332,
+      "residual_corr": 0.4811
+    },
+    {
+      "date": "2025-12-15",
+      "nmf_weight": 16932.818,
+      "residual_corr": 0.1427
+    },
+    {
+      "date": "2025-12-10",
+      "nmf_weight": 14197.5757,
+      "residual_corr": 0.022
+    },
+    {
+      "date": "2025-12-04",
+      "nmf_weight": 13042.7823,
+      "residual_corr": 0.1228
+    },
+    {
+      "date": "2025-12-12",
+      "nmf_weight": 12307.9439,
+      "residual_corr": 0.0139
+    },
+    {
+      "date": "2025-12-18",
+      "nmf_weight": 12068.7992,
+      "residual_corr": 0.0857
+    },
+    {
+      "date": "2025-12-23",
+      "nmf_weight": 11116.8659,
+      "residual_corr": 0.1114
+    },
+    {
+      "date": "2025-12-05",
+      "nmf_weight": 10032.4115,
+      "residual_corr": -0.0737
+    },
+    {
+      "date": "2025-12-19",
+      "nmf_weight": 8758.3078,
+      "residual_corr": 0.0027
+    },
+    {
+      "date": "2025-12-09",
+      "nmf_weight": 7042.9271,
+      "residual_corr": -0.0379
+    }
+  ]
+}

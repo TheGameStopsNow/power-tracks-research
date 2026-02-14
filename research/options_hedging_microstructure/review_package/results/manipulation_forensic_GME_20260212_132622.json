@@ -1,0 +1,3281 @@
+[
+  {
+    "event": "Jan 2021 Squeeze",
+    "symbol": "GME",
+    "tests": {
+      "whale_detector": {
+        "test": "whale_detector",
+        "symbol": "GME",
+        "target_exp": "20210129",
+        "daily_results": [
+          {
+            "date": "20210122",
+            "total_contracts": 237208,
+            "total_trades": 62479,
+            "avg_trade_size": 3.8,
+            "whale_ratio": 0.1465,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 50181,
+                "volume": 66182,
+                "pct_volume": 27.9,
+                "pct_trades": 80.3
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 7570,
+                "volume": 42129,
+                "pct_volume": 17.8,
+                "pct_trades": 12.1
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 4209,
+                "volume": 71104,
+                "pct_volume": 30.0,
+                "pct_trades": 6.7
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 347,
+                "volume": 23050,
+                "pct_volume": 9.7,
+                "pct_trades": 0.6
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 158,
+                "volume": 26023,
+                "pct_volume": 11.0,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 14,
+                "volume": 8720,
+                "pct_volume": 3.7,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-22T14:32:02.809",
+                "size": 839,
+                "strike": 60.0,
+                "price": 10.2,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:45:10.439",
+                "size": 800,
+                "strike": 8.0,
+                "price": 51.65,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T15:37:32.191",
+                "size": 800,
+                "strike": 8.0,
+                "price": 53.3,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:45:10.439",
+                "size": 800,
+                "strike": 6.0,
+                "price": 53.65,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T13:54:30.773",
+                "size": 709,
+                "strike": 60.0,
+                "price": 12.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:59:48.074",
+                "size": 600,
+                "strike": 8.0,
+                "price": 51.15,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:59:48.074",
+                "size": 600,
+                "strike": 6.0,
+                "price": 53.25,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T13:06:45.198",
+                "size": 572,
+                "strike": 60.0,
+                "price": 14.7,
+                "exchange": 5,
+                "condition": 130,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:44:58.21",
+                "size": 500,
+                "strike": 8.0,
+                "price": 51.4,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T15:34:53.502",
+                "size": 500,
+                "strike": 8.0,
+                "price": 53.0,
+                "exchange": 7,
+                "condition": 133,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210125",
+            "total_contracts": 267407,
+            "total_trades": 93266,
+            "avg_trade_size": 2.9,
+            "whale_ratio": 0.0707,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 78460,
+                "volume": 99205,
+                "pct_volume": 37.1,
+                "pct_trades": 84.1
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 9362,
+                "volume": 51344,
+                "pct_volume": 19.2,
+                "pct_trades": 10.0
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 5010,
+                "volume": 77844,
+                "pct_volume": 29.1,
+                "pct_trades": 5.4
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 320,
+                "volume": 20116,
+                "pct_volume": 7.5,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 112,
+                "volume": 17531,
+                "pct_volume": 6.6,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 2,
+                "volume": 1367,
+                "pct_volume": 0.5,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-25T10:03:37.669",
+                "size": 867,
+                "strike": 60.0,
+                "price": 38.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T10:05:22.752",
+                "size": 500,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:50:10.672",
+                "size": 474,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T15:33:28.18",
+                "size": 450,
+                "strike": 20.0,
+                "price": 60.45,
+                "exchange": 11,
+                "condition": 133,
+                "exchange_name": "NSDQ_ISE_GEMINI",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:45:41.68",
+                "size": 360,
+                "strike": 115.0,
+                "price": 20.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T14:26:34.631",
+                "size": 350,
+                "strike": 20.0,
+                "price": 62.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:52:17.108",
+                "size": 299,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:49:35.508",
+                "size": 285,
+                "strike": 115.0,
+                "price": 20.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:47:40.774",
+                "size": 250,
+                "strike": 90.0,
+                "price": 26.22,
+                "exchange": 4,
+                "condition": 125,
+                "exchange_name": "C2",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-25T15:03:12.279",
+                "size": 250,
+                "strike": 65.0,
+                "price": 22.5,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210126",
+            "total_contracts": 453491,
+            "total_trades": 163494,
+            "avg_trade_size": 2.8,
+            "whale_ratio": 0.0929,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 140855,
+                "volume": 175113,
+                "pct_volume": 38.6,
+                "pct_trades": 86.2
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 14244,
+                "volume": 78231,
+                "pct_volume": 17.3,
+                "pct_trades": 8.7
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 7708,
+                "volume": 127552,
+                "pct_volume": 28.1,
+                "pct_trades": 4.7
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 469,
+                "volume": 30446,
+                "pct_volume": 6.7,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 213,
+                "volume": 38020,
+                "pct_volume": 8.4,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 5,
+                "volume": 4129,
+                "pct_volume": 0.9,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-26T15:56:34.825",
+                "size": 1000,
+                "strike": 10.0,
+                "price": 139.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:56:34.825",
+                "size": 1000,
+                "strike": 12.0,
+                "price": 137.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 900,
+                "strike": 20.0,
+                "price": 122.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T14:31:49.455",
+                "size": 650,
+                "strike": 30.0,
+                "price": 92.0,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T12:48:46.424",
+                "size": 579,
+                "strike": 130.0,
+                "price": 15.0,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T12:45:47.16",
+                "size": 499,
+                "strike": 100.0,
+                "price": 20.97,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-26T13:54:45.655",
+                "size": 462,
+                "strike": 150.0,
+                "price": 15.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:47:09.737",
+                "size": 459,
+                "strike": 200.0,
+                "price": 20.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 450,
+                "strike": 25.0,
+                "price": 123.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 450,
+                "strike": 26.0,
+                "price": 122.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210127",
+            "total_contracts": 153634,
+            "total_trades": 57560,
+            "avg_trade_size": 2.7,
+            "whale_ratio": 0.1849,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 50918,
+                "volume": 60147,
+                "pct_volume": 39.1,
+                "pct_trades": 88.5
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 4432,
+                "volume": 24519,
+                "pct_volume": 16.0,
+                "pct_trades": 7.7
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 2006,
+                "volume": 33348,
+                "pct_volume": 21.7,
+                "pct_trades": 3.5
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 119,
+                "volume": 7220,
+                "pct_volume": 4.7,
+                "pct_trades": 0.2
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 67,
+                "volume": 11638,
+                "pct_volume": 7.6,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 18,
+                "volume": 16762,
+                "pct_volume": 10.9,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-27T15:34:20.905",
+                "size": 2000,
+                "strike": 31.0,
+                "price": 311.1,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.077",
+                "size": 1400,
+                "strike": 31.0,
+                "price": 283.55,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.078",
+                "size": 1300,
+                "strike": 34.0,
+                "price": 280.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:34:20.905",
+                "size": 1300,
+                "strike": 34.0,
+                "price": 307.75,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T14:35:24.104",
+                "size": 1239,
+                "strike": 40.0,
+                "price": 261.1,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T14:35:24.104",
+                "size": 1239,
+                "strike": 38.0,
+                "price": 263.05,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:21:32.06",
+                "size": 1160,
+                "strike": 31.0,
+                "price": 313.9,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T13:32:32.592",
+                "size": 1000,
+                "strike": 370.0,
+                "price": 81.0,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:21:32.06",
+                "size": 1000,
+                "strike": 34.0,
+                "price": 311.25,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.078",
+                "size": 700,
+                "strike": 35.0,
+                "price": 279.6,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210128",
+            "total_contracts": 86221,
+            "total_trades": 32728,
+            "avg_trade_size": 2.6,
+            "whale_ratio": 0.0794,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 27911,
+                "volume": 33672,
+                "pct_volume": 39.1,
+                "pct_trades": 85.3
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 3327,
+                "volume": 19056,
+                "pct_volume": 22.1,
+                "pct_trades": 10.2
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 1370,
+                "volume": 21373,
+                "pct_volume": 24.8,
+                "pct_trades": 4.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 80,
+                "volume": 5275,
+                "pct_volume": 6.1,
+                "pct_trades": 0.2
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 39,
+                "volume": 5295,
+                "pct_volume": 6.1,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 1,
+                "volume": 1550,
+                "pct_volume": 1.8,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-28T15:53:12.836",
+                "size": 1550,
+                "strike": 100.0,
+                "price": 133.29,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T10:26:37.079",
+                "size": 263,
+                "strike": 570.0,
+                "price": 56.8,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T10:24:12.215",
+                "size": 261,
+                "strike": 570.0,
+                "price": 66.65,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T12:09:06.578",
+                "size": 213,
+                "strike": 570.0,
+                "price": 42.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T12:09:27.508",
+                "size": 213,
+                "strike": 570.0,
+                "price": 42.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:29.67",
+                "size": 200,
+                "strike": 200.0,
+                "price": 76.0,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T15:36:27.893",
+                "size": 200,
+                "strike": 260.0,
+                "price": 40.68,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:29.67",
+                "size": 200,
+                "strike": 190.0,
+                "price": 79.5,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:28.333",
+                "size": 194,
+                "strike": 570.0,
+                "price": 20.95,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T15:19:12.336",
+                "size": 190,
+                "strike": 200.0,
+                "price": 69.95,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210129",
+            "total_contracts": 131661,
+            "total_trades": 44230,
+            "avg_trade_size": 3.0,
+            "whale_ratio": 0.0671,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 37098,
+                "volume": 45814,
+                "pct_volume": 34.8,
+                "pct_trades": 83.9
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 4526,
+                "volume": 24625,
+                "pct_volume": 18.7,
+                "pct_trades": 10.2
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 2306,
+                "volume": 36858,
+                "pct_volume": 28.0,
+                "pct_trades": 5.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 236,
+                "volume": 15531,
+                "pct_volume": 11.8,
+                "pct_trades": 0.5
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 64,
+                "volume": 8833,
+                "pct_volume": 6.7,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 0,
+                "volume": 0,
+                "pct_volume": 0.0,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-29T12:26:07.972",
+                "size": 287,
+                "strike": 650.0,
+                "price": 2.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T13:04:01.912",
+                "size": 278,
+                "strike": 160.0,
+                "price": 172.23,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T11:38:32.96",
+                "size": 273,
+                "strike": 190.0,
+                "price": 139.37,
+                "exchange": 5,
+                "condition": 130,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T12:43:41.858",
+                "size": 249,
+                "strike": 200.0,
+                "price": 141.0,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T15:10:28.742",
+                "size": 211,
+                "strike": 200.0,
+                "price": 108.7,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T12:14:32.454",
+                "size": 210,
+                "strike": 200.0,
+                "price": 160.95,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T10:01:18.84",
+                "size": 200,
+                "strike": 200.0,
+                "price": 120.3,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:27:26.84",
+                "size": 200,
+                "strike": 520.0,
+                "price": 0.58,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:48:37.005",
+                "size": 199,
+                "strike": 460.0,
+                "price": 0.3,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:43:17.344",
+                "size": 198,
+                "strike": 410.0,
+                "price": 0.8,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              }
+            ]
+          }
+        ],
+        "verdict": "MIXED (significant institutional + retail)"
+      },
+      "ignition_sequence": {
+        "test": "ignition_sequence",
+        "symbol": "GME",
+        "squeeze_date": "20210129",
+        "n_observations": 188,
+        "ignition_date": "2020-12-11",
+        "ignition_dte": 49,
+        "leaps_start": 68469,
+        "leaps_at_ignition": 45011,
+        "leaps_at_peak": 102269,
+        "leaps_growth_pct": -34.3,
+        "short_median": 53215,
+        "short_at_ignition": 169365,
+        "short_at_peak": 240018,
+        "short_spike_x": 4.5,
+        "verdict": "ORGANIC (no clear stealth-then-ignite pattern)",
+        "timeline": [
+          {
+            "date": "2020-05-04",
+            "dte_to_squeeze": 270,
+            "leaps_call_oi": 68469,
+            "leaps_put_oi": 47177,
+            "leaps_total": 115646,
+            "short_call_oi": 53118,
+            "short_put_oi": 41438,
+            "short_total": 94556,
+            "mid_call_oi": 65230
+          },
+          {
+            "date": "2020-05-05",
+            "dte_to_squeeze": 269,
+            "leaps_call_oi": 69245,
+            "leaps_put_oi": 47825,
+            "leaps_total": 117070,
+            "short_call_oi": 55977,
+            "short_put_oi": 45486,
+            "short_total": 101463,
+            "mid_call_oi": 70973
+          },
+          {
+            "date": "2020-05-06",
+            "dte_to_squeeze": 268,
+            "leaps_call_oi": 69494,
+            "leaps_put_oi": 47815,
+            "leaps_total": 117309,
+            "short_call_oi": 56198,
+            "short_put_oi": 46050,
+            "short_total": 102248,
+            "mid_call_oi": 72185
+          },
+          {
+            "date": "2020-05-07",
+            "dte_to_squeeze": 267,
+            "leaps_call_oi": 69662,
+            "leaps_put_oi": 47958,
+            "leaps_total": 117620,
+            "short_call_oi": 57817,
+            "short_put_oi": 46196,
+            "short_total": 104013,
+            "mid_call_oi": 72432
+          },
+          {
+            "date": "2020-05-08",
+            "dte_to_squeeze": 266,
+            "leaps_call_oi": 70112,
+            "leaps_put_oi": 48210,
+            "leaps_total": 118322,
+            "short_call_oi": 62826,
+            "short_put_oi": 48216,
+            "short_total": 111042,
+            "mid_call_oi": 75647
+          },
+          {
+            "date": "2020-05-11",
+            "dte_to_squeeze": 263,
+            "leaps_call_oi": 69905,
+            "leaps_put_oi": 48188,
+            "leaps_total": 118093,
+            "short_call_oi": 46750,
+            "short_put_oi": 40084,
+            "short_total": 86834,
+            "mid_call_oi": 80819
+          },
+          {
+            "date": "2020-05-12",
+            "dte_to_squeeze": 262,
+            "leaps_call_oi": 69894,
+            "leaps_put_oi": 48245,
+            "leaps_total": 118139,
+            "short_call_oi": 49916,
+            "short_put_oi": 40479,
+            "short_total": 90395,
+            "mid_call_oi": 81838
+          },
+          {
+            "date": "2020-05-13",
+            "dte_to_squeeze": 261,
+            "leaps_call_oi": 70287,
+            "leaps_put_oi": 48304,
+            "leaps_total": 118591,
+            "short_call_oi": 50880,
+            "short_put_oi": 38071,
+            "short_total": 88951,
+            "mid_call_oi": 89926
+          },
+          {
+            "date": "2020-05-14",
+            "dte_to_squeeze": 260,
+            "leaps_call_oi": 70523,
+            "leaps_put_oi": 48328,
+            "leaps_total": 118851,
+            "short_call_oi": 52181,
+            "short_put_oi": 38335,
+            "short_total": 90516,
+            "mid_call_oi": 92310
+          },
+          {
+            "date": "2020-05-15",
+            "dte_to_squeeze": 259,
+            "leaps_call_oi": 71312,
+            "leaps_put_oi": 48368,
+            "leaps_total": 119680,
+            "short_call_oi": 54196,
+            "short_put_oi": 37506,
+            "short_total": 91702,
+            "mid_call_oi": 94049
+          },
+          {
+            "date": "2020-05-18",
+            "dte_to_squeeze": 256,
+            "leaps_call_oi": 72118,
+            "leaps_put_oi": 48205,
+            "leaps_total": 120323,
+            "short_call_oi": 8823,
+            "short_put_oi": 5341,
+            "short_total": 14164,
+            "mid_call_oi": 92149
+          },
+          {
+            "date": "2020-05-19",
+            "dte_to_squeeze": 255,
+            "leaps_call_oi": 72518,
+            "leaps_put_oi": 48096,
+            "leaps_total": 120614,
+            "short_call_oi": 12825,
+            "short_put_oi": 5720,
+            "short_total": 18545,
+            "mid_call_oi": 95628
+          },
+          {
+            "date": "2020-05-20",
+            "dte_to_squeeze": 254,
+            "leaps_call_oi": 72625,
+            "leaps_put_oi": 48395,
+            "leaps_total": 121020,
+            "short_call_oi": 13528,
+            "short_put_oi": 6196,
+            "short_total": 19724,
+            "mid_call_oi": 98756
+          },
+          {
+            "date": "2020-05-21",
+            "dte_to_squeeze": 253,
+            "leaps_call_oi": 74435,
+            "leaps_put_oi": 48497,
+            "leaps_total": 122932,
+            "short_call_oi": 14055,
+            "short_put_oi": 8983,
+            "short_total": 23038,
+            "mid_call_oi": 101889
+          },
+          {
+            "date": "2020-05-22",
+            "dte_to_squeeze": 252,
+            "leaps_call_oi": 74725,
+            "leaps_put_oi": 48507,
+            "leaps_total": 123232,
+            "short_call_oi": 16191,
+            "short_put_oi": 9161,
+            "short_total": 25352,
+            "mid_call_oi": 103761
+          },
+          {
+            "date": "2020-05-26",
+            "dte_to_squeeze": 248,
+            "leaps_call_oi": 75860,
+            "leaps_put_oi": 48451,
+            "leaps_total": 124311,
+            "short_call_oi": 14043,
+            "short_put_oi": 6085,
+            "short_total": 20128,
+            "mid_call_oi": 100166
+          },
+          {
+            "date": "2020-05-27",
+            "dte_to_squeeze": 247,
+            "leaps_call_oi": 76772,
+            "leaps_put_oi": 48355,
+            "leaps_total": 125127,
+            "short_call_oi": 20177,
+            "short_put_oi": 6513,
+            "short_total": 26690,
+            "mid_call_oi": 100785
+          },
+          {
+            "date": "2020-05-28",
+            "dte_to_squeeze": 246,
+            "leaps_call_oi": 77423,
+            "leaps_put_oi": 48354,
+            "leaps_total": 125777,
+            "short_call_oi": 22419,
+            "short_put_oi": 7002,
+            "short_total": 29421,
+            "mid_call_oi": 101179
+          },
+          {
+            "date": "2020-05-29",
+            "dte_to_squeeze": 245,
+            "leaps_call_oi": 77591,
+            "leaps_put_oi": 48390,
+            "leaps_total": 125981,
+            "short_call_oi": 23961,
+            "short_put_oi": 7225,
+            "short_total": 31186,
+            "mid_call_oi": 101449
+          },
+          {
+            "date": "2020-06-01",
+            "dte_to_squeeze": 242,
+            "leaps_call_oi": 78702,
+            "leaps_put_oi": 48435,
+            "leaps_total": 127137,
+            "short_call_oi": 16322,
+            "short_put_oi": 4456,
+            "short_total": 20778,
+            "mid_call_oi": 100703
+          },
+          {
+            "date": "2020-06-02",
+            "dte_to_squeeze": 241,
+            "leaps_call_oi": 79171,
+            "leaps_put_oi": 48526,
+            "leaps_total": 127697,
+            "short_call_oi": 25168,
+            "short_put_oi": 5835,
+            "short_total": 31003,
+            "mid_call_oi": 101551
+          },
+          {
+            "date": "2020-06-03",
+            "dte_to_squeeze": 240,
+            "leaps_call_oi": 79645,
+            "leaps_put_oi": 48529,
+            "leaps_total": 128174,
+            "short_call_oi": 27066,
+            "short_put_oi": 6084,
+            "short_total": 33150,
+            "mid_call_oi": 101733
+          },
+          {
+            "date": "2020-06-04",
+            "dte_to_squeeze": 239,
+            "leaps_call_oi": 80872,
+            "leaps_put_oi": 48623,
+            "leaps_total": 129495,
+            "short_call_oi": 27372,
+            "short_put_oi": 6405,
+            "short_total": 33777,
+            "mid_call_oi": 105002
+          },
+          {
+            "date": "2020-06-05",
+            "dte_to_squeeze": 238,
+            "leaps_call_oi": 82503,
+            "leaps_put_oi": 48656,
+            "leaps_total": 131159,
+            "short_call_oi": 28712,
+            "short_put_oi": 6737,
+            "short_total": 35449,
+            "mid_call_oi": 106297
+          },
+          {
+            "date": "2020-06-08",
+            "dte_to_squeeze": 235,
+            "leaps_call_oi": 84294,
+            "leaps_put_oi": 48856,
+            "leaps_total": 133150,
+            "short_call_oi": 43342,
+            "short_put_oi": 23000,
+            "short_total": 66342,
+            "mid_call_oi": 78490
+          },
+          {
+            "date": "2020-06-09",
+            "dte_to_squeeze": 234,
+            "leaps_call_oi": 85186,
+            "leaps_put_oi": 50274,
+            "leaps_total": 135460,
+            "short_call_oi": 63342,
+            "short_put_oi": 31650,
+            "short_total": 94992,
+            "mid_call_oi": 89434
+          },
+          {
+            "date": "2020-06-10",
+            "dte_to_squeeze": 233,
+            "leaps_call_oi": 85411,
+            "leaps_put_oi": 50631,
+            "leaps_total": 136042,
+            "short_call_oi": 76920,
+            "short_put_oi": 41980,
+            "short_total": 118900,
+            "mid_call_oi": 95834
+          },
+          {
+            "date": "2020-06-11",
+            "dte_to_squeeze": 232,
+            "leaps_call_oi": 85006,
+            "leaps_put_oi": 83328,
+            "leaps_total": 168334,
+            "short_call_oi": 82862,
+            "short_put_oi": 41740,
+            "short_total": 124602,
+            "mid_call_oi": 102506
+          },
+          {
+            "date": "2020-06-12",
+            "dte_to_squeeze": 231,
+            "leaps_call_oi": 85903,
+            "leaps_put_oi": 83796,
+            "leaps_total": 169699,
+            "short_call_oi": 82540,
+            "short_put_oi": 39356,
+            "short_total": 121896,
+            "mid_call_oi": 106235
+          },
+          {
+            "date": "2020-06-15",
+            "dte_to_squeeze": 228,
+            "leaps_call_oi": 86372,
+            "leaps_put_oi": 83895,
+            "leaps_total": 170267,
+            "short_call_oi": 54118,
+            "short_put_oi": 24699,
+            "short_total": 78817,
+            "mid_call_oi": 97107
+          },
+          {
+            "date": "2020-06-16",
+            "dte_to_squeeze": 227,
+            "leaps_call_oi": 86854,
+            "leaps_put_oi": 86120,
+            "leaps_total": 172974,
+            "short_call_oi": 59338,
+            "short_put_oi": 26284,
+            "short_total": 85622,
+            "mid_call_oi": 98147
+          },
+          {
+            "date": "2020-06-17",
+            "dte_to_squeeze": 226,
+            "leaps_call_oi": 88758,
+            "leaps_put_oi": 86449,
+            "leaps_total": 175207,
+            "short_call_oi": 60678,
+            "short_put_oi": 30026,
+            "short_total": 90704,
+            "mid_call_oi": 99298
+          },
+          {
+            "date": "2020-06-18",
+            "dte_to_squeeze": 225,
+            "leaps_call_oi": 90023,
+            "leaps_put_oi": 87280,
+            "leaps_total": 177303,
+            "short_call_oi": 59681,
+            "short_put_oi": 28308,
+            "short_total": 87989,
+            "mid_call_oi": 108061
+          },
+          {
+            "date": "2020-06-19",
+            "dte_to_squeeze": 224,
+            "leaps_call_oi": 90226,
+            "leaps_put_oi": 87354,
+            "leaps_total": 177580,
+            "short_call_oi": 55090,
+            "short_put_oi": 26682,
+            "short_total": 81772,
+            "mid_call_oi": 108742
+          },
+          {
+            "date": "2020-06-22",
+            "dte_to_squeeze": 221,
+            "leaps_call_oi": 91484,
+            "leaps_put_oi": 87609,
+            "leaps_total": 179093,
+            "short_call_oi": 15107,
+            "short_put_oi": 6076,
+            "short_total": 21183,
+            "mid_call_oi": 113169
+          },
+          {
+            "date": "2020-06-23",
+            "dte_to_squeeze": 220,
+            "leaps_call_oi": 91517,
+            "leaps_put_oi": 90021,
+            "leaps_total": 181538,
+            "short_call_oi": 17778,
+            "short_put_oi": 6295,
+            "short_total": 24073,
+            "mid_call_oi": 114333
+          },
+          {
+            "date": "2020-06-24",
+            "dte_to_squeeze": 219,
+            "leaps_call_oi": 91479,
+            "leaps_put_oi": 93843,
+            "leaps_total": 185322,
+            "short_call_oi": 22140,
+            "short_put_oi": 6915,
+            "short_total": 29055,
+            "mid_call_oi": 115055
+          },
+          {
+            "date": "2020-06-25",
+            "dte_to_squeeze": 218,
+            "leaps_call_oi": 91813,
+            "leaps_put_oi": 94774,
+            "leaps_total": 186587,
+            "short_call_oi": 23154,
+            "short_put_oi": 7976,
+            "short_total": 31130,
+            "mid_call_oi": 116269
+          },
+          {
+            "date": "2020-06-26",
+            "dte_to_squeeze": 217,
+            "leaps_call_oi": 92699,
+            "leaps_put_oi": 96619,
+            "leaps_total": 189318,
+            "short_call_oi": 24113,
+            "short_put_oi": 8182,
+            "short_total": 32295,
+            "mid_call_oi": 116406
+          },
+          {
+            "date": "2020-06-29",
+            "dte_to_squeeze": 214,
+            "leaps_call_oi": 93268,
+            "leaps_put_oi": 96990,
+            "leaps_total": 190258,
+            "short_call_oi": 8664,
+            "short_put_oi": 4116,
+            "short_total": 12780,
+            "mid_call_oi": 114517
+          },
+          {
+            "date": "2020-06-30",
+            "dte_to_squeeze": 213,
+            "leaps_call_oi": 94453,
+            "leaps_put_oi": 96991,
+            "leaps_total": 191444,
+            "short_call_oi": 14544,
+            "short_put_oi": 5182,
+            "short_total": 19726,
+            "mid_call_oi": 116856
+          },
+          {
+            "date": "2020-07-01",
+            "dte_to_squeeze": 212,
+            "leaps_call_oi": 95461,
+            "leaps_put_oi": 96996,
+            "leaps_total": 192457,
+            "short_call_oi": 15275,
+            "short_put_oi": 4953,
+            "short_total": 20228,
+            "mid_call_oi": 118395
+          },
+          {
+            "date": "2020-07-02",
+            "dte_to_squeeze": 211,
+            "leaps_call_oi": 95814,
+            "leaps_put_oi": 96978,
+            "leaps_total": 192792,
+            "short_call_oi": 14717,
+            "short_put_oi": 5001,
+            "short_total": 19718,
+            "mid_call_oi": 121790
+          },
+          {
+            "date": "2020-07-06",
+            "dte_to_squeeze": 207,
+            "leaps_call_oi": 96230,
+            "leaps_put_oi": 96913,
+            "leaps_total": 193143,
+            "short_call_oi": 98651,
+            "short_put_oi": 64292,
+            "short_total": 162943,
+            "mid_call_oi": 28155
+          },
+          {
+            "date": "2020-07-07",
+            "dte_to_squeeze": 206,
+            "leaps_call_oi": 97487,
+            "leaps_put_oi": 97120,
+            "leaps_total": 194607,
+            "short_call_oi": 105277,
+            "short_put_oi": 65616,
+            "short_total": 170893,
+            "mid_call_oi": 29782
+          },
+          {
+            "date": "2020-07-08",
+            "dte_to_squeeze": 205,
+            "leaps_call_oi": 98208,
+            "leaps_put_oi": 96903,
+            "leaps_total": 195111,
+            "short_call_oi": 105796,
+            "short_put_oi": 65923,
+            "short_total": 171719,
+            "mid_call_oi": 30116
+          },
+          {
+            "date": "2020-07-09",
+            "dte_to_squeeze": 204,
+            "leaps_call_oi": 98587,
+            "leaps_put_oi": 96858,
+            "leaps_total": 195445,
+            "short_call_oi": 106057,
+            "short_put_oi": 65963,
+            "short_total": 172020,
+            "mid_call_oi": 30834
+          },
+          {
+            "date": "2020-07-10",
+            "dte_to_squeeze": 203,
+            "leaps_call_oi": 98034,
+            "leaps_put_oi": 96977,
+            "leaps_total": 195011,
+            "short_call_oi": 105965,
+            "short_put_oi": 66138,
+            "short_total": 172103,
+            "mid_call_oi": 30924
+          },
+          {
+            "date": "2020-07-13",
+            "dte_to_squeeze": 200,
+            "leaps_call_oi": 98509,
+            "leaps_put_oi": 97032,
+            "leaps_total": 195541,
+            "short_call_oi": 99693,
+            "short_put_oi": 62267,
+            "short_total": 161960,
+            "mid_call_oi": 29553
+          },
+          {
+            "date": "2020-07-14",
+            "dte_to_squeeze": 199,
+            "leaps_call_oi": 99190,
+            "leaps_put_oi": 97245,
+            "leaps_total": 196435,
+            "short_call_oi": 102503,
+            "short_put_oi": 62553,
+            "short_total": 165056,
+            "mid_call_oi": 30650
+          },
+          {
+            "date": "2020-07-15",
+            "dte_to_squeeze": 198,
+            "leaps_call_oi": 100281,
+            "leaps_put_oi": 97259,
+            "leaps_total": 197540,
+            "short_call_oi": 103953,
+            "short_put_oi": 62955,
+            "short_total": 166908,
+            "mid_call_oi": 31035
+          },
+          {
+            "date": "2020-07-16",
+            "dte_to_squeeze": 197,
+            "leaps_call_oi": 101724,
+            "leaps_put_oi": 97348,
+            "leaps_total": 199072,
+            "short_call_oi": 103611,
+            "short_put_oi": 62979,
+            "short_total": 166590,
+            "mid_call_oi": 31534
+          },
+          {
+            "date": "2020-07-17",
+            "dte_to_squeeze": 196,
+            "leaps_call_oi": 102269,
+            "leaps_put_oi": 97382,
+            "leaps_total": 199651,
+            "short_call_oi": 104466,
+            "short_put_oi": 63457,
+            "short_total": 167923,
+            "mid_call_oi": 31913
+          },
+          {
+            "date": "2020-07-20",
+            "dte_to_squeeze": 193,
+            "leaps_call_oi": 43413,
+            "leaps_put_oi": 10967,
+            "leaps_total": 54380,
+            "short_call_oi": 4305,
+            "short_put_oi": 5817,
+            "short_total": 10122,
+            "mid_call_oi": 92070
+          },
+          {
+            "date": "2020-07-21",
+            "dte_to_squeeze": 192,
+            "leaps_call_oi": 43713,
+            "leaps_put_oi": 10987,
+            "leaps_total": 54700,
+            "short_call_oi": 12860,
+            "short_put_oi": 6805,
+            "short_total": 19665,
+            "mid_call_oi": 97162
+          },
+          {
+            "date": "2020-07-22",
+            "dte_to_squeeze": 191,
+            "leaps_call_oi": 43879,
+            "leaps_put_oi": 11125,
+            "leaps_total": 55004,
+            "short_call_oi": 15762,
+            "short_put_oi": 7349,
+            "short_total": 23111,
+            "mid_call_oi": 102395
+          },
+          {
+            "date": "2020-07-23",
+            "dte_to_squeeze": 190,
+            "leaps_call_oi": 43993,
+            "leaps_put_oi": 11138,
+            "leaps_total": 55131,
+            "short_call_oi": 16382,
+            "short_put_oi": 7684,
+            "short_total": 24066,
+            "mid_call_oi": 104970
+          },
+          {
+            "date": "2020-07-24",
+            "dte_to_squeeze": 189,
+            "leaps_call_oi": 44032,
+            "leaps_put_oi": 11166,
+            "leaps_total": 55198,
+            "short_call_oi": 16572,
+            "short_put_oi": 7719,
+            "short_total": 24291,
+            "mid_call_oi": 105392
+          },
+          {
+            "date": "2020-07-27",
+            "dte_to_squeeze": 186,
+            "leaps_call_oi": 44187,
+            "leaps_put_oi": 11166,
+            "leaps_total": 55353,
+            "short_call_oi": 7495,
+            "short_put_oi": 4917,
+            "short_total": 12412,
+            "mid_call_oi": 105337
+          },
+          {
+            "date": "2020-07-28",
+            "dte_to_squeeze": 185,
+            "leaps_call_oi": 44127,
+            "leaps_put_oi": 11167,
+            "leaps_total": 55294,
+            "short_call_oi": 9008,
+            "short_put_oi": 5587,
+            "short_total": 14595,
+            "mid_call_oi": 105700
+          },
+          {
+            "date": "2020-07-29",
+            "dte_to_squeeze": 184,
+            "leaps_call_oi": 44276,
+            "leaps_put_oi": 11169,
+            "leaps_total": 55445,
+            "short_call_oi": 9180,
+            "short_put_oi": 5933,
+            "short_total": 15113,
+            "mid_call_oi": 106363
+          },
+          {
+            "date": "2020-07-30",
+            "dte_to_squeeze": 183,
+            "leaps_call_oi": 45396,
+            "leaps_put_oi": 11239,
+            "leaps_total": 56635,
+            "short_call_oi": 9747,
+            "short_put_oi": 5466,
+            "short_total": 15213,
+            "mid_call_oi": 109974
+          },
+          {
+            "date": "2020-07-31",
+            "dte_to_squeeze": 182,
+            "leaps_call_oi": 45802,
+            "leaps_put_oi": 11240,
+            "leaps_total": 57042,
+            "short_call_oi": 10049,
+            "short_put_oi": 5457,
+            "short_total": 15506,
+            "mid_call_oi": 110745
+          },
+          {
+            "date": "2020-08-03",
+            "dte_to_squeeze": 179,
+            "leaps_call_oi": 45908,
+            "leaps_put_oi": 11263,
+            "leaps_total": 57171,
+            "short_call_oi": 3504,
+            "short_put_oi": 2624,
+            "short_total": 6128,
+            "mid_call_oi": 111148
+          },
+          {
+            "date": "2020-08-04",
+            "dte_to_squeeze": 178,
+            "leaps_call_oi": 46680,
+            "leaps_put_oi": 11270,
+            "leaps_total": 57950,
+            "short_call_oi": 5589,
+            "short_put_oi": 2737,
+            "short_total": 8326,
+            "mid_call_oi": 113858
+          },
+          {
+            "date": "2020-08-05",
+            "dte_to_squeeze": 177,
+            "leaps_call_oi": 47156,
+            "leaps_put_oi": 11440,
+            "leaps_total": 58596,
+            "short_call_oi": 11044,
+            "short_put_oi": 4325,
+            "short_total": 15369,
+            "mid_call_oi": 127041
+          },
+          {
+            "date": "2020-08-06",
+            "dte_to_squeeze": 176,
+            "leaps_call_oi": 47458,
+            "leaps_put_oi": 11383,
+            "leaps_total": 58841,
+            "short_call_oi": 13680,
+            "short_put_oi": 4475,
+            "short_total": 18155,
+            "mid_call_oi": 131311
+          },
+          {
+            "date": "2020-08-07",
+            "dte_to_squeeze": 175,
+            "leaps_call_oi": 47941,
+            "leaps_put_oi": 11386,
+            "leaps_total": 59327,
+            "short_call_oi": 13617,
+            "short_put_oi": 4537,
+            "short_total": 18154,
+            "mid_call_oi": 130238
+          },
+          {
+            "date": "2020-08-10",
+            "dte_to_squeeze": 172,
+            "leaps_call_oi": 48242,
+            "leaps_put_oi": 11357,
+            "leaps_total": 59599,
+            "short_call_oi": 22621,
+            "short_put_oi": 15248,
+            "short_total": 37869,
+            "mid_call_oi": 112593
+          },
+          {
+            "date": "2020-08-11",
+            "dte_to_squeeze": 171,
+            "leaps_call_oi": 49195,
+            "leaps_put_oi": 11381,
+            "leaps_total": 60576,
+            "short_call_oi": 25227,
+            "short_put_oi": 15848,
+            "short_total": 41075,
+            "mid_call_oi": 114630
+          },
+          {
+            "date": "2020-08-12",
+            "dte_to_squeeze": 170,
+            "leaps_call_oi": 49220,
+            "leaps_put_oi": 11392,
+            "leaps_total": 60612,
+            "short_call_oi": 26235,
+            "short_put_oi": 16987,
+            "short_total": 43222,
+            "mid_call_oi": 121212
+          },
+          {
+            "date": "2020-08-13",
+            "dte_to_squeeze": 169,
+            "leaps_call_oi": 49149,
+            "leaps_put_oi": 11446,
+            "leaps_total": 60595,
+            "short_call_oi": 26834,
+            "short_put_oi": 17365,
+            "short_total": 44199,
+            "mid_call_oi": 121639
+          },
+          {
+            "date": "2020-08-14",
+            "dte_to_squeeze": 168,
+            "leaps_call_oi": 49155,
+            "leaps_put_oi": 11447,
+            "leaps_total": 60602,
+            "short_call_oi": 26968,
+            "short_put_oi": 17292,
+            "short_total": 44260,
+            "mid_call_oi": 121644
+          },
+          {
+            "date": "2020-08-17",
+            "dte_to_squeeze": 165,
+            "leaps_call_oi": 49157,
+            "leaps_put_oi": 11450,
+            "leaps_total": 60607,
+            "short_call_oi": 29110,
+            "short_put_oi": 15258,
+            "short_total": 44368,
+            "mid_call_oi": 114732
+          },
+          {
+            "date": "2020-08-18",
+            "dte_to_squeeze": 164,
+            "leaps_call_oi": 49183,
+            "leaps_put_oi": 11479,
+            "leaps_total": 60662,
+            "short_call_oi": 29263,
+            "short_put_oi": 15390,
+            "short_total": 44653,
+            "mid_call_oi": 115837
+          },
+          {
+            "date": "2020-08-19",
+            "dte_to_squeeze": 163,
+            "leaps_call_oi": 49219,
+            "leaps_put_oi": 11479,
+            "leaps_total": 60698,
+            "short_call_oi": 29733,
+            "short_put_oi": 15431,
+            "short_total": 45164,
+            "mid_call_oi": 116641
+          },
+          {
+            "date": "2020-08-20",
+            "dte_to_squeeze": 162,
+            "leaps_call_oi": 49289,
+            "leaps_put_oi": 11520,
+            "leaps_total": 60809,
+            "short_call_oi": 29703,
+            "short_put_oi": 15442,
+            "short_total": 45145,
+            "mid_call_oi": 117199
+          },
+          {
+            "date": "2020-08-21",
+            "dte_to_squeeze": 161,
+            "leaps_call_oi": 49682,
+            "leaps_put_oi": 11536,
+            "leaps_total": 61218,
+            "short_call_oi": 29431,
+            "short_put_oi": 15400,
+            "short_total": 44831,
+            "mid_call_oi": 117585
+          },
+          {
+            "date": "2020-08-24",
+            "dte_to_squeeze": 158,
+            "leaps_call_oi": 49876,
+            "leaps_put_oi": 11562,
+            "leaps_total": 61438,
+            "short_call_oi": 12423,
+            "short_put_oi": 3533,
+            "short_total": 15956,
+            "mid_call_oi": 120147
+          },
+          {
+            "date": "2020-08-25",
+            "dte_to_squeeze": 157,
+            "leaps_call_oi": 50011,
+            "leaps_put_oi": 11572,
+            "leaps_total": 61583,
+            "short_call_oi": 17041,
+            "short_put_oi": 5048,
+            "short_total": 22089,
+            "mid_call_oi": 121690
+          },
+          {
+            "date": "2020-08-26",
+            "dte_to_squeeze": 156,
+            "leaps_call_oi": 50210,
+            "leaps_put_oi": 11593,
+            "leaps_total": 61803,
+            "short_call_oi": 18460,
+            "short_put_oi": 5303,
+            "short_total": 23763,
+            "mid_call_oi": 123333
+          },
+          {
+            "date": "2020-08-27",
+            "dte_to_squeeze": 155,
+            "leaps_call_oi": 50480,
+            "leaps_put_oi": 11602,
+            "leaps_total": 62082,
+            "short_call_oi": 19748,
+            "short_put_oi": 5326,
+            "short_total": 25074,
+            "mid_call_oi": 131309
+          },
+          {
+            "date": "2020-08-28",
+            "dte_to_squeeze": 154,
+            "leaps_call_oi": 50819,
+            "leaps_put_oi": 11605,
+            "leaps_total": 62424,
+            "short_call_oi": 18549,
+            "short_put_oi": 5926,
+            "short_total": 24475,
+            "mid_call_oi": 134325
+          },
+          {
+            "date": "2020-08-31",
+            "dte_to_squeeze": 151,
+            "leaps_call_oi": 50811,
+            "leaps_put_oi": 11710,
+            "leaps_total": 62521,
+            "short_call_oi": 10581,
+            "short_put_oi": 3534,
+            "short_total": 14115,
+            "mid_call_oi": 139544
+          },
+          {
+            "date": "2020-09-01",
+            "dte_to_squeeze": 150,
+            "leaps_call_oi": 50620,
+            "leaps_put_oi": 12280,
+            "leaps_total": 62900,
+            "short_call_oi": 23636,
+            "short_put_oi": 8620,
+            "short_total": 32256,
+            "mid_call_oi": 155337
+          },
+          {
+            "date": "2020-09-02",
+            "dte_to_squeeze": 149,
+            "leaps_call_oi": 51081,
+            "leaps_put_oi": 13572,
+            "leaps_total": 64653,
+            "short_call_oi": 29434,
+            "short_put_oi": 14652,
+            "short_total": 44086,
+            "mid_call_oi": 167047
+          },
+          {
+            "date": "2020-09-03",
+            "dte_to_squeeze": 148,
+            "leaps_call_oi": 51653,
+            "leaps_put_oi": 13575,
+            "leaps_total": 65228,
+            "short_call_oi": 30639,
+            "short_put_oi": 16512,
+            "short_total": 47151,
+            "mid_call_oi": 169002
+          },
+          {
+            "date": "2020-09-04",
+            "dte_to_squeeze": 147,
+            "leaps_call_oi": 51805,
+            "leaps_put_oi": 14258,
+            "leaps_total": 66063,
+            "short_call_oi": 33718,
+            "short_put_oi": 19179,
+            "short_total": 52897,
+            "mid_call_oi": 172048
+          },
+          {
+            "date": "2020-09-08",
+            "dte_to_squeeze": 143,
+            "leaps_call_oi": 51897,
+            "leaps_put_oi": 14257,
+            "leaps_total": 66154,
+            "short_call_oi": 36446,
+            "short_put_oi": 56017,
+            "short_total": 92463,
+            "mid_call_oi": 147311
+          },
+          {
+            "date": "2020-09-09",
+            "dte_to_squeeze": 142,
+            "leaps_call_oi": 51953,
+            "leaps_put_oi": 14341,
+            "leaps_total": 66294,
+            "short_call_oi": 44188,
+            "short_put_oi": 61913,
+            "short_total": 106101,
+            "mid_call_oi": 150917
+          },
+          {
+            "date": "2020-09-10",
+            "dte_to_squeeze": 141,
+            "leaps_call_oi": 52127,
+            "leaps_put_oi": 14578,
+            "leaps_total": 66705,
+            "short_call_oi": 56542,
+            "short_put_oi": 78840,
+            "short_total": 135382,
+            "mid_call_oi": 153559
+          },
+          {
+            "date": "2020-09-11",
+            "dte_to_squeeze": 140,
+            "leaps_call_oi": 52375,
+            "leaps_put_oi": 34752,
+            "leaps_total": 87127,
+            "short_call_oi": 57586,
+            "short_put_oi": 64631,
+            "short_total": 122217,
+            "mid_call_oi": 156720
+          },
+          {
+            "date": "2020-09-14",
+            "dte_to_squeeze": 137,
+            "leaps_call_oi": 53373,
+            "leaps_put_oi": 35586,
+            "leaps_total": 88959,
+            "short_call_oi": 34971,
+            "short_put_oi": 47267,
+            "short_total": 82238,
+            "mid_call_oi": 158403
+          },
+          {
+            "date": "2020-09-15",
+            "dte_to_squeeze": 136,
+            "leaps_call_oi": 54560,
+            "leaps_put_oi": 36165,
+            "leaps_total": 90725,
+            "short_call_oi": 46514,
+            "short_put_oi": 49152,
+            "short_total": 95666,
+            "mid_call_oi": 165919
+          },
+          {
+            "date": "2020-09-16",
+            "dte_to_squeeze": 135,
+            "leaps_call_oi": 54928,
+            "leaps_put_oi": 36723,
+            "leaps_total": 91651,
+            "short_call_oi": 48704,
+            "short_put_oi": 49858,
+            "short_total": 98562,
+            "mid_call_oi": 170375
+          },
+          {
+            "date": "2020-09-17",
+            "dte_to_squeeze": 134,
+            "leaps_call_oi": 55729,
+            "leaps_put_oi": 37499,
+            "leaps_total": 93228,
+            "short_call_oi": 58076,
+            "short_put_oi": 54883,
+            "short_total": 112959,
+            "mid_call_oi": 171224
+          },
+          {
+            "date": "2020-09-18",
+            "dte_to_squeeze": 133,
+            "leaps_call_oi": 55808,
+            "leaps_put_oi": 37772,
+            "leaps_total": 93580,
+            "short_call_oi": 68580,
+            "short_put_oi": 58116,
+            "short_total": 126696,
+            "mid_call_oi": 179743
+          },
+          {
+            "date": "2020-09-21",
+            "dte_to_squeeze": 130,
+            "leaps_call_oi": 55462,
+            "leaps_put_oi": 38103,
+            "leaps_total": 93565,
+            "short_call_oi": 37223,
+            "short_put_oi": 12673,
+            "short_total": 49896,
+            "mid_call_oi": 180353
+          },
+          {
+            "date": "2020-09-22",
+            "dte_to_squeeze": 129,
+            "leaps_call_oi": 55016,
+            "leaps_put_oi": 38636,
+            "leaps_total": 93652,
+            "short_call_oi": 36546,
+            "short_put_oi": 19613,
+            "short_total": 56159,
+            "mid_call_oi": 187455
+          },
+          {
+            "date": "2020-09-23",
+            "dte_to_squeeze": 128,
+            "leaps_call_oi": 54682,
+            "leaps_put_oi": 39037,
+            "leaps_total": 93719,
+            "short_call_oi": 38180,
+            "short_put_oi": 24066,
+            "short_total": 62246,
+            "mid_call_oi": 183124
+          },
+          {
+            "date": "2020-09-24",
+            "dte_to_squeeze": 127,
+            "leaps_call_oi": 54985,
+            "leaps_put_oi": 39011,
+            "leaps_total": 93996,
+            "short_call_oi": 40542,
+            "short_put_oi": 25910,
+            "short_total": 66452,
+            "mid_call_oi": 184449
+          },
+          {
+            "date": "2020-09-25",
+            "dte_to_squeeze": 126,
+            "leaps_call_oi": 55937,
+            "leaps_put_oi": 39199,
+            "leaps_total": 95136,
+            "short_call_oi": 47279,
+            "short_put_oi": 25129,
+            "short_total": 72408,
+            "mid_call_oi": 188005
+          },
+          {
+            "date": "2020-09-28",
+            "dte_to_squeeze": 123,
+            "leaps_call_oi": 56156,
+            "leaps_put_oi": 39569,
+            "leaps_total": 95725,
+            "short_call_oi": 20304,
+            "short_put_oi": 11885,
+            "short_total": 32189,
+            "mid_call_oi": 190847
+          },
+          {
+            "date": "2020-09-29",
+            "dte_to_squeeze": 122,
+            "leaps_call_oi": 56283,
+            "leaps_put_oi": 39577,
+            "leaps_total": 95860,
+            "short_call_oi": 27540,
+            "short_put_oi": 14415,
+            "short_total": 41955,
+            "mid_call_oi": 193960
+          },
+          {
+            "date": "2020-09-30",
+            "dte_to_squeeze": 121,
+            "leaps_call_oi": 56114,
+            "leaps_put_oi": 39662,
+            "leaps_total": 95776,
+            "short_call_oi": 28963,
+            "short_put_oi": 18243,
+            "short_total": 47206,
+            "mid_call_oi": 197648
+          },
+          {
+            "date": "2020-10-01",
+            "dte_to_squeeze": 120,
+            "leaps_call_oi": 56048,
+            "leaps_put_oi": 39667,
+            "leaps_total": 95715,
+            "short_call_oi": 29222,
+            "short_put_oi": 19262,
+            "short_total": 48484,
+            "mid_call_oi": 198252
+          },
+          {
+            "date": "2020-10-02",
+            "dte_to_squeeze": 119,
+            "leaps_call_oi": 56329,
+            "leaps_put_oi": 39723,
+            "leaps_total": 96052,
+            "short_call_oi": 30774,
+            "short_put_oi": 20529,
+            "short_total": 51303,
+            "mid_call_oi": 199725
+          },
+          {
+            "date": "2020-10-05",
+            "dte_to_squeeze": 116,
+            "leaps_call_oi": 57185,
+            "leaps_put_oi": 39730,
+            "leaps_total": 96915,
+            "short_call_oi": 76362,
+            "short_put_oi": 114244,
+            "short_total": 190606,
+            "mid_call_oi": 136255
+          },
+          {
+            "date": "2020-10-06",
+            "dte_to_squeeze": 115,
+            "leaps_call_oi": 57857,
+            "leaps_put_oi": 39815,
+            "leaps_total": 97672,
+            "short_call_oi": 78248,
+            "short_put_oi": 114838,
+            "short_total": 193086,
+            "mid_call_oi": 137463
+          },
+          {
+            "date": "2020-10-07",
+            "dte_to_squeeze": 114,
+            "leaps_call_oi": 58423,
+            "leaps_put_oi": 39844,
+            "leaps_total": 98267,
+            "short_call_oi": 78327,
+            "short_put_oi": 115714,
+            "short_total": 194041,
+            "mid_call_oi": 139183
+          },
+          {
+            "date": "2020-10-08",
+            "dte_to_squeeze": 113,
+            "leaps_call_oi": 58697,
+            "leaps_put_oi": 39874,
+            "leaps_total": 98571,
+            "short_call_oi": 78160,
+            "short_put_oi": 115754,
+            "short_total": 193914,
+            "mid_call_oi": 141596
+          },
+          {
+            "date": "2020-10-09",
+            "dte_to_squeeze": 112,
+            "leaps_call_oi": 58785,
+            "leaps_put_oi": 48683,
+            "leaps_total": 107468,
+            "short_call_oi": 117547,
+            "short_put_oi": 136304,
+            "short_total": 253851,
+            "mid_call_oi": 149963
+          },
+          {
+            "date": "2020-10-12",
+            "dte_to_squeeze": 109,
+            "leaps_call_oi": 59491,
+            "leaps_put_oi": 88569,
+            "leaps_total": 148060,
+            "short_call_oi": 101988,
+            "short_put_oi": 135064,
+            "short_total": 237052,
+            "mid_call_oi": 155877
+          },
+          {
+            "date": "2020-10-13",
+            "dte_to_squeeze": 108,
+            "leaps_call_oi": 60065,
+            "leaps_put_oi": 90127,
+            "leaps_total": 150192,
+            "short_call_oi": 111564,
+            "short_put_oi": 139006,
+            "short_total": 250570,
+            "mid_call_oi": 162141
+          },
+          {
+            "date": "2020-10-14",
+            "dte_to_squeeze": 107,
+            "leaps_call_oi": 61646,
+            "leaps_put_oi": 91111,
+            "leaps_total": 152757,
+            "short_call_oi": 117236,
+            "short_put_oi": 137481,
+            "short_total": 254717,
+            "mid_call_oi": 169369
+          },
+          {
+            "date": "2020-10-15",
+            "dte_to_squeeze": 106,
+            "leaps_call_oi": 64167,
+            "leaps_put_oi": 94366,
+            "leaps_total": 158533,
+            "short_call_oi": 120295,
+            "short_put_oi": 140005,
+            "short_total": 260300,
+            "mid_call_oi": 178521
+          },
+          {
+            "date": "2020-10-16",
+            "dte_to_squeeze": 105,
+            "leaps_call_oi": 64007,
+            "leaps_put_oi": 95145,
+            "leaps_total": 159152,
+            "short_call_oi": 138076,
+            "short_put_oi": 159538,
+            "short_total": 297614,
+            "mid_call_oi": 187332
+          },
+          {
+            "date": "2020-10-19",
+            "dte_to_squeeze": 102,
+            "leaps_call_oi": 30308,
+            "leaps_put_oi": 82650,
+            "leaps_total": 112958,
+            "short_call_oi": 46125,
+            "short_put_oi": 29546,
+            "short_total": 75671,
+            "mid_call_oi": 217192
+          },
+          {
+            "date": "2020-10-20",
+            "dte_to_squeeze": 101,
+            "leaps_call_oi": 30521,
+            "leaps_put_oi": 82692,
+            "leaps_total": 113213,
+            "short_call_oi": 52328,
+            "short_put_oi": 35160,
+            "short_total": 87488,
+            "mid_call_oi": 221410
+          },
+          {
+            "date": "2020-10-21",
+            "dte_to_squeeze": 100,
+            "leaps_call_oi": 30649,
+            "leaps_put_oi": 82709,
+            "leaps_total": 113358,
+            "short_call_oi": 54001,
+            "short_put_oi": 36718,
+            "short_total": 90719,
+            "mid_call_oi": 225151
+          },
+          {
+            "date": "2020-10-22",
+            "dte_to_squeeze": 99,
+            "leaps_call_oi": 30868,
+            "leaps_put_oi": 82488,
+            "leaps_total": 113356,
+            "short_call_oi": 59720,
+            "short_put_oi": 38673,
+            "short_total": 98393,
+            "mid_call_oi": 225540
+          },
+          {
+            "date": "2020-10-23",
+            "dte_to_squeeze": 98,
+            "leaps_call_oi": 30680,
+            "leaps_put_oi": 82623,
+            "leaps_total": 113303,
+            "short_call_oi": 66099,
+            "short_put_oi": 40333,
+            "short_total": 106432,
+            "mid_call_oi": 229602
+          },
+          {
+            "date": "2020-10-26",
+            "dte_to_squeeze": 95,
+            "leaps_call_oi": 30700,
+            "leaps_put_oi": 82635,
+            "leaps_total": 113335,
+            "short_call_oi": 33047,
+            "short_put_oi": 18077,
+            "short_total": 51124,
+            "mid_call_oi": 228109
+          },
+          {
+            "date": "2020-10-27",
+            "dte_to_squeeze": 94,
+            "leaps_call_oi": 30805,
+            "leaps_put_oi": 82717,
+            "leaps_total": 113522,
+            "short_call_oi": 48090,
+            "short_put_oi": 21885,
+            "short_total": 69975,
+            "mid_call_oi": 236990
+          },
+          {
+            "date": "2020-10-28",
+            "dte_to_squeeze": 93,
+            "leaps_call_oi": 30697,
+            "leaps_put_oi": 82767,
+            "leaps_total": 113464,
+            "short_call_oi": 59949,
+            "short_put_oi": 23311,
+            "short_total": 83260,
+            "mid_call_oi": 242213
+          },
+          {
+            "date": "2020-10-29",
+            "dte_to_squeeze": 92,
+            "leaps_call_oi": 30713,
+            "leaps_put_oi": 82772,
+            "leaps_total": 113485,
+            "short_call_oi": 70768,
+            "short_put_oi": 22492,
+            "short_total": 93260,
+            "mid_call_oi": 243133
+          },
+          {
+            "date": "2020-10-30",
+            "dte_to_squeeze": 91,
+            "leaps_call_oi": 30739,
+            "leaps_put_oi": 82764,
+            "leaps_total": 113503,
+            "short_call_oi": 73917,
+            "short_put_oi": 22007,
+            "short_total": 95924,
+            "mid_call_oi": 247045
+          },
+          {
+            "date": "2020-11-02",
+            "dte_to_squeeze": 88,
+            "leaps_call_oi": 31075,
+            "leaps_put_oi": 83722,
+            "leaps_total": 114797,
+            "short_call_oi": 22524,
+            "short_put_oi": 9136,
+            "short_total": 31660,
+            "mid_call_oi": 243126
+          },
+          {
+            "date": "2020-11-03",
+            "dte_to_squeeze": 87,
+            "leaps_call_oi": 31286,
+            "leaps_put_oi": 84080,
+            "leaps_total": 115366,
+            "short_call_oi": 28537,
+            "short_put_oi": 10829,
+            "short_total": 39366,
+            "mid_call_oi": 247174
+          },
+          {
+            "date": "2020-11-04",
+            "dte_to_squeeze": 86,
+            "leaps_call_oi": 31416,
+            "leaps_put_oi": 84037,
+            "leaps_total": 115453,
+            "short_call_oi": 40844,
+            "short_put_oi": 12326,
+            "short_total": 53170,
+            "mid_call_oi": 251192
+          },
+          {
+            "date": "2020-11-05",
+            "dte_to_squeeze": 85,
+            "leaps_call_oi": 31950,
+            "leaps_put_oi": 84549,
+            "leaps_total": 116499,
+            "short_call_oi": 45148,
+            "short_put_oi": 13055,
+            "short_total": 58203,
+            "mid_call_oi": 253801
+          },
+          {
+            "date": "2020-11-06",
+            "dte_to_squeeze": 84,
+            "leaps_call_oi": 32005,
+            "leaps_put_oi": 85013,
+            "leaps_total": 117018,
+            "short_call_oi": 49621,
+            "short_put_oi": 13046,
+            "short_total": 62667,
+            "mid_call_oi": 255952
+          },
+          {
+            "date": "2020-11-09",
+            "dte_to_squeeze": 81,
+            "leaps_call_oi": 32060,
+            "leaps_put_oi": 85165,
+            "leaps_total": 117225,
+            "short_call_oi": 84419,
+            "short_put_oi": 45038,
+            "short_total": 129457,
+            "mid_call_oi": 190527
+          },
+          {
+            "date": "2020-11-10",
+            "dte_to_squeeze": 80,
+            "leaps_call_oi": 32148,
+            "leaps_put_oi": 85374,
+            "leaps_total": 117522,
+            "short_call_oi": 94970,
+            "short_put_oi": 47073,
+            "short_total": 142043,
+            "mid_call_oi": 192149
+          },
+          {
+            "date": "2020-11-11",
+            "dte_to_squeeze": 79,
+            "leaps_call_oi": 32904,
+            "leaps_put_oi": 86265,
+            "leaps_total": 119169,
+            "short_call_oi": 102833,
+            "short_put_oi": 48625,
+            "short_total": 151458,
+            "mid_call_oi": 191995
+          },
+          {
+            "date": "2020-11-12",
+            "dte_to_squeeze": 78,
+            "leaps_call_oi": 33301,
+            "leaps_put_oi": 86641,
+            "leaps_total": 119942,
+            "short_call_oi": 109756,
+            "short_put_oi": 49990,
+            "short_total": 159746,
+            "mid_call_oi": 200678
+          },
+          {
+            "date": "2020-11-13",
+            "dte_to_squeeze": 77,
+            "leaps_call_oi": 34496,
+            "leaps_put_oi": 87297,
+            "leaps_total": 121793,
+            "short_call_oi": 110652,
+            "short_put_oi": 50736,
+            "short_total": 161388,
+            "mid_call_oi": 203365
+          },
+          {
+            "date": "2020-11-16",
+            "dte_to_squeeze": 74,
+            "leaps_call_oi": 34556,
+            "leaps_put_oi": 87327,
+            "leaps_total": 121883,
+            "short_call_oi": 84817,
+            "short_put_oi": 45501,
+            "short_total": 130318,
+            "mid_call_oi": 198493
+          },
+          {
+            "date": "2020-11-17",
+            "dte_to_squeeze": 73,
+            "leaps_call_oi": 34791,
+            "leaps_put_oi": 87583,
+            "leaps_total": 122374,
+            "short_call_oi": 94581,
+            "short_put_oi": 47582,
+            "short_total": 142163,
+            "mid_call_oi": 198312
+          },
+          {
+            "date": "2020-11-18",
+            "dte_to_squeeze": 72,
+            "leaps_call_oi": 35044,
+            "leaps_put_oi": 88755,
+            "leaps_total": 123799,
+            "short_call_oi": 95577,
+            "short_put_oi": 48717,
+            "short_total": 144294,
+            "mid_call_oi": 200209
+          },
+          {
+            "date": "2020-11-19",
+            "dte_to_squeeze": 71,
+            "leaps_call_oi": 35090,
+            "leaps_put_oi": 88748,
+            "leaps_total": 123838,
+            "short_call_oi": 96881,
+            "short_put_oi": 49061,
+            "short_total": 145942,
+            "mid_call_oi": 201787
+          },
+          {
+            "date": "2020-11-20",
+            "dte_to_squeeze": 70,
+            "leaps_call_oi": 35127,
+            "leaps_put_oi": 88755,
+            "leaps_total": 123882,
+            "short_call_oi": 110776,
+            "short_put_oi": 50146,
+            "short_total": 160922,
+            "mid_call_oi": 208703
+          },
+          {
+            "date": "2020-11-23",
+            "dte_to_squeeze": 67,
+            "leaps_call_oi": 35180,
+            "leaps_put_oi": 88733,
+            "leaps_total": 123913,
+            "short_call_oi": 25350,
+            "short_put_oi": 8669,
+            "short_total": 34019,
+            "mid_call_oi": 212819
+          },
+          {
+            "date": "2020-11-24",
+            "dte_to_squeeze": 66,
+            "leaps_call_oi": 35587,
+            "leaps_put_oi": 88815,
+            "leaps_total": 124402,
+            "short_call_oi": 33270,
+            "short_put_oi": 12712,
+            "short_total": 45982,
+            "mid_call_oi": 213789
+          },
+          {
+            "date": "2020-11-25",
+            "dte_to_squeeze": 65,
+            "leaps_call_oi": 35577,
+            "leaps_put_oi": 88851,
+            "leaps_total": 124428,
+            "short_call_oi": 35564,
+            "short_put_oi": 13830,
+            "short_total": 49394,
+            "mid_call_oi": 215155
+          },
+          {
+            "date": "2020-11-27",
+            "dte_to_squeeze": 63,
+            "leaps_call_oi": 35753,
+            "leaps_put_oi": 88822,
+            "leaps_total": 124575,
+            "short_call_oi": 45064,
+            "short_put_oi": 17064,
+            "short_total": 62128,
+            "mid_call_oi": 225634
+          },
+          {
+            "date": "2020-11-30",
+            "dte_to_squeeze": 60,
+            "leaps_call_oi": 36193,
+            "leaps_put_oi": 97317,
+            "leaps_total": 133510,
+            "short_call_oi": 31266,
+            "short_put_oi": 15830,
+            "short_total": 47096,
+            "mid_call_oi": 222221
+          },
+          {
+            "date": "2020-12-01",
+            "dte_to_squeeze": 59,
+            "leaps_call_oi": 37380,
+            "leaps_put_oi": 97680,
+            "leaps_total": 135060,
+            "short_call_oi": 53313,
+            "short_put_oi": 32148,
+            "short_total": 85461,
+            "mid_call_oi": 232792
+          },
+          {
+            "date": "2020-12-02",
+            "dte_to_squeeze": 58,
+            "leaps_call_oi": 38371,
+            "leaps_put_oi": 97951,
+            "leaps_total": 136322,
+            "short_call_oi": 60712,
+            "short_put_oi": 35526,
+            "short_total": 96238,
+            "mid_call_oi": 240535
+          },
+          {
+            "date": "2020-12-03",
+            "dte_to_squeeze": 57,
+            "leaps_call_oi": 40290,
+            "leaps_put_oi": 98520,
+            "leaps_total": 138810,
+            "short_call_oi": 68489,
+            "short_put_oi": 38275,
+            "short_total": 106764,
+            "mid_call_oi": 240517
+          },
+          {
+            "date": "2020-12-04",
+            "dte_to_squeeze": 56,
+            "leaps_call_oi": 41305,
+            "leaps_put_oi": 98798,
+            "leaps_total": 140103,
+            "short_call_oi": 72086,
+            "short_put_oi": 42674,
+            "short_total": 114760,
+            "mid_call_oi": 245320
+          },
+          {
+            "date": "2020-12-07",
+            "dte_to_squeeze": 53,
+            "leaps_call_oi": 41947,
+            "leaps_put_oi": 99224,
+            "leaps_total": 141171,
+            "short_call_oi": 67945,
+            "short_put_oi": 87121,
+            "short_total": 155066,
+            "mid_call_oi": 206701
+          },
+          {
+            "date": "2020-12-08",
+            "dte_to_squeeze": 52,
+            "leaps_call_oi": 42872,
+            "leaps_put_oi": 99492,
+            "leaps_total": 142364,
+            "short_call_oi": 82213,
+            "short_put_oi": 104475,
+            "short_total": 186688,
+            "mid_call_oi": 206990
+          },
+          {
+            "date": "2020-12-09",
+            "dte_to_squeeze": 51,
+            "leaps_call_oi": 43168,
+            "leaps_put_oi": 100351,
+            "leaps_total": 143519,
+            "short_call_oi": 125945,
+            "short_put_oi": 135242,
+            "short_total": 261187,
+            "mid_call_oi": 209728
+          },
+          {
+            "date": "2020-12-10",
+            "dte_to_squeeze": 50,
+            "leaps_call_oi": 43902,
+            "leaps_put_oi": 101628,
+            "leaps_total": 145530,
+            "short_call_oi": 153234,
+            "short_put_oi": 119514,
+            "short_total": 272748,
+            "mid_call_oi": 224355
+          },
+          {
+            "date": "2020-12-11",
+            "dte_to_squeeze": 49,
+            "leaps_call_oi": 45011,
+            "leaps_put_oi": 104035,
+            "leaps_total": 149046,
+            "short_call_oi": 169365,
+            "short_put_oi": 120328,
+            "short_total": 289693,
+            "mid_call_oi": 219249
+          },
+          {
+            "date": "2020-12-14",
+            "dte_to_squeeze": 46,
+            "leaps_call_oi": 45670,
+            "leaps_put_oi": 60462,
+            "leaps_total": 106132,
+            "short_call_oi": 83353,
+            "short_put_oi": 66929,
+            "short_total": 150282,
+            "mid_call_oi": 223380
+          },
+          {
+            "date": "2020-12-15",
+            "dte_to_squeeze": 45,
+            "leaps_call_oi": 46854,
+            "leaps_put_oi": 60412,
+            "leaps_total": 107266,
+            "short_call_oi": 92748,
+            "short_put_oi": 71200,
+            "short_total": 163948,
+            "mid_call_oi": 234049
+          },
+          {
+            "date": "2020-12-16",
+            "dte_to_squeeze": 44,
+            "leaps_call_oi": 46780,
+            "leaps_put_oi": 60584,
+            "leaps_total": 107364,
+            "short_call_oi": 104836,
+            "short_put_oi": 74076,
+            "short_total": 178912,
+            "mid_call_oi": 249190
+          },
+          {
+            "date": "2020-12-17",
+            "dte_to_squeeze": 43,
+            "leaps_call_oi": 46824,
+            "leaps_put_oi": 60246,
+            "leaps_total": 107070,
+            "short_call_oi": 105755,
+            "short_put_oi": 72951,
+            "short_total": 178706,
+            "mid_call_oi": 250637
+          },
+          {
+            "date": "2020-12-18",
+            "dte_to_squeeze": 42,
+            "leaps_call_oi": 47266,
+            "leaps_put_oi": 60123,
+            "leaps_total": 107389,
+            "short_call_oi": 123092,
+            "short_put_oi": 75926,
+            "short_total": 199018,
+            "mid_call_oi": 239883
+          },
+          {
+            "date": "2020-12-21",
+            "dte_to_squeeze": 39,
+            "leaps_call_oi": 48259,
+            "leaps_put_oi": 58824,
+            "leaps_total": 107083,
+            "short_call_oi": 49514,
+            "short_put_oi": 14807,
+            "short_total": 64321,
+            "mid_call_oi": 236814
+          },
+          {
+            "date": "2020-12-22",
+            "dte_to_squeeze": 38,
+            "leaps_call_oi": 50289,
+            "leaps_put_oi": 59589,
+            "leaps_total": 109878,
+            "short_call_oi": 57145,
+            "short_put_oi": 23221,
+            "short_total": 80366,
+            "mid_call_oi": 241030
+          },
+          {
+            "date": "2020-12-23",
+            "dte_to_squeeze": 37,
+            "leaps_call_oi": 50025,
+            "leaps_put_oi": 61710,
+            "leaps_total": 111735,
+            "short_call_oi": 84630,
+            "short_put_oi": 38721,
+            "short_total": 123351,
+            "mid_call_oi": 247656
+          },
+          {
+            "date": "2020-12-24",
+            "dte_to_squeeze": 36,
+            "leaps_call_oi": 50916,
+            "leaps_put_oi": 62418,
+            "leaps_total": 113334,
+            "short_call_oi": 94104,
+            "short_put_oi": 60651,
+            "short_total": 154755,
+            "mid_call_oi": 278375
+          },
+          {
+            "date": "2020-12-28",
+            "dte_to_squeeze": 32,
+            "leaps_call_oi": 51119,
+            "leaps_put_oi": 62458,
+            "leaps_total": 113577,
+            "short_call_oi": 54801,
+            "short_put_oi": 30708,
+            "short_total": 85509,
+            "mid_call_oi": 271306
+          },
+          {
+            "date": "2020-12-29",
+            "dte_to_squeeze": 31,
+            "leaps_call_oi": 51802,
+            "leaps_put_oi": 62871,
+            "leaps_total": 114673,
+            "short_call_oi": 67280,
+            "short_put_oi": 37464,
+            "short_total": 104744,
+            "mid_call_oi": 272784
+          },
+          {
+            "date": "2020-12-30",
+            "dte_to_squeeze": 30,
+            "leaps_call_oi": 52222,
+            "leaps_put_oi": 63441,
+            "leaps_total": 115663,
+            "short_call_oi": 74239,
+            "short_put_oi": 42845,
+            "short_total": 117084,
+            "mid_call_oi": 276800
+          },
+          {
+            "date": "2020-12-31",
+            "dte_to_squeeze": 29,
+            "leaps_call_oi": 52657,
+            "leaps_put_oi": 63783,
+            "leaps_total": 116440,
+            "short_call_oi": 76167,
+            "short_put_oi": 47457,
+            "short_total": 123624,
+            "mid_call_oi": 277838
+          },
+          {
+            "date": "2021-01-04",
+            "dte_to_squeeze": 25,
+            "leaps_call_oi": 54562,
+            "leaps_put_oi": 63845,
+            "leaps_total": 118407,
+            "short_call_oi": 183797,
+            "short_put_oi": 288911,
+            "short_total": 472708,
+            "mid_call_oi": 123947
+          },
+          {
+            "date": "2021-01-05",
+            "dte_to_squeeze": 24,
+            "leaps_call_oi": 55472,
+            "leaps_put_oi": 63891,
+            "leaps_total": 119363,
+            "short_call_oi": 193019,
+            "short_put_oi": 297458,
+            "short_total": 490477,
+            "mid_call_oi": 126902
+          },
+          {
+            "date": "2021-01-06",
+            "dte_to_squeeze": 23,
+            "leaps_call_oi": 56439,
+            "leaps_put_oi": 64373,
+            "leaps_total": 120812,
+            "short_call_oi": 198224,
+            "short_put_oi": 300284,
+            "short_total": 498508,
+            "mid_call_oi": 129993
+          },
+          {
+            "date": "2021-01-07",
+            "dte_to_squeeze": 22,
+            "leaps_call_oi": 56481,
+            "leaps_put_oi": 64828,
+            "leaps_total": 121309,
+            "short_call_oi": 204910,
+            "short_put_oi": 304257,
+            "short_total": 509167,
+            "mid_call_oi": 131990
+          },
+          {
+            "date": "2021-01-08",
+            "dte_to_squeeze": 21,
+            "leaps_call_oi": 56412,
+            "leaps_put_oi": 64916,
+            "leaps_total": 121328,
+            "short_call_oi": 210608,
+            "short_put_oi": 308756,
+            "short_total": 519364,
+            "mid_call_oi": 136365
+          },
+          {
+            "date": "2021-01-11",
+            "dte_to_squeeze": 18,
+            "leaps_call_oi": 57131,
+            "leaps_put_oi": 64936,
+            "leaps_total": 122067,
+            "short_call_oi": 188681,
+            "short_put_oi": 293511,
+            "short_total": 482192,
+            "mid_call_oi": 127932
+          },
+          {
+            "date": "2021-01-12",
+            "dte_to_squeeze": 17,
+            "leaps_call_oi": 58832,
+            "leaps_put_oi": 66176,
+            "leaps_total": 125008,
+            "short_call_oi": 198429,
+            "short_put_oi": 300406,
+            "short_total": 498835,
+            "mid_call_oi": 134482
+          },
+          {
+            "date": "2021-01-13",
+            "dte_to_squeeze": 16,
+            "leaps_call_oi": 60267,
+            "leaps_put_oi": 66460,
+            "leaps_total": 126727,
+            "short_call_oi": 200125,
+            "short_put_oi": 301418,
+            "short_total": 501543,
+            "mid_call_oi": 136726
+          },
+          {
+            "date": "2021-01-14",
+            "dte_to_squeeze": 15,
+            "leaps_call_oi": 56622,
+            "leaps_put_oi": 68505,
+            "leaps_total": 125127,
+            "short_call_oi": 215079,
+            "short_put_oi": 368735,
+            "short_total": 583814,
+            "mid_call_oi": 130220
+          },
+          {
+            "date": "2021-01-15",
+            "dte_to_squeeze": 14,
+            "leaps_call_oi": 55941,
+            "leaps_put_oi": 72563,
+            "leaps_total": 128504,
+            "short_call_oi": 240018,
+            "short_put_oi": 418342,
+            "short_total": 658360,
+            "mid_call_oi": 144222
+          },
+          {
+            "date": "2021-01-19",
+            "dte_to_squeeze": 10,
+            "leaps_call_oi": 35651,
+            "leaps_put_oi": 42947,
+            "leaps_total": 78598,
+            "short_call_oi": 80205,
+            "short_put_oi": 84660,
+            "short_total": 164865,
+            "mid_call_oi": 163175
+          },
+          {
+            "date": "2021-01-20",
+            "dte_to_squeeze": 9,
+            "leaps_call_oi": 36838,
+            "leaps_put_oi": 45707,
+            "leaps_total": 82545,
+            "short_call_oi": 108169,
+            "short_put_oi": 126260,
+            "short_total": 234429,
+            "mid_call_oi": 173127
+          },
+          {
+            "date": "2021-01-21",
+            "dte_to_squeeze": 8,
+            "leaps_call_oi": 38840,
+            "leaps_put_oi": 46585,
+            "leaps_total": 85425,
+            "short_call_oi": 126843,
+            "short_put_oi": 144686,
+            "short_total": 271529,
+            "mid_call_oi": 183308
+          },
+          {
+            "date": "2021-01-22",
+            "dte_to_squeeze": 7,
+            "leaps_call_oi": 38948,
+            "leaps_put_oi": 47297,
+            "leaps_total": 86245,
+            "short_call_oi": 164699,
+            "short_put_oi": 166780,
+            "short_total": 331479,
+            "mid_call_oi": 192416
+          },
+          {
+            "date": "2021-01-25",
+            "dte_to_squeeze": 4,
+            "leaps_call_oi": 37882,
+            "leaps_put_oi": 53663,
+            "leaps_total": 91545,
+            "short_call_oi": 99250,
+            "short_put_oi": 162223,
+            "short_total": 261473,
+            "mid_call_oi": 183402
+          },
+          {
+            "date": "2021-01-26",
+            "dte_to_squeeze": 3,
+            "leaps_call_oi": 36233,
+            "leaps_put_oi": 85141,
+            "leaps_total": 121374,
+            "short_call_oi": 152772,
+            "short_put_oi": 292051,
+            "short_total": 444823,
+            "mid_call_oi": 196495
+          },
+          {
+            "date": "2021-01-27",
+            "dte_to_squeeze": 2,
+            "leaps_call_oi": 32340,
+            "leaps_put_oi": 106470,
+            "leaps_total": 138810,
+            "short_call_oi": 187828,
+            "short_put_oi": 385445,
+            "short_total": 573273,
+            "mid_call_oi": 200412
+          },
+          {
+            "date": "2021-01-28",
+            "dte_to_squeeze": 1,
+            "leaps_call_oi": 26734,
+            "leaps_put_oi": 199560,
+            "leaps_total": 226294,
+            "short_call_oi": 144666,
+            "short_put_oi": 486780,
+            "short_total": 631446,
+            "mid_call_oi": 173686
+          },
+          {
+            "date": "2021-01-29",
+            "dte_to_squeeze": 0,
+            "leaps_call_oi": 25698,
+            "leaps_put_oi": 235579,
+            "leaps_total": 261277,
+            "short_call_oi": 142837,
+            "short_put_oi": 488736,
+            "short_total": 631573,
+            "mid_call_oi": 168709
+          }
+        ]
+      },
+      "constructor_fingerprint": {
+        "test": "constructor_fingerprint",
+        "symbol": "GME",
+        "target_exp": "20210129",
+        "daily_results": [
+          {
+            "date": "20210122",
+            "total_trades": 62479,
+            "total_volume": 237208,
+            "sweep_trades": 9331,
+            "sweep_volume": 38375,
+            "sweep_pct": 16.2,
+            "complex_trades": 13166,
+            "complex_volume": 56942,
+            "n_exchanges": 16,
+            "hhi": 0.0932,
+            "cvs_windows": 5723,
+            "cvs_volume": 167896,
+            "cvs_pct": 70.8,
+            "exchange_breakdown": [
+              {
+                "exchange": "UNK_60",
+                "volume": 36368,
+                "pct": 15.3
+              },
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 31731,
+                "pct": 13.4
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 29142,
+                "pct": 12.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 21839,
+                "pct": 9.2
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 20120,
+                "pct": 8.5
+              }
+            ]
+          },
+          {
+            "date": "20210125",
+            "total_trades": 93266,
+            "total_volume": 267407,
+            "sweep_trades": 14220,
+            "sweep_volume": 39937,
+            "sweep_pct": 14.9,
+            "complex_trades": 21046,
+            "complex_volume": 59855,
+            "n_exchanges": 16,
+            "hhi": 0.1013,
+            "cvs_windows": 8261,
+            "cvs_volume": 219343,
+            "cvs_pct": 82.0,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 52878,
+                "pct": 19.8
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 36027,
+                "pct": 13.5
+              },
+              {
+                "exchange": "BATS",
+                "volume": 25060,
+                "pct": 9.4
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 23347,
+                "pct": 8.7
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 22311,
+                "pct": 8.3
+              }
+            ]
+          },
+          {
+            "date": "20210126",
+            "total_trades": 163494,
+            "total_volume": 453491,
+            "sweep_trades": 24199,
+            "sweep_volume": 78465,
+            "sweep_pct": 17.3,
+            "complex_trades": 25760,
+            "complex_volume": 88289,
+            "n_exchanges": 16,
+            "hhi": 0.1043,
+            "cvs_windows": 13094,
+            "cvs_volume": 409730,
+            "cvs_pct": 90.4,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 86842,
+                "pct": 19.1
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 67131,
+                "pct": 14.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 43016,
+                "pct": 9.5
+              },
+              {
+                "exchange": "BATS",
+                "volume": 42756,
+                "pct": 9.4
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 35933,
+                "pct": 7.9
+              }
+            ]
+          },
+          {
+            "date": "20210127",
+            "total_trades": 57560,
+            "total_volume": 153634,
+            "sweep_trades": 7629,
+            "sweep_volume": 16423,
+            "sweep_pct": 10.7,
+            "complex_trades": 12454,
+            "complex_volume": 41993,
+            "n_exchanges": 16,
+            "hhi": 0.111,
+            "cvs_windows": 4700,
+            "cvs_volume": 86232,
+            "cvs_pct": 56.1,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 31900,
+                "pct": 20.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 21186,
+                "pct": 13.8
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 20479,
+                "pct": 13.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 13886,
+                "pct": 9.0
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 10781,
+                "pct": 7.0
+              }
+            ]
+          },
+          {
+            "date": "20210128",
+            "total_trades": 32728,
+            "total_volume": 86221,
+            "sweep_trades": 5601,
+            "sweep_volume": 13920,
+            "sweep_pct": 16.1,
+            "complex_trades": 6169,
+            "complex_volume": 20669,
+            "n_exchanges": 16,
+            "hhi": 0.0911,
+            "cvs_windows": 2902,
+            "cvs_volume": 51190,
+            "cvs_pct": 59.4,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 13339,
+                "pct": 15.5
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 9757,
+                "pct": 11.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 9512,
+                "pct": 11.0
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 8897,
+                "pct": 10.3
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 7954,
+                "pct": 9.2
+              }
+            ]
+          },
+          {
+            "date": "20210129",
+            "total_trades": 44230,
+            "total_volume": 131661,
+            "sweep_trades": 5655,
+            "sweep_volume": 18020,
+            "sweep_pct": 13.7,
+            "complex_trades": 7913,
+            "complex_volume": 29102,
+            "n_exchanges": 16,
+            "hhi": 0.0924,
+            "cvs_windows": 3923,
+            "cvs_volume": 76190,
+            "cvs_pct": 57.9,
+            "exchange_breakdown": [
+              {
+                "exchange": "UNK_60",
+                "volume": 18343,
+                "pct": 13.9
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 14751,
+                "pct": 11.2
+              },
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 14357,
+                "pct": 10.9
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 13729,
+                "pct": 10.4
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 12527,
+                "pct": 9.5
+              }
+            ]
+          }
+        ],
+        "verdict": "MIXED (some institutional execution patterns)"
+      }
+    }
+  }
+]

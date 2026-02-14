@@ -1,0 +1,253 @@
+{
+  "ticker": "GME",
+  "tests": {
+    "vanna_shock": {
+      "test": "vanna_shock",
+      "ticker": "GME",
+      "events": [
+        {
+          "event": "Jan 2021 Squeeze",
+          "n_leaps": 197,
+          "total_leaps_oi": 125127,
+          "total_delta_pre": 4564077,
+          "total_delta_peak": 5660304,
+          "forced_hedging_shares": 1096226,
+          "amplification": 1.2,
+          "top_shocks": [
+            {
+              "strike": 30.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 2047,
+              "delta_pre": 0.7281,
+              "delta_peak": 0.9995,
+              "delta_ratio": 1.4,
+              "shares_pre": 149046,
+              "shares_peak": 204590
+            },
+            {
+              "strike": 30.0,
+              "right": "CALL",
+              "dte": 372,
+              "oi": 2238,
+              "delta_pre": 0.7605,
+              "delta_peak": 1.0,
+              "delta_ratio": 1.3,
+              "shares_pre": 170202,
+              "shares_peak": 223798
+            },
+            {
+              "strike": 35.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 1421,
+              "delta_pre": 0.6515,
+              "delta_peak": 0.9994,
+              "delta_ratio": 1.5,
+              "shares_pre": 92581,
+              "shares_peak": 142016
+            },
+            {
+              "strike": 27.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 2148,
+              "delta_pre": 0.7752,
+              "delta_peak": 0.9995,
+              "delta_ratio": 1.3,
+              "shares_pre": 166504,
+              "shares_peak": 214692
+            },
+            {
+              "strike": 25.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 2394,
+              "delta_pre": 0.8064,
+              "delta_peak": 0.9995,
+              "delta_ratio": 1.2,
+              "shares_pre": 193047,
+              "shares_peak": 239285
+            },
+            {
+              "strike": 15.0,
+              "right": "CALL",
+              "dte": 372,
+              "oi": 4945,
+              "delta_pre": 0.9184,
+              "delta_peak": 1.0,
+              "delta_ratio": 1.1,
+              "shares_pre": 454159,
+              "shares_peak": 494497
+            },
+            {
+              "strike": 40.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 861,
+              "delta_pre": 0.5796,
+              "delta_peak": 0.9994,
+              "delta_ratio": 1.7,
+              "shares_pre": 49903,
+              "shares_peak": 86044
+            },
+            {
+              "strike": 20.0,
+              "right": "CALL",
+              "dte": 183,
+              "oi": 2921,
+              "delta_pre": 0.881,
+              "delta_peak": 0.9996,
+              "delta_ratio": 1.1,
+              "shares_pre": 257327,
+              "shares_peak": 291978
+            },
+            {
+              "strike": 35.0,
+              "right": "CALL",
+              "dte": 372,
+              "oi": 1128,
+              "delta_pre": 0.7106,
+              "delta_peak": 1.0,
+              "delta_ratio": 1.4,
+              "shares_pre": 80159,
+              "shares_peak": 112799
+            },
+            {
+              "strike": 20.0,
+              "right": "CALL",
+              "dte": 372,
+              "oi": 1926,
+              "delta_pre": 0.8664,
+              "delta_peak": 1.0,
+              "delta_ratio": 1.2,
+              "shares_pre": 166870,
+              "shares_peak": 192598
+            }
+          ]
+        },
+        {
+          "event": "Jun 2024 Squeeze",
+          "n_leaps": 259,
+          "total_leaps_oi": 110724,
+          "total_delta_pre": 1799663,
+          "total_delta_peak": 6580947,
+          "forced_hedging_shares": 4781283,
+          "amplification": 3.7,
+          "top_shocks": [
+            {
+              "strike": 60.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 17550,
+              "delta_pre": 0.0922,
+              "delta_peak": 0.8958,
+              "delta_ratio": 9.7,
+              "shares_pre": 161856,
+              "shares_peak": 1572056
+            },
+            {
+              "strike": 125.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 4354,
+              "delta_pre": 0.0069,
+              "delta_peak": 0.8302,
+              "delta_ratio": 120.6,
+              "shares_pre": 2996,
+              "shares_peak": 361448
+            },
+            {
+              "strike": 50.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 2412,
+              "delta_pre": 0.148,
+              "delta_peak": 0.9087,
+              "delta_ratio": 6.1,
+              "shares_pre": 35703,
+              "shares_peak": 219187
+            },
+            {
+              "strike": 40.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 2242,
+              "delta_pre": 0.2421,
+              "delta_peak": 0.9229,
+              "delta_ratio": 3.8,
+              "shares_pre": 54282,
+              "shares_peak": 206922
+            },
+            {
+              "strike": 55.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 1887,
+              "delta_pre": 0.1165,
+              "delta_peak": 0.9021,
+              "delta_ratio": 7.7,
+              "shares_pre": 21990,
+              "shares_peak": 170228
+            },
+            {
+              "strike": 35.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 2189,
+              "delta_pre": 0.3111,
+              "delta_peak": 0.9306,
+              "delta_ratio": 3.0,
+              "shares_pre": 68093,
+              "shares_peak": 203707
+            },
+            {
+              "strike": 30.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 2269,
+              "delta_pre": 0.3997,
+              "delta_peak": 0.9387,
+              "delta_ratio": 2.3,
+              "shares_pre": 90686,
+              "shares_peak": 212988
+            },
+            {
+              "strike": 20.0,
+              "right": "CALL",
+              "dte": 238,
+              "oi": 3778,
+              "delta_pre": 0.6456,
+              "delta_peak": 0.9565,
+              "delta_ratio": 1.5,
+              "shares_pre": 243907,
+              "shares_peak": 361359
+            },
+            {
+              "strike": 125.0,
+              "right": "CALL",
+              "dte": 602,
+              "oi": 1368,
+              "delta_pre": 0.1171,
+              "delta_peak": 0.9623,
+              "delta_ratio": 8.2,
+              "shares_pre": 16016,
+              "shares_peak": 131643
+            },
+            {
+              "strike": 125.0,
+              "right": "PUT",
+              "dte": 602,
+              "oi": 1062,
+              "delta_pre": -0.8829,
+              "delta_peak": -0.0377,
+              "delta_ratio": -0.0,
+              "shares_pre": -93766,
+              "shares_peak": -4003
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

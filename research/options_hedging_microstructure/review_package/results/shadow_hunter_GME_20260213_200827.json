@@ -1,0 +1,5844 @@
+{
+  "jan_2021": {
+    "event": "Jan 2021 Squeeze \u2014 V4 Shadow Hunter",
+    "symbol": "GME",
+    "tests": {
+      "tail_banging_20210127": {
+        "test": "G_tail_banging",
+        "date": "20210127",
+        "spot_price": 347.51,
+        "total_call_volume": 344980,
+        "tail_trades_count": 0,
+        "tail_volume": 0,
+        "tail_capital_burned": 0.0,
+        "pct_of_call_volume": "0.00%",
+        "strike_concentration": {},
+        "top_trades": [],
+        "verdict": "MINIMAL TAIL ACTIVITY"
+      },
+      "tail_banging_20210128": {
+        "test": "G_tail_banging",
+        "date": "20210128",
+        "spot_price": 193.6,
+        "total_call_volume": 213805,
+        "tail_trades_count": 518,
+        "tail_volume": 10686,
+        "tail_capital_burned": 69845451.0,
+        "pct_of_call_volume": "5.00%",
+        "strike_concentration": {
+          "295.0": {
+            "trades": 12,
+            "volume": 148,
+            "capital_spent": 1090949.0,
+            "price_range": [
+              29.4,
+              192.1
+            ],
+            "exchanges": [
+              "ISE",
+              "C2",
+              "MULTI_EXCHANGE",
+              "BZX_OPTIONS",
+              "EDGX_COB",
+              "NYSE_AMEX",
+              "PHLX_FLOOR",
+              "EDGX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-28 09:46:39.813000",
+              "2021-01-28 13:40:36.440000"
+            ]
+          },
+          "300.0": {
+            "trades": 53,
+            "volume": 854,
+            "capital_spent": 5126974.0,
+            "price_range": [
+              20.0,
+              213.45
+            ],
+            "exchanges": [
+              "NYSE_AMEX",
+              "CBOE",
+              "NSDQ_BX_OPT",
+              "MULTI_EXCHANGE",
+              "EDGX_OPTIONS",
+              "PHLX_FLOOR",
+              "C2",
+              "C2_COB",
+              "BZX_OPTIONS",
+              "EDGX_COB",
+              "ISE"
+            ],
+            "time_range": [
+              "2021-01-28 09:45:53.210000",
+              "2021-01-28 15:58:31.973000"
+            ]
+          },
+          "310.0": {
+            "trades": 23,
+            "volume": 330,
+            "capital_spent": 2302238.0,
+            "price_range": [
+              27.29,
+              200.02
+            ],
+            "exchanges": [
+              "EDGX_COB",
+              "MULTI_EXCHANGE",
+              "MIAX_PEARL_EQUITIES",
+              "CBOE",
+              "BZX_OPTIONS",
+              "NYSE_AMEX",
+              "C2"
+            ],
+            "time_range": [
+              "2021-01-28 09:38:38.895000",
+              "2021-01-28 15:27:05.041000"
+            ]
+          },
+          "320.0": {
+            "trades": 188,
+            "volume": 3423,
+            "capital_spent": 31817803.0,
+            "price_range": [
+              24.0,
+              200.0
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "EDGX_OPTIONS",
+              "C2",
+              "C2_COB",
+              "NYSE_AMEX",
+              "NSDQ_ISE_GEMINI",
+              "BATS",
+              "CBOE",
+              "BZX_OPTIONS",
+              "EDGX_COB",
+              "PHLX_FLOOR",
+              "ISE",
+              "NSDQ_BX_OPT",
+              "MIAX_PEARL_EQUITIES"
+            ],
+            "time_range": [
+              "2021-01-28 09:38:28.400000",
+              "2021-01-28 15:48:21.243000"
+            ]
+          },
+          "330.0": {
+            "trades": 18,
+            "volume": 420,
+            "capital_spent": 3278191.0,
+            "price_range": [
+              21.7,
+              180.7
+            ],
+            "exchanges": [
+              "NSDQ_BX_OPT",
+              "NYSE_AMEX",
+              "BATS",
+              "NSDQ_ISE_GEMINI",
+              "CBOE",
+              "BZX_OPTIONS",
+              "ISE",
+              "C2_COB",
+              "C2"
+            ],
+            "time_range": [
+              "2021-01-28 09:46:13.995000",
+              "2021-01-28 12:31:11.935000"
+            ]
+          },
+          "340.0": {
+            "trades": 4,
+            "volume": 43,
+            "capital_spent": 281854.0,
+            "price_range": [
+              33.46,
+              137.5
+            ],
+            "exchanges": [
+              "BZX_OPTIONS",
+              "EDGX_OPTIONS",
+              "NYSE_AMEX",
+              "CBOE"
+            ],
+            "time_range": [
+              "2021-01-28 09:44:50.622000",
+              "2021-01-28 14:55:40.073000"
+            ]
+          },
+          "350.0": {
+            "trades": 6,
+            "volume": 82,
+            "capital_spent": 421763.0,
+            "price_range": [
+              21.0,
+              136.55
+            ],
+            "exchanges": [
+              "NYSE_AMEX",
+              "PHLX_FLOOR",
+              "CBOE",
+              "C2",
+              "EDGX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-28 09:47:47.131000",
+              "2021-01-28 15:41:53.134000"
+            ]
+          },
+          "360.0": {
+            "trades": 2,
+            "volume": 31,
+            "capital_spent": 269488.0,
+            "price_range": [
+              54.08,
+              105.0
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "NYSE_AMEX"
+            ],
+            "time_range": [
+              "2021-01-28 09:48:14.638000",
+              "2021-01-28 12:19:51.344000"
+            ]
+          },
+          "370.0": {
+            "trades": 3,
+            "volume": 41,
+            "capital_spent": 461010.0,
+            "price_range": [
+              107.05,
+              138.8
+            ],
+            "exchanges": [
+              "PHLX_FLOOR",
+              "BATS",
+              "EDGX_COB"
+            ],
+            "time_range": [
+              "2021-01-28 09:45:52.519000",
+              "2021-01-28 10:00:53.476000"
+            ]
+          },
+          "380.0": {
+            "trades": 9,
+            "volume": 121,
+            "capital_spent": 808363.0,
+            "price_range": [
+              55.99,
+              120.09
+            ],
+            "exchanges": [
+              "NSDQ_BX_OPT",
+              "CBOE",
+              "BZX_OPTIONS",
+              "BATS"
+            ],
+            "time_range": [
+              "2021-01-28 09:52:38.394000",
+              "2021-01-28 12:08:36.376000"
+            ]
+          },
+          "390.0": {
+            "trades": 3,
+            "volume": 48,
+            "capital_spent": 462884.0,
+            "price_range": [
+              60.0,
+              113.11
+            ],
+            "exchanges": [
+              "NYSE_AMEX",
+              "EDGX_COB",
+              "NSDQ_BX_OPT"
+            ],
+            "time_range": [
+              "2021-01-28 09:52:53.375000",
+              "2021-01-28 12:09:13.553000"
+            ]
+          },
+          "400.0": {
+            "trades": 28,
+            "volume": 539,
+            "capital_spent": 2491925.0,
+            "price_range": [
+              13.0,
+              128.55
+            ],
+            "exchanges": [
+              "C2",
+              "MULTI_EXCHANGE",
+              "BATS",
+              "NSDQ_BX_OPT",
+              "NSDQ_ISE_GEMINI",
+              "ISE2",
+              "ISE",
+              "OPRA",
+              "C2_COB",
+              "MIAX_PEARL_EQUITIES",
+              "NYSE_AMEX",
+              "EDGX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-28 09:36:35.937000",
+              "2021-01-28 13:18:37.687000"
+            ]
+          },
+          "410.0": {
+            "trades": 4,
+            "volume": 33,
+            "capital_spent": 320658.0,
+            "price_range": [
+              92.5,
+              106.18
+            ],
+            "exchanges": [
+              "BZX_OPTIONS",
+              "NSDQ_ISE_GEMINI",
+              "NYSE_AMEX"
+            ],
+            "time_range": [
+              "2021-01-28 09:46:48.525000",
+              "2021-01-28 10:27:05.670000"
+            ]
+          },
+          "420.0": {
+            "trades": 4,
+            "volume": 22,
+            "capital_spent": 258194.99999999997,
+            "price_range": [
+              100.0,
+              132.35
+            ],
+            "exchanges": [
+              "EDGX_COB",
+              "EDGX_OPTIONS",
+              "BZX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-28 09:53:55.362000",
+              "2021-01-28 10:01:15.751000"
+            ]
+          },
+          "430.0": {
+            "trades": 3,
+            "volume": 36,
+            "capital_spent": 289250.0,
+            "price_range": [
+              69.25,
+              105.15
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "ISE",
+              "NYSE_AMEX"
+            ],
+            "time_range": [
+              "2021-01-28 09:47:00.028000",
+              "2021-01-28 10:26:46.915000"
+            ]
+          },
+          "440.0": {
+            "trades": 3,
+            "volume": 31,
+            "capital_spent": 322309.0,
+            "price_range": [
+              89.87,
+              144.0
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "NSDQ_BX_OPT",
+              "C2"
+            ],
+            "time_range": [
+              "2021-01-28 09:50:03.823000",
+              "2021-01-28 10:14:05.909000"
+            ]
+          },
+          "450.0": {
+            "trades": 7,
+            "volume": 147,
+            "capital_spent": 666809.0,
+            "price_range": [
+              19.0,
+              127.36
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "NYSE_AMEX",
+              "EDGX_OPTIONS",
+              "ISE",
+              "BATS"
+            ],
+            "time_range": [
+              "2021-01-28 09:53:49.057000",
+              "2021-01-28 14:54:29.306000"
+            ]
+          },
+          "460.0": {
+            "trades": 2,
+            "volume": 15,
+            "capital_spent": 108445.0,
+            "price_range": [
+              52.95,
+              110.99
+            ],
+            "exchanges": [
+              "EDGX_OPTIONS",
+              "CBOE"
+            ],
+            "time_range": [
+              "2021-01-28 09:58:33.356000",
+              "2021-01-28 10:39:43.032000"
+            ]
+          },
+          "470.0": {
+            "trades": 7,
+            "volume": 170,
+            "capital_spent": 585250.0,
+            "price_range": [
+              16.55,
+              91.25
+            ],
+            "exchanges": [
+              "C2_COB",
+              "NSDQ_ISE_GEMINI",
+              "C2",
+              "MULTI_EXCHANGE",
+              "ISE",
+              "BATS",
+              "CBOE"
+            ],
+            "time_range": [
+              "2021-01-28 10:16:02.198000",
+              "2021-01-28 14:45:45.265000"
+            ]
+          },
+          "480.0": {
+            "trades": 14,
+            "volume": 186,
+            "capital_spent": 1165630.0,
+            "price_range": [
+              35.15,
+              105.65
+            ],
+            "exchanges": [
+              "BATS",
+              "EDGX_OPTIONS",
+              "CBOE",
+              "ISE",
+              "PHLX_FLOOR",
+              "C2_COB"
+            ],
+            "time_range": [
+              "2021-01-28 09:58:33.356000",
+              "2021-01-28 12:27:15.247000"
+            ]
+          },
+          "490.0": {
+            "trades": 2,
+            "volume": 14,
+            "capital_spent": 131199.0,
+            "price_range": [
+              88.01,
+              103.98
+            ],
+            "exchanges": [
+              "NYSE_AMEX",
+              "C2"
+            ],
+            "time_range": [
+              "2021-01-28 09:58:53.147000",
+              "2021-01-28 10:23:55.836000"
+            ]
+          },
+          "500.0": {
+            "trades": 27,
+            "volume": 582,
+            "capital_spent": 2633126.0,
+            "price_range": [
+              11.0,
+              99.3
+            ],
+            "exchanges": [
+              "BZX_OPTIONS",
+              "BATS",
+              "CBOE",
+              "NSDQ_BX_OPT",
+              "PHLX_FLOOR",
+              "EDGX_COB",
+              "MULTI_EXCHANGE",
+              "OPRA",
+              "NYSE_AMEX",
+              "ISE",
+              "C2",
+              "NSDQ_ISE_GEMINI"
+            ],
+            "time_range": [
+              "2021-01-28 09:46:42.851000",
+              "2021-01-28 14:52:56.018000"
+            ]
+          },
+          "550.0": {
+            "trades": 11,
+            "volume": 357,
+            "capital_spent": 940344.0,
+            "price_range": [
+              8.84,
+              88.57
+            ],
+            "exchanges": [
+              "CBOE",
+              "C2_COB",
+              "PHLX_FLOOR",
+              "MULTI_EXCHANGE",
+              "C2",
+              "NYSE_AMEX",
+              "EDGX_COB",
+              "BZX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-28 09:55:36.704000",
+              "2021-01-28 14:45:45.265000"
+            ]
+          },
+          "560.0": {
+            "trades": 11,
+            "volume": 225,
+            "capital_spent": 1270742.0,
+            "price_range": [
+              36.0,
+              98.05
+            ],
+            "exchanges": [
+              "CBOE",
+              "BATS",
+              "NYSE_AMEX"
+            ],
+            "time_range": [
+              "2021-01-28 09:58:32.975000",
+              "2021-01-28 12:11:15.103000"
+            ]
+          },
+          "570.0": {
+            "trades": 74,
+            "volume": 2788,
+            "capital_spent": 12340052.0,
+            "price_range": [
+              9.25,
+              95.55
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "NYSE_AMEX",
+              "PHLX_FLOOR",
+              "BATS",
+              "CBOE",
+              "BZX_OPTIONS",
+              "EDGX_COB",
+              "NSDQ_BX_OPT",
+              "ISE",
+              "EDGX_OPTIONS",
+              "MIAX_PEARL_EQUITIES",
+              "C2_COB"
+            ],
+            "time_range": [
+              "2021-01-28 09:39:20.127000",
+              "2021-01-28 15:17:46.476000"
+            ]
+          }
+        },
+        "top_trades": [
+          {
+            "ts": "2021-01-28 10:00:40.336000",
+            "size": 152,
+            "strike": 320.0,
+            "price": 195.0,
+            "capital": 2964000.0,
+            "otm_pct": "65.3%",
+            "dte": 1,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 10:28:55.097000",
+            "size": 175,
+            "strike": 320.0,
+            "price": 140.0,
+            "capital": 2450000.0,
+            "otm_pct": "65.3%",
+            "dte": 1,
+            "exchange": "EDGX_OPTIONS",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 10:24:12.215000",
+            "size": 261,
+            "strike": 570.0,
+            "price": 66.65,
+            "capital": 1739565.0000000002,
+            "otm_pct": "194.4%",
+            "dte": 1,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 10:26:37.079000",
+            "size": 263,
+            "strike": 570.0,
+            "price": 56.8,
+            "capital": 1493840.0,
+            "otm_pct": "194.4%",
+            "dte": 1,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 10:30:49.998000",
+            "size": 100,
+            "strike": 320.0,
+            "price": 136.72,
+            "capital": 1367200.0,
+            "otm_pct": "65.3%",
+            "dte": 1,
+            "exchange": "C2",
+            "condition": 125
+          },
+          {
+            "ts": "2021-01-28 09:50:39.217000",
+            "size": 100,
+            "strike": 330.0,
+            "price": 126.88,
+            "capital": 1268800.0,
+            "otm_pct": "70.5%",
+            "dte": 1,
+            "exchange": "NSDQ_BX_OPT",
+            "condition": 125
+          },
+          {
+            "ts": "2021-01-28 10:08:48.605000",
+            "size": 62,
+            "strike": 320.0,
+            "price": 149.95,
+            "capital": 929690.0,
+            "otm_pct": "65.3%",
+            "dte": 1,
+            "exchange": "C2_COB",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 12:09:27.508000",
+            "size": 213,
+            "strike": 570.0,
+            "price": 42.0,
+            "capital": 894600.0,
+            "otm_pct": "194.4%",
+            "dte": 1,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 12:09:06.578000",
+            "size": 213,
+            "strike": 570.0,
+            "price": 42.0,
+            "capital": 894600.0,
+            "otm_pct": "194.4%",
+            "dte": 1,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-28 09:55:48.519000",
+            "size": 55,
+            "strike": 320.0,
+            "price": 142.8,
+            "capital": 785400.0000000001,
+            "otm_pct": "65.3%",
+            "dte": 1,
+            "exchange": "NYSE_AMEX",
+            "condition": 125
+          }
+        ],
+        "verdict": "TAIL-BANGING DETECTED"
+      },
+      "tail_banging_20210129": {
+        "test": "G_tail_banging",
+        "date": "20210129",
+        "spot_price": 325.0,
+        "total_call_volume": 287235,
+        "tail_trades_count": 30,
+        "tail_volume": 2070,
+        "tail_capital_burned": 3711764.0,
+        "pct_of_call_volume": "0.72%",
+        "strike_concentration": {
+          "500.0": {
+            "trades": 7,
+            "volume": 669,
+            "capital_spent": 1032054.0,
+            "price_range": [
+              6.0,
+              58.5
+            ],
+            "exchanges": [
+              "NSDQ_ISE_GEMINI",
+              "NSDQ_BX_OPT",
+              "ISE",
+              "NYSE_AMEX",
+              "PHLX_FLOOR",
+              "BZX_OPTIONS"
+            ],
+            "time_range": [
+              "2021-01-29 09:31:21.903000",
+              "2021-01-29 12:30:33.262000"
+            ]
+          },
+          "520.0": {
+            "trades": 1,
+            "volume": 40,
+            "capital_spent": 71400.0,
+            "price_range": [
+              17.85,
+              17.85
+            ],
+            "exchanges": [
+              "NSDQ_BX_OPT"
+            ],
+            "time_range": [
+              "2021-01-29 09:38:43.608000",
+              "2021-01-29 09:38:43.608000"
+            ]
+          },
+          "530.0": {
+            "trades": 3,
+            "volume": 200,
+            "capital_spent": 287660.0,
+            "price_range": [
+              5.68,
+              57.25
+            ],
+            "exchanges": [
+              "CBOE",
+              "MIAX_PEARL_EQUITIES",
+              "NSDQ_BX_OPT"
+            ],
+            "time_range": [
+              "2021-01-29 09:31:46.761000",
+              "2021-01-29 10:35:42.497000"
+            ]
+          },
+          "540.0": {
+            "trades": 4,
+            "volume": 260,
+            "capital_spent": 329950.0,
+            "price_range": [
+              5.31,
+              51.04
+            ],
+            "exchanges": [
+              "CBOE",
+              "EDGX_COB",
+              "NSDQ_BX_OPT",
+              "MULTI_EXCHANGE"
+            ],
+            "time_range": [
+              "2021-01-29 09:31:52.360000",
+              "2021-01-29 10:35:42.497000"
+            ]
+          },
+          "570.0": {
+            "trades": 2,
+            "volume": 49,
+            "capital_spent": 128200.0,
+            "price_range": [
+              18.0,
+              38.0
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "NSDQ_BX_OPT"
+            ],
+            "time_range": [
+              "2021-01-29 09:31:15.201000",
+              "2021-01-29 09:39:51.292000"
+            ]
+          },
+          "650.0": {
+            "trades": 13,
+            "volume": 852,
+            "capital_spent": 1862500.0,
+            "price_range": [
+              2.0,
+              39.7
+            ],
+            "exchanges": [
+              "ISE",
+              "BATS",
+              "BZX_OPTIONS",
+              "PHLX_FLOOR"
+            ],
+            "time_range": [
+              "2021-01-29 09:30:29.802000",
+              "2021-01-29 12:26:07.972000"
+            ]
+          }
+        },
+        "top_trades": [
+          {
+            "ts": "2021-01-29 09:30:29.802000",
+            "size": 124,
+            "strike": 650.0,
+            "price": 39.7,
+            "capital": 492280.0,
+            "otm_pct": "100.0%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-29 09:30:29.815000",
+            "size": 93,
+            "strike": 650.0,
+            "price": 39.7,
+            "capital": 369210.00000000006,
+            "otm_pct": "100.0%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-29 09:31:21.903000",
+            "size": 49,
+            "strike": 500.0,
+            "price": 58.5,
+            "capital": 286650.0,
+            "otm_pct": "53.8%",
+            "dte": 0,
+            "exchange": "NSDQ_ISE_GEMINI",
+            "condition": 125
+          },
+          {
+            "ts": "2021-01-29 09:30:29.827000",
+            "size": 69,
+            "strike": 650.0,
+            "price": 39.7,
+            "capital": 273930.0,
+            "otm_pct": "100.0%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-29 09:56:26.148000",
+            "size": 148,
+            "strike": 500.0,
+            "price": 16.65,
+            "capital": 246419.99999999997,
+            "otm_pct": "53.8%",
+            "dte": 0,
+            "exchange": "NSDQ_BX_OPT",
+            "condition": 125
+          },
+          {
+            "ts": "2021-01-29 09:49:03.066000",
+            "size": 90,
+            "strike": 530.0,
+            "price": 19.29,
+            "capital": 173610.0,
+            "otm_pct": "63.1%",
+            "dte": 0,
+            "exchange": "CBOE",
+            "condition": 130
+          },
+          {
+            "ts": "2021-01-29 09:49:03.066000",
+            "size": 90,
+            "strike": 540.0,
+            "price": 18.67,
+            "capital": 168030.00000000003,
+            "otm_pct": "66.2%",
+            "dte": 0,
+            "exchange": "CBOE",
+            "condition": 130
+          },
+          {
+            "ts": "2021-01-29 09:50:19.006000",
+            "size": 77,
+            "strike": 500.0,
+            "price": 20.0,
+            "capital": 154000.0,
+            "otm_pct": "53.8%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2021-01-29 10:31:21.888000",
+            "size": 179,
+            "strike": 500.0,
+            "price": 6.96,
+            "capital": 124583.99999999999,
+            "otm_pct": "53.8%",
+            "dte": 0,
+            "exchange": "NYSE_AMEX",
+            "condition": 125
+          },
+          {
+            "ts": "2021-01-29 09:31:57.430000",
+            "size": 30,
+            "strike": 650.0,
+            "price": 29.0,
+            "capital": 87000.0,
+            "otm_pct": "100.0%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          }
+        ],
+        "verdict": "TAIL-BANGING DETECTED"
+      },
+      "wash_cross_20210126": {
+        "test": "H_wash_cross",
+        "date": "20210126",
+        "total_block_trades": 1081,
+        "wash_pairs_found": 100,
+        "sub_second_pairs": 78,
+        "total_wash_capital": 85015178.0,
+        "pairs": [
+          {
+            "ts_1": "2021-01-26 10:27:31.629000",
+            "ts_2": "2021-01-26 10:27:37.427000",
+            "time_gap_sec": 5.798,
+            "size": 150,
+            "price": 5.54,
+            "strike": 25.0,
+            "right": "P",
+            "capital_each": 83100.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 80
+          },
+          {
+            "ts_1": "2021-01-26 11:05:00.807000",
+            "ts_2": "2021-01-26 11:05:01.473000",
+            "time_gap_sec": 0.666,
+            "size": 149,
+            "price": 0.97,
+            "strike": 40.0,
+            "right": "P",
+            "capital_each": 14453.0,
+            "exchange_1": "BATS",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 11:11:23.388000",
+            "ts_2": "2021-01-26 11:11:43.090000",
+            "time_gap_sec": 19.702,
+            "size": 100,
+            "price": 31.7,
+            "strike": 60.0,
+            "right": "C",
+            "capital_each": 317000.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 11:52:16.071000",
+            "ts_2": "2021-01-26 11:52:16.071000",
+            "time_gap_sec": 0.0,
+            "size": 167,
+            "price": 22.8,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 380760.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "False",
+            "dte": 10
+          },
+          {
+            "ts_1": "2021-01-26 11:52:16.071000",
+            "ts_2": "2021-01-26 11:52:16.071000",
+            "time_gap_sec": 0.0,
+            "size": 167,
+            "price": 19.8,
+            "strike": 75.0,
+            "right": "P",
+            "capital_each": 330660.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "False",
+            "dte": 10
+          },
+          {
+            "ts_1": "2021-01-26 11:52:28.975000",
+            "ts_2": "2021-01-26 11:52:28.975000",
+            "time_gap_sec": 0.0,
+            "size": 167,
+            "price": 22.27,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 371909.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "False",
+            "dte": 10
+          },
+          {
+            "ts_1": "2021-01-26 11:52:28.975000",
+            "ts_2": "2021-01-26 11:52:28.975000",
+            "time_gap_sec": 0.0,
+            "size": 167,
+            "price": 19.74,
+            "strike": 75.0,
+            "right": "P",
+            "capital_each": 329658.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "False",
+            "dte": 10
+          },
+          {
+            "ts_1": "2021-01-26 11:56:41.349000",
+            "ts_2": "2021-01-26 11:56:59.341000",
+            "time_gap_sec": 17.992,
+            "size": 200,
+            "price": 14.03,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 280600.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 11:56:41.349000",
+            "ts_2": "2021-01-26 11:56:59.341000",
+            "time_gap_sec": 17.992,
+            "size": 200,
+            "price": 11.33,
+            "strike": 75.0,
+            "right": "P",
+            "capital_each": 226600.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 12:11:46.039000",
+            "ts_2": "2021-01-26 12:11:52.042000",
+            "time_gap_sec": 6.003,
+            "size": 125,
+            "price": 68.35,
+            "strike": 21.0,
+            "right": "C",
+            "capital_each": 854375.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 133,
+            "condition_2": 133,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 12:11:46.039000",
+            "ts_2": "2021-01-26 12:11:52.042000",
+            "time_gap_sec": 6.003,
+            "size": 125,
+            "price": 69.35,
+            "strike": 20.0,
+            "right": "C",
+            "capital_each": 866875.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 133,
+            "condition_2": 133,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 12:12:14.414000",
+            "ts_2": "2021-01-26 12:12:19.476000",
+            "time_gap_sec": 5.062,
+            "size": 100,
+            "price": 63.95,
+            "strike": 25.0,
+            "right": "C",
+            "capital_each": 639500.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 133,
+            "condition_2": 133,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 12:12:14.414000",
+            "ts_2": "2021-01-26 12:12:19.476000",
+            "time_gap_sec": 5.062,
+            "size": 100,
+            "price": 62.95,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 629500.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 133,
+            "condition_2": 133,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2021-01-26 12:56:13.234000",
+            "ts_2": "2021-01-26 12:56:13.234000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 80
+          },
+          {
+            "ts_1": "2021-01-26 12:56:13.234000",
+            "ts_2": "2021-01-26 12:56:13.234000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 80
+          },
+          {
+            "ts_1": "2021-01-26 12:56:13.234000",
+            "ts_2": "2021-01-26 12:56:13.234000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 80
+          },
+          {
+            "ts_1": "2021-01-26 13:26:12.557000",
+            "ts_2": "2021-01-26 13:26:21.164000",
+            "time_gap_sec": 8.607,
+            "size": 100,
+            "price": 8.5,
+            "strike": 40.0,
+            "right": "P",
+            "capital_each": 85000.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 52
+          },
+          {
+            "ts_1": "2021-01-26 13:26:12.557000",
+            "ts_2": "2021-01-26 13:26:21.164000",
+            "time_gap_sec": 8.607,
+            "size": 100,
+            "price": 4.75,
+            "strike": 30.0,
+            "right": "P",
+            "capital_each": 47500.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 52
+          },
+          {
+            "ts_1": "2021-01-26 14:24:57.040000",
+            "ts_2": "2021-01-26 14:24:57.040000",
+            "time_gap_sec": 0.0,
+            "size": 247,
+            "price": 0.03,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 741.0,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 80
+          },
+          {
+            "ts_1": "2021-01-26 14:27:02.382000",
+            "ts_2": "2021-01-26 14:27:02.397000",
+            "time_gap_sec": 0.015,
+            "size": 120,
+            "price": 6.25,
+            "strike": 73.0,
+            "right": "P",
+            "capital_each": 75000.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BATS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 3
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20210127": {
+        "test": "H_wash_cross",
+        "date": "20210127",
+        "total_block_trades": 1493,
+        "wash_pairs_found": 101,
+        "sub_second_pairs": 57,
+        "total_wash_capital": 55946216.0,
+        "pairs": [
+          {
+            "ts_1": "2021-01-27 09:48:02.092000",
+            "ts_2": "2021-01-27 09:48:02.092000",
+            "time_gap_sec": 0.0,
+            "size": 110,
+            "price": 0.08,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 880.0000000000001,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 359
+          },
+          {
+            "ts_1": "2021-01-27 09:49:21.421000",
+            "ts_2": "2021-01-27 09:49:21.421000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.01,
+            "strike": 1.5,
+            "right": "P",
+            "capital_each": 100.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 16
+          },
+          {
+            "ts_1": "2021-01-27 09:51:13.393000",
+            "ts_2": "2021-01-27 09:51:13.393000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.03,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 300.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:51:13.393000",
+            "ts_2": "2021-01-27 09:51:13.393000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.03,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 300.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:51:13.393000",
+            "ts_2": "2021-01-27 09:51:13.393000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.03,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 300.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:57:18.279000",
+            "ts_2": "2021-01-27 09:57:19.297000",
+            "time_gap_sec": 1.018,
+            "size": 100,
+            "price": 0.04,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "BATS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 170
+          },
+          {
+            "ts_1": "2021-01-27 09:57:59.002000",
+            "ts_2": "2021-01-27 09:57:59.002000",
+            "time_gap_sec": 0.0,
+            "size": 105,
+            "price": 0.12,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 1260.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:57:59.002000",
+            "ts_2": "2021-01-27 09:57:59.002000",
+            "time_gap_sec": 0.0,
+            "size": 105,
+            "price": 0.12,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 1260.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:57:59.002000",
+            "ts_2": "2021-01-27 09:57:59.002000",
+            "time_gap_sec": 0.0,
+            "size": 105,
+            "price": 0.12,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 1260.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 79
+          },
+          {
+            "ts_1": "2021-01-27 09:58:27.744000",
+            "ts_2": "2021-01-27 09:58:28.215000",
+            "time_gap_sec": 0.471,
+            "size": 150,
+            "price": 0.04,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 600.0,
+            "exchange_1": "BATS",
+            "exchange_2": "BATS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 170
+          },
+          {
+            "ts_1": "2021-01-27 09:58:39.569000",
+            "ts_2": "2021-01-27 09:58:39.569000",
+            "time_gap_sec": 0.0,
+            "size": 185,
+            "price": 0.09,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 1664.9999999999998,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 359
+          },
+          {
+            "ts_1": "2021-01-27 09:58:39.569000",
+            "ts_2": "2021-01-27 09:58:39.569000",
+            "time_gap_sec": 0.0,
+            "size": 185,
+            "price": 0.09,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 1664.9999999999998,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 359
+          },
+          {
+            "ts_1": "2021-01-27 09:58:39.569000",
+            "ts_2": "2021-01-27 09:58:39.569000",
+            "time_gap_sec": 0.0,
+            "size": 185,
+            "price": 0.09,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 1664.9999999999998,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 359
+          },
+          {
+            "ts_1": "2021-01-27 10:03:53.695000",
+            "ts_2": "2021-01-27 10:04:16.630000",
+            "time_gap_sec": 22.935,
+            "size": 150,
+            "price": 0.02,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 300.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 23
+          },
+          {
+            "ts_1": "2021-01-27 10:11:56.997000",
+            "ts_2": "2021-01-27 10:12:02.834000",
+            "time_gap_sec": 5.837,
+            "size": 100,
+            "price": 0.02,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 200.0,
+            "exchange_1": "BATS",
+            "exchange_2": "BATS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 9
+          },
+          {
+            "ts_1": "2021-01-27 10:22:23.316000",
+            "ts_2": "2021-01-27 10:22:23.384000",
+            "time_gap_sec": 0.068,
+            "size": 100,
+            "price": 0.05,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 500.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 23
+          },
+          {
+            "ts_1": "2021-01-27 10:23:38.078000",
+            "ts_2": "2021-01-27 10:23:48.170000",
+            "time_gap_sec": 10.092,
+            "size": 100,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 51
+          },
+          {
+            "ts_1": "2021-01-27 10:23:46.097000",
+            "ts_2": "2021-01-27 10:23:54.879000",
+            "time_gap_sec": 8.782,
+            "size": 100,
+            "price": 0.08,
+            "strike": 2.0,
+            "right": "P",
+            "capital_each": 800.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 51
+          },
+          {
+            "ts_1": "2021-01-27 10:28:30.903000",
+            "ts_2": "2021-01-27 10:28:40.754000",
+            "time_gap_sec": 9.851,
+            "size": 100,
+            "price": 0.03,
+            "strike": 2.0,
+            "right": "P",
+            "capital_each": 300.0,
+            "exchange_1": "ISE",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 95,
+            "same_exchange": "False",
+            "dte": 9
+          },
+          {
+            "ts_1": "2021-01-27 10:35:12.775000",
+            "ts_2": "2021-01-27 10:35:14.559000",
+            "time_gap_sec": 1.784,
+            "size": 100,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 400.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 51
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20210128": {
+        "test": "H_wash_cross",
+        "date": "20210128",
+        "total_block_trades": 798,
+        "wash_pairs_found": 103,
+        "sub_second_pairs": 29,
+        "total_wash_capital": 15708512.0,
+        "pairs": [
+          {
+            "ts_1": "2021-01-28 09:30:34.148000",
+            "ts_2": "2021-01-28 09:30:53.866000",
+            "time_gap_sec": 19.718,
+            "size": 100,
+            "price": 0.01,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 100.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 1
+          },
+          {
+            "ts_1": "2021-01-28 09:37:27.502000",
+            "ts_2": "2021-01-28 09:37:27.502000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.01,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 100.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 09:38:42.166000",
+            "ts_2": "2021-01-28 09:38:58.028000",
+            "time_gap_sec": 15.862,
+            "size": 200,
+            "price": 0.04,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 800.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 22
+          },
+          {
+            "ts_1": "2021-01-28 09:45:16.816000",
+            "ts_2": "2021-01-28 09:45:16.816000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 349.8,
+            "strike": 7.0,
+            "right": "C",
+            "capital_each": 3498000.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 129,
+            "condition_2": 129,
+            "same_exchange": "True",
+            "dte": 169
+          },
+          {
+            "ts_1": "2021-01-28 09:45:17.043000",
+            "ts_2": "2021-01-28 09:45:17.044000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.1,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 1000.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 358
+          },
+          {
+            "ts_1": "2021-01-28 09:54:26.414000",
+            "ts_2": "2021-01-28 09:54:32.089000",
+            "time_gap_sec": 5.675,
+            "size": 250,
+            "price": 0.08,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 2000.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 169
+          },
+          {
+            "ts_1": "2021-01-28 09:54:26.414000",
+            "ts_2": "2021-01-28 09:54:47.400000",
+            "time_gap_sec": 20.986,
+            "size": 250,
+            "price": 0.08,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 2000.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 169
+          },
+          {
+            "ts_1": "2021-01-28 09:54:32.089000",
+            "ts_2": "2021-01-28 09:54:47.400000",
+            "time_gap_sec": 15.311,
+            "size": 250,
+            "price": 0.08,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 2000.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 169
+          },
+          {
+            "ts_1": "2021-01-28 10:10:35.963000",
+            "ts_2": "2021-01-28 10:11:00.030000",
+            "time_gap_sec": 24.067,
+            "size": 100,
+            "price": 0.06,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 600.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 358
+          },
+          {
+            "ts_1": "2021-01-28 10:12:00.852000",
+            "ts_2": "2021-01-28 10:12:00.852000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 15.2,
+            "strike": 50.0,
+            "right": "P",
+            "capital_each": 152000.0,
+            "exchange_1": "C2",
+            "exchange_2": "C2",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": 50
+          },
+          {
+            "ts_1": "2021-01-28 10:12:23.529000",
+            "ts_2": "2021-01-28 10:12:38.863000",
+            "time_gap_sec": 15.334,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:23.529000",
+            "ts_2": "2021-01-28 10:12:42.780000",
+            "time_gap_sec": 19.251,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:23.529000",
+            "ts_2": "2021-01-28 10:12:49.423000",
+            "time_gap_sec": 25.894,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:38.863000",
+            "ts_2": "2021-01-28 10:12:42.780000",
+            "time_gap_sec": 3.917,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:38.863000",
+            "ts_2": "2021-01-28 10:12:49.423000",
+            "time_gap_sec": 10.56,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:38.863000",
+            "ts_2": "2021-01-28 10:12:54.322000",
+            "time_gap_sec": 15.459,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:38.863000",
+            "ts_2": "2021-01-28 10:12:59.322000",
+            "time_gap_sec": 20.459,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:42.780000",
+            "ts_2": "2021-01-28 10:12:49.423000",
+            "time_gap_sec": 6.643,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:42.780000",
+            "ts_2": "2021-01-28 10:12:54.322000",
+            "time_gap_sec": 11.542,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          },
+          {
+            "ts_1": "2021-01-28 10:12:42.780000",
+            "ts_2": "2021-01-28 10:12:59.322000",
+            "time_gap_sec": 16.542,
+            "size": 100,
+            "price": 1.6,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 16000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 78
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20210129": {
+        "test": "H_wash_cross",
+        "date": "20210129",
+        "total_block_trades": 746,
+        "wash_pairs_found": 42,
+        "sub_second_pairs": 19,
+        "total_wash_capital": 1512612.0,
+        "pairs": [
+          {
+            "ts_1": "2021-01-29 10:05:08.099000",
+            "ts_2": "2021-01-29 10:05:09.132000",
+            "time_gap_sec": 1.033,
+            "size": 100,
+            "price": 0.01,
+            "strike": 1.0,
+            "right": "P",
+            "capital_each": 100.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 95,
+            "same_exchange": "False",
+            "dte": 7
+          },
+          {
+            "ts_1": "2021-01-29 10:21:54.992000",
+            "ts_2": "2021-01-29 10:22:21.425000",
+            "time_gap_sec": 26.433,
+            "size": 100,
+            "price": 0.08,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 800.0,
+            "exchange_1": "C2_COB",
+            "exchange_2": "C2_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 357
+          },
+          {
+            "ts_1": "2021-01-29 10:31:11.349000",
+            "ts_2": "2021-01-29 10:31:11.380000",
+            "time_gap_sec": 0.031,
+            "size": 154,
+            "price": 16.87,
+            "strike": 50.0,
+            "right": "P",
+            "capital_each": 259798.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 11:51:34.721000",
+            "ts_2": "2021-01-29 11:51:55.087000",
+            "time_gap_sec": 20.366,
+            "size": 100,
+            "price": 0.09,
+            "strike": 0.5,
+            "right": "P",
+            "capital_each": 900.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 357
+          },
+          {
+            "ts_1": "2021-01-29 12:21:05.765000",
+            "ts_2": "2021-01-29 12:21:07.764000",
+            "time_gap_sec": 1.999,
+            "size": 499,
+            "price": 0.55,
+            "strike": 6.0,
+            "right": "P",
+            "capital_each": 27445.000000000004,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:21:05.765000",
+            "ts_2": "2021-01-29 12:21:09.644000",
+            "time_gap_sec": 3.879,
+            "size": 499,
+            "price": 0.55,
+            "strike": 6.0,
+            "right": "P",
+            "capital_each": 27445.000000000004,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:21:07.764000",
+            "ts_2": "2021-01-29 12:21:09.644000",
+            "time_gap_sec": 1.88,
+            "size": 499,
+            "price": 0.55,
+            "strike": 6.0,
+            "right": "P",
+            "capital_each": 27445.000000000004,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:37:01.870000",
+            "ts_2": "2021-01-29 12:37:03.797000",
+            "time_gap_sec": 1.927,
+            "size": 499,
+            "price": 0.62,
+            "strike": 6.0,
+            "right": "P",
+            "capital_each": 30938.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.579000",
+            "ts_2": "2021-01-29 12:38:09.580000",
+            "time_gap_sec": 0.001,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.579000",
+            "ts_2": "2021-01-29 12:38:10.407000",
+            "time_gap_sec": 0.828,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.579000",
+            "ts_2": "2021-01-29 12:38:10.409000",
+            "time_gap_sec": 0.83,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.579000",
+            "ts_2": "2021-01-29 12:38:12.263000",
+            "time_gap_sec": 2.684,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.579000",
+            "ts_2": "2021-01-29 12:38:12.265000",
+            "time_gap_sec": 2.686,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.580000",
+            "ts_2": "2021-01-29 12:38:10.407000",
+            "time_gap_sec": 0.827,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "ISE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 18,
+            "condition_2": 95,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.580000",
+            "ts_2": "2021-01-29 12:38:10.409000",
+            "time_gap_sec": 0.829,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.580000",
+            "ts_2": "2021-01-29 12:38:12.263000",
+            "time_gap_sec": 2.683,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "ISE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 18,
+            "condition_2": 95,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:09.580000",
+            "ts_2": "2021-01-29 12:38:12.265000",
+            "time_gap_sec": 2.685,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:10.407000",
+            "ts_2": "2021-01-29 12:38:10.409000",
+            "time_gap_sec": 0.002,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:10.407000",
+            "ts_2": "2021-01-29 12:38:12.263000",
+            "time_gap_sec": 1.856,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 49
+          },
+          {
+            "ts_1": "2021-01-29 12:38:10.407000",
+            "ts_2": "2021-01-29 12:38:12.265000",
+            "time_gap_sec": 1.858,
+            "size": 499,
+            "price": 0.43,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 21457.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "ISE",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 49
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "stepping_20210128": {
+        "test": "I_algo_stepping",
+        "date": "20210128",
+        "total_sequences": 20,
+        "dark_venue_sequences": 0,
+        "sequences": [
+          {
+            "length": 3,
+            "sizes": [
+              150,
+              154,
+              150
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-28 09:30:34.081000",
+                "size": 150,
+                "strike": 1.5,
+                "price": 0.06,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:30:34.147000",
+                "size": 154,
+                "strike": 0.5,
+                "price": 0.07,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:37:20.729000",
+                "size": 150,
+                "strike": 0.5,
+                "price": 0.12,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 406.648
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              104,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-28 09:45:14.441000",
+                "size": 100,
+                "strike": 12.0,
+                "price": 344.5,
+                "exchange": "NYSE_AMEX",
+                "condition": 129
+              },
+              {
+                "ts": "2021-01-28 09:45:22.180000",
+                "size": 104,
+                "strike": 1.0,
+                "price": 0.22,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:45:36.583000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "ISE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 22.142
+          },
+          {
+            "length": 3,
+            "sizes": [
+              200,
+              202,
+              199
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-28 09:49:24.981000",
+                "size": 200,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:49:24.981000",
+                "size": 202,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:51:04.150000",
+                "size": 199,
+                "strike": 1.0,
+                "price": 0.01,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 99.169
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              102,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-28 09:56:47.324000",
+                "size": 100,
+                "strike": 1.0,
+                "price": 0.03,
+                "exchange": "NYSE_AMEX",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-28 09:57:45.178000",
+                "size": 102,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 09:58:38.797000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 111.473
+          },
+          {
+            "length": 3,
+            "sizes": [
+              200,
+              199,
+              200
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-28 09:58:59.838000",
+                "size": 200,
+                "strike": 1.0,
+                "price": 0.01,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:00:20.607000",
+                "size": 199,
+                "strike": 1.0,
+                "price": 0.01,
+                "exchange": "PHLX_FLOOR",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:01:26.561000",
+                "size": 200,
+                "strike": 10.0,
+                "price": 1.62,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 146.723
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              101,
+              100
+            ],
+            "dominant_exchange": "BZX_OPTIONS",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-28 10:01:51.839000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:08:45.676000",
+                "size": 101,
+                "strike": 0.5,
+                "price": 0.08,
+                "exchange": "NYSE_AMEX",
+                "condition": 21
+              },
+              {
+                "ts": "2021-01-28 10:09:15.269000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.06,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 443.43
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              101,
+              100
+            ],
+            "dominant_exchange": "BATS",
+            "exchange_concentration": 1.0,
+            "trades": [
+              {
+                "ts": "2021-01-28 10:13:04.899000",
+                "size": 100,
+                "strike": 10.0,
+                "price": 3.2,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:15:52.879000",
+                "size": 101,
+                "strike": 0.5,
+                "price": 0.04,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:16:18.319000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "BATS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 193.42
+          },
+          {
+            "length": 3,
+            "sizes": [
+              114,
+              116,
+              117
+            ],
+            "dominant_exchange": "C2_COB",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-28 10:23:40.748000",
+                "size": 114,
+                "strike": 20.0,
+                "price": 0.01,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:25:13.942000",
+                "size": 116,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "C2_COB",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 10:25:36.361000",
+                "size": 117,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "C2_COB",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 115.613
+          },
+          {
+            "length": 3,
+            "sizes": [
+              109,
+              114,
+              111
+            ],
+            "dominant_exchange": "CBOE",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-28 11:07:56.086000",
+                "size": 109,
+                "strike": 100.0,
+                "price": 52.0,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-28 11:07:56.260000",
+                "size": 114,
+                "strike": 50.0,
+                "price": 19.0,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-28 11:13:32.332000",
+                "size": 111,
+                "strike": 2.0,
+                "price": 0.1,
+                "exchange": "BATS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 336.246
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              102,
+              100
+            ],
+            "dominant_exchange": "BATS",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-28 11:13:32.390000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.09,
+                "exchange": "BATS",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-28 11:24:36.861000",
+                "size": 102,
+                "strike": 8.0,
+                "price": 0.03,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-28 11:24:41.117000",
+                "size": 100,
+                "strike": 4.5,
+                "price": 0.01,
+                "exchange": "EDGX_COB",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 668.727
+          }
+        ],
+        "verdict": "ALGORITHMIC STEPPING DETECTED"
+      },
+      "stepping_20210129": {
+        "test": "I_algo_stepping",
+        "date": "20210129",
+        "total_sequences": 20,
+        "dark_venue_sequences": 0,
+        "sequences": [
+          {
+            "length": 3,
+            "sizes": [
+              112,
+              115,
+              117
+            ],
+            "dominant_exchange": "PHLX_FLOOR",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-29 09:30:51.965000",
+                "size": 112,
+                "strike": 0.5,
+                "price": 0.05,
+                "exchange": "PHLX_FLOOR",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-29 09:31:30.203000",
+                "size": 115,
+                "strike": 4.5,
+                "price": 0.04,
+                "exchange": "PHLX_FLOOR",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-29 09:40:10.635000",
+                "size": 117,
+                "strike": 1.5,
+                "price": 0.02,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 558.67
+          },
+          {
+            "length": 4,
+            "sizes": [
+              150,
+              148,
+              145,
+              144
+            ],
+            "dominant_exchange": "CBOE",
+            "exchange_concentration": 0.25,
+            "trades": [
+              {
+                "ts": "2021-01-29 09:54:58.383000",
+                "size": 150,
+                "strike": 400.0,
+                "price": 29.5,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-29 09:56:26.148000",
+                "size": 148,
+                "strike": 500.0,
+                "price": 16.65,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 125
+              },
+              {
+                "ts": "2021-01-29 09:59:01.054000",
+                "size": 145,
+                "strike": 0.5,
+                "price": 0.07,
+                "exchange": "BZX_OPTIONS",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-29 09:59:52.334000",
+                "size": 144,
+                "strike": 0.5,
+                "price": 0.01,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 293.951
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              104,
+              100
+            ],
+            "dominant_exchange": "PHLX_FLOOR",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-29 10:01:44.830000",
+                "size": 100,
+                "strike": 1.0,
+                "price": 0.03,
+                "exchange": "BZX_OPTIONS",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-29 10:07:28.901000",
+                "size": 104,
+                "strike": 12.0,
+                "price": 0.85,
+                "exchange": "PHLX_FLOOR",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 10:10:04.732000",
+                "size": 100,
+                "strike": 1.0,
+                "price": 0.03,
+                "exchange": "PHLX_FLOOR",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 499.902
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              102,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-29 10:13:32.353000",
+                "size": 100,
+                "strike": 650.0,
+                "price": 3.11,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              },
+              {
+                "ts": "2021-01-29 10:22:40.253000",
+                "size": 102,
+                "strike": 1.0,
+                "price": 0.05,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 10:23:42.167000",
+                "size": 100,
+                "strike": 2.5,
+                "price": 0.02,
+                "exchange": "BATS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 609.814
+          },
+          {
+            "length": 4,
+            "sizes": [
+              121,
+              124,
+              126,
+              125
+            ],
+            "dominant_exchange": "BATS",
+            "exchange_concentration": 0.75,
+            "trades": [
+              {
+                "ts": "2021-01-29 10:44:33.862000",
+                "size": 121,
+                "strike": 0.5,
+                "price": 0.08,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 10:45:37.745000",
+                "size": 124,
+                "strike": 0.5,
+                "price": 0.08,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 10:48:41.125000",
+                "size": 126,
+                "strike": 0.5,
+                "price": 0.01,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 11:02:24.207000",
+                "size": 125,
+                "strike": 0.5,
+                "price": 0.08,
+                "exchange": "BATS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 1070.345
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              104,
+              100
+            ],
+            "dominant_exchange": "NSDQ_BX_OPT",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-29 11:02:49.556000",
+                "size": 100,
+                "strike": 490.0,
+                "price": 269.83,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 131
+              },
+              {
+                "ts": "2021-01-29 11:12:51.524000",
+                "size": 104,
+                "strike": 1.0,
+                "price": 0.03,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 11:13:25.597000",
+                "size": 100,
+                "strike": 0.5,
+                "price": 0.01,
+                "exchange": "BZX_OPTIONS",
+                "condition": 95
+              }
+            ],
+            "time_span_sec": 636.041
+          },
+          {
+            "length": 3,
+            "sizes": [
+              200,
+              199,
+              200
+            ],
+            "dominant_exchange": "EDGX_COB",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2021-01-29 11:13:28.317000",
+                "size": 200,
+                "strike": 2.0,
+                "price": 0.02,
+                "exchange": "EDGX_COB",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 11:18:39.794000",
+                "size": 199,
+                "strike": 1.0,
+                "price": 0.1,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 11:18:48.290000",
+                "size": 200,
+                "strike": 1.0,
+                "price": 0.07,
+                "exchange": "C2",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 319.973
+          },
+          {
+            "length": 4,
+            "sizes": [
+              100,
+              105,
+              100,
+              103
+            ],
+            "dominant_exchange": "CBOE",
+            "exchange_concentration": 0.75,
+            "trades": [
+              {
+                "ts": "2021-01-29 11:29:33.037000",
+                "size": 100,
+                "strike": 100.0,
+                "price": 236.35,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-29 11:31:16.658000",
+                "size": 105,
+                "strike": 190.0,
+                "price": 149.22,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-29 11:31:40.344000",
+                "size": 100,
+                "strike": 130.0,
+                "price": 0.56,
+                "exchange": "NYSE_AMEX",
+                "condition": 131
+              },
+              {
+                "ts": "2021-01-29 11:31:55.024000",
+                "size": 103,
+                "strike": 100.0,
+                "price": 234.81,
+                "exchange": "CBOE",
+                "condition": 130
+              }
+            ],
+            "time_span_sec": 141.987
+          },
+          {
+            "length": 4,
+            "sizes": [
+              103,
+              100,
+              104,
+              100
+            ],
+            "dominant_exchange": "CBOE",
+            "exchange_concentration": 0.25,
+            "trades": [
+              {
+                "ts": "2021-01-29 11:31:55.024000",
+                "size": 103,
+                "strike": 120.0,
+                "price": 214.68,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2021-01-29 11:32:43.466000",
+                "size": 100,
+                "strike": 37.0,
+                "price": 0.01,
+                "exchange": "ISE",
+                "condition": 95
+              },
+              {
+                "ts": "2021-01-29 11:34:37.755000",
+                "size": 104,
+                "strike": 7.0,
+                "price": 0.75,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 11:37:51.073000",
+                "size": 100,
+                "strike": 800.0,
+                "price": 81.0,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 356.049
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              102,
+              100
+            ],
+            "dominant_exchange": "BZX_OPTIONS",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2021-01-29 12:38:23.556000",
+                "size": 100,
+                "strike": 55.0,
+                "price": 10.57,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 131
+              },
+              {
+                "ts": "2021-01-29 12:47:04.241000",
+                "size": 102,
+                "strike": 7.0,
+                "price": 0.95,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2021-01-29 12:50:58.208000",
+                "size": 100,
+                "strike": 1.0,
+                "price": 0.09,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 754.652
+          }
+        ],
+        "verdict": "ALGORITHMIC STEPPING DETECTED"
+      },
+      "cob_routing_20210122": {
+        "test": "J_cob_routing",
+        "date": "20210122",
+        "total_trades": 451508,
+        "complex_trades": 90463,
+        "complex_volume": 499421,
+        "cob_clusters": 31985,
+        "dark_clusters": 0,
+        "total_cob_volume": 432103,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "C2": {
+            "clusters": 3012,
+            "volume": 45444,
+            "capital": 31577766.0
+          },
+          "CBOE": {
+            "clusters": 10097,
+            "volume": 164867,
+            "capital": 118760330.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 5318,
+            "volume": 87215,
+            "capital": 64310243.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 2388,
+            "volume": 32135,
+            "capital": 37918251.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 1692,
+            "volume": 22527,
+            "capital": 17683707.0
+          },
+          "EDGX_COB": {
+            "clusters": 3371,
+            "volume": 28095,
+            "capital": 24811143.0
+          },
+          "ISE": {
+            "clusters": 1053,
+            "volume": 7991,
+            "capital": 5069599.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 3457,
+            "volume": 28724,
+            "capital": 22673621.0
+          },
+          "C2_COB": {
+            "clusters": 278,
+            "volume": 2621,
+            "capital": 1987702.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 220,
+            "volume": 1748,
+            "capital": 1050083.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 626,
+            "volume": 6926,
+            "capital": 2201789.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 236,
+            "volume": 1844,
+            "capital": 2058138.0
+          },
+          "BATS": {
+            "clusters": 123,
+            "volume": 929,
+            "capital": 587855.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 86,
+            "volume": 864,
+            "capital": 278547.0
+          },
+          "ISE2": {
+            "clusters": 3,
+            "volume": 53,
+            "capital": 14066.0
+          },
+          "OPRA": {
+            "clusters": 25,
+            "volume": 120,
+            "capital": 27478.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-22 14:54:33.832000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              48.0,
+              49.0
+            ],
+            "total_volume": 8800,
+            "capital": 9240000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              2000,
+              2400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 14:10:15.235000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 6,
+            "unique_strikes": 2,
+            "strikes": [
+              4.0,
+              5.0
+            ],
+            "total_volume": 2184,
+            "capital": 4368.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              194,
+              449
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 11:51:22.994000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 2178,
+            "capital": 306009.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1089
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 10:04:31.126000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              30.0
+            ],
+            "total_volume": 2002,
+            "capital": 310310.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1001
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 10:29:13.748000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              48.0,
+              49.0
+            ],
+            "total_volume": 2000,
+            "capital": 109000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 13:49:57.937000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              55.0,
+              60.0
+            ],
+            "total_volume": 2000,
+            "capital": 574000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 14:31:24.106000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              54.0,
+              55.0
+            ],
+            "total_volume": 1998,
+            "capital": 1048950.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1,
+              998
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 15:06:51.976000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              57.0,
+              60.0
+            ],
+            "total_volume": 1992,
+            "capital": 360552.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              996
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 13:11:05.243000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              55.0,
+              60.0
+            ],
+            "total_volume": 1952,
+            "capital": 653920.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              976
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 13:31:47.260000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              55.0,
+              60.0
+            ],
+            "total_volume": 1906,
+            "capital": 587048.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              953
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 11:51:22.993000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 1844,
+            "capital": 260926.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              922
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 13:27:10.837000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 5,
+            "unique_strikes": 4,
+            "strikes": [
+              4.0,
+              4.5,
+              5.0,
+              7.0
+            ],
+            "total_volume": 1750,
+            "capital": 9793500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              150,
+              300,
+              350,
+              850
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 10:49:35.192000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              47.0,
+              48.0
+            ],
+            "total_volume": 1652,
+            "capital": 237888.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              826
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 10:04:31.126000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              30.0
+            ],
+            "total_volume": 1624,
+            "capital": 253344.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              812
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-22 11:51:22.994000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 1616,
+            "capital": 210888.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              808
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20210125": {
+        "test": "J_cob_routing",
+        "date": "20210125",
+        "total_trades": 348779,
+        "complex_trades": 80280,
+        "complex_volume": 312091,
+        "cob_clusters": 28890,
+        "dark_clusters": 0,
+        "total_cob_volume": 256137,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "C2": {
+            "clusters": 1578,
+            "volume": 14651,
+            "capital": 29828568.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 3696,
+            "volume": 41418,
+            "capital": 90302463.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 1852,
+            "volume": 17363,
+            "capital": 41624738.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 4136,
+            "volume": 31742,
+            "capital": 60436079.0
+          },
+          "CBOE": {
+            "clusters": 8002,
+            "volume": 79853,
+            "capital": 187159569.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 2991,
+            "volume": 24839,
+            "capital": 84057682.0
+          },
+          "EDGX_COB": {
+            "clusters": 3727,
+            "volume": 23550,
+            "capital": 54502058.0
+          },
+          "C2_COB": {
+            "clusters": 481,
+            "volume": 7081,
+            "capital": 13316737.0
+          },
+          "ISE": {
+            "clusters": 1486,
+            "volume": 9592,
+            "capital": 21151197.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 377,
+            "volume": 2765,
+            "capital": 4080059.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 236,
+            "volume": 1723,
+            "capital": 3171577.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 45,
+            "volume": 222,
+            "capital": 641843.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 100,
+            "volume": 577,
+            "capital": 432501.0
+          },
+          "OPRA": {
+            "clusters": 26,
+            "volume": 116,
+            "capital": 137806.0
+          },
+          "BATS": {
+            "clusters": 155,
+            "volume": 641,
+            "capital": 1565441.0
+          },
+          "ISE2": {
+            "clusters": 2,
+            "volume": 4,
+            "capital": 14240.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-25 12:31:16.788000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              40.0
+            ],
+            "total_volume": 1998,
+            "capital": 289710.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              999
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 12:31:24.354000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              40.0
+            ],
+            "total_volume": 1994,
+            "capital": 281154.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              997
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 12:31:33.983000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              40.0
+            ],
+            "total_volume": 1990,
+            "capital": 280590.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              995
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 13:53:06.025000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              55.0,
+              100.0
+            ],
+            "total_volume": 1500,
+            "capital": 5845000.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              500,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 12:33:13.396000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 3,
+            "unique_strikes": 2,
+            "strikes": [
+              67.0,
+              100.0
+            ],
+            "total_volume": 1150,
+            "capital": 2836650.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              250,
+              650
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 13:54:25.656000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              60.0,
+              61.0,
+              67.0,
+              68.0
+            ],
+            "total_volume": 1072,
+            "capital": 1460868.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              268
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 10:47:23.857000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              27.0,
+              32.0
+            ],
+            "total_volume": 1062,
+            "capital": 42480.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              531
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 10:00:44.702000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              30.0
+            ],
+            "total_volume": 972,
+            "capital": 262683.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              243,
+              729
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 14:37:19.154000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              3.5,
+              4.0,
+              4.5,
+              5.0
+            ],
+            "total_volume": 800,
+            "capital": 6320000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              200,
+              400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 09:46:01.637000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              5.0,
+              7.0
+            ],
+            "total_volume": 600,
+            "capital": 5130000.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              300
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 13:26:31.031000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              79.0,
+              80.0
+            ],
+            "total_volume": 600,
+            "capital": 1473000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              300
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 10:47:03.794000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              35.0,
+              40.0
+            ],
+            "total_volume": 550,
+            "capital": 6867850.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              275
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 11:36:16.385000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              35.0,
+              37.0
+            ],
+            "total_volume": 490,
+            "capital": 63700.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              245
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 11:41:19.295000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              34.0,
+              36.0
+            ],
+            "total_volume": 480,
+            "capital": 57360.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              240
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-25 09:43:30.345000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              60.0,
+              115.0
+            ],
+            "total_volume": 400,
+            "capital": 1155000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              200
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20210126": {
+        "test": "J_cob_routing",
+        "date": "20210126",
+        "total_trades": 420517,
+        "complex_trades": 75070,
+        "complex_volume": 337936,
+        "cob_clusters": 26885,
+        "dark_clusters": 0,
+        "total_cob_volume": 282398,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "NSDQ_BX_OPT": {
+            "clusters": 3878,
+            "volume": 51925,
+            "capital": 130476461.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 3224,
+            "volume": 44215,
+            "capital": 239971474.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 2016,
+            "volume": 15769,
+            "capital": 33243241.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 3393,
+            "volume": 23015,
+            "capital": 46338258.0
+          },
+          "CBOE": {
+            "clusters": 8120,
+            "volume": 96128,
+            "capital": 230727560.0
+          },
+          "EDGX_COB": {
+            "clusters": 2791,
+            "volume": 20789,
+            "capital": 47492494.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 279,
+            "volume": 2715,
+            "capital": 4954814.0
+          },
+          "C2_COB": {
+            "clusters": 388,
+            "volume": 8826,
+            "capital": 19327496.0
+          },
+          "C2": {
+            "clusters": 1153,
+            "volume": 8293,
+            "capital": 27266543.0
+          },
+          "ISE": {
+            "clusters": 982,
+            "volume": 5940,
+            "capital": 12551904.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 364,
+            "volume": 3202,
+            "capital": 3200514.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 91,
+            "volume": 642,
+            "capital": 609642.0
+          },
+          "BATS": {
+            "clusters": 82,
+            "volume": 374,
+            "capital": 465740.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 123,
+            "volume": 559,
+            "capital": 1254606.0
+          },
+          "OPRA": {
+            "clusters": 1,
+            "volume": 6,
+            "capital": 56.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-26 15:56:31.535000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              40.0,
+              140.0
+            ],
+            "total_volume": 6400,
+            "capital": 25116800.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1600
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:23:44.764000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              6.0,
+              7.0,
+              10.0,
+              12.0,
+              14.0,
+              15.0
+            ],
+            "total_volume": 1900,
+            "capital": 21164250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              150,
+              250,
+              300,
+              400,
+              700
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:31:51.337000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 10,
+            "unique_strikes": 7,
+            "strikes": [
+              4.0,
+              4.5,
+              5.0,
+              6.0,
+              7.0,
+              15.0
+            ],
+            "total_volume": 1830,
+            "capital": 20737250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              50,
+              70,
+              100,
+              200,
+              300,
+              450,
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:31:49.455000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 3,
+            "strikes": [
+              5.0,
+              10.0,
+              30.0
+            ],
+            "total_volume": 1300,
+            "capital": 13335000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              50,
+              100,
+              500,
+              650
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 15:57:24.536000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              7.0,
+              10.0,
+              15.0
+            ],
+            "total_volume": 1300,
+            "capital": 17633500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              200,
+              450,
+              650
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:23:21.397000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              7.0,
+              15.0,
+              16.0,
+              19.0
+            ],
+            "total_volume": 1150,
+            "capital": 12403250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              200,
+              250,
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 15:51:06.746000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              15.0,
+              16.0,
+              18.0
+            ],
+            "total_volume": 1100,
+            "capital": 14449500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              50,
+              500,
+              550
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 10:42:53.824000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              40.0,
+              41.0,
+              60.0,
+              61.0
+            ],
+            "total_volume": 1072,
+            "capital": 978200.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              268
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 15:57:16.410000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              10.0,
+              12.0
+            ],
+            "total_volume": 1000,
+            "capital": 13605000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 15:59:30.747000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              10.0,
+              12.0
+            ],
+            "total_volume": 1000,
+            "capital": 13550000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:31:51.338000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              20.0,
+              25.0,
+              26.0
+            ],
+            "total_volume": 950,
+            "capital": 9511250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              250,
+              450
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 09:55:04.740000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              30.0
+            ],
+            "total_volume": 864,
+            "capital": 287496.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              216,
+              648
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 15:46:44.482000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 12,
+            "strikes": [
+              2.0,
+              10.0,
+              15.0,
+              16.0,
+              17.5,
+              18.0
+            ],
+            "total_volume": 840,
+            "capital": 10686950.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              10,
+              20,
+              30,
+              50,
+              100,
+              200,
+              290
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 13:09:51.564000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              15.0,
+              16.0,
+              17.0
+            ],
+            "total_volume": 800,
+            "capital": 6990000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              300,
+              400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-26 14:32:38.757000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 6,
+            "unique_strikes": 3,
+            "strikes": [
+              80.0,
+              100.0,
+              120.0
+            ],
+            "total_volume": 800,
+            "capital": 1297872.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              68,
+              132,
+              136,
+              264
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20210127": {
+        "test": "J_cob_routing",
+        "date": "20210127",
+        "total_trades": 368158,
+        "complex_trades": 77091,
+        "complex_volume": 367817,
+        "cob_clusters": 21813,
+        "dark_clusters": 0,
+        "total_cob_volume": 235205,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "NYSE_AMEX": {
+            "clusters": 1397,
+            "volume": 56113,
+            "capital": 1312323824.0
+          },
+          "CBOE": {
+            "clusters": 4317,
+            "volume": 59694,
+            "capital": 664454190.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 3033,
+            "volume": 31947,
+            "capital": 189354672.0
+          },
+          "C2_COB": {
+            "clusters": 636,
+            "volume": 6801,
+            "capital": 32232855.0
+          },
+          "C2": {
+            "clusters": 810,
+            "volume": 6021,
+            "capital": 33821679.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 313,
+            "volume": 4816,
+            "capital": 6597796.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 2468,
+            "volume": 17669,
+            "capital": 122684714.0
+          },
+          "EDGX_COB": {
+            "clusters": 4410,
+            "volume": 25716,
+            "capital": 277830652.0
+          },
+          "ISE": {
+            "clusters": 661,
+            "volume": 6916,
+            "capital": 23613317.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 190,
+            "volume": 1957,
+            "capital": 919935.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 3238,
+            "volume": 15679,
+            "capital": 166700690.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 262,
+            "volume": 1372,
+            "capital": 16098977.0
+          },
+          "BATS": {
+            "clusters": 53,
+            "volume": 272,
+            "capital": 175750.0
+          },
+          "OPRA": {
+            "clusters": 20,
+            "volume": 208,
+            "capital": 40350.0
+          },
+          "ISE2": {
+            "clusters": 1,
+            "volume": 12,
+            "capital": 12600.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 4,
+            "volume": 12,
+            "capital": 77002.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-27 15:21:23.512000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 9,
+            "strikes": [
+              4.5,
+              5.0,
+              6.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 4050,
+            "capital": 134493850.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              70,
+              80,
+              100,
+              120,
+              150,
+              300,
+              350,
+              500,
+              750,
+              1400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 12:36:05.678000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 5,
+            "unique_strikes": 5,
+            "strikes": [
+              12.0,
+              13.0,
+              14.0,
+              15.0,
+              16.0
+            ],
+            "total_volume": 4000,
+            "capital": 120610000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              200,
+              500,
+              800,
+              2000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 15:35:00.606000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              12.0,
+              13.0,
+              14.0,
+              15.0
+            ],
+            "total_volume": 3500,
+            "capital": 115527500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              200,
+              500,
+              800,
+              2000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 10:21:06.126000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 4,
+            "strikes": [
+              15.0,
+              16.0,
+              17.0,
+              18.0
+            ],
+            "total_volume": 3100,
+            "capital": 81119000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              500,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 12:36:46.977000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 13,
+            "unique_strikes": 11,
+            "strikes": [
+              4.5,
+              5.0,
+              5.5,
+              7.0,
+              10.0,
+              11.0
+            ],
+            "total_volume": 2880,
+            "capital": 88691100.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              40,
+              50,
+              60,
+              120,
+              150,
+              200,
+              800,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 10:21:06.125000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              4.0,
+              7.0,
+              12.0,
+              13.0
+            ],
+            "total_volume": 2700,
+            "capital": 71854000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              200,
+              400,
+              2000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 14:35:24.104000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              38.0,
+              40.0
+            ],
+            "total_volume": 2478,
+            "capital": 64942185.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1239
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 15:21:32.060000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              25.0,
+              30.0,
+              31.0,
+              34.0
+            ],
+            "total_volume": 2320,
+            "capital": 72629200.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              60,
+              100,
+              1000,
+              1160
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 12:35:53.126000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              15.0,
+              19.0,
+              20.0,
+              21.0
+            ],
+            "total_volume": 2200,
+            "capital": 65149000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 12:37:03.715000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 14,
+            "unique_strikes": 13,
+            "strikes": [
+              4.0,
+              6.0,
+              7.0,
+              17.0,
+              19.0,
+              20.0
+            ],
+            "total_volume": 2200,
+            "capital": 66711000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              30,
+              50,
+              100,
+              150,
+              200,
+              500,
+              600
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 15:35:20.020000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              15.0,
+              19.0,
+              20.0,
+              21.0
+            ],
+            "total_volume": 2200,
+            "capital": 71873000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 15:34:02.733000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 13,
+            "unique_strikes": 11,
+            "strikes": [
+              4.0,
+              6.0,
+              7.0,
+              17.0,
+              19.0,
+              20.0
+            ],
+            "total_volume": 2030,
+            "capital": 66846810.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              2,
+              30,
+              50,
+              100,
+              150,
+              200,
+              500,
+              598
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 10:21:08.463000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 7,
+            "unique_strikes": 4,
+            "strikes": [
+              5.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 2000,
+            "capital": 54511000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              150,
+              300,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 15:34:44.015000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 11,
+            "unique_strikes": 10,
+            "strikes": [
+              5.0,
+              5.5,
+              7.0,
+              10.0,
+              11.0,
+              12.0
+            ],
+            "total_volume": 1930,
+            "capital": 64329700.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              40,
+              50,
+              60,
+              120,
+              150,
+              200,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-27 12:19:52.782000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              31.0,
+              34.0
+            ],
+            "total_volume": 1916,
+            "capital": 55397308.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              396,
+              562
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20210128": {
+        "test": "J_cob_routing",
+        "date": "20210128",
+        "total_trades": 180902,
+        "complex_trades": 36074,
+        "complex_volume": 194712,
+        "cob_clusters": 11044,
+        "dark_clusters": 0,
+        "total_cob_volume": 146316,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "CBOE": {
+            "clusters": 3563,
+            "volume": 42345,
+            "capital": 344671490.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 950,
+            "volume": 40405,
+            "capital": 872022519.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 169,
+            "volume": 3682,
+            "capital": 2402878.0
+          },
+          "BATS": {
+            "clusters": 78,
+            "volume": 2117,
+            "capital": 460847.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 1848,
+            "volume": 23201,
+            "capital": 122529464.0
+          },
+          "C2": {
+            "clusters": 568,
+            "volume": 5782,
+            "capital": 26457282.0
+          },
+          "C2_COB": {
+            "clusters": 330,
+            "volume": 2741,
+            "capital": 13853432.0
+          },
+          "EDGX_COB": {
+            "clusters": 1133,
+            "volume": 7030,
+            "capital": 46306198.0
+          },
+          "ISE": {
+            "clusters": 332,
+            "volume": 2857,
+            "capital": 15275434.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 1013,
+            "volume": 7925,
+            "capital": 61165662.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 111,
+            "volume": 1662,
+            "capital": 488506.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 777,
+            "volume": 5226,
+            "capital": 46907471.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 145,
+            "volume": 1146,
+            "capital": 8007163.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 20,
+            "volume": 143,
+            "capital": 1271626.0
+          },
+          "OPRA": {
+            "clusters": 7,
+            "volume": 54,
+            "capital": 46223.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-28 13:04:01.590000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              40.0,
+              140.0
+            ],
+            "total_volume": 4924,
+            "capital": 20091151.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1231
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 12:44:44.082000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              12.0,
+              13.0,
+              14.0,
+              15.0,
+              20.0,
+              21.0
+            ],
+            "total_volume": 4200,
+            "capital": 106388000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              300,
+              400,
+              600,
+              700,
+              2100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 15:26:25.777000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              12.0,
+              13.0,
+              14.0,
+              15.0,
+              20.0,
+              21.0
+            ],
+            "total_volume": 4200,
+            "capital": 96392000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              300,
+              400,
+              600,
+              700,
+              2100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 09:45:16.816000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 9,
+            "unique_strikes": 6,
+            "strikes": [
+              7.0,
+              10.0,
+              12.0,
+              13.0,
+              14.0,
+              15.0
+            ],
+            "total_volume": 3600,
+            "capital": 124348000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              250,
+              350,
+              500,
+              600,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 15:11:44.617000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 5,
+            "strikes": [
+              12.0,
+              13.0,
+              14.0,
+              15.0,
+              20.0
+            ],
+            "total_volume": 2500,
+            "capital": 61783000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              200,
+              300,
+              400,
+              500,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 14:57:56.423000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 9,
+            "strikes": [
+              4.5,
+              5.0,
+              6.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 2470,
+            "capital": 58572500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              30,
+              40,
+              50,
+              70,
+              80,
+              270,
+              300,
+              450,
+              520
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 12:44:49.858000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              5.0,
+              5.5,
+              7.0,
+              10.0,
+              15.0,
+              16.0
+            ],
+            "total_volume": 2240,
+            "capital": 57795100.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              30,
+              50,
+              60,
+              100,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 09:45:14.441000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              12.0,
+              16.0,
+              17.0,
+              18.0,
+              20.0,
+              22.0
+            ],
+            "total_volume": 2200,
+            "capital": 74322250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              250,
+              300,
+              350,
+              900
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 15:11:44.616000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 8,
+            "unique_strikes": 4,
+            "strikes": [
+              5.0,
+              6.0,
+              7.0,
+              10.0
+            ],
+            "total_volume": 2200,
+            "capital": 55227500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              200,
+              300,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 15:26:34.255000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 5,
+            "strikes": [
+              5.0,
+              5.5,
+              7.0,
+              10.0,
+              15.0
+            ],
+            "total_volume": 2140,
+            "capital": 48544000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              10,
+              20,
+              50,
+              60,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 15:26:16.353000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 8,
+            "unique_strikes": 7,
+            "strikes": [
+              4.0,
+              4.5,
+              5.0,
+              6.0,
+              7.0,
+              10.0
+            ],
+            "total_volume": 1600,
+            "capital": 37586000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              60,
+              100,
+              120,
+              400,
+              600
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 12:44:38.491000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 5,
+            "strikes": [
+              5.0,
+              6.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 1420,
+            "capital": 36274100.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              120,
+              400,
+              600
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 09:44:42.714000",
+            "exchange": "BZX_OPTIONS",
+            "exchange_code": 60,
+            "legs": 9,
+            "unique_strikes": 1,
+            "strikes": [
+              0.5
+            ],
+            "total_volume": 820,
+            "capital": 8200.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              5,
+              10,
+              61,
+              89,
+              90,
+              117,
+              446
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 14:58:16.358000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 2,
+            "strikes": [
+              10.0,
+              12.0
+            ],
+            "total_volume": 780,
+            "capital": 18403800.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              60,
+              330,
+              390
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-28 09:45:14.440000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              5.0,
+              7.0,
+              10.0
+            ],
+            "total_volume": 750,
+            "capital": 26203250.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              300,
+              350
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20210129": {
+        "test": "J_cob_routing",
+        "date": "20210129",
+        "total_trades": 240129,
+        "complex_trades": 53450,
+        "complex_volume": 226344,
+        "cob_clusters": 16497,
+        "dark_clusters": 0,
+        "total_cob_volume": 163254,
+        "dark_cob_volume": 0,
+        "exchange_breakdown": {
+          "NYSE_AMEX": {
+            "clusters": 1802,
+            "volume": 44659,
+            "capital": 895204273.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 3444,
+            "volume": 31106,
+            "capital": 193504290.0
+          },
+          "CBOE": {
+            "clusters": 3974,
+            "volume": 42321,
+            "capital": 295725946.0
+          },
+          "C2": {
+            "clusters": 846,
+            "volume": 6654,
+            "capital": 26503415.0
+          },
+          "ISE": {
+            "clusters": 363,
+            "volume": 3679,
+            "capital": 11496757.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 1241,
+            "volume": 6243,
+            "capital": 56163105.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 78,
+            "volume": 2365,
+            "capital": 1269481.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 1971,
+            "volume": 9232,
+            "capital": 67965862.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 150,
+            "volume": 2270,
+            "capital": 2358188.0
+          },
+          "EDGX_COB": {
+            "clusters": 1971,
+            "volume": 9727,
+            "capital": 68882984.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 264,
+            "volume": 2223,
+            "capital": 14346461.0
+          },
+          "C2_COB": {
+            "clusters": 280,
+            "volume": 2065,
+            "capital": 13893650.0
+          },
+          "BATS": {
+            "clusters": 26,
+            "volume": 383,
+            "capital": 1923511.0
+          },
+          "ISE2": {
+            "clusters": 6,
+            "volume": 62,
+            "capital": 959440.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 75,
+            "volume": 245,
+            "capital": 1650065.0
+          },
+          "OPRA": {
+            "clusters": 6,
+            "volume": 20,
+            "capital": 64675.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2021-01-29 15:41:27.522000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 10,
+            "strikes": [
+              4.5,
+              5.5,
+              6.0,
+              7.0,
+              9.0,
+              10.0
+            ],
+            "total_volume": 4440,
+            "capital": 135103100.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              30,
+              100,
+              120,
+              150,
+              200,
+              300,
+              400,
+              800,
+              2100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 12:59:22.841000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 9,
+            "strikes": [
+              4.5,
+              5.5,
+              6.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 4420,
+            "capital": 139973300.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              10,
+              30,
+              100,
+              110,
+              120,
+              150,
+              200,
+              300,
+              400,
+              800,
+              2100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 13:00:16.551000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 11,
+            "unique_strikes": 10,
+            "strikes": [
+              6.0,
+              7.0,
+              10.0,
+              11.0,
+              15.0,
+              16.0
+            ],
+            "total_volume": 3330,
+            "capital": 103603100.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              30,
+              50,
+              60,
+              100,
+              300,
+              600,
+              1000,
+              1040
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 15:41:38.217000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 11,
+            "unique_strikes": 7,
+            "strikes": [
+              5.0,
+              6.0,
+              7.0,
+              10.0,
+              11.0,
+              12.0
+            ],
+            "total_volume": 2490,
+            "capital": 76891450.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              10,
+              20,
+              30,
+              50,
+              60,
+              100,
+              300,
+              590,
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 15:41:38.218000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 5,
+            "unique_strikes": 5,
+            "strikes": [
+              16.0,
+              19.0,
+              20.0,
+              21.0,
+              22.0
+            ],
+            "total_volume": 1890,
+            "capital": 56592550.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              50,
+              100,
+              600,
+              1040
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 15:41:48.230000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 7,
+            "unique_strikes": 6,
+            "strikes": [
+              5.0,
+              7.0,
+              10.0,
+              15.0,
+              16.0,
+              20.0
+            ],
+            "total_volume": 1650,
+            "capital": 50375000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              50,
+              100,
+              150,
+              350,
+              400,
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 11:58:43.325000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 5,
+            "strikes": [
+              6.0,
+              7.0,
+              10.0,
+              12.0,
+              13.0
+            ],
+            "total_volume": 1600,
+            "capital": 52466500.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100,
+              200,
+              300,
+              800
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 15:19:07.679000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 12,
+            "unique_strikes": 8,
+            "strikes": [
+              4.5,
+              5.0,
+              6.0,
+              7.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 1200,
+            "capital": 36448700.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              20,
+              50,
+              60,
+              70,
+              90,
+              170,
+              250,
+              280
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 13:00:16.550000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 4,
+            "unique_strikes": 3,
+            "strikes": [
+              5.0,
+              10.0,
+              12.0
+            ],
+            "total_volume": 1050,
+            "capital": 33629000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              50,
+              100,
+              300,
+              600
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 11:58:43.326000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 6,
+            "unique_strikes": 6,
+            "strikes": [
+              6.0,
+              9.0,
+              10.0,
+              14.0,
+              15.0,
+              16.0
+            ],
+            "total_volume": 900,
+            "capital": 29055499.999999996,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              30,
+              60,
+              100,
+              650
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 13:54:20.825000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              25.0
+            ],
+            "total_volume": 562,
+            "capital": 57886.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              281
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 11:38:32.960000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              190.0,
+              380.0
+            ],
+            "total_volume": 546,
+            "capital": 7145502.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              273
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 12:11:26.601000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              50.0,
+              100.0
+            ],
+            "total_volume": 534,
+            "capital": 1349240.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              178,
+              356
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 11:29:04.772000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              50.0,
+              100.0
+            ],
+            "total_volume": 525,
+            "capital": 974750.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              175,
+              350
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2021-01-29 11:29:04.772000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              50.0,
+              100.0
+            ],
+            "total_volume": 501,
+            "capital": 931526.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              5,
+              10,
+              162,
+              324
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "dark_venue": {
+        "test": "K_dark_venue",
+        "symbol": "GME",
+        "dates": [
+          "20210122",
+          "20210125",
+          "20210126",
+          "20210127",
+          "20210128",
+          "20210129"
+        ],
+        "date_results": [
+          {
+            "date": "20210122",
+            "total_volume": 2122759,
+            "lit_volume": 2122759,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          },
+          {
+            "date": "20210125",
+            "total_volume": 1373876,
+            "lit_volume": 1373876,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          },
+          {
+            "date": "20210126",
+            "total_volume": 1433818,
+            "lit_volume": 1433818,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          },
+          {
+            "date": "20210127",
+            "total_volume": 1506130,
+            "lit_volume": 1506130,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          },
+          {
+            "date": "20210128",
+            "total_volume": 752845,
+            "lit_volume": 752845,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          },
+          {
+            "date": "20210129",
+            "total_volume": 867369,
+            "lit_volume": 867369,
+            "dark_volume": 0,
+            "dark_pct": "0.0%",
+            "dark_condition_breakdown": {}
+          }
+        ],
+        "dark_exchange_totals": {},
+        "all_exchange_totals": {
+          "MULTI_EXCHANGE": 1196868,
+          "BZX_OPTIONS": 1119143,
+          "NYSE_AMEX": 797940,
+          "BATS": 747345,
+          "ISE": 742841,
+          "NSDQ_BX_OPT": 679033,
+          "CBOE": 606801,
+          "PHLX_FLOOR": 512498,
+          "EDGX_COB": 396250,
+          "C2": 342343,
+          "EDGX_OPTIONS": 258256,
+          "OPRA": 193928,
+          "NSDQ_ISE_GEMINI": 191107,
+          "C2_COB": 137026,
+          "MIAX_PEARL_EQUITIES": 81889,
+          "ISE2": 53529
+        },
+        "total_volume": 8056797,
+        "total_dark_volume": 0,
+        "dark_pct": "0.0%",
+        "verdict": "NO DARK ROUTING"
+      }
+    }
+  }
+}

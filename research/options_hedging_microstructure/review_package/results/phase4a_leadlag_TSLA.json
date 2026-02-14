@@ -1,0 +1,250 @@
+{
+  "TSLA_2025-12-30": {
+    "50": {
+      "window_ms": 50,
+      "mean_eq_trades_after": 1.16,
+      "mean_eq_trades_before": 1.11,
+      "response_ratio": 1.043,
+      "mean_eq_volume_after": 39.5,
+      "mean_abs_return_bps": 0.09
+    },
+    "100": {
+      "window_ms": 100,
+      "mean_eq_trades_after": 2.1,
+      "mean_eq_trades_before": 2.19,
+      "response_ratio": 0.959,
+      "mean_eq_volume_after": 74.8,
+      "mean_abs_return_bps": 0.15
+    },
+    "250": {
+      "window_ms": 250,
+      "mean_eq_trades_after": 5.33,
+      "mean_eq_trades_before": 5.35,
+      "response_ratio": 0.996,
+      "mean_eq_volume_after": 195.1,
+      "mean_abs_return_bps": 0.21
+    },
+    "500": {
+      "window_ms": 500,
+      "mean_eq_trades_after": 10.86,
+      "mean_eq_trades_before": 10.57,
+      "response_ratio": 1.027,
+      "mean_eq_volume_after": 400.8,
+      "mean_abs_return_bps": 0.27
+    },
+    "1000": {
+      "window_ms": 1000,
+      "mean_eq_trades_after": 21.62,
+      "mean_eq_trades_before": 20.26,
+      "response_ratio": 1.067,
+      "mean_eq_volume_after": 814.3,
+      "mean_abs_return_bps": 0.36
+    },
+    "2000": {
+      "window_ms": 2000,
+      "mean_eq_trades_after": 41.45,
+      "mean_eq_trades_before": 39.82,
+      "response_ratio": 1.041,
+      "mean_eq_volume_after": 1577.1,
+      "mean_abs_return_bps": 0.51
+    },
+    "5000": {
+      "window_ms": 5000,
+      "mean_eq_trades_after": 101.27,
+      "mean_eq_trades_before": 101.36,
+      "response_ratio": 0.999,
+      "mean_eq_volume_after": 3892.1,
+      "mean_abs_return_bps": 0.89
+    },
+    "10000": {
+      "window_ms": 10000,
+      "mean_eq_trades_after": 202.99,
+      "mean_eq_trades_before": 208.55,
+      "response_ratio": 0.973,
+      "mean_eq_volume_after": 7769.7,
+      "mean_abs_return_bps": 1.3
+    }
+  },
+  "TSLA_2025-12-31": {
+    "50": {
+      "window_ms": 50,
+      "mean_eq_trades_after": 1.19,
+      "mean_eq_trades_before": 1.19,
+      "response_ratio": 0.997,
+      "mean_eq_volume_after": 52.7,
+      "mean_abs_return_bps": 0.11
+    },
+    "100": {
+      "window_ms": 100,
+      "mean_eq_trades_after": 2.42,
+      "mean_eq_trades_before": 2.35,
+      "response_ratio": 1.029,
+      "mean_eq_volume_after": 97.2,
+      "mean_abs_return_bps": 0.19
+    },
+    "250": {
+      "window_ms": 250,
+      "mean_eq_trades_after": 5.85,
+      "mean_eq_trades_before": 5.88,
+      "response_ratio": 0.994,
+      "mean_eq_volume_after": 213.6,
+      "mean_abs_return_bps": 0.26
+    },
+    "500": {
+      "window_ms": 500,
+      "mean_eq_trades_after": 11.77,
+      "mean_eq_trades_before": 11.81,
+      "response_ratio": 0.996,
+      "mean_eq_volume_after": 415.1,
+      "mean_abs_return_bps": 0.33
+    },
+    "1000": {
+      "window_ms": 1000,
+      "mean_eq_trades_after": 23.47,
+      "mean_eq_trades_before": 23.25,
+      "response_ratio": 1.01,
+      "mean_eq_volume_after": 841.5,
+      "mean_abs_return_bps": 0.43
+    },
+    "2000": {
+      "window_ms": 2000,
+      "mean_eq_trades_after": 47.72,
+      "mean_eq_trades_before": 47.23,
+      "response_ratio": 1.01,
+      "mean_eq_volume_after": 1714.8,
+      "mean_abs_return_bps": 0.66
+    },
+    "5000": {
+      "window_ms": 5000,
+      "mean_eq_trades_after": 120.79,
+      "mean_eq_trades_before": 117.52,
+      "response_ratio": 1.028,
+      "mean_eq_volume_after": 4300.7,
+      "mean_abs_return_bps": 1.07
+    },
+    "10000": {
+      "window_ms": 10000,
+      "mean_eq_trades_after": 239.16,
+      "mean_eq_trades_before": 236.3,
+      "response_ratio": 1.012,
+      "mean_eq_volume_after": 8485.7,
+      "mean_abs_return_bps": 1.54
+    }
+  },
+  "TSLA_2026-01-02": {
+    "50": {
+      "window_ms": 50,
+      "mean_eq_trades_after": 1.28,
+      "mean_eq_trades_before": 1.48,
+      "response_ratio": 0.864,
+      "mean_eq_volume_after": 49.2,
+      "mean_abs_return_bps": 0.17
+    },
+    "100": {
+      "window_ms": 100,
+      "mean_eq_trades_after": 3.03,
+      "mean_eq_trades_before": 2.9,
+      "response_ratio": 1.047,
+      "mean_eq_volume_after": 109.8,
+      "mean_abs_return_bps": 0.22
+    },
+    "250": {
+      "window_ms": 250,
+      "mean_eq_trades_after": 7.88,
+      "mean_eq_trades_before": 6.81,
+      "response_ratio": 1.157,
+      "mean_eq_volume_after": 342.4,
+      "mean_abs_return_bps": 0.32
+    },
+    "500": {
+      "window_ms": 500,
+      "mean_eq_trades_after": 14.68,
+      "mean_eq_trades_before": 13.77,
+      "response_ratio": 1.067,
+      "mean_eq_volume_after": 630.1,
+      "mean_abs_return_bps": 0.5
+    },
+    "1000": {
+      "window_ms": 1000,
+      "mean_eq_trades_after": 27.89,
+      "mean_eq_trades_before": 27.59,
+      "response_ratio": 1.011,
+      "mean_eq_volume_after": 1128.8,
+      "mean_abs_return_bps": 0.69
+    },
+    "2000": {
+      "window_ms": 2000,
+      "mean_eq_trades_after": 54.05,
+      "mean_eq_trades_before": 55.31,
+      "response_ratio": 0.977,
+      "mean_eq_volume_after": 2314.3,
+      "mean_abs_return_bps": 0.96
+    },
+    "5000": {
+      "window_ms": 5000,
+      "mean_eq_trades_after": 136.08,
+      "mean_eq_trades_before": 140.36,
+      "response_ratio": 0.97,
+      "mean_eq_volume_after": 5625.2,
+      "mean_abs_return_bps": 1.62
+    },
+    "10000": {
+      "window_ms": 10000,
+      "mean_eq_trades_after": 269.68,
+      "mean_eq_trades_before": 277.71,
+      "response_ratio": 0.971,
+      "mean_eq_volume_after": 11240.9,
+      "mean_abs_return_bps": 2.13
+    }
+  },
+  "PANEL_AGGREGATE": {
+    "50": {
+      "window_ms": 50,
+      "panel_mean_ratio": 0.968,
+      "panel_std_ratio": 0.076,
+      "n_tickers": 3
+    },
+    "100": {
+      "window_ms": 100,
+      "panel_mean_ratio": 1.012,
+      "panel_std_ratio": 0.038,
+      "n_tickers": 3
+    },
+    "250": {
+      "window_ms": 250,
+      "panel_mean_ratio": 1.049,
+      "panel_std_ratio": 0.076,
+      "n_tickers": 3
+    },
+    "500": {
+      "window_ms": 500,
+      "panel_mean_ratio": 1.03,
+      "panel_std_ratio": 0.029,
+      "n_tickers": 3
+    },
+    "1000": {
+      "window_ms": 1000,
+      "panel_mean_ratio": 1.029,
+      "panel_std_ratio": 0.027,
+      "n_tickers": 3
+    },
+    "2000": {
+      "window_ms": 2000,
+      "panel_mean_ratio": 1.009,
+      "panel_std_ratio": 0.026,
+      "n_tickers": 3
+    },
+    "5000": {
+      "window_ms": 5000,
+      "panel_mean_ratio": 0.999,
+      "panel_std_ratio": 0.024,
+      "n_tickers": 3
+    },
+    "10000": {
+      "window_ms": 10000,
+      "panel_mean_ratio": 0.985,
+      "panel_std_ratio": 0.019,
+      "n_tickers": 3
+    }
+  }
+}

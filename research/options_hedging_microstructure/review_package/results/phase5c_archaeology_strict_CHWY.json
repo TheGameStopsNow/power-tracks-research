@@ -1,0 +1,80 @@
+{
+  "target_date": "2026-01-02",
+  "exclude_window": 2,
+  "r_raw_strict": 1.0,
+  "r_residual_strict": 1.0,
+  "residual_pct_raw": 0.0,
+  "residual_pct_resid": 0.0,
+  "n_components": 5,
+  "n_sources": 30,
+  "n_excluded": 1,
+  "excluded_dates": [
+    "2026-01-01",
+    "2026-01-02",
+    "2026-01-03"
+  ],
+  "mean_profile_var": 9661.96,
+  "target_deviation_var": 1627290047.85,
+  "top_contributors_strict": [
+    {
+      "date": "2025-12-09",
+      "offset_days": 24,
+      "nmf_weight": 2870.341,
+      "residual_corr": 0.4332
+    },
+    {
+      "date": "2025-12-30",
+      "offset_days": 3,
+      "nmf_weight": 766.4727,
+      "residual_corr": 0.1022
+    },
+    {
+      "date": "2025-12-18",
+      "offset_days": 15,
+      "nmf_weight": 766.1832,
+      "residual_corr": 0.0344
+    },
+    {
+      "date": "2025-11-20",
+      "offset_days": 43,
+      "nmf_weight": 693.6913,
+      "residual_corr": 0.1399
+    },
+    {
+      "date": "2025-12-04",
+      "offset_days": 29,
+      "nmf_weight": 681.7805,
+      "residual_corr": 0.0608
+    },
+    {
+      "date": "2025-12-05",
+      "offset_days": 28,
+      "nmf_weight": 667.5768,
+      "residual_corr": -0.0014
+    },
+    {
+      "date": "2025-11-21",
+      "offset_days": 42,
+      "nmf_weight": 665.1848,
+      "residual_corr": 0.0478
+    },
+    {
+      "date": "2025-12-26",
+      "offset_days": 7,
+      "nmf_weight": 658.6661,
+      "residual_corr": 0.0788
+    },
+    {
+      "date": "2025-11-24",
+      "offset_days": 39,
+      "nmf_weight": 637.6235,
+      "residual_corr": 0.0008
+    },
+    {
+      "date": "2025-12-01",
+      "offset_days": 32,
+      "nmf_weight": 622.8084,
+      "residual_corr": -0.0007
+    }
+  ]
+}

@@ -1,0 +1,3465 @@
+[
+  {
+    "event": "Jun 2024 Squeeze",
+    "symbol": "GME",
+    "tests": {
+      "whale_detector": {
+        "test": "whale_detector",
+        "symbol": "GME",
+        "target_exp": "20240621",
+        "daily_results": [
+          {
+            "date": "20240604",
+            "total_contracts": 57434,
+            "total_trades": 16064,
+            "avg_trade_size": 3.6,
+            "whale_ratio": 0.1177,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 12800,
+                "volume": 16819,
+                "pct_volume": 29.3,
+                "pct_trades": 79.7
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 2013,
+                "volume": 10877,
+                "pct_volume": 18.9,
+                "pct_trades": 12.5
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 1155,
+                "volume": 19019,
+                "pct_volume": 33.1,
+                "pct_trades": 7.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 62,
+                "volume": 3961,
+                "pct_volume": 6.9,
+                "pct_trades": 0.4
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 33,
+                "volume": 5479,
+                "pct_volume": 9.5,
+                "pct_trades": 0.2
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 1,
+                "volume": 1279,
+                "pct_volume": 2.2,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-04T12:06:17.989",
+                "size": 1279,
+                "strike": 100.0,
+                "price": 1.1,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:20:57.803",
+                "size": 312,
+                "strike": 26.0,
+                "price": 5.88,
+                "exchange": 43,
+                "condition": 130,
+                "exchange_name": "UNK_43",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:20:57.803",
+                "size": 312,
+                "strike": 26.5,
+                "price": 5.69,
+                "exchange": 43,
+                "condition": 130,
+                "exchange_name": "UNK_43",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:36:41.202",
+                "size": 249,
+                "strike": 30.0,
+                "price": 4.85,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T09:43:47.274",
+                "size": 249,
+                "strike": 50.0,
+                "price": 2.67,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:37:19.644",
+                "size": 238,
+                "strike": 30.0,
+                "price": 4.85,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:20:57.803",
+                "size": 237,
+                "strike": 26.0,
+                "price": 5.88,
+                "exchange": 43,
+                "condition": 130,
+                "exchange_name": "UNK_43",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T10:20:57.803",
+                "size": 237,
+                "strike": 26.5,
+                "price": 5.69,
+                "exchange": 43,
+                "condition": 130,
+                "exchange_name": "UNK_43",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T09:45:36.612",
+                "size": 224,
+                "strike": 50.0,
+                "price": 2.8,
+                "exchange": 65,
+                "condition": 18,
+                "exchange_name": "UNK_65",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-04T12:01:40.477",
+                "size": 217,
+                "strike": 100.0,
+                "price": 1.05,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20240607",
+            "total_contracts": 218259,
+            "total_trades": 59456,
+            "avg_trade_size": 3.7,
+            "whale_ratio": 0.1221,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 47581,
+                "volume": 61909,
+                "pct_volume": 28.4,
+                "pct_trades": 80.0
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 6772,
+                "volume": 37102,
+                "pct_volume": 17.0,
+                "pct_trades": 11.4
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 4620,
+                "volume": 72269,
+                "pct_volume": 33.1,
+                "pct_trades": 7.8
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 304,
+                "volume": 20321,
+                "pct_volume": 9.3,
+                "pct_trades": 0.5
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 177,
+                "volume": 25219,
+                "pct_volume": 11.6,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 2,
+                "volume": 1439,
+                "pct_volume": 0.7,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-07T13:16:08.106",
+                "size": 928,
+                "strike": 50.0,
+                "price": 4.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T10:20:13.99",
+                "size": 511,
+                "strike": 45.0,
+                "price": 8.35,
+                "exchange": 4,
+                "condition": 18,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T09:31:26.985",
+                "size": 498,
+                "strike": 60.0,
+                "price": 6.0,
+                "exchange": 11,
+                "condition": 125,
+                "exchange_name": "NSDQ_ISE_GEMINI",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-07T15:00:45.742",
+                "size": 474,
+                "strike": 30.0,
+                "price": 6.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T14:50:48.279",
+                "size": 471,
+                "strike": 30.0,
+                "price": 6.3,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T09:31:32.43",
+                "size": 427,
+                "strike": 35.0,
+                "price": 10.07,
+                "exchange": 11,
+                "condition": 125,
+                "exchange_name": "NSDQ_ISE_GEMINI",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-07T11:22:28.104",
+                "size": 400,
+                "strike": 34.0,
+                "price": 11.7,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T09:46:14.955",
+                "size": 400,
+                "strike": 45.0,
+                "price": 14.5,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T09:45:13.089",
+                "size": 350,
+                "strike": 45.0,
+                "price": 15.5,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-07T15:18:37.318",
+                "size": 300,
+                "strike": 100.0,
+                "price": 2.0,
+                "exchange": 46,
+                "condition": 95,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20240611",
+            "total_contracts": 2295,
+            "total_trades": 598,
+            "avg_trade_size": 3.8,
+            "whale_ratio": 0.1307,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 486,
+                "volume": 628,
+                "pct_volume": 27.4,
+                "pct_trades": 81.3
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 63,
+                "volume": 346,
+                "pct_volume": 15.1,
+                "pct_trades": 10.5
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 43,
+                "volume": 813,
+                "pct_volume": 35.4,
+                "pct_trades": 7.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 3,
+                "volume": 208,
+                "pct_volume": 9.1,
+                "pct_trades": 0.5
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 3,
+                "volume": 300,
+                "pct_volume": 13.1,
+                "pct_trades": 0.5
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 0,
+                "volume": 0,
+                "pct_volume": 0.0,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-11T09:31:49.258",
+                "size": 100,
+                "strike": 24.0,
+                "price": 4.47,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T12:41:18.905",
+                "size": 100,
+                "strike": 24.0,
+                "price": 5.49,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T15:20:18.185",
+                "size": 100,
+                "strike": 24.0,
+                "price": 7.38,
+                "exchange": 9,
+                "condition": 125,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-11T15:24:58.749",
+                "size": 84,
+                "strike": 24.0,
+                "price": 7.29,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T09:41:32.944",
+                "size": 74,
+                "strike": 24.0,
+                "price": 4.54,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T09:51:07.112",
+                "size": 50,
+                "strike": 24.0,
+                "price": 3.85,
+                "exchange": 65,
+                "condition": 18,
+                "exchange_name": "UNK_65",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T09:51:07.096",
+                "size": 47,
+                "strike": 24.0,
+                "price": 3.85,
+                "exchange": 9,
+                "condition": 18,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T09:51:07.168",
+                "size": 47,
+                "strike": 24.0,
+                "price": 3.9,
+                "exchange": 47,
+                "condition": 95,
+                "exchange_name": "ISE2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-11T09:51:07.096",
+                "size": 42,
+                "strike": 24.0,
+                "price": 3.85,
+                "exchange": 9,
+                "condition": 134,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-11T14:16:02.76",
+                "size": 40,
+                "strike": 24.0,
+                "price": 6.99,
+                "exchange": 6,
+                "condition": 125,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              }
+            ]
+          },
+          {
+            "date": "20240617",
+            "total_contracts": 48195,
+            "total_trades": 10076,
+            "avg_trade_size": 4.8,
+            "whale_ratio": 0.1999,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 7830,
+                "volume": 10259,
+                "pct_volume": 21.3,
+                "pct_trades": 77.7
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 1278,
+                "volume": 6991,
+                "pct_volume": 14.5,
+                "pct_trades": 12.7
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 789,
+                "volume": 13425,
+                "pct_volume": 27.9,
+                "pct_trades": 7.8
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 114,
+                "volume": 7887,
+                "pct_volume": 16.4,
+                "pct_trades": 1.1
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 65,
+                "volume": 9633,
+                "pct_volume": 20.0,
+                "pct_trades": 0.6
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 0,
+                "volume": 0,
+                "pct_volume": 0.0,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-17T12:48:16.072",
+                "size": 300,
+                "strike": 26.0,
+                "price": 1.75,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T11:20:34.495",
+                "size": 285,
+                "strike": 25.5,
+                "price": 4.05,
+                "exchange": 42,
+                "condition": 130,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T12:48:40.205",
+                "size": 275,
+                "strike": 26.0,
+                "price": 1.85,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T12:51:20.803",
+                "size": 258,
+                "strike": 26.0,
+                "price": 1.65,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T12:52:30.306",
+                "size": 254,
+                "strike": 26.0,
+                "price": 1.8,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T12:46:47.54",
+                "size": 232,
+                "strike": 26.0,
+                "price": 2.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T15:42:19.996",
+                "size": 208,
+                "strike": 26.0,
+                "price": 1.74,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T12:55:17.085",
+                "size": 205,
+                "strike": 26.0,
+                "price": 2.22,
+                "exchange": 9,
+                "condition": 18,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T15:29:40.459",
+                "size": 200,
+                "strike": 26.5,
+                "price": 1.65,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-17T14:02:28.437",
+                "size": 200,
+                "strike": 26.0,
+                "price": 1.93,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20240618",
+            "total_contracts": 24205,
+            "total_trades": 5659,
+            "avg_trade_size": 4.3,
+            "whale_ratio": 0.1146,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 4405,
+                "volume": 5753,
+                "pct_volume": 23.8,
+                "pct_trades": 77.8
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 676,
+                "volume": 3762,
+                "pct_volume": 15.5,
+                "pct_trades": 11.9
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 510,
+                "volume": 8805,
+                "pct_volume": 36.4,
+                "pct_trades": 9.0
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 48,
+                "volume": 3112,
+                "pct_volume": 12.9,
+                "pct_trades": 0.8
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 20,
+                "volume": 2773,
+                "pct_volume": 11.5,
+                "pct_trades": 0.4
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 0,
+                "volume": 0,
+                "pct_volume": 0.0,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-18T10:26:06.524",
+                "size": 436,
+                "strike": 26.0,
+                "price": 1.18,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T12:17:43.853",
+                "size": 267,
+                "strike": 26.0,
+                "price": 0.85,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T10:39:35.584",
+                "size": 165,
+                "strike": 26.0,
+                "price": 1.48,
+                "exchange": 5,
+                "condition": 18,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T13:11:27.376",
+                "size": 150,
+                "strike": 32.0,
+                "price": 0.34,
+                "exchange": 5,
+                "condition": 131,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T10:34:06.324",
+                "size": 150,
+                "strike": 26.0,
+                "price": 1.4,
+                "exchange": 43,
+                "condition": 125,
+                "exchange_name": "UNK_43",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-18T10:51:54.438",
+                "size": 144,
+                "strike": 26.0,
+                "price": 1.14,
+                "exchange": 65,
+                "condition": 18,
+                "exchange_name": "UNK_65",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T10:21:36.831",
+                "size": 127,
+                "strike": 32.0,
+                "price": 0.46,
+                "exchange": 9,
+                "condition": 125,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-18T09:58:24.533",
+                "size": 125,
+                "strike": 31.0,
+                "price": 0.43,
+                "exchange": 9,
+                "condition": 131,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T11:56:50.536",
+                "size": 109,
+                "strike": 26.0,
+                "price": 1.07,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-18T09:43:25.84",
+                "size": 100,
+                "strike": 32.0,
+                "price": 0.37,
+                "exchange": 5,
+                "condition": 131,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20240620",
+            "total_contracts": 42127,
+            "total_trades": 8956,
+            "avg_trade_size": 4.7,
+            "whale_ratio": 0.1968,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 6958,
+                "volume": 9148,
+                "pct_volume": 21.7,
+                "pct_trades": 77.7
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 1121,
+                "volume": 6194,
+                "pct_volume": 14.7,
+                "pct_trades": 12.5
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 767,
+                "volume": 13778,
+                "pct_volume": 32.7,
+                "pct_trades": 8.6
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 71,
+                "volume": 4717,
+                "pct_volume": 11.2,
+                "pct_trades": 0.8
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 37,
+                "volume": 5690,
+                "pct_volume": 13.5,
+                "pct_trades": 0.4
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 2,
+                "volume": 2600,
+                "pct_volume": 6.2,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-20T14:13:22.211",
+                "size": 2000,
+                "strike": 26.0,
+                "price": 0.58,
+                "exchange": 11,
+                "condition": 133,
+                "exchange_name": "NSDQ_ISE_GEMINI",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T10:31:15.301",
+                "size": 600,
+                "strike": 26.0,
+                "price": 0.93,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T14:19:35.509",
+                "size": 320,
+                "strike": 25.5,
+                "price": 0.9,
+                "exchange": 43,
+                "condition": 18,
+                "exchange_name": "UNK_43",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T15:18:59.43",
+                "size": 300,
+                "strike": 26.0,
+                "price": 1.07,
+                "exchange": 5,
+                "condition": 125,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-20T14:25:54.847",
+                "size": 300,
+                "strike": 25.5,
+                "price": 1.14,
+                "exchange": 65,
+                "condition": 18,
+                "exchange_name": "UNK_65",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T09:42:22.167",
+                "size": 200,
+                "strike": 26.0,
+                "price": 0.45,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T10:19:41.587",
+                "size": 200,
+                "strike": 26.0,
+                "price": 0.51,
+                "exchange": 5,
+                "condition": 18,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T10:50:07.475",
+                "size": 200,
+                "strike": 26.0,
+                "price": 0.93,
+                "exchange": 5,
+                "condition": 125,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-20T10:28:29.19",
+                "size": 200,
+                "strike": 25.5,
+                "price": 0.82,
+                "exchange": 31,
+                "condition": 18,
+                "exchange_name": "OPRA",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-20T10:41:52.038",
+                "size": 200,
+                "strike": 25.5,
+                "price": 1.0,
+                "exchange": 5,
+                "condition": 125,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": true
+              }
+            ]
+          },
+          {
+            "date": "20240621",
+            "total_contracts": 44446,
+            "total_trades": 9383,
+            "avg_trade_size": 4.7,
+            "whale_ratio": 0.158,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 7104,
+                "volume": 9659,
+                "pct_volume": 21.7,
+                "pct_trades": 75.7
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 1342,
+                "volume": 7362,
+                "pct_volume": 16.6,
+                "pct_trades": 14.3
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 821,
+                "volume": 15100,
+                "pct_volume": 34.0,
+                "pct_trades": 8.7
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 76,
+                "volume": 5302,
+                "pct_volume": 11.9,
+                "pct_trades": 0.8
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 38,
+                "volume": 5930,
+                "pct_volume": 13.3,
+                "pct_trades": 0.4
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 2,
+                "volume": 1093,
+                "pct_volume": 2.5,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2024-06-21T09:46:26.959",
+                "size": 589,
+                "strike": 21.0,
+                "price": 4.4,
+                "exchange": 31,
+                "condition": 18,
+                "exchange_name": "OPRA",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T09:46:22.338",
+                "size": 504,
+                "strike": 21.0,
+                "price": 4.3,
+                "exchange": 31,
+                "condition": 18,
+                "exchange_name": "OPRA",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T11:31:16.529",
+                "size": 497,
+                "strike": 26.5,
+                "price": 0.16,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T15:18:40.651",
+                "size": 310,
+                "strike": 26.0,
+                "price": 0.02,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T09:46:28.39",
+                "size": 260,
+                "strike": 21.0,
+                "price": 4.4,
+                "exchange": 31,
+                "condition": 18,
+                "exchange_name": "OPRA",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T13:49:30.957",
+                "size": 250,
+                "strike": 20.0,
+                "price": 4.85,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T14:30:13.585",
+                "size": 241,
+                "strike": 26.0,
+                "price": 0.02,
+                "exchange": 6,
+                "condition": 125,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2024-06-21T14:28:18.785",
+                "size": 229,
+                "strike": 26.0,
+                "price": 0.03,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T14:01:52.142",
+                "size": 224,
+                "strike": 20.0,
+                "price": 4.8,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2024-06-21T15:20:12.317",
+                "size": 201,
+                "strike": 26.0,
+                "price": 0.02,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              }
+            ]
+          }
+        ],
+        "verdict": "MIXED (significant institutional + retail)"
+      },
+      "ignition_sequence": {
+        "test": "ignition_sequence",
+        "symbol": "GME",
+        "squeeze_date": "20240621",
+        "n_observations": 187,
+        "ignition_date": null,
+        "ignition_dte": null,
+        "leaps_start": 0,
+        "leaps_at_ignition": 0,
+        "leaps_at_peak": 0,
+        "leaps_growth_pct": 0,
+        "short_median": 0,
+        "short_at_ignition": 0,
+        "short_at_peak": 0,
+        "short_spike_x": 0,
+        "verdict": "ORGANIC (no clear stealth-then-ignite pattern)",
+        "timeline": [
+          {
+            "date": "2023-09-25",
+            "dte_to_squeeze": 270,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-09-26",
+            "dte_to_squeeze": 269,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-09-27",
+            "dte_to_squeeze": 268,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-09-28",
+            "dte_to_squeeze": 267,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-09-29",
+            "dte_to_squeeze": 266,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-02",
+            "dte_to_squeeze": 263,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-03",
+            "dte_to_squeeze": 262,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-04",
+            "dte_to_squeeze": 261,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-05",
+            "dte_to_squeeze": 260,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-06",
+            "dte_to_squeeze": 259,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-09",
+            "dte_to_squeeze": 256,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-10",
+            "dte_to_squeeze": 255,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-11",
+            "dte_to_squeeze": 254,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-12",
+            "dte_to_squeeze": 253,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-13",
+            "dte_to_squeeze": 252,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-16",
+            "dte_to_squeeze": 249,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-17",
+            "dte_to_squeeze": 248,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-18",
+            "dte_to_squeeze": 247,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-19",
+            "dte_to_squeeze": 246,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-20",
+            "dte_to_squeeze": 245,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-23",
+            "dte_to_squeeze": 242,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-24",
+            "dte_to_squeeze": 241,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-25",
+            "dte_to_squeeze": 240,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-26",
+            "dte_to_squeeze": 239,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-27",
+            "dte_to_squeeze": 238,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-30",
+            "dte_to_squeeze": 235,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-10-31",
+            "dte_to_squeeze": 234,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-01",
+            "dte_to_squeeze": 233,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-02",
+            "dte_to_squeeze": 232,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-03",
+            "dte_to_squeeze": 231,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-06",
+            "dte_to_squeeze": 228,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-07",
+            "dte_to_squeeze": 227,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-08",
+            "dte_to_squeeze": 226,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-09",
+            "dte_to_squeeze": 225,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-10",
+            "dte_to_squeeze": 224,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-13",
+            "dte_to_squeeze": 221,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-14",
+            "dte_to_squeeze": 220,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-15",
+            "dte_to_squeeze": 219,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-16",
+            "dte_to_squeeze": 218,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-17",
+            "dte_to_squeeze": 217,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-20",
+            "dte_to_squeeze": 214,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-21",
+            "dte_to_squeeze": 213,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-22",
+            "dte_to_squeeze": 212,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-24",
+            "dte_to_squeeze": 210,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-27",
+            "dte_to_squeeze": 207,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-28",
+            "dte_to_squeeze": 206,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-29",
+            "dte_to_squeeze": 205,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-11-30",
+            "dte_to_squeeze": 204,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-01",
+            "dte_to_squeeze": 203,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-04",
+            "dte_to_squeeze": 200,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-05",
+            "dte_to_squeeze": 199,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-06",
+            "dte_to_squeeze": 198,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-07",
+            "dte_to_squeeze": 197,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-08",
+            "dte_to_squeeze": 196,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-11",
+            "dte_to_squeeze": 193,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-12",
+            "dte_to_squeeze": 192,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-13",
+            "dte_to_squeeze": 191,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-14",
+            "dte_to_squeeze": 190,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-15",
+            "dte_to_squeeze": 189,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-18",
+            "dte_to_squeeze": 186,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-19",
+            "dte_to_squeeze": 185,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-20",
+            "dte_to_squeeze": 184,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-21",
+            "dte_to_squeeze": 183,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-22",
+            "dte_to_squeeze": 182,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-26",
+            "dte_to_squeeze": 178,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-27",
+            "dte_to_squeeze": 177,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-28",
+            "dte_to_squeeze": 176,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2023-12-29",
+            "dte_to_squeeze": 175,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-02",
+            "dte_to_squeeze": 171,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-03",
+            "dte_to_squeeze": 170,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-04",
+            "dte_to_squeeze": 169,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-05",
+            "dte_to_squeeze": 168,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-08",
+            "dte_to_squeeze": 165,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-09",
+            "dte_to_squeeze": 164,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-10",
+            "dte_to_squeeze": 163,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-11",
+            "dte_to_squeeze": 162,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-12",
+            "dte_to_squeeze": 161,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-16",
+            "dte_to_squeeze": 157,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-17",
+            "dte_to_squeeze": 156,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-18",
+            "dte_to_squeeze": 155,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-19",
+            "dte_to_squeeze": 154,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-22",
+            "dte_to_squeeze": 151,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-23",
+            "dte_to_squeeze": 150,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-24",
+            "dte_to_squeeze": 149,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-25",
+            "dte_to_squeeze": 148,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-26",
+            "dte_to_squeeze": 147,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-29",
+            "dte_to_squeeze": 144,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-30",
+            "dte_to_squeeze": 143,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-01-31",
+            "dte_to_squeeze": 142,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-01",
+            "dte_to_squeeze": 141,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-02",
+            "dte_to_squeeze": 140,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-05",
+            "dte_to_squeeze": 137,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-06",
+            "dte_to_squeeze": 136,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-07",
+            "dte_to_squeeze": 135,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-08",
+            "dte_to_squeeze": 134,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-09",
+            "dte_to_squeeze": 133,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-12",
+            "dte_to_squeeze": 130,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-13",
+            "dte_to_squeeze": 129,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-14",
+            "dte_to_squeeze": 128,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-15",
+            "dte_to_squeeze": 127,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-16",
+            "dte_to_squeeze": 126,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-20",
+            "dte_to_squeeze": 122,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-21",
+            "dte_to_squeeze": 121,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-22",
+            "dte_to_squeeze": 120,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-23",
+            "dte_to_squeeze": 119,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-26",
+            "dte_to_squeeze": 116,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-27",
+            "dte_to_squeeze": 115,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-28",
+            "dte_to_squeeze": 114,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-02-29",
+            "dte_to_squeeze": 113,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-01",
+            "dte_to_squeeze": 112,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-04",
+            "dte_to_squeeze": 109,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-05",
+            "dte_to_squeeze": 108,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-06",
+            "dte_to_squeeze": 107,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-07",
+            "dte_to_squeeze": 106,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-08",
+            "dte_to_squeeze": 105,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-11",
+            "dte_to_squeeze": 102,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-12",
+            "dte_to_squeeze": 101,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-13",
+            "dte_to_squeeze": 100,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-14",
+            "dte_to_squeeze": 99,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-15",
+            "dte_to_squeeze": 98,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-18",
+            "dte_to_squeeze": 95,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-19",
+            "dte_to_squeeze": 94,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-20",
+            "dte_to_squeeze": 93,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-21",
+            "dte_to_squeeze": 92,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-22",
+            "dte_to_squeeze": 91,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-25",
+            "dte_to_squeeze": 88,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-26",
+            "dte_to_squeeze": 87,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-27",
+            "dte_to_squeeze": 86,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-03-28",
+            "dte_to_squeeze": 85,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-01",
+            "dte_to_squeeze": 81,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-02",
+            "dte_to_squeeze": 80,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-03",
+            "dte_to_squeeze": 79,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-04",
+            "dte_to_squeeze": 78,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-05",
+            "dte_to_squeeze": 77,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-08",
+            "dte_to_squeeze": 74,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-09",
+            "dte_to_squeeze": 73,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-10",
+            "dte_to_squeeze": 72,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-11",
+            "dte_to_squeeze": 71,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-12",
+            "dte_to_squeeze": 70,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-15",
+            "dte_to_squeeze": 67,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-16",
+            "dte_to_squeeze": 66,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-17",
+            "dte_to_squeeze": 65,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-18",
+            "dte_to_squeeze": 64,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-19",
+            "dte_to_squeeze": 63,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-22",
+            "dte_to_squeeze": 60,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-23",
+            "dte_to_squeeze": 59,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-24",
+            "dte_to_squeeze": 58,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-25",
+            "dte_to_squeeze": 57,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-26",
+            "dte_to_squeeze": 56,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-29",
+            "dte_to_squeeze": 53,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-04-30",
+            "dte_to_squeeze": 52,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-01",
+            "dte_to_squeeze": 51,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-02",
+            "dte_to_squeeze": 50,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-03",
+            "dte_to_squeeze": 49,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-06",
+            "dte_to_squeeze": 46,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-07",
+            "dte_to_squeeze": 45,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-08",
+            "dte_to_squeeze": 44,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-09",
+            "dte_to_squeeze": 43,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-10",
+            "dte_to_squeeze": 42,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-13",
+            "dte_to_squeeze": 39,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-14",
+            "dte_to_squeeze": 38,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-15",
+            "dte_to_squeeze": 37,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-16",
+            "dte_to_squeeze": 36,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-17",
+            "dte_to_squeeze": 35,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-20",
+            "dte_to_squeeze": 32,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-21",
+            "dte_to_squeeze": 31,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-22",
+            "dte_to_squeeze": 30,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-23",
+            "dte_to_squeeze": 29,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-24",
+            "dte_to_squeeze": 28,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-28",
+            "dte_to_squeeze": 24,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-29",
+            "dte_to_squeeze": 23,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-30",
+            "dte_to_squeeze": 22,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-05-31",
+            "dte_to_squeeze": 21,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-03",
+            "dte_to_squeeze": 18,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-04",
+            "dte_to_squeeze": 17,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-05",
+            "dte_to_squeeze": 16,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-06",
+            "dte_to_squeeze": 15,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-07",
+            "dte_to_squeeze": 14,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-10",
+            "dte_to_squeeze": 11,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-11",
+            "dte_to_squeeze": 10,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-12",
+            "dte_to_squeeze": 9,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-13",
+            "dte_to_squeeze": 8,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-14",
+            "dte_to_squeeze": 7,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-17",
+            "dte_to_squeeze": 4,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-18",
+            "dte_to_squeeze": 3,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-20",
+            "dte_to_squeeze": 1,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2024-06-21",
+            "dte_to_squeeze": 0,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          }
+        ]
+      },
+      "constructor_fingerprint": {
+        "test": "constructor_fingerprint",
+        "symbol": "GME",
+        "target_exp": "20240621",
+        "daily_results": [
+          {
+            "date": "20240604",
+            "total_trades": 16064,
+            "total_volume": 57434,
+            "sweep_trades": 3785,
+            "sweep_volume": 13024,
+            "sweep_pct": 22.7,
+            "complex_trades": 2960,
+            "complex_volume": 10905,
+            "n_exchanges": 17,
+            "hhi": 0.0955,
+            "cvs_windows": 1125,
+            "cvs_volume": 25796,
+            "cvs_pct": 44.9,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 11955,
+                "pct": 20.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 5715,
+                "pct": 10.0
+              },
+              {
+                "exchange": "UNK_65",
+                "volume": 5563,
+                "pct": 9.7
+              },
+              {
+                "exchange": "OPRA",
+                "volume": 4742,
+                "pct": 8.3
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 4519,
+                "pct": 7.9
+              }
+            ]
+          },
+          {
+            "date": "20240607",
+            "total_trades": 59456,
+            "total_volume": 218259,
+            "sweep_trades": 11704,
+            "sweep_volume": 35576,
+            "sweep_pct": 16.3,
+            "complex_trades": 9517,
+            "complex_volume": 39141,
+            "n_exchanges": 17,
+            "hhi": 0.0968,
+            "cvs_windows": 5202,
+            "cvs_volume": 165847,
+            "cvs_pct": 76.0,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 43495,
+                "pct": 19.9
+              },
+              {
+                "exchange": "UNK_65",
+                "volume": 28605,
+                "pct": 13.1
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 18843,
+                "pct": 8.6
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 18133,
+                "pct": 8.3
+              },
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 15956,
+                "pct": 7.3
+              }
+            ]
+          },
+          {
+            "date": "20240611",
+            "total_trades": 598,
+            "total_volume": 2295,
+            "sweep_trades": 118,
+            "sweep_volume": 494,
+            "sweep_pct": 21.5,
+            "complex_trades": 90,
+            "complex_volume": 580,
+            "n_exchanges": 17,
+            "hhi": 0.1059,
+            "cvs_windows": 10,
+            "cvs_volume": 464,
+            "cvs_pct": 20.2,
+            "exchange_breakdown": [
+              {
+                "exchange": "CBOE",
+                "volume": 447,
+                "pct": 19.5
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 275,
+                "pct": 12.0
+              },
+              {
+                "exchange": "OPRA",
+                "volume": 274,
+                "pct": 11.9
+              },
+              {
+                "exchange": "ISE",
+                "volume": 267,
+                "pct": 11.6
+              },
+              {
+                "exchange": "UNK_65",
+                "volume": 264,
+                "pct": 11.5
+              }
+            ]
+          },
+          {
+            "date": "20240617",
+            "total_trades": 10076,
+            "total_volume": 48195,
+            "sweep_trades": 2918,
+            "sweep_volume": 9760,
+            "sweep_pct": 20.3,
+            "complex_trades": 1907,
+            "complex_volume": 8690,
+            "n_exchanges": 17,
+            "hhi": 0.1048,
+            "cvs_windows": 479,
+            "cvs_volume": 20555,
+            "cvs_pct": 42.6,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 11685,
+                "pct": 24.2
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 5217,
+                "pct": 10.8
+              },
+              {
+                "exchange": "C2",
+                "volume": 3513,
+                "pct": 7.3
+              },
+              {
+                "exchange": "UNK_65",
+                "volume": 3419,
+                "pct": 7.1
+              },
+              {
+                "exchange": "OPRA",
+                "volume": 3356,
+                "pct": 7.0
+              }
+            ]
+          },
+          {
+            "date": "20240618",
+            "total_trades": 5659,
+            "total_volume": 24205,
+            "sweep_trades": 1887,
+            "sweep_volume": 7648,
+            "sweep_pct": 31.6,
+            "complex_trades": 1000,
+            "complex_volume": 5105,
+            "n_exchanges": 17,
+            "hhi": 0.0911,
+            "cvs_windows": 246,
+            "cvs_volume": 5900,
+            "cvs_pct": 24.4,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 3818,
+                "pct": 15.8
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 3809,
+                "pct": 15.7
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 2133,
+                "pct": 8.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 2120,
+                "pct": 8.8
+              },
+              {
+                "exchange": "C2",
+                "volume": 2011,
+                "pct": 8.3
+              }
+            ]
+          },
+          {
+            "date": "20240620",
+            "total_trades": 8956,
+            "total_volume": 42127,
+            "sweep_trades": 2971,
+            "sweep_volume": 11485,
+            "sweep_pct": 27.3,
+            "complex_trades": 1562,
+            "complex_volume": 5865,
+            "n_exchanges": 17,
+            "hhi": 0.0775,
+            "cvs_windows": 469,
+            "cvs_volume": 15467,
+            "cvs_pct": 36.7,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 6284,
+                "pct": 14.9
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 4090,
+                "pct": 9.7
+              },
+              {
+                "exchange": "UNK_65",
+                "volume": 3834,
+                "pct": 9.1
+              },
+              {
+                "exchange": "NSDQ_ISE_GEMINI",
+                "volume": 3515,
+                "pct": 8.3
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 3059,
+                "pct": 7.3
+              }
+            ]
+          },
+          {
+            "date": "20240621",
+            "total_trades": 9383,
+            "total_volume": 44446,
+            "sweep_trades": 2810,
+            "sweep_volume": 10768,
+            "sweep_pct": 24.2,
+            "complex_trades": 1833,
+            "complex_volume": 8480,
+            "n_exchanges": 17,
+            "hhi": 0.0721,
+            "cvs_windows": 483,
+            "cvs_volume": 16303,
+            "cvs_pct": 36.7,
+            "exchange_breakdown": [
+              {
+                "exchange": "ISE",
+                "volume": 5281,
+                "pct": 11.9
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 4723,
+                "pct": 10.6
+              },
+              {
+                "exchange": "OPRA",
+                "volume": 4014,
+                "pct": 9.0
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 3575,
+                "pct": 8.0
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 3472,
+                "pct": 7.8
+              }
+            ]
+          }
+        ],
+        "verdict": "INSTITUTIONAL ALGORITHM (high sweep + CVS activity)"
+      }
+    }
+  }
+]

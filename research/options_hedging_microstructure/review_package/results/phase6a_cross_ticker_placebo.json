@@ -1,0 +1,56 @@
+[
+  {
+    "source_ticker": "AAPL",
+    "target_ticker": "GME",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 0.9991,
+    "r_residual_cross": 0.9989,
+    "n_sources": 60,
+    "n_components": 5
+  },
+  {
+    "source_ticker": "AAPL",
+    "target_ticker": "TSLA",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 1.0,
+    "r_residual_cross": 1.0,
+    "n_sources": 60,
+    "n_components": 5
+  },
+  {
+    "source_ticker": "GME",
+    "target_ticker": "AAPL",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 1.0,
+    "r_residual_cross": 1.0,
+    "n_sources": 60,
+    "n_components": 5
+  },
+  {
+    "source_ticker": "GME",
+    "target_ticker": "GME",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 1.0,
+    "r_residual_cross": 1.0,
+    "n_sources": 60,
+    "n_components": 5
+  },
+  {
+    "source_ticker": "TSLA",
+    "target_ticker": "TSLA",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 1.0,
+    "r_residual_cross": 1.0,
+    "n_sources": 60,
+    "n_components": 5
+  },
+  {
+    "source_ticker": "AAPL",
+    "target_ticker": "AAPL",
+    "target_date": "2025-11-26",
+    "r_raw_cross": 1.0,
+    "r_residual_cross": 1.0,
+    "n_sources": 60,
+    "n_components": 5
+  }
+]

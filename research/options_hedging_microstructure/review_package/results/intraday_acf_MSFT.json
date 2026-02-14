@@ -1,0 +1,93 @@
+{
+  "09:30\u201310:00": {
+    "mean_acf1": -0.0265,
+    "median_acf1": 0.0029,
+    "std_acf1": 0.2114,
+    "n_days": 39,
+    "pct_dampened": 48.7
+  },
+  "10:00\u201310:30": {
+    "mean_acf1": -0.0503,
+    "median_acf1": -0.0455,
+    "std_acf1": 0.1754,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  },
+  "10:30\u201311:00": {
+    "mean_acf1": -0.0708,
+    "median_acf1": -0.0867,
+    "std_acf1": 0.1787,
+    "n_days": 39,
+    "pct_dampened": 66.7
+  },
+  "11:00\u201311:30": {
+    "mean_acf1": -0.0536,
+    "median_acf1": -0.0536,
+    "std_acf1": 0.2065,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  },
+  "11:30\u201312:00": {
+    "mean_acf1": -0.0533,
+    "median_acf1": -0.049,
+    "std_acf1": 0.2051,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  },
+  "12:00\u201312:30": {
+    "mean_acf1": -0.1545,
+    "median_acf1": -0.1508,
+    "std_acf1": 0.2013,
+    "n_days": 39,
+    "pct_dampened": 76.9
+  },
+  "12:30\u201313:00": {
+    "mean_acf1": -0.0478,
+    "median_acf1": -0.0275,
+    "std_acf1": 0.1878,
+    "n_days": 39,
+    "pct_dampened": 51.3
+  },
+  "13:00\u201313:30": {
+    "mean_acf1": -0.108,
+    "median_acf1": -0.1015,
+    "std_acf1": 0.1498,
+    "n_days": 39,
+    "pct_dampened": 79.5
+  },
+  "13:30\u201314:00": {
+    "mean_acf1": -0.0652,
+    "median_acf1": -0.0477,
+    "std_acf1": 0.1915,
+    "n_days": 39,
+    "pct_dampened": 53.8
+  },
+  "14:00\u201314:30": {
+    "mean_acf1": -0.0463,
+    "median_acf1": -0.0469,
+    "std_acf1": 0.1847,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  },
+  "14:30\u201315:00": {
+    "mean_acf1": -0.0878,
+    "median_acf1": -0.1288,
+    "std_acf1": 0.1865,
+    "n_days": 39,
+    "pct_dampened": 69.2
+  },
+  "15:00\u201315:30": {
+    "mean_acf1": -0.0515,
+    "median_acf1": -0.0834,
+    "std_acf1": 0.1963,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  },
+  "15:30\u201316:00": {
+    "mean_acf1": -0.0401,
+    "median_acf1": -0.0878,
+    "std_acf1": 0.1866,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "09:30\u201310:00": {
+    "mean_acf1": -0.0801,
+    "median_acf1": -0.0857,
+    "std_acf1": 0.1684,
+    "n_days": 100,
+    "pct_dampened": 70.0
+  },
+  "10:00\u201310:30": {
+    "mean_acf1": -0.0969,
+    "median_acf1": -0.0945,
+    "std_acf1": 0.1682,
+    "n_days": 100,
+    "pct_dampened": 72.0
+  },
+  "10:30\u201311:00": {
+    "mean_acf1": -0.1253,
+    "median_acf1": -0.1225,
+    "std_acf1": 0.169,
+    "n_days": 100,
+    "pct_dampened": 75.0
+  },
+  "11:00\u201311:30": {
+    "mean_acf1": -0.1514,
+    "median_acf1": -0.1488,
+    "std_acf1": 0.184,
+    "n_days": 100,
+    "pct_dampened": 86.0
+  },
+  "11:30\u201312:00": {
+    "mean_acf1": -0.1313,
+    "median_acf1": -0.1356,
+    "std_acf1": 0.1713,
+    "n_days": 100,
+    "pct_dampened": 80.0
+  },
+  "12:00\u201312:30": {
+    "mean_acf1": -0.087,
+    "median_acf1": -0.0904,
+    "std_acf1": 0.164,
+    "n_days": 100,
+    "pct_dampened": 71.0
+  },
+  "12:30\u201313:00": {
+    "mean_acf1": -0.1526,
+    "median_acf1": -0.155,
+    "std_acf1": 0.1851,
+    "n_days": 100,
+    "pct_dampened": 82.0
+  },
+  "13:00\u201313:30": {
+    "mean_acf1": -0.1183,
+    "median_acf1": -0.1287,
+    "std_acf1": 0.1718,
+    "n_days": 100,
+    "pct_dampened": 73.0
+  },
+  "13:30\u201314:00": {
+    "mean_acf1": -0.1461,
+    "median_acf1": -0.1328,
+    "std_acf1": 0.1836,
+    "n_days": 100,
+    "pct_dampened": 82.0
+  },
+  "14:00\u201314:30": {
+    "mean_acf1": -0.1169,
+    "median_acf1": -0.1503,
+    "std_acf1": 0.1783,
+    "n_days": 100,
+    "pct_dampened": 78.0
+  },
+  "14:30\u201315:00": {
+    "mean_acf1": -0.1159,
+    "median_acf1": -0.1168,
+    "std_acf1": 0.1819,
+    "n_days": 100,
+    "pct_dampened": 74.0
+  },
+  "15:00\u201315:30": {
+    "mean_acf1": -0.1525,
+    "median_acf1": -0.1583,
+    "std_acf1": 0.1875,
+    "n_days": 100,
+    "pct_dampened": 76.0
+  },
+  "15:30\u201316:00": {
+    "mean_acf1": -0.0702,
+    "median_acf1": -0.0631,
+    "std_acf1": 0.1786,
+    "n_days": 100,
+    "pct_dampened": 69.0
+  }
+}

@@ -1,0 +1,3281 @@
+[
+  {
+    "event": "Jan 2021 Squeeze",
+    "symbol": "GME",
+    "tests": {
+      "whale_detector": {
+        "test": "whale_detector",
+        "symbol": "GME",
+        "target_exp": "20210129",
+        "daily_results": [
+          {
+            "date": "20210122",
+            "total_contracts": 237208,
+            "total_trades": 62479,
+            "avg_trade_size": 3.8,
+            "whale_ratio": 0.1465,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 50181,
+                "volume": 66182,
+                "pct_volume": 27.9,
+                "pct_trades": 80.3
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 7570,
+                "volume": 42129,
+                "pct_volume": 17.8,
+                "pct_trades": 12.1
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 4209,
+                "volume": 71104,
+                "pct_volume": 30.0,
+                "pct_trades": 6.7
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 347,
+                "volume": 23050,
+                "pct_volume": 9.7,
+                "pct_trades": 0.6
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 158,
+                "volume": 26023,
+                "pct_volume": 11.0,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 14,
+                "volume": 8720,
+                "pct_volume": 3.7,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-22T14:32:02.809",
+                "size": 839,
+                "strike": 60.0,
+                "price": 10.2,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:45:10.439",
+                "size": 800,
+                "strike": 8.0,
+                "price": 51.65,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T15:37:32.191",
+                "size": 800,
+                "strike": 8.0,
+                "price": 53.3,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:45:10.439",
+                "size": 800,
+                "strike": 6.0,
+                "price": 53.65,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T13:54:30.773",
+                "size": 709,
+                "strike": 60.0,
+                "price": 12.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:59:48.074",
+                "size": 600,
+                "strike": 8.0,
+                "price": 51.15,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:59:48.074",
+                "size": 600,
+                "strike": 6.0,
+                "price": 53.25,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T13:06:45.198",
+                "size": 572,
+                "strike": 60.0,
+                "price": 14.7,
+                "exchange": 5,
+                "condition": 130,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T14:44:58.21",
+                "size": 500,
+                "strike": 8.0,
+                "price": 51.4,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-22T15:34:53.502",
+                "size": 500,
+                "strike": 8.0,
+                "price": 53.0,
+                "exchange": 7,
+                "condition": 133,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210125",
+            "total_contracts": 267407,
+            "total_trades": 93266,
+            "avg_trade_size": 2.9,
+            "whale_ratio": 0.0707,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 78460,
+                "volume": 99205,
+                "pct_volume": 37.1,
+                "pct_trades": 84.1
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 9362,
+                "volume": 51344,
+                "pct_volume": 19.2,
+                "pct_trades": 10.0
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 5010,
+                "volume": 77844,
+                "pct_volume": 29.1,
+                "pct_trades": 5.4
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 320,
+                "volume": 20116,
+                "pct_volume": 7.5,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 112,
+                "volume": 17531,
+                "pct_volume": 6.6,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 2,
+                "volume": 1367,
+                "pct_volume": 0.5,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-25T10:03:37.669",
+                "size": 867,
+                "strike": 60.0,
+                "price": 38.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T10:05:22.752",
+                "size": 500,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:50:10.672",
+                "size": 474,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T15:33:28.18",
+                "size": 450,
+                "strike": 20.0,
+                "price": 60.45,
+                "exchange": 11,
+                "condition": 133,
+                "exchange_name": "NSDQ_ISE_GEMINI",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:45:41.68",
+                "size": 360,
+                "strike": 115.0,
+                "price": 20.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T14:26:34.631",
+                "size": 350,
+                "strike": 20.0,
+                "price": 62.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:52:17.108",
+                "size": 299,
+                "strike": 60.0,
+                "price": 36.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:49:35.508",
+                "size": 285,
+                "strike": 115.0,
+                "price": 20.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-25T09:47:40.774",
+                "size": 250,
+                "strike": 90.0,
+                "price": 26.22,
+                "exchange": 4,
+                "condition": 125,
+                "exchange_name": "C2",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-25T15:03:12.279",
+                "size": 250,
+                "strike": 65.0,
+                "price": 22.5,
+                "exchange": 7,
+                "condition": 18,
+                "exchange_name": "ISE",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210126",
+            "total_contracts": 453491,
+            "total_trades": 163494,
+            "avg_trade_size": 2.8,
+            "whale_ratio": 0.0929,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 140855,
+                "volume": 175113,
+                "pct_volume": 38.6,
+                "pct_trades": 86.2
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 14244,
+                "volume": 78231,
+                "pct_volume": 17.3,
+                "pct_trades": 8.7
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 7708,
+                "volume": 127552,
+                "pct_volume": 28.1,
+                "pct_trades": 4.7
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 469,
+                "volume": 30446,
+                "pct_volume": 6.7,
+                "pct_trades": 0.3
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 213,
+                "volume": 38020,
+                "pct_volume": 8.4,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 5,
+                "volume": 4129,
+                "pct_volume": 0.9,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-26T15:56:34.825",
+                "size": 1000,
+                "strike": 10.0,
+                "price": 139.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:56:34.825",
+                "size": 1000,
+                "strike": 12.0,
+                "price": 137.2,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 900,
+                "strike": 20.0,
+                "price": 122.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T14:31:49.455",
+                "size": 650,
+                "strike": 30.0,
+                "price": 92.0,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T12:48:46.424",
+                "size": 579,
+                "strike": 130.0,
+                "price": 15.0,
+                "exchange": 60,
+                "condition": 18,
+                "exchange_name": "UNK_60",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T12:45:47.16",
+                "size": 499,
+                "strike": 100.0,
+                "price": 20.97,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-26T13:54:45.655",
+                "size": 462,
+                "strike": 150.0,
+                "price": 15.3,
+                "exchange": 42,
+                "condition": 18,
+                "exchange_name": "UNK_42",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:47:09.737",
+                "size": 459,
+                "strike": 200.0,
+                "price": 20.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 450,
+                "strike": 25.0,
+                "price": 123.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-26T15:59:55.373",
+                "size": 450,
+                "strike": 26.0,
+                "price": 122.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210127",
+            "total_contracts": 153634,
+            "total_trades": 57560,
+            "avg_trade_size": 2.7,
+            "whale_ratio": 0.1849,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 50918,
+                "volume": 60147,
+                "pct_volume": 39.1,
+                "pct_trades": 88.5
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 4432,
+                "volume": 24519,
+                "pct_volume": 16.0,
+                "pct_trades": 7.7
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 2006,
+                "volume": 33348,
+                "pct_volume": 21.7,
+                "pct_trades": 3.5
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 119,
+                "volume": 7220,
+                "pct_volume": 4.7,
+                "pct_trades": 0.2
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 67,
+                "volume": 11638,
+                "pct_volume": 7.6,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 18,
+                "volume": 16762,
+                "pct_volume": 10.9,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-27T15:34:20.905",
+                "size": 2000,
+                "strike": 31.0,
+                "price": 311.1,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.077",
+                "size": 1400,
+                "strike": 31.0,
+                "price": 283.55,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.078",
+                "size": 1300,
+                "strike": 34.0,
+                "price": 280.5,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:34:20.905",
+                "size": 1300,
+                "strike": 34.0,
+                "price": 307.75,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T14:35:24.104",
+                "size": 1239,
+                "strike": 40.0,
+                "price": 261.1,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T14:35:24.104",
+                "size": 1239,
+                "strike": 38.0,
+                "price": 263.05,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:21:32.06",
+                "size": 1160,
+                "strike": 31.0,
+                "price": 313.9,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T13:32:32.592",
+                "size": 1000,
+                "strike": 370.0,
+                "price": 81.0,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T15:21:32.06",
+                "size": 1000,
+                "strike": 34.0,
+                "price": 311.25,
+                "exchange": 9,
+                "condition": 129,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-27T12:36:34.078",
+                "size": 700,
+                "strike": 35.0,
+                "price": 279.6,
+                "exchange": 9,
+                "condition": 133,
+                "exchange_name": "NYSE_AMEX",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210128",
+            "total_contracts": 86221,
+            "total_trades": 32728,
+            "avg_trade_size": 2.6,
+            "whale_ratio": 0.0794,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 27911,
+                "volume": 33672,
+                "pct_volume": 39.1,
+                "pct_trades": 85.3
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 3327,
+                "volume": 19056,
+                "pct_volume": 22.1,
+                "pct_trades": 10.2
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 1370,
+                "volume": 21373,
+                "pct_volume": 24.8,
+                "pct_trades": 4.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 80,
+                "volume": 5275,
+                "pct_volume": 6.1,
+                "pct_trades": 0.2
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 39,
+                "volume": 5295,
+                "pct_volume": 6.1,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 1,
+                "volume": 1550,
+                "pct_volume": 1.8,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-28T15:53:12.836",
+                "size": 1550,
+                "strike": 100.0,
+                "price": 133.29,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T10:26:37.079",
+                "size": 263,
+                "strike": 570.0,
+                "price": 56.8,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T10:24:12.215",
+                "size": 261,
+                "strike": 570.0,
+                "price": 66.65,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T12:09:06.578",
+                "size": 213,
+                "strike": 570.0,
+                "price": 42.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T12:09:27.508",
+                "size": 213,
+                "strike": 570.0,
+                "price": 42.0,
+                "exchange": 46,
+                "condition": 18,
+                "exchange_name": "MULTI_EXCHANGE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:29.67",
+                "size": 200,
+                "strike": 200.0,
+                "price": 76.0,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T15:36:27.893",
+                "size": 200,
+                "strike": 260.0,
+                "price": 40.68,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:29.67",
+                "size": 200,
+                "strike": 190.0,
+                "price": 79.5,
+                "exchange": 6,
+                "condition": 130,
+                "exchange_name": "CBOE",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T11:43:28.333",
+                "size": 194,
+                "strike": 570.0,
+                "price": 20.95,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-28T15:19:12.336",
+                "size": 190,
+                "strike": 200.0,
+                "price": 69.95,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              }
+            ]
+          },
+          {
+            "date": "20210129",
+            "total_contracts": 131661,
+            "total_trades": 44230,
+            "avg_trade_size": 3.0,
+            "whale_ratio": 0.0671,
+            "buckets": [
+              {
+                "bucket": "Retail (1-3)",
+                "n_trades": 37098,
+                "volume": 45814,
+                "pct_volume": 34.8,
+                "pct_trades": 83.9
+              },
+              {
+                "bucket": "Small (4-9)",
+                "n_trades": 4526,
+                "volume": 24625,
+                "pct_volume": 18.7,
+                "pct_trades": 10.2
+              },
+              {
+                "bucket": "Medium (10-49)",
+                "n_trades": 2306,
+                "volume": 36858,
+                "pct_volume": 28.0,
+                "pct_trades": 5.2
+              },
+              {
+                "bucket": "Large (50-99)",
+                "n_trades": 236,
+                "volume": 15531,
+                "pct_volume": 11.8,
+                "pct_trades": 0.5
+              },
+              {
+                "bucket": "Block (100-499)",
+                "n_trades": 64,
+                "volume": 8833,
+                "pct_volume": 6.7,
+                "pct_trades": 0.1
+              },
+              {
+                "bucket": "Whale (500+)",
+                "n_trades": 0,
+                "volume": 0,
+                "pct_volume": 0.0,
+                "pct_trades": 0.0
+              }
+            ],
+            "top_trades": [
+              {
+                "timestamp": "2021-01-29T12:26:07.972",
+                "size": 287,
+                "strike": 650.0,
+                "price": 2.0,
+                "exchange": 1,
+                "condition": 18,
+                "exchange_name": "BATS",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T13:04:01.912",
+                "size": 278,
+                "strike": 160.0,
+                "price": 172.23,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T11:38:32.96",
+                "size": 273,
+                "strike": 190.0,
+                "price": 139.37,
+                "exchange": 5,
+                "condition": 130,
+                "exchange_name": "NSDQ_BX_OPT",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T12:43:41.858",
+                "size": 249,
+                "strike": 200.0,
+                "price": 141.0,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T15:10:28.742",
+                "size": 211,
+                "strike": 200.0,
+                "price": 108.7,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T12:14:32.454",
+                "size": 210,
+                "strike": 200.0,
+                "price": 160.95,
+                "exchange": 6,
+                "condition": 138,
+                "exchange_name": "CBOE",
+                "is_sweep": true
+              },
+              {
+                "timestamp": "2021-01-29T10:01:18.84",
+                "size": 200,
+                "strike": 200.0,
+                "price": 120.3,
+                "exchange": 4,
+                "condition": 133,
+                "exchange_name": "C2",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:27:26.84",
+                "size": 200,
+                "strike": 520.0,
+                "price": 0.58,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:48:37.005",
+                "size": 199,
+                "strike": 460.0,
+                "price": 0.3,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              },
+              {
+                "timestamp": "2021-01-29T15:43:17.344",
+                "size": 198,
+                "strike": 410.0,
+                "price": 0.8,
+                "exchange": 69,
+                "condition": 18,
+                "exchange_name": "UNK_69",
+                "is_sweep": false
+              }
+            ]
+          }
+        ],
+        "verdict": "MIXED (significant institutional + retail)"
+      },
+      "ignition_sequence": {
+        "test": "ignition_sequence",
+        "symbol": "GME",
+        "squeeze_date": "20210129",
+        "n_observations": 188,
+        "ignition_date": null,
+        "ignition_dte": null,
+        "leaps_start": 0,
+        "leaps_at_ignition": 0,
+        "leaps_at_peak": 0,
+        "leaps_growth_pct": 0,
+        "short_median": 0,
+        "short_at_ignition": 0,
+        "short_at_peak": 0,
+        "short_spike_x": 0,
+        "verdict": "ORGANIC (no clear stealth-then-ignite pattern)",
+        "timeline": [
+          {
+            "date": "2020-05-04",
+            "dte_to_squeeze": 270,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-05",
+            "dte_to_squeeze": 269,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-06",
+            "dte_to_squeeze": 268,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-07",
+            "dte_to_squeeze": 267,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-08",
+            "dte_to_squeeze": 266,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-11",
+            "dte_to_squeeze": 263,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-12",
+            "dte_to_squeeze": 262,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-13",
+            "dte_to_squeeze": 261,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-14",
+            "dte_to_squeeze": 260,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-15",
+            "dte_to_squeeze": 259,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-18",
+            "dte_to_squeeze": 256,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-19",
+            "dte_to_squeeze": 255,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-20",
+            "dte_to_squeeze": 254,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-21",
+            "dte_to_squeeze": 253,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-22",
+            "dte_to_squeeze": 252,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-26",
+            "dte_to_squeeze": 248,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-27",
+            "dte_to_squeeze": 247,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-28",
+            "dte_to_squeeze": 246,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-05-29",
+            "dte_to_squeeze": 245,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-01",
+            "dte_to_squeeze": 242,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-02",
+            "dte_to_squeeze": 241,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-03",
+            "dte_to_squeeze": 240,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-04",
+            "dte_to_squeeze": 239,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-05",
+            "dte_to_squeeze": 238,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-08",
+            "dte_to_squeeze": 235,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-09",
+            "dte_to_squeeze": 234,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-10",
+            "dte_to_squeeze": 233,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-11",
+            "dte_to_squeeze": 232,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-12",
+            "dte_to_squeeze": 231,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-15",
+            "dte_to_squeeze": 228,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-16",
+            "dte_to_squeeze": 227,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-17",
+            "dte_to_squeeze": 226,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-18",
+            "dte_to_squeeze": 225,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-19",
+            "dte_to_squeeze": 224,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-22",
+            "dte_to_squeeze": 221,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-23",
+            "dte_to_squeeze": 220,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-24",
+            "dte_to_squeeze": 219,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-25",
+            "dte_to_squeeze": 218,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-26",
+            "dte_to_squeeze": 217,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-29",
+            "dte_to_squeeze": 214,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-06-30",
+            "dte_to_squeeze": 213,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-01",
+            "dte_to_squeeze": 212,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-02",
+            "dte_to_squeeze": 211,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-06",
+            "dte_to_squeeze": 207,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-07",
+            "dte_to_squeeze": 206,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-08",
+            "dte_to_squeeze": 205,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-09",
+            "dte_to_squeeze": 204,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-10",
+            "dte_to_squeeze": 203,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-13",
+            "dte_to_squeeze": 200,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-14",
+            "dte_to_squeeze": 199,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-15",
+            "dte_to_squeeze": 198,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-16",
+            "dte_to_squeeze": 197,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-17",
+            "dte_to_squeeze": 196,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-20",
+            "dte_to_squeeze": 193,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-21",
+            "dte_to_squeeze": 192,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-22",
+            "dte_to_squeeze": 191,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-23",
+            "dte_to_squeeze": 190,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-24",
+            "dte_to_squeeze": 189,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-27",
+            "dte_to_squeeze": 186,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-28",
+            "dte_to_squeeze": 185,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-29",
+            "dte_to_squeeze": 184,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-30",
+            "dte_to_squeeze": 183,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-07-31",
+            "dte_to_squeeze": 182,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-03",
+            "dte_to_squeeze": 179,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-04",
+            "dte_to_squeeze": 178,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-05",
+            "dte_to_squeeze": 177,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-06",
+            "dte_to_squeeze": 176,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-07",
+            "dte_to_squeeze": 175,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-10",
+            "dte_to_squeeze": 172,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-11",
+            "dte_to_squeeze": 171,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-12",
+            "dte_to_squeeze": 170,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-13",
+            "dte_to_squeeze": 169,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-14",
+            "dte_to_squeeze": 168,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-17",
+            "dte_to_squeeze": 165,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-18",
+            "dte_to_squeeze": 164,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-19",
+            "dte_to_squeeze": 163,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-20",
+            "dte_to_squeeze": 162,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-21",
+            "dte_to_squeeze": 161,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-24",
+            "dte_to_squeeze": 158,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-25",
+            "dte_to_squeeze": 157,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-26",
+            "dte_to_squeeze": 156,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-27",
+            "dte_to_squeeze": 155,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-28",
+            "dte_to_squeeze": 154,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-08-31",
+            "dte_to_squeeze": 151,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-01",
+            "dte_to_squeeze": 150,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-02",
+            "dte_to_squeeze": 149,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-03",
+            "dte_to_squeeze": 148,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-04",
+            "dte_to_squeeze": 147,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-08",
+            "dte_to_squeeze": 143,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-09",
+            "dte_to_squeeze": 142,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-10",
+            "dte_to_squeeze": 141,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-11",
+            "dte_to_squeeze": 140,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-14",
+            "dte_to_squeeze": 137,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-15",
+            "dte_to_squeeze": 136,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-16",
+            "dte_to_squeeze": 135,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-17",
+            "dte_to_squeeze": 134,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-18",
+            "dte_to_squeeze": 133,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-21",
+            "dte_to_squeeze": 130,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-22",
+            "dte_to_squeeze": 129,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-23",
+            "dte_to_squeeze": 128,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-24",
+            "dte_to_squeeze": 127,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-25",
+            "dte_to_squeeze": 126,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-28",
+            "dte_to_squeeze": 123,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-29",
+            "dte_to_squeeze": 122,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-09-30",
+            "dte_to_squeeze": 121,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-01",
+            "dte_to_squeeze": 120,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-02",
+            "dte_to_squeeze": 119,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-05",
+            "dte_to_squeeze": 116,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-06",
+            "dte_to_squeeze": 115,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-07",
+            "dte_to_squeeze": 114,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-08",
+            "dte_to_squeeze": 113,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-09",
+            "dte_to_squeeze": 112,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-12",
+            "dte_to_squeeze": 109,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-13",
+            "dte_to_squeeze": 108,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-14",
+            "dte_to_squeeze": 107,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-15",
+            "dte_to_squeeze": 106,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-16",
+            "dte_to_squeeze": 105,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-19",
+            "dte_to_squeeze": 102,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-20",
+            "dte_to_squeeze": 101,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-21",
+            "dte_to_squeeze": 100,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-22",
+            "dte_to_squeeze": 99,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-23",
+            "dte_to_squeeze": 98,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-26",
+            "dte_to_squeeze": 95,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-27",
+            "dte_to_squeeze": 94,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-28",
+            "dte_to_squeeze": 93,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-29",
+            "dte_to_squeeze": 92,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-10-30",
+            "dte_to_squeeze": 91,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-02",
+            "dte_to_squeeze": 88,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-03",
+            "dte_to_squeeze": 87,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-04",
+            "dte_to_squeeze": 86,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-05",
+            "dte_to_squeeze": 85,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-06",
+            "dte_to_squeeze": 84,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-09",
+            "dte_to_squeeze": 81,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-10",
+            "dte_to_squeeze": 80,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-11",
+            "dte_to_squeeze": 79,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-12",
+            "dte_to_squeeze": 78,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-13",
+            "dte_to_squeeze": 77,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-16",
+            "dte_to_squeeze": 74,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-17",
+            "dte_to_squeeze": 73,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-18",
+            "dte_to_squeeze": 72,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-19",
+            "dte_to_squeeze": 71,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-20",
+            "dte_to_squeeze": 70,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-23",
+            "dte_to_squeeze": 67,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-24",
+            "dte_to_squeeze": 66,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-25",
+            "dte_to_squeeze": 65,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-27",
+            "dte_to_squeeze": 63,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-11-30",
+            "dte_to_squeeze": 60,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-01",
+            "dte_to_squeeze": 59,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-02",
+            "dte_to_squeeze": 58,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-03",
+            "dte_to_squeeze": 57,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-04",
+            "dte_to_squeeze": 56,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-07",
+            "dte_to_squeeze": 53,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-08",
+            "dte_to_squeeze": 52,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-09",
+            "dte_to_squeeze": 51,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-10",
+            "dte_to_squeeze": 50,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-11",
+            "dte_to_squeeze": 49,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-14",
+            "dte_to_squeeze": 46,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-15",
+            "dte_to_squeeze": 45,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-16",
+            "dte_to_squeeze": 44,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-17",
+            "dte_to_squeeze": 43,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-18",
+            "dte_to_squeeze": 42,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-21",
+            "dte_to_squeeze": 39,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-22",
+            "dte_to_squeeze": 38,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-23",
+            "dte_to_squeeze": 37,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-24",
+            "dte_to_squeeze": 36,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-28",
+            "dte_to_squeeze": 32,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-29",
+            "dte_to_squeeze": 31,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-30",
+            "dte_to_squeeze": 30,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2020-12-31",
+            "dte_to_squeeze": 29,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-04",
+            "dte_to_squeeze": 25,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-05",
+            "dte_to_squeeze": 24,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-06",
+            "dte_to_squeeze": 23,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-07",
+            "dte_to_squeeze": 22,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-08",
+            "dte_to_squeeze": 21,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-11",
+            "dte_to_squeeze": 18,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-12",
+            "dte_to_squeeze": 17,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-13",
+            "dte_to_squeeze": 16,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-14",
+            "dte_to_squeeze": 15,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-15",
+            "dte_to_squeeze": 14,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-19",
+            "dte_to_squeeze": 10,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-20",
+            "dte_to_squeeze": 9,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-21",
+            "dte_to_squeeze": 8,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-22",
+            "dte_to_squeeze": 7,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-25",
+            "dte_to_squeeze": 4,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-26",
+            "dte_to_squeeze": 3,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-27",
+            "dte_to_squeeze": 2,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-28",
+            "dte_to_squeeze": 1,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          },
+          {
+            "date": "2021-01-29",
+            "dte_to_squeeze": 0,
+            "leaps_call_oi": 0,
+            "leaps_put_oi": 0,
+            "leaps_total": 0,
+            "short_call_oi": 0,
+            "short_put_oi": 0,
+            "short_total": 0,
+            "mid_call_oi": 0
+          }
+        ]
+      },
+      "constructor_fingerprint": {
+        "test": "constructor_fingerprint",
+        "symbol": "GME",
+        "target_exp": "20210129",
+        "daily_results": [
+          {
+            "date": "20210122",
+            "total_trades": 62479,
+            "total_volume": 237208,
+            "sweep_trades": 9331,
+            "sweep_volume": 38375,
+            "sweep_pct": 16.2,
+            "complex_trades": 13166,
+            "complex_volume": 56942,
+            "n_exchanges": 16,
+            "hhi": 0.0932,
+            "cvs_windows": 5723,
+            "cvs_volume": 167896,
+            "cvs_pct": 70.8,
+            "exchange_breakdown": [
+              {
+                "exchange": "UNK_60",
+                "volume": 36368,
+                "pct": 15.3
+              },
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 31731,
+                "pct": 13.4
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 29142,
+                "pct": 12.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 21839,
+                "pct": 9.2
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 20120,
+                "pct": 8.5
+              }
+            ]
+          },
+          {
+            "date": "20210125",
+            "total_trades": 93266,
+            "total_volume": 267407,
+            "sweep_trades": 14220,
+            "sweep_volume": 39937,
+            "sweep_pct": 14.9,
+            "complex_trades": 21046,
+            "complex_volume": 59855,
+            "n_exchanges": 16,
+            "hhi": 0.1013,
+            "cvs_windows": 8261,
+            "cvs_volume": 219343,
+            "cvs_pct": 82.0,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 52878,
+                "pct": 19.8
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 36027,
+                "pct": 13.5
+              },
+              {
+                "exchange": "BATS",
+                "volume": 25060,
+                "pct": 9.4
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 23347,
+                "pct": 8.7
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 22311,
+                "pct": 8.3
+              }
+            ]
+          },
+          {
+            "date": "20210126",
+            "total_trades": 163494,
+            "total_volume": 453491,
+            "sweep_trades": 24199,
+            "sweep_volume": 78465,
+            "sweep_pct": 17.3,
+            "complex_trades": 25760,
+            "complex_volume": 88289,
+            "n_exchanges": 16,
+            "hhi": 0.1043,
+            "cvs_windows": 13094,
+            "cvs_volume": 409730,
+            "cvs_pct": 90.4,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 86842,
+                "pct": 19.1
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 67131,
+                "pct": 14.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 43016,
+                "pct": 9.5
+              },
+              {
+                "exchange": "BATS",
+                "volume": 42756,
+                "pct": 9.4
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 35933,
+                "pct": 7.9
+              }
+            ]
+          },
+          {
+            "date": "20210127",
+            "total_trades": 57560,
+            "total_volume": 153634,
+            "sweep_trades": 7629,
+            "sweep_volume": 16423,
+            "sweep_pct": 10.7,
+            "complex_trades": 12454,
+            "complex_volume": 41993,
+            "n_exchanges": 16,
+            "hhi": 0.111,
+            "cvs_windows": 4700,
+            "cvs_volume": 86232,
+            "cvs_pct": 56.1,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 31900,
+                "pct": 20.8
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 21186,
+                "pct": 13.8
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 20479,
+                "pct": 13.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 13886,
+                "pct": 9.0
+              },
+              {
+                "exchange": "UNK_43",
+                "volume": 10781,
+                "pct": 7.0
+              }
+            ]
+          },
+          {
+            "date": "20210128",
+            "total_trades": 32728,
+            "total_volume": 86221,
+            "sweep_trades": 5601,
+            "sweep_volume": 13920,
+            "sweep_pct": 16.1,
+            "complex_trades": 6169,
+            "complex_volume": 20669,
+            "n_exchanges": 16,
+            "hhi": 0.0911,
+            "cvs_windows": 2902,
+            "cvs_volume": 51190,
+            "cvs_pct": 59.4,
+            "exchange_breakdown": [
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 13339,
+                "pct": 15.5
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 9757,
+                "pct": 11.3
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 9512,
+                "pct": 11.0
+              },
+              {
+                "exchange": "UNK_60",
+                "volume": 8897,
+                "pct": 10.3
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 7954,
+                "pct": 9.2
+              }
+            ]
+          },
+          {
+            "date": "20210129",
+            "total_trades": 44230,
+            "total_volume": 131661,
+            "sweep_trades": 5655,
+            "sweep_volume": 18020,
+            "sweep_pct": 13.7,
+            "complex_trades": 7913,
+            "complex_volume": 29102,
+            "n_exchanges": 16,
+            "hhi": 0.0924,
+            "cvs_windows": 3923,
+            "cvs_volume": 76190,
+            "cvs_pct": 57.9,
+            "exchange_breakdown": [
+              {
+                "exchange": "UNK_60",
+                "volume": 18343,
+                "pct": 13.9
+              },
+              {
+                "exchange": "CBOE",
+                "volume": 14751,
+                "pct": 11.2
+              },
+              {
+                "exchange": "MULTI_EXCHANGE",
+                "volume": 14357,
+                "pct": 10.9
+              },
+              {
+                "exchange": "NYSE_AMEX",
+                "volume": 13729,
+                "pct": 10.4
+              },
+              {
+                "exchange": "NSDQ_BX_OPT",
+                "volume": 12527,
+                "pct": 9.5
+              }
+            ]
+          }
+        ],
+        "verdict": "MIXED (some institutional execution patterns)"
+      }
+    }
+  }
+]

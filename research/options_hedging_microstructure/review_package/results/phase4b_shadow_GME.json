@@ -1,0 +1,658 @@
+{
+  "2025-12-26": {
+    "spot": 21.1432,
+    "top_gamma_walls": [
+      {
+        "strike": 21.5,
+        "right": "C",
+        "total_volume": 16544,
+        "trade_count": 920,
+        "mean_price": 0.14492391304347826,
+        "last_price": 0.39,
+        "moneyness": 1.0168754020205077,
+        "approx_gamma": 0.40380901671656017,
+        "gamma_dollars": 14124960.808828462
+      },
+      {
+        "strike": 23.0,
+        "right": "C",
+        "total_volume": 17186,
+        "trade_count": 979,
+        "mean_price": 0.21210418794688457,
+        "last_price": 0.06,
+        "moneyness": 1.0878201975103106,
+        "approx_gamma": 0.2785399901938078,
+        "gamma_dollars": 10121225.042136103
+      },
+      {
+        "strike": 21.0,
+        "right": "C",
+        "total_volume": 10488,
+        "trade_count": 669,
+        "mean_price": 0.4434529147982063,
+        "last_price": 1.09,
+        "moneyness": 0.9932271368572402,
+        "approx_gamma": 0.4086615924358585,
+        "gamma_dollars": 9062065.973711908
+      },
+      {
+        "strike": 22.0,
+        "right": "C",
+        "total_volume": 10843,
+        "trade_count": 1267,
+        "mean_price": 0.2602367797947909,
+        "last_price": 0.44,
+        "moneyness": 1.0405236671837754,
+        "approx_gamma": 0.3773120692222028,
+        "gamma_dollars": 8650094.918867698
+      },
+      {
+        "strike": 21.5,
+        "right": "P",
+        "total_volume": 5681,
+        "trade_count": 413,
+        "mean_price": 0.48278450363196124,
+        "last_price": 0.44,
+        "moneyness": 1.0168754020205077,
+        "approx_gamma": 0.40380901671656017,
+        "gamma_dollars": 4850332.589153439
+      },
+      {
+        "strike": 21.0,
+        "right": "P",
+        "total_volume": 4356,
+        "trade_count": 597,
+        "mean_price": 0.30495812395309885,
+        "last_price": 0.92,
+        "moneyness": 0.9932271368572402,
+        "approx_gamma": 0.4086615924358585,
+        "gamma_dollars": 3763764.2430862957
+      },
+      {
+        "strike": 22.0,
+        "right": "P",
+        "total_volume": 4098,
+        "trade_count": 301,
+        "mean_price": 1.0175415282392029,
+        "last_price": 0.94,
+        "moneyness": 1.0405236671837754,
+        "approx_gamma": 0.3773120692222028,
+        "gamma_dollars": 3269214.145302944
+      },
+      {
+        "strike": 20.0,
+        "right": "C",
+        "total_volume": 3734,
+        "trade_count": 442,
+        "mean_price": 1.282285067873303,
+        "last_price": 1.44,
+        "moneyness": 0.9459306065307049,
+        "approx_gamma": 0.3538970421510077,
+        "gamma_dollars": 2793971.452596123
+      },
+      {
+        "strike": 22.5,
+        "right": "C",
+        "total_volume": 3934,
+        "trade_count": 431,
+        "mean_price": 0.08187935034802785,
+        "last_price": 0.01,
+        "moneyness": 1.064171932347043,
+        "approx_gamma": 0.3333787229517305,
+        "gamma_dollars": 2772955.832145465
+      },
+      {
+        "strike": 20.5,
+        "right": "C",
+        "total_volume": 2791,
+        "trade_count": 70,
+        "mean_price": 0.7714285714285715,
+        "last_price": 0.59,
+        "moneyness": 0.9695788716939725,
+        "approx_gamma": 0.39107867031019644,
+        "gamma_dollars": 2307781.4827008205
+      }
+    ],
+    "price_strike_interaction": {
+      "21.5": {
+        "strike": 21.5,
+        "gamma_dollars": 4850333.0,
+        "ticks_near": 3323,
+        "ticks_far": 9936,
+        "acf_near": -0.3858,
+        "acf_far": -0.4468,
+        "right": "P"
+      },
+      "21.0": {
+        "strike": 21.0,
+        "gamma_dollars": 3763764.0,
+        "ticks_near": 8097,
+        "ticks_far": 5162,
+        "acf_near": -0.4561,
+        "acf_far": -0.3824,
+        "right": "P"
+      }
+    }
+  },
+  "2025-12-29": {
+    "spot": 20.95,
+    "top_gamma_walls": [
+      {
+        "strike": 22.0,
+        "right": "C",
+        "total_volume": 11143,
+        "trade_count": 1165,
+        "mean_price": 0.2948154506437768,
+        "last_price": 0.05,
+        "moneyness": 1.0501193317422435,
+        "approx_gamma": 0.3645863118688255,
+        "gamma_dollars": 8511116.147258306
+      },
+      {
+        "strike": 23.0,
+        "right": "C",
+        "total_volume": 9173,
+        "trade_count": 826,
+        "mean_price": 0.2064043583535109,
+        "last_price": 0.03,
+        "moneyness": 1.0978520286396183,
+        "approx_gamma": 0.25611068490241407,
+        "gamma_dollars": 4921790.439917624
+      },
+      {
+        "strike": 21.5,
+        "right": "C",
+        "total_volume": 5833,
+        "trade_count": 667,
+        "mean_price": 0.18353823088455773,
+        "last_price": 0.07,
+        "moneyness": 1.026252983293556,
+        "approx_gamma": 0.3993745637468547,
+        "gamma_dollars": 4880411.08455267
+      },
+      {
+        "strike": 21.0,
+        "right": "C",
+        "total_volume": 5472,
+        "trade_count": 834,
+        "mean_price": 0.410947242206235,
+        "last_price": 0.13,
+        "moneyness": 1.0023866348448687,
+        "approx_gamma": 0.4132595674213751,
+        "gamma_dollars": 4737541.559387856
+      },
+      {
+        "strike": 20.5,
+        "right": "C",
+        "total_volume": 3628,
+        "trade_count": 248,
+        "mean_price": 0.48955645161290323,
+        "last_price": 0.29,
+        "moneyness": 0.9785202863961814,
+        "approx_gamma": 0.4039502733253159,
+        "gamma_dollars": 3070288.684452796
+      },
+      {
+        "strike": 24.0,
+        "right": "C",
+        "total_volume": 10135,
+        "trade_count": 680,
+        "mean_price": 0.12258823529411765,
+        "last_price": 0.23,
+        "moneyness": 1.1455847255369929,
+        "approx_gamma": 0.1432533976872297,
+        "gamma_dollars": 3041674.3237483525
+      },
+      {
+        "strike": 21.0,
+        "right": "P",
+        "total_volume": 3253,
+        "trade_count": 437,
+        "mean_price": 0.6359267734553775,
+        "last_price": 1.47,
+        "moneyness": 1.0023866348448687,
+        "approx_gamma": 0.4132595674213751,
+        "gamma_dollars": 2816378.4160615313
+      },
+      {
+        "strike": 20.0,
+        "right": "P",
+        "total_volume": 3320,
+        "trade_count": 476,
+        "mean_price": 0.3572689075630252,
+        "last_price": 0.44,
+        "moneyness": 0.9546539379474941,
+        "approx_gamma": 0.37298843813215193,
+        "gamma_dollars": 2594283.7825843696
+      },
+      {
+        "strike": 25.0,
+        "right": "C",
+        "total_volume": 15038,
+        "trade_count": 907,
+        "mean_price": 0.14727673649393608,
+        "last_price": 0.01,
+        "moneyness": 1.1933174224343677,
+        "approx_gamma": 0.06380167210494457,
+        "gamma_dollars": 2010046.7970141575
+      },
+      {
+        "strike": 20.5,
+        "right": "P",
+        "total_volume": 2284,
+        "trade_count": 344,
+        "mean_price": 0.2761046511627907,
+        "last_price": 0.26,
+        "moneyness": 0.9785202863961814,
+        "approx_gamma": 0.4039502733253159,
+        "gamma_dollars": 1932893.9788561703
+      }
+    ],
+    "price_strike_interaction": {
+      "21.5": {
+        "strike": 21.5,
+        "gamma_dollars": 4880411.0,
+        "ticks_near": 206,
+        "ticks_far": 14365,
+        "acf_near": -0.3029,
+        "acf_far": -0.3684,
+        "right": "C"
+      },
+      "21.0": {
+        "strike": 21.0,
+        "gamma_dollars": 2816378.0,
+        "ticks_near": 13465,
+        "ticks_far": 1106,
+        "acf_near": -0.4015,
+        "acf_far": -0.2119,
+        "right": "P"
+      },
+      "20.5": {
+        "strike": 20.5,
+        "gamma_dollars": 3070289.0,
+        "ticks_near": 24,
+        "ticks_far": 14547,
+        "acf_near": -0.3027,
+        "acf_far": -0.3976,
+        "right": "C"
+      }
+    }
+  },
+  "2025-12-30": {
+    "spot": 20.45,
+    "top_gamma_walls": [
+      {
+        "strike": 21.0,
+        "right": "C",
+        "total_volume": 11082,
+        "trade_count": 994,
+        "mean_price": 0.31596579476861164,
+        "last_price": 0.07,
+        "moneyness": 1.0268948655256724,
+        "approx_gamma": 0.4084419355984561,
+        "gamma_dollars": 9256392.969467776
+      },
+      {
+        "strike": 22.0,
+        "right": "C",
+        "total_volume": 10071,
+        "trade_count": 825,
+        "mean_price": 0.23893333333333333,
+        "last_price": 0.11,
+        "moneyness": 1.075794621026895,
+        "approx_gamma": 0.31775327740523285,
+        "gamma_dollars": 6544190.710049864
+      },
+      {
+        "strike": 20.5,
+        "right": "C",
+        "total_volume": 4681,
+        "trade_count": 302,
+        "mean_price": 0.3313245033112583,
+        "last_price": 0.62,
+        "moneyness": 1.0024449877750612,
+        "approx_gamma": 0.4233577452219226,
+        "gamma_dollars": 4052653.4030099115
+      },
+      {
+        "strike": 20.0,
+        "right": "C",
+        "total_volume": 4598,
+        "trade_count": 294,
+        "mean_price": 1.033673469387755,
+        "last_price": 0.94,
+        "moneyness": 0.9779951100244499,
+        "approx_gamma": 0.4133545478757366,
+        "gamma_dollars": 3886735.6117662424
+      },
+      {
+        "strike": 20.0,
+        "right": "P",
+        "total_volume": 4439,
+        "trade_count": 302,
+        "mean_price": 0.32367549668874174,
+        "last_price": 0.38,
+        "moneyness": 0.9779951100244499,
+        "approx_gamma": 0.4133545478757366,
+        "gamma_dollars": 3752331.3137517073
+      },
+      {
+        "strike": 23.0,
+        "right": "C",
+        "total_volume": 7479,
+        "trade_count": 573,
+        "mean_price": 0.21352530541012216,
+        "last_price": 0.07,
+        "moneyness": 1.1246943765281174,
+        "approx_gamma": 0.19462644922606492,
+        "gamma_dollars": 2976724.9321427573
+      },
+      {
+        "strike": 21.5,
+        "right": "C",
+        "total_volume": 3228,
+        "trade_count": 398,
+        "mean_price": 0.13349246231155779,
+        "last_price": 0.14,
+        "moneyness": 1.0513447432762837,
+        "approx_gamma": 0.3711856419810872,
+        "gamma_dollars": 2450292.930984072
+      },
+      {
+        "strike": 22.5,
+        "right": "C",
+        "total_volume": 3335,
+        "trade_count": 136,
+        "mean_price": 0.10919117647058824,
+        "last_price": 0.08,
+        "moneyness": 1.1002444987775062,
+        "approx_gamma": 0.2562282058524702,
+        "gamma_dollars": 1747495.5810292854
+      },
+      {
+        "strike": 20.5,
+        "right": "P",
+        "total_volume": 1830,
+        "trade_count": 183,
+        "mean_price": 0.2715846994535519,
+        "last_price": 0.19,
+        "moneyness": 1.0024449877750612,
+        "approx_gamma": 0.4233577452219226,
+        "gamma_dollars": 1584352.8578312618
+      },
+      {
+        "strike": 24.0,
+        "right": "C",
+        "total_volume": 5674,
+        "trade_count": 378,
+        "mean_price": 0.11436507936507935,
+        "last_price": 0.43,
+        "moneyness": 1.17359413202934,
+        "approx_gamma": 0.0938568096724973,
+        "gamma_dollars": 1089051.5353771779
+      }
+    ],
+    "price_strike_interaction": {}
+  },
+  "2025-12-31": {
+    "spot": 20.3499,
+    "top_gamma_walls": [
+      {
+        "strike": 21.5,
+        "right": "C",
+        "total_volume": 18828,
+        "trade_count": 464,
+        "mean_price": 0.07331896551724139,
+        "last_price": 0.27,
+        "moneyness": 1.056516248237092,
+        "approx_gamma": 0.36275186104814144,
+        "gamma_dollars": 13898762.002101922
+      },
+      {
+        "strike": 20.5,
+        "right": "C",
+        "total_volume": 14356,
+        "trade_count": 763,
+        "mean_price": 0.22127129750982963,
+        "last_price": 0.07,
+        "moneyness": 1.0073759576214132,
+        "approx_gamma": 0.4244113289138574,
+        "gamma_dollars": 12398886.863610351
+      },
+      {
+        "strike": 21.0,
+        "right": "C",
+        "total_volume": 9305,
+        "trade_count": 998,
+        "mean_price": 0.32369739478957915,
+        "last_price": 0.75,
+        "moneyness": 1.0319461029292527,
+        "approx_gamma": 0.40439643163626093,
+        "gamma_dollars": 7657481.771535993
+      },
+      {
+        "strike": 20.0,
+        "right": "C",
+        "total_volume": 8842,
+        "trade_count": 959,
+        "mean_price": 0.8652867570385818,
+        "last_price": 0.22,
+        "moneyness": 0.9828058123135739,
+        "approx_gamma": 0.4193229276120973,
+        "gamma_dollars": 7545037.441767185
+      },
+      {
+        "strike": 22.0,
+        "right": "C",
+        "total_volume": 9347,
+        "trade_count": 754,
+        "mean_price": 0.24824933687002654,
+        "last_price": 0.41,
+        "moneyness": 1.0810863935449313,
+        "approx_gamma": 0.3063331321596814,
+        "gamma_dollars": 5826778.2921556
+      },
+      {
+        "strike": 20.0,
+        "right": "P",
+        "total_volume": 5478,
+        "trade_count": 703,
+        "mean_price": 0.4262304409672831,
+        "last_price": 0.61,
+        "moneyness": 0.9828058123135739,
+        "approx_gamma": 0.4193229276120973,
+        "gamma_dollars": 4674475.809319231
+      },
+      {
+        "strike": 23.0,
+        "right": "C",
+        "total_volume": 9251,
+        "trade_count": 544,
+        "mean_price": 0.23527573529411766,
+        "last_price": 0.12,
+        "moneyness": 1.1302266841606101,
+        "approx_gamma": 0.182267224097972,
+        "gamma_dollars": 3431306.711874339
+      },
+      {
+        "strike": 21.0,
+        "right": "P",
+        "total_volume": 3253,
+        "trade_count": 217,
+        "mean_price": 1.0772811059907834,
+        "last_price": 1.38,
+        "moneyness": 1.0319461029292527,
+        "approx_gamma": 0.40439643163626093,
+        "gamma_dollars": 2677032.584933539
+      },
+      {
+        "strike": 22.5,
+        "right": "C",
+        "total_volume": 4980,
+        "trade_count": 161,
+        "mean_price": 0.04590062111801243,
+        "last_price": 0.14,
+        "moneyness": 1.1056565388527706,
+        "approx_gamma": 0.24353438103260874,
+        "gamma_dollars": 2468038.3496865914
+      },
+      {
+        "strike": 23.5,
+        "right": "C",
+        "total_volume": 6366,
+        "trade_count": 95,
+        "mean_price": 0.057473684210526316,
+        "last_price": 0.12,
+        "moneyness": 1.1547968294684494,
+        "approx_gamma": 0.1284218331878525,
+        "gamma_dollars": 1663672.2734664227
+      }
+    ],
+    "price_strike_interaction": {
+      "20.5": {
+        "strike": 20.5,
+        "gamma_dollars": 12398887.0,
+        "ticks_near": 9471,
+        "ticks_far": 2775,
+        "acf_near": -0.4131,
+        "acf_far": -0.4461,
+        "right": "C"
+      }
+    }
+  },
+  "2026-01-02": {
+    "spot": 20.35,
+    "top_gamma_walls": [
+      {
+        "strike": 21.0,
+        "right": "C",
+        "total_volume": 27531,
+        "trade_count": 2001,
+        "mean_price": 0.29656671664167916,
+        "last_price": 0.26,
+        "moneyness": 1.0319410319410318,
+        "approx_gamma": 0.4044009950850396,
+        "gamma_dollars": 22656802.324221473
+      },
+      {
+        "strike": 20.5,
+        "right": "C",
+        "total_volume": 17844,
+        "trade_count": 1478,
+        "mean_price": 0.24377537212449257,
+        "last_price": 0.13,
+        "moneyness": 1.0073710073710074,
+        "approx_gamma": 0.424410792475883,
+        "gamma_dollars": 15411433.8782122
+      },
+      {
+        "strike": 21.5,
+        "right": "C",
+        "total_volume": 15708,
+        "trade_count": 722,
+        "mean_price": 0.14537396121883658,
+        "last_price": 0.15,
+        "moneyness": 1.0565110565110565,
+        "approx_gamma": 0.3627607218505049,
+        "gamma_dollars": 11595929.427314432
+      },
+      {
+        "strike": 22.0,
+        "right": "C",
+        "total_volume": 15656,
+        "trade_count": 1405,
+        "mean_price": 0.2255658362989324,
+        "last_price": 0.47,
+        "moneyness": 1.081081081081081,
+        "approx_gamma": 0.3063448224916935,
+        "gamma_dollars": 9760133.790792454
+      },
+      {
+        "strike": 20.5,
+        "right": "P",
+        "total_volume": 5901,
+        "trade_count": 483,
+        "mean_price": 0.24890269151138716,
+        "last_price": 0.01,
+        "moneyness": 1.0073710073710074,
+        "approx_gamma": 0.424410792475883,
+        "gamma_dollars": 5096551.855824377
+      },
+      {
+        "strike": 20.0,
+        "right": "C",
+        "total_volume": 5642,
+        "trade_count": 642,
+        "mean_price": 0.866588785046729,
+        "last_price": 1.61,
+        "moneyness": 0.9828009828009827,
+        "approx_gamma": 0.4193173845611759,
+        "gamma_dollars": 4814379.971317604
+      },
+      {
+        "strike": 20.0,
+        "right": "P",
+        "total_volume": 5573,
+        "trade_count": 481,
+        "mean_price": 0.36357588357588355,
+        "last_price": 0.16,
+        "moneyness": 0.9828009828009827,
+        "approx_gamma": 0.4193173845611759,
+        "gamma_dollars": 4755501.520764447
+      },
+      {
+        "strike": 21.0,
+        "right": "P",
+        "total_volume": 4743,
+        "trade_count": 416,
+        "mean_price": 0.6660817307692307,
+        "last_price": 0.6,
+        "moneyness": 1.0319410319410318,
+        "approx_gamma": 0.4044009950850396,
+        "gamma_dollars": 3903280.4265657784
+      },
+      {
+        "strike": 23.0,
+        "right": "C",
+        "total_volume": 8961,
+        "trade_count": 897,
+        "mean_price": 0.21605351170568562,
+        "last_price": 0.57,
+        "moneyness": 1.1302211302211302,
+        "approx_gamma": 0.18227951142874957,
+        "gamma_dollars": 3323982.638393006
+      },
+      {
+        "strike": 21.5,
+        "right": "P",
+        "total_volume": 2661,
+        "trade_count": 160,
+        "mean_price": 1.0031875,
+        "last_price": 1.01,
+        "moneyness": 1.0565110565110565,
+        "approx_gamma": 0.3627607218505049,
+        "gamma_dollars": 1964398.281517934
+      }
+    ],
+    "price_strike_interaction": {
+      "20.5": {
+        "strike": 20.5,
+        "gamma_dollars": 5096552.0,
+        "ticks_near": 9294,
+        "ticks_far": 3620,
+        "acf_near": -0.3675,
+        "acf_far": -0.3374,
+        "right": "P"
+      },
+      "20.0": {
+        "strike": 20.0,
+        "gamma_dollars": 4755502.0,
+        "ticks_near": 668,
+        "ticks_far": 12246,
+        "acf_near": -0.4353,
+        "acf_far": -0.3702,
+        "right": "P"
+      }
+    }
+  }
+}

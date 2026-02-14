@@ -1,0 +1,209 @@
+{
+  "ticker": "GME",
+  "tests": {
+    "spear_tip": {
+      "test": "spear_tip",
+      "ticker": "GME",
+      "events": [
+        {
+          "event": "Jan 2021 Squeeze",
+          "target_expiration": "20210129",
+          "lookback": "20200401 to 20210129",
+          "n_observations": 33,
+          "first_oi_date": "2020-12-11 00:00:00",
+          "peak_oi": 449758,
+          "peak_date": "2021-01-27 00:00:00",
+          "gini_coefficient": 0.8381,
+          "n_jumps": 12,
+          "n_large_jumps": 10,
+          "dte_bands": [
+            {
+              "band": "T-90 to T-30",
+              "days": 13,
+              "oi_start": 241,
+              "oi_end": 6650,
+              "oi_added": 6409,
+              "pct_of_peak": 1.4
+            },
+            {
+              "band": "T-30 to T-7",
+              "days": 15,
+              "oi_start": 7013,
+              "oi_end": 92322,
+              "oi_added": 85309,
+              "pct_of_peak": 19.0
+            },
+            {
+              "band": "T-7 to T-0",
+              "days": 5,
+              "oi_start": 200929,
+              "oi_end": 433997,
+              "oi_added": 233068,
+              "pct_of_peak": 51.8
+            }
+          ],
+          "top_jumps": [
+            {
+              "date": "2021-01-26",
+              "change": 151578,
+              "dte": 3
+            },
+            {
+              "date": "2021-01-25",
+              "change": 108607,
+              "dte": 4
+            },
+            {
+              "date": "2021-01-27",
+              "change": 97251,
+              "dte": 2
+            },
+            {
+              "date": "2021-01-22",
+              "change": 24463,
+              "dte": 7
+            },
+            {
+              "date": "2021-01-21",
+              "change": 14870,
+              "dte": 8
+            },
+            {
+              "date": "2021-01-20",
+              "change": 14827,
+              "dte": 9
+            },
+            {
+              "date": "2021-01-29",
+              "change": -13342,
+              "dte": 0
+            },
+            {
+              "date": "2021-01-14",
+              "change": 10380,
+              "dte": 15
+            },
+            {
+              "date": "2021-01-15",
+              "change": 8660,
+              "dte": 14
+            },
+            {
+              "date": "2021-01-19",
+              "change": 8382,
+              "dte": 10
+            }
+          ],
+          "verdict": "ENGINEERED (high concentration + discrete jumps)"
+        },
+        {
+          "event": "Jun 2024 Squeeze",
+          "target_expiration": "20240621",
+          "lookback": "20230901 to 20240621",
+          "n_observations": 202,
+          "first_oi_date": "2023-09-01 00:00:00",
+          "peak_oi": 1082082,
+          "peak_date": "2024-06-21 00:00:00",
+          "gini_coefficient": 0.8799,
+          "n_jumps": 66,
+          "n_large_jumps": 42,
+          "dte_bands": [
+            {
+              "band": "T-365 to T-180",
+              "days": 79,
+              "oi_start": 10308,
+              "oi_end": 20642,
+              "oi_added": 10334,
+              "pct_of_peak": 1.0
+            },
+            {
+              "band": "T-180 to T-90",
+              "days": 61,
+              "oi_start": 20856,
+              "oi_end": 32528,
+              "oi_added": 11672,
+              "pct_of_peak": 1.1
+            },
+            {
+              "band": "T-90 to T-30",
+              "days": 42,
+              "oi_start": 32694,
+              "oi_end": 275259,
+              "oi_added": 242565,
+              "pct_of_peak": 22.4
+            },
+            {
+              "band": "T-30 to T-7",
+              "days": 16,
+              "oi_start": 382393,
+              "oi_end": 837834,
+              "oi_added": 455441,
+              "pct_of_peak": 42.1
+            },
+            {
+              "band": "T-7 to T-0",
+              "days": 4,
+              "oi_start": 906472,
+              "oi_end": 1082082,
+              "oi_added": 175610,
+              "pct_of_peak": 16.2
+            }
+          ],
+          "top_jumps": [
+            {
+              "date": "2024-06-18",
+              "change": 121028,
+              "dte": 3
+            },
+            {
+              "date": "2024-06-11",
+              "change": 108403,
+              "dte": 10
+            },
+            {
+              "date": "2024-05-23",
+              "change": 107134,
+              "dte": 29
+            },
+            {
+              "date": "2024-06-10",
+              "change": 77736,
+              "dte": 11
+            },
+            {
+              "date": "2024-06-17",
+              "change": 68638,
+              "dte": 4
+            },
+            {
+              "date": "2024-06-07",
+              "change": 41680,
+              "dte": 14
+            },
+            {
+              "date": "2024-06-04",
+              "change": 40763,
+              "dte": 17
+            },
+            {
+              "date": "2024-06-12",
+              "change": 40627,
+              "dte": 9
+            },
+            {
+              "date": "2024-06-21",
+              "change": 34868,
+              "dte": 0
+            },
+            {
+              "date": "2024-05-29",
+              "change": 30122,
+              "dte": 23
+            }
+          ],
+          "verdict": "ENGINEERED (high concentration + discrete jumps)"
+        }
+      ]
+    }
+  }
+}

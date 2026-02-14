@@ -1,0 +1,37 @@
+{
+  "30": {
+    "mean_lag1": -0.454,
+    "median_lag1": -0.486,
+    "std_lag1": 0.076,
+    "n_days": 39,
+    "pct_dampened": 100.0
+  },
+  "60": {
+    "mean_lag1": -0.3678,
+    "median_lag1": -0.387,
+    "std_lag1": 0.1682,
+    "n_days": 39,
+    "pct_dampened": 100.0
+  },
+  "120": {
+    "mean_lag1": -0.1857,
+    "median_lag1": -0.1099,
+    "std_lag1": 0.2187,
+    "n_days": 39,
+    "pct_dampened": 82.1
+  },
+  "300": {
+    "mean_lag1": -0.1268,
+    "median_lag1": -0.1036,
+    "std_lag1": 0.1953,
+    "n_days": 39,
+    "pct_dampened": 79.5
+  },
+  "600": {
+    "mean_lag1": -0.0781,
+    "median_lag1": -0.0484,
+    "std_lag1": 0.1755,
+    "n_days": 39,
+    "pct_dampened": 59.0
+  }
+}

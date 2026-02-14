@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260210_211441",
+  "n_tickers": 1,
+  "tests": {
+    "regime": [
+      {
+        "ticker": "GME",
+        "status": "OK",
+        "n_days": 499,
+        "n_oos": 333,
+        "oos_accuracy": 0.964,
+        "baseline_accuracy": 0.964,
+        "accuracy_lift": 0.0,
+        "auc_roc": 0.7248,
+        "pct_dampened": 96.6,
+        "coefficients": {
+          "re_gamma": 0.5925,
+          "acf1": -0.5826,
+          "rv": 0.1186,
+          "log_eq_vol": -0.2264
+        }
+      }
+    ],
+    "rv": [
+      {
+        "ticker": "GME",
+        "status": "OK",
+        "n_days": 499,
+        "n_oos": 333,
+        "oos_r2_full": 0.149,
+        "oos_r2_baseline": 0.3345,
+        "r2_lift_from_acf": -0.1855,
+        "coefficients": {
+          "acf1": 0.1315,
+          "log_rv": 0.831,
+          "re_gamma": 0.005,
+          "log_eq_vol": 0.0668
+        }
+      }
+    ]
+  }
+}

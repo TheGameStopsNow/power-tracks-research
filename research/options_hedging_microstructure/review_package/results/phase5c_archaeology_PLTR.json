@@ -1,0 +1,59 @@
+{
+  "target_date": "2020-12-23",
+  "reconstruction_corr": 1.0,
+  "residual_pct": 0.0,
+  "n_components": 5,
+  "n_sources": 31,
+  "top_contributors": [
+    {
+      "date": "2020-11-23",
+      "nmf_weight": 21967.8518,
+      "profile_corr": 0.185
+    },
+    {
+      "date": "2020-12-21",
+      "nmf_weight": 19911.8043,
+      "profile_corr": -0.0162
+    },
+    {
+      "date": "2020-12-02",
+      "nmf_weight": 18773.6837,
+      "profile_corr": -0.0891
+    },
+    {
+      "date": "2020-12-07",
+      "nmf_weight": 16950.4613,
+      "profile_corr": -0.2389
+    },
+    {
+      "date": "2020-11-25",
+      "nmf_weight": 14254.9573,
+      "profile_corr": -0.2438
+    },
+    {
+      "date": "2020-12-08",
+      "nmf_weight": 12966.3896,
+      "profile_corr": -0.1673
+    },
+    {
+      "date": "2020-11-27",
+      "nmf_weight": 12957.1347,
+      "profile_corr": -0.2854
+    },
+    {
+      "date": "2020-12-04",
+      "nmf_weight": 12399.0292,
+      "profile_corr": -0.0663
+    },
+    {
+      "date": "2020-12-09",
+      "nmf_weight": 11546.1974,
+      "profile_corr": -0.1256
+    },
+    {
+      "date": "2020-12-11",
+      "nmf_weight": 9329.6931,
+      "profile_corr": -0.1311
+    }
+  ]
+}
