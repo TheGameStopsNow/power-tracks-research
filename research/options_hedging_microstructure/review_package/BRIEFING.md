@@ -64,7 +64,7 @@ Institutional TWAP/VWAP algorithms use randomized "jitter" to disguise block sli
 The first pair gap: **0.001 seconds** (1 millisecond).
 
 > [!WARNING]
-> **Why exactly 499?** In the OPRA data feed, **500 lots is the hardcoded threshold that triggers a "Block Trade" alert**, flagging the trade for institutional surveillance and regulatory scanners. By slicing millions of dollars of wash trades into exact 499-lot increments, the Shadow Algorithm engaged in **Tape Smurfing** — deliberately staying one lot under the radar.
+> **Why exactly 499?** Exchange-level surveillance systems use undisclosed alert thresholds to flag large transactions. The round-number avoidance pattern (not 498, not 497, not 500 — exactly 499) demonstrates precise knowledge of a surveillance boundary. At 499 contracts, these positions also exceed the **200-contract** LOPR reporting threshold ([FINRA Rule 2360](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360)), meaning FINRA already has the data. By slicing millions of dollars of wash trades into exact 499-lot increments, the Shadow Algorithm engaged in **Tape Smurfing** — deliberately staying one lot under the radar.
 >
 > Financial smurfing (structuring transactions to avoid reporting thresholds) is a standalone criminal offense under 31 U.S.C. § 5324 when applied to cash transactions. The options equivalent — structuring trade sizes to evade exchange surveillance thresholds — demonstrates deliberate **Scienter** (intent to deceive), the hardest element to prove in 10b-5 actions.
 
@@ -198,7 +198,7 @@ PHASE 1 — IV INJECTION (Tail-Banging)
 
 PHASE 2 — VOLUME LAUNDERING (Wash Trades)
   ├─ Single-strike COBs: Buy+Sell same contract atomically
-  ├─ Tape Smurfing: 499-lot sizing evades 500-lot block alert
+  ├─ Tape Smurfing: 499-lot sizing evades round-number surveillance threshold
   └─ 265 sub-second pairs on Jun 7 alone
 
 PHASE 3 — DELTA LAUNDERING (Jelly Roll)

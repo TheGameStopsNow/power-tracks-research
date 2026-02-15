@@ -76,7 +76,7 @@ The GME sneeze wasn't Re_Γ slightly above 1. It was Re_Γ **massively** above 1
 That's not just market manipulation. That's *engineering a phase transition*.
 
 ![Gamma Reynolds Phase Transition](../figures/gamma_reynolds_sigmoid.png)
-> **Figure: Gamma Reynolds Phase Transition — 37-Ticker Panel** — Each dot is a ticker. X-axis = percentage of days in amplified (Short Gamma) state. Y-axis = mean ACF. The orange sigmoid (R² = 0.719) shows the phase transition curve. Note the cluster of 37 tickers in the lower-left "Laminar" zone — all dampened. The star markers are GME and AMC *during their squeeze windows only*, launched far into the upper-right "Turbulent" zone. The critical transition sits at ~13% amplified days. [Image: gamma_reynolds_sigmoid.png]
+> **Figure: Gamma Reynolds Phase Transition — 37-Ticker Panel** — Each dot is a ticker. X-axis = percentage of days in amplified (Short Gamma) state. Y-axis = mean ACF. The orange sigmoid (R² = 0.719) shows the phase transition curve. Note the cluster of 37 tickers in the lower-left "Laminar" zone — all dampened. The star markers are GME and Popcorn *during their squeeze windows only*, launched far into the upper-right "Turbulent" zone. The critical transition sits at ~13% amplified days. [Image: gamma_reynolds_sigmoid.png]
 
 ---
 
@@ -84,29 +84,29 @@ That's not just market manipulation. That's *engineering a phase transition*.
 
 Everything I've described so far might sound like a GME-specific anomaly. It's not.
 
-I ran the same analysis across **37 different tickers** — from mega-caps like MSFT, AAPL, NVDA, and SPY to mid-caps, meme stocks, and recent IPOs spanning from 2014 to 2024. The results are unambiguous:
+I ran the same analysis across **37 different tickers** — from mega-caps like Clippy's Parent Company, Fruit Phone Co., Green GPU Maker, and The Index to mid-caps, meme stocks, and recent IPOs spanning from 2014 to 2024. The results are unambiguous:
 
 | | Dampened % | Mean ACF |
 |---|:-:|:-:|
 | **Full Panel (37 tickers)** | **92.7%** | **−0.203** |
-| MSFT (228 days) | 97.4% | −0.343 |
-| AAPL (418 days) | 91.6% | −0.227 |
-| NVDA (228 days) | 78.5% | −0.189 |
-| SPY (223 days) | 85.2% | −0.202 |
+| Clippy's Parent (228 days) | 97.4% | −0.343 |
+| Fruit Phone (418 days) | 91.6% | −0.227 |
+| Green GPU (228 days) | 78.5% | −0.189 |
+| The Index (223 days) | 85.2% | −0.202 |
 | GME (500 days) | 92.8% | −0.166 |
-| TSLA (418 days) | 71.8% | −0.131 |
-| AMC (204 days) | 69.1% | −0.096 |
+| Space Car (418 days) | 71.8% | −0.131 |
+| 🍿 (204 days) | 69.1% | −0.096 |
 
-**Every single ticker in the entire panel — all 37 — classifies as Long Gamma Default over its full observation window.** Even AMC. Even PLTR. Even the meme-iest meme stocks average out to dampened over time.
+**Every single ticker in the entire panel — all 37 — classifies as Long Gamma Default over its full observation window.** Even 🍿. Even Sauron's Seeing Stone. Even the meme-iest meme stocks average out to dampened over time.
 
 ![Energy Density Heatmap](../figures/energy_density_heatmap.png)
 > **Figure: Energy Density Heatmap of GME (2020-2026)** — A heatmap of hedging energy across all tenors (y-axis) and time (x-axis). Bright yellow = high energy. The January 2021 sneeze is the unmistakable vertical stripe — energy activated simultaneously across ALL tenors. Every other event only lights up 1-2 bands. This is the visual proof that the sneeze was a full-stack event, not just 0DTE gambling. [Image: energy_density_heatmap.png]
 
 This means the Long Gamma Default isn't a quirk of GME's options chain. **It is the fundamental operating mode of the entire U.S. equity market.** The options-equity feedback loop is a structural feature of market infrastructure, not a stock-specific anomaly.
 
-And when you zoom in to shorter time scales, the proof gets even stronger. At 30-second resolution, MSFT shows an ACF of **−0.454** — meaning **45% of each 30-second price move is mechanically reversed within the next 30 seconds.** That's not a market. That's a shock absorber operating in real time.
+And when you zoom in to shorter time scales, the proof gets even stronger. At 30-second resolution, Clippy's Parent Company shows an ACF of **−0.454** — meaning **45% of each 30-second price move is mechanically reversed within the next 30 seconds.** That's not a market. That's a shock absorber operating in real time.
 
-The cross-sectional evidence also confirms that each ticker's regime is **independently determined by its own options flow** — during the January 2021 sneeze, GME went amplified but AMC showed *zero* amplified windows despite being the "second meme stock." The gamma squeeze didn't spread through equity channels. It was driven entirely by what was happening in each stock's *own* options chain.
+The cross-sectional evidence also confirms that each ticker's regime is **independently determined by its own options flow** — during the January 2021 sneeze, GME went amplified but 🍿 showed *zero* amplified windows despite being the "second meme stock." The gamma squeeze didn't spread through equity channels. It was driven entirely by what was happening in each stock's *own* options chain.
 
 Which brings us back to the Shadow Algorithm. If the entire market operates as a thermostat, and someone figured out how to reverse that thermostat for a *specific stock* — while every other stock stays dampened — that's precision engineering, not a market-wide phenomenon. It's a scalpel, not a bomb.
 
@@ -116,10 +116,10 @@ Which brings us back to the Shadow Algorithm. If the entire market operates as a
 
 Here's something that should concern regulators more than it reassures them.
 
-I compared two meme stocks from different eras: **SNAP (IPO March 2017)** vs **DJT (IPO March 2024)**.
+I compared two meme stocks from different eras: **Ghost App (IPO March 2017)** vs **The Former President's SPAC (IPO March 2024)**.
 
-- **SNAP 2017:** ACF = **+0.079** (Amplified). The Snapchat IPO was overwhelmed by retail speculation. The thermostat broke.
-- **DJT 2024:** ACF = **−0.099** (Dampened). Despite being arguably the most politically charged meme stock in history — massive retail interest, social media frenzy, presidential election dynamics — DJT's microstructure shows *standard dampening.* The thermostat held.
+- **Ghost App 2017:** ACF = **+0.079** (Amplified). The disappearing-photos IPO was overwhelmed by retail speculation. The thermostat broke.
+- **The Former President's SPAC 2024:** ACF = **−0.099** (Dampened). Despite being arguably the most politically charged meme stock in history — massive retail interest, social media frenzy, presidential election dynamics — its microstructure shows *standard dampening.* The thermostat held.
 
 ![Energy Flow Field](../figures/energy_flow_field%20(2).png)
 > **Figure: Energy Flow Field of GME — Gradient of Smoothed Density** — Arrows show the *direction* energy is moving across tenor buckets over time. Red arrows (pointing down) = energy discharging. Blue arrows (pointing up) = energy accumulating. The massive red burst in May-June 2025 at the 181-365d and 365d+ level is a discharge event. The persistent blue arrows in late 2025 show active reaccumulation — someone is still cycling energy through the long-dated tenors.
@@ -277,27 +277,30 @@ I've spent months building the case. I've filed with the SEC. I've published the
 
 ---
 
-📄 **Full Paper (PDF):** [The Long Gamma Default: How Options Market Makers Stabilize Equity Markets](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices-%20Academic.pdf) — 160,000 words, 32 tables, 14 references, 6 appendices
+**Full Paper (PDF):** [The Long Gamma Default: How Options Market Makers Stabilize Equity Markets](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices-%20Academic.pdf) — 160,000 words, 32 tables, 14 references, 6 appendices
 
-🔬 **Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 89 pre-computed results. Every smoking gun, every table, every claim check. **Start here.**
+**Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 89 pre-computed results. Every smoking gun, every table, every claim check. **Start here.**
 
-🧪 **Replication Notebooks:**
+**Replication Notebooks:**
 - [02_forensic_replication.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/02_forensic_replication.ipynb) — Shadow Hunter, manipulation forensic battery, squeeze mechanics
 - [03_microstructure_replication.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/03_microstructure_replication.ipynb) — Panel ACF, lead-lag, NMF archaeology, robustness tests
 
-📊 **Pre-computed Results:** [89 JSON evidence files](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/results)
+**Pre-computed Results:** [89 JSON evidence files](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/results)
 
-💻 **Source Code:** [30 Python scripts](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/code) — Full analysis pipeline, open source
+**Source Code:** [30 Python scripts](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/code) — Full analysis pipeline, open source
 
-📋 **Replication Guide:** [REPLICATION_GUIDE.md](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/REPLICATION_GUIDE.md) — Exact dates, commands, parameters, and thresholds
+**Replication Guide:** [REPLICATION_GUIDE.md](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/REPLICATION_GUIDE.md) — Exact dates, commands, parameters, and thresholds
 
-📖 **Full Repository:** [github.com/TheGameStopsNow/power-tracks-research](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package)
+**Video — Surfing the GME Options Chain:** Let me know if you see anything. 😺
+- [Short version (1 min)](https://youtube.com/shorts/DZti6HodVTQ)
+- [Full session](https://youtu.be/HcDQNJxjKK0)
+- [Stock surfing](https://www.youtube.com/watch?v=QwjpwQ-AoFQ)
+
+**Full Repository:** [github.com/TheGameStopsNow/power-tracks-research](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package)
 
 *This is not financial advice. I am an independent researcher. The SEC has been notified.*
 
 ---
-
-🚀🚀🚀
 
 *"In the long run, every program becomes rococó — then rubble." — Alan Perlis*
 

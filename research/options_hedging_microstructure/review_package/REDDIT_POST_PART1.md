@@ -229,11 +229,11 @@ On January 29, 2021, between 12:38:09.579 and 12:38:12.265 — a **three-second 
 
 Why 499?
 
-Because in the OPRA data feed (Options Price Reporting Authority — the official data pipe that broadcasts all options trades), **500 lots triggers a "Block Trade" alert** that flags the transaction for institutional surveillance and regulatory scanners. By slicing every trade to exactly 499 lots, the algorithm stayed one contract below the regulatory radar.
+Exchange-level surveillance systems use undisclosed alert thresholds to flag unusually large transactions for review. **The exact thresholds are intentionally not published** — for the obvious reason that disclosing them would make evasion trivial. But the behavioral pattern speaks for itself: 16 consecutive trades all sized at exactly 499 lots — not 498, not 497, not 500 — demonstrates precise knowledge of a round-number surveillance boundary.
 
-This is called **"Tape Smurfing"** — the options market equivalent of financial structuring, where someone makes deposits of $9,999 to avoid the $10,000 bank reporting threshold. It's the same concept, same intent, same level of premeditation.
+This is **Tape Smurfing** — the options market equivalent of financial "structuring" under 31 U.S.C. § 5324, where transactions are deliberately fragmented to avoid detection thresholds.
 
-And here's why this one is so damning from a legal perspective: the hardest element to prove in a securities fraud case is **Scienter** — the intent to deceive. It's the difference between "I accidentally did something that looks bad" and "I knew exactly what I was doing."
+Notably, at 499 contracts per trade, these positions are well above the **200-contract** reporting threshold under [FINRA Rule 2360](https://www.finra.org/rules-guidance/rulebooks/finra-rules/2360), which requires member firms to report all equity option positions of 200+ contracts to the Large Options Positions Reporting (LOPR) system. This means FINRA already has the position data on file — the CAT queries in Part 2 are the direct path to attribution.
 
 Using 499 lots instead of 500 proves the algorithm was **specifically programmed to evade surveillance thresholds**. Not 498. Not 497. Not 500. Exactly 499. That's not an accident. That's a confession written in code.
 
@@ -333,26 +333,29 @@ I've provided five specific CAT queries that would close the attribution gap in 
 
 **Edit: The full 160,000-word academic paper, with all 32 tables, 14 references, and complete replication code, is available at the links below. Everything I've claimed in this post is independently verifiable from public data. The methodology, the code, and the raw results are all open source. I'm not asking you to trust me. I'm asking you to check my work.**
 
-📄 **Full Paper (PDF):** [The Long Gamma Default: How Options Market Makers Stabilize Equity Markets](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices-%20Academic.pdf) — 160,000 words, 32 tables, 14 references, 6 appendices
+**Full Paper (PDF):** [The Long Gamma Default: How Options Market Makers Stabilize Equity Markets](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices-%20Academic.pdf) — 160,000 words, 32 tables, 14 references, 6 appendices
 
-🔬 **Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 89 pre-computed results. Renders every smoking gun, every table, every claim verification. **Start here if you want to check my work.**
+**Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 89 pre-computed results. Renders every smoking gun, every table, every claim verification. **Start here if you want to check my work.**
 
-🧪 **Replication Notebooks:**
+**Replication Notebooks:**
 - [02_forensic_replication.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/02_forensic_replication.ipynb) — Re-run Shadow Hunter, manipulation forensic battery, squeeze mechanics
 - [03_microstructure_replication.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/03_microstructure_replication.ipynb) — Re-run panel ACF, lead-lag, NMF archaeology, robustness tests
 
-📊 **Pre-computed Results:** [89 JSON evidence files](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/results) — Panel scan, ACF, lead-lag, NMF, forensic evidence, cycle analysis
+**Pre-computed Results:** [89 JSON evidence files](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/results) — Panel scan, ACF, lead-lag, NMF, forensic evidence, cycle analysis
 
-💻 **Source Code:** [30 Python scripts](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/code) — Full analysis pipeline
+**Source Code:** [30 Python scripts](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package/code) — Full analysis pipeline
 
-📋 **Replication Guide:** [REPLICATION_GUIDE.md](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/REPLICATION_GUIDE.md) — Exact dates, commands, parameters, and thresholds to reproduce every result
+**Replication Guide:** [REPLICATION_GUIDE.md](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/REPLICATION_GUIDE.md) — Exact dates, commands, parameters, and thresholds to reproduce every result
 
-📖 **Full Repository:** [github.com/TheGameStopsNow/power-tracks-research](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package)
+**Video — Surfing the GME Options Chain:** Let me know if you see anything.
+- [Short version (1 min)](https://youtube.com/shorts/DZti6HodVTQ)
+- [Full session](https://youtu.be/HcDQNJxjKK0)
+- [Stock surfing](https://www.youtube.com/watch?v=QwjpwQ-AoFQ)
+
+**Full Repository:** [github.com/TheGameStopsNow/power-tracks-research](https://github.com/TheGameStopsNow/power-tracks-research/tree/main/research/options_hedging_microstructure/review_package)
 
 *This is not financial advice. This is forensic research. I am not a financial advisor, attorney, or affiliated with any hedge fund, market maker, or regulatory agency. The SEC has been notified via TCR.*
 
 ---
-
-🚀🚀🚀
 
 *"The first principle is that you must not fool yourself — and you are the easiest person to fool." — Richard Feynman*
