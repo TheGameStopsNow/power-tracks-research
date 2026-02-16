@@ -1,0 +1,6192 @@
+{
+  "jun_2024": {
+    "event": "Jun 2024 Squeeze \u2014 V4 Shadow Hunter",
+    "symbol": "GME",
+    "tests": {
+      "tail_banging_20240604": {
+        "test": "G_tail_banging",
+        "date": "20240604",
+        "spot_price": 24.23,
+        "total_call_volume": 252764,
+        "tail_trades_count": 0,
+        "tail_volume": 0,
+        "tail_capital_burned": 0.0,
+        "pct_of_call_volume": "0.00%",
+        "strike_concentration": {},
+        "top_trades": [],
+        "verdict": "MINIMAL TAIL ACTIVITY"
+      },
+      "tail_banging_20240607": {
+        "test": "G_tail_banging",
+        "date": "20240607",
+        "spot_price": 46.55,
+        "total_call_volume": 1290705,
+        "tail_trades_count": 5,
+        "tail_volume": 2645,
+        "tail_capital_burned": 390681.0,
+        "pct_of_call_volume": "0.20%",
+        "strike_concentration": {
+          "70.0": {
+            "trades": 1,
+            "volume": 368,
+            "capital_spent": 55200.0,
+            "price_range": [
+              1.5,
+              1.5
+            ],
+            "exchanges": [
+              "NSDQ_ISE_GEMINI"
+            ],
+            "time_range": [
+              "2024-06-07 09:37:48.534000",
+              "2024-06-07 09:37:48.534000"
+            ]
+          },
+          "90.0": {
+            "trades": 1,
+            "volume": 498,
+            "capital_spent": 59760.0,
+            "price_range": [
+              1.2,
+              1.2
+            ],
+            "exchanges": [
+              "ISE"
+            ],
+            "time_range": [
+              "2024-06-07 09:51:54.096000",
+              "2024-06-07 09:51:54.096000"
+            ]
+          },
+          "100.0": {
+            "trades": 3,
+            "volume": 1779,
+            "capital_spent": 275721.0,
+            "price_range": [
+              1.51,
+              1.6
+            ],
+            "exchanges": [
+              "MULTI_EXCHANGE",
+              "ISE"
+            ],
+            "time_range": [
+              "2024-06-07 09:44:36.703000",
+              "2024-06-07 09:44:56.330000"
+            ]
+          }
+        },
+        "top_trades": [
+          {
+            "ts": "2024-06-07 09:44:56.330000",
+            "size": 991,
+            "strike": 100.0,
+            "price": 1.51,
+            "capital": 149641.0,
+            "otm_pct": "114.8%",
+            "dte": 0,
+            "exchange": "MULTI_EXCHANGE",
+            "condition": 18
+          },
+          {
+            "ts": "2024-06-07 09:44:36.703000",
+            "size": 400,
+            "strike": 100.0,
+            "price": 1.6,
+            "capital": 64000.0,
+            "otm_pct": "114.8%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2024-06-07 09:44:53.269000",
+            "size": 388,
+            "strike": 100.0,
+            "price": 1.6,
+            "capital": 62080.00000000001,
+            "otm_pct": "114.8%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2024-06-07 09:51:54.096000",
+            "size": 498,
+            "strike": 90.0,
+            "price": 1.2,
+            "capital": 59760.0,
+            "otm_pct": "93.3%",
+            "dte": 0,
+            "exchange": "ISE",
+            "condition": 18
+          },
+          {
+            "ts": "2024-06-07 09:37:48.534000",
+            "size": 368,
+            "strike": 70.0,
+            "price": 1.5,
+            "capital": 55200.0,
+            "otm_pct": "50.4%",
+            "dte": 0,
+            "exchange": "NSDQ_ISE_GEMINI",
+            "condition": 125
+          }
+        ],
+        "verdict": "TAIL-BANGING PRESENT"
+      },
+      "wash_cross_20240604": {
+        "test": "H_wash_cross",
+        "date": "20240604",
+        "total_block_trades": 338,
+        "wash_pairs_found": 17,
+        "sub_second_pairs": 16,
+        "total_wash_capital": 673812.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-04 09:30:02.721000",
+            "ts_2": "2024-06-04 09:30:02.721000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.08,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 800.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 17
+          },
+          {
+            "ts_1": "2024-06-04 09:34:57.342000",
+            "ts_2": "2024-06-04 09:34:57.342000",
+            "time_gap_sec": 0.0,
+            "size": 195,
+            "price": 0.25,
+            "strike": 5.0,
+            "right": "P",
+            "capital_each": 4875.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 227
+          },
+          {
+            "ts_1": "2024-06-04 10:04:39.963000",
+            "ts_2": "2024-06-04 10:04:57.609000",
+            "time_gap_sec": 17.646,
+            "size": 100,
+            "price": 0.07,
+            "strike": 18.0,
+            "right": "P",
+            "capital_each": 700.0000000000001,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 10:17:11.302000",
+            "ts_2": "2024-06-04 10:17:11.303000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.2,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 2000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 10:21:29.398000",
+            "ts_2": "2024-06-04 10:21:29.398000",
+            "time_gap_sec": 0.0,
+            "size": 102,
+            "price": 1.67,
+            "strike": 25.0,
+            "right": "P",
+            "capital_each": 17034.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 11:04:00.882000",
+            "ts_2": "2024-06-04 11:04:00.991000",
+            "time_gap_sec": 0.109,
+            "size": 100,
+            "price": 0.12,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 1200.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "BATS",
+            "condition_1": 18,
+            "condition_2": 95,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 12:43:05.550000",
+            "ts_2": "2024-06-04 12:43:05.550000",
+            "time_gap_sec": 0.0,
+            "size": 160,
+            "price": 3.8,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 60800.0,
+            "exchange_1": "NSDQ_ISE_GEMINI",
+            "exchange_2": "NSDQ_ISE_GEMINI",
+            "condition_1": 129,
+            "condition_2": 129,
+            "same_exchange": "True",
+            "dte": 227
+          },
+          {
+            "ts_1": "2024-06-04 13:11:20.060000",
+            "ts_2": "2024-06-04 13:11:20.060000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 6.5,
+            "strike": 60.0,
+            "right": "C",
+            "capital_each": 65000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-04 13:16:13.337000",
+            "ts_2": "2024-06-04 13:16:13.601000",
+            "time_gap_sec": 0.264,
+            "size": 119,
+            "price": 0.23,
+            "strike": 70.0,
+            "right": "C",
+            "capital_each": 2737.0,
+            "exchange_1": "BATS",
+            "exchange_2": "BATS",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 13:36:10.675000",
+            "ts_2": "2024-06-04 13:36:10.675000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.05,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 500.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-04 14:55:57.986000",
+            "ts_2": "2024-06-04 14:55:57.986000",
+            "time_gap_sec": 0.0,
+            "size": 116,
+            "price": 3.6,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 41760.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-04 15:57:24.900000",
+            "ts_2": "2024-06-04 15:57:25.051000",
+            "time_gap_sec": 0.151,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 15:57:24.900000",
+            "ts_2": "2024-06-04 15:57:25.200000",
+            "time_gap_sec": 0.3,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 15:57:24.900000",
+            "ts_2": "2024-06-04 15:57:25.351000",
+            "time_gap_sec": 0.451,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 15:57:25.051000",
+            "ts_2": "2024-06-04 15:57:25.200000",
+            "time_gap_sec": 0.149,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 15:57:25.051000",
+            "ts_2": "2024-06-04 15:57:25.351000",
+            "time_gap_sec": 0.3,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-04 15:57:25.200000",
+            "ts_2": "2024-06-04 15:57:25.351000",
+            "time_gap_sec": 0.151,
+            "size": 150,
+            "price": 1.55,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 23250.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 3
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240607": {
+        "test": "H_wash_cross",
+        "date": "20240607",
+        "total_block_trades": 2071,
+        "wash_pairs_found": 265,
+        "sub_second_pairs": 216,
+        "total_wash_capital": 25942068.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.929000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "MIAX_EMERALD",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.929000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.009,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.932000",
+            "ts_2": "2024-06-07 09:30:25.932000",
+            "time_gap_sec": 0.0,
+            "size": 116,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 11716.0,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "MIAX_EMERALD",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.934000",
+            "ts_2": "2024-06-07 09:30:25.934000",
+            "time_gap_sec": 0.0,
+            "size": 173,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 17473.0,
+            "exchange_1": "MULTI_EXCHANGE",
+            "exchange_2": "MULTI_EXCHANGE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:30:25.938000",
+            "ts_2": "2024-06-07 09:30:25.938000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.01,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10100.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 224
+          },
+          {
+            "ts_1": "2024-06-07 09:31:35.410000",
+            "ts_2": "2024-06-07 09:31:35.410000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 3.93,
+            "strike": 35.0,
+            "right": "C",
+            "capital_each": 39300.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": 0
+          },
+          {
+            "ts_1": "2024-06-07 09:37:37.463000",
+            "ts_2": "2024-06-07 09:37:37.463000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.5,
+            "strike": 35.0,
+            "right": "P",
+            "capital_each": 15000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 0
+          },
+          {
+            "ts_1": "2024-06-07 09:37:37.463000",
+            "ts_2": "2024-06-07 09:37:37.581000",
+            "time_gap_sec": 0.118,
+            "size": 100,
+            "price": 1.5,
+            "strike": 35.0,
+            "right": "P",
+            "capital_each": 15000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 0
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240610": {
+        "test": "H_wash_cross",
+        "date": "20240610",
+        "total_block_trades": 291,
+        "wash_pairs_found": 54,
+        "sub_second_pairs": 38,
+        "total_wash_capital": 6800836.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-10 09:35:06.687000",
+            "ts_2": "2024-06-10 09:35:30.196000",
+            "time_gap_sec": 23.509,
+            "size": 200,
+            "price": 4.24,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 84800.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:35:30.196000",
+            "ts_2": "2024-06-10 09:35:50.080000",
+            "time_gap_sec": 19.884,
+            "size": 200,
+            "price": 4.24,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 84800.0,
+            "exchange_1": "CBOE",
+            "exchange_2": "CBOE",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:35:40.549000",
+            "ts_2": "2024-06-10 09:35:43.105000",
+            "time_gap_sec": 2.556,
+            "size": 250,
+            "price": 2.31,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 57750.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:35:40.549000",
+            "ts_2": "2024-06-10 09:35:43.105000",
+            "time_gap_sec": 2.556,
+            "size": 250,
+            "price": 2.31,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 57750.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:35:43.105000",
+            "ts_2": "2024-06-10 09:35:43.105000",
+            "time_gap_sec": 0.0,
+            "size": 250,
+            "price": 2.31,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 57750.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:37:59.920000",
+            "ts_2": "2024-06-10 09:37:59.920000",
+            "time_gap_sec": 0.0,
+            "size": 234,
+            "price": 2.27,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 53117.99999999999,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:37:59.920000",
+            "ts_2": "2024-06-10 09:37:59.920000",
+            "time_gap_sec": 0.0,
+            "size": 234,
+            "price": 2.27,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 53117.99999999999,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:37:59.920000",
+            "ts_2": "2024-06-10 09:37:59.920000",
+            "time_gap_sec": 0.0,
+            "size": 234,
+            "price": 2.27,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 53117.99999999999,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:43:35.842000",
+            "ts_2": "2024-06-10 09:43:35.842000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 3.9,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 39000.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 130,
+            "condition_2": 130,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:44:04.513000",
+            "ts_2": "2024-06-10 09:44:13.498000",
+            "time_gap_sec": 8.985,
+            "size": 310,
+            "price": 0.3,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 9300.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:46:07.312000",
+            "ts_2": "2024-06-10 09:46:07.312000",
+            "time_gap_sec": 0.0,
+            "size": 248,
+            "price": 2.8,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 69440.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 09:46:24.735000",
+            "ts_2": "2024-06-10 09:46:24.735000",
+            "time_gap_sec": 0.0,
+            "size": 198,
+            "price": 2.83,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 56034.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 10:00:08.805000",
+            "ts_2": "2024-06-10 10:00:17.850000",
+            "time_gap_sec": 9.045,
+            "size": 100,
+            "price": 0.25,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 2500.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 18,
+            "condition_2": 130,
+            "same_exchange": "False",
+            "dte": 4
+          },
+          {
+            "ts_1": "2024-06-10 11:13:24.075000",
+            "ts_2": "2024-06-10 11:13:24.075000",
+            "time_gap_sec": 0.0,
+            "size": 151,
+            "price": 2.2,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 33220.00000000001,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:13:24.075000",
+            "ts_2": "2024-06-10 11:13:24.075000",
+            "time_gap_sec": 0.0,
+            "size": 151,
+            "price": 2.2,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 33220.00000000001,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:13:24.075000",
+            "ts_2": "2024-06-10 11:13:24.075000",
+            "time_gap_sec": 0.0,
+            "size": 151,
+            "price": 2.2,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 33220.00000000001,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:14:02.652000",
+            "ts_2": "2024-06-10 11:14:02.652000",
+            "time_gap_sec": 0.0,
+            "size": 135,
+            "price": 2.8,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 37800.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:23:29.528000",
+            "ts_2": "2024-06-10 11:23:29.528000",
+            "time_gap_sec": 0.0,
+            "size": 262,
+            "price": 1.5,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 39300.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:31:10.894000",
+            "ts_2": "2024-06-10 11:31:11.936000",
+            "time_gap_sec": 1.042,
+            "size": 150,
+            "price": 1.48,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 22200.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-10 11:42:01.066000",
+            "ts_2": "2024-06-10 11:42:01.066000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.05,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 500.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240611": {
+        "test": "H_wash_cross",
+        "date": "20240611",
+        "total_block_trades": 133,
+        "wash_pairs_found": 7,
+        "sub_second_pairs": 6,
+        "total_wash_capital": 2156180.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-11 09:58:30.063000",
+            "ts_2": "2024-06-11 09:58:30.063000",
+            "time_gap_sec": 0.0,
+            "size": 200,
+            "price": 0.05,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 1000.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-11 10:25:54.349000",
+            "ts_2": "2024-06-11 10:25:54.349000",
+            "time_gap_sec": 0.0,
+            "size": 403,
+            "price": 2.75,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 110825.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-11 10:58:31.015000",
+            "ts_2": "2024-06-11 10:58:31.015000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 4.5,
+            "strike": 18.0,
+            "right": "P",
+            "capital_each": 45000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 220
+          },
+          {
+            "ts_1": "2024-06-11 11:01:53.873000",
+            "ts_2": "2024-06-11 11:01:53.873000",
+            "time_gap_sec": 0.0,
+            "size": 353,
+            "price": 0.05,
+            "strike": 3.0,
+            "right": "P",
+            "capital_each": 1765.0000000000002,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 220
+          },
+          {
+            "ts_1": "2024-06-11 11:36:21.925000",
+            "ts_2": "2024-06-11 11:36:35.078000",
+            "time_gap_sec": 13.153,
+            "size": 100,
+            "price": 0.58,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 5799.999999999999,
+            "exchange_1": "NSDQ_ISE_GEMINI",
+            "exchange_2": "NSDQ_ISE_GEMINI",
+            "condition_1": 129,
+            "condition_2": 129,
+            "same_exchange": "True",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-11 15:09:05.738000",
+            "ts_2": "2024-06-11 15:09:05.738000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 13.5,
+            "strike": 25.0,
+            "right": "C",
+            "capital_each": 135000.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 220
+          },
+          {
+            "ts_1": "2024-06-11 15:34:03.102000",
+            "ts_2": "2024-06-11 15:34:03.102000",
+            "time_gap_sec": 0.0,
+            "size": 599,
+            "price": 13.0,
+            "strike": 30.0,
+            "right": "C",
+            "capital_each": 778700.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240617": {
+        "test": "H_wash_cross",
+        "date": "20240617",
+        "total_block_trades": 230,
+        "wash_pairs_found": 49,
+        "sub_second_pairs": 44,
+        "total_wash_capital": 3985098.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-17 10:02:21.286000",
+            "ts_2": "2024-06-17 10:02:21.286000",
+            "time_gap_sec": 0.0,
+            "size": 300,
+            "price": 14.0,
+            "strike": 20.0,
+            "right": "C",
+            "capital_each": 420000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 10:19:08.746000",
+            "ts_2": "2024-06-17 10:19:08.746000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 4.3,
+            "strike": 100.0,
+            "right": "C",
+            "capital_each": 43000.0,
+            "exchange_1": "NSDQ_ISE_GEMINI",
+            "exchange_2": "NSDQ_ISE_GEMINI",
+            "condition_1": 129,
+            "condition_2": 129,
+            "same_exchange": "True",
+            "dte": 214
+          },
+          {
+            "ts_1": "2024-06-17 10:54:26.323000",
+            "ts_2": "2024-06-17 10:54:26.323000",
+            "time_gap_sec": 0.0,
+            "size": 159,
+            "price": 10.85,
+            "strike": 30.0,
+            "right": "P",
+            "capital_each": 172515.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 131,
+            "condition_2": 131,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 10:54:26.323000",
+            "ts_2": "2024-06-17 10:54:26.323000",
+            "time_gap_sec": 0.0,
+            "size": 159,
+            "price": 19.03,
+            "strike": 40.0,
+            "right": "P",
+            "capital_each": 302577.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 131,
+            "condition_2": 131,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 11:20:17.491000",
+            "ts_2": "2024-06-17 11:20:17.491000",
+            "time_gap_sec": 0.0,
+            "size": 181,
+            "price": 1.75,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 31675.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 214
+          },
+          {
+            "ts_1": "2024-06-17 12:36:13.501000",
+            "ts_2": "2024-06-17 12:36:13.501000",
+            "time_gap_sec": 0.0,
+            "size": 379,
+            "price": 3.4,
+            "strike": 18.0,
+            "right": "P",
+            "capital_each": 128859.99999999999,
+            "exchange_1": "MIAX_EMERALD",
+            "exchange_2": "MIAX_EMERALD",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 12:50:49.965000",
+            "ts_2": "2024-06-17 12:50:55.837000",
+            "time_gap_sec": 5.872,
+            "size": 188,
+            "price": 0.24,
+            "strike": 20.5,
+            "right": "P",
+            "capital_each": 4512.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 4
+          },
+          {
+            "ts_1": "2024-06-17 12:51:24.812000",
+            "ts_2": "2024-06-17 12:51:24.812000",
+            "time_gap_sec": 0.0,
+            "size": 235,
+            "price": 1.1,
+            "strike": 13.0,
+            "right": "P",
+            "capital_each": 25850.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 214
+          },
+          {
+            "ts_1": "2024-06-17 12:51:24.955000",
+            "ts_2": "2024-06-17 12:51:24.955000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.91,
+            "strike": 12.0,
+            "right": "P",
+            "capital_each": 9100.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:00:26.528000",
+            "ts_2": "2024-06-17 13:00:26.528000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:00:26.528000",
+            "ts_2": "2024-06-17 13:00:34.407000",
+            "time_gap_sec": 7.879,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:00:26.528000",
+            "ts_2": "2024-06-17 13:00:34.407000",
+            "time_gap_sec": 7.879,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:00:26.528000",
+            "ts_2": "2024-06-17 13:00:34.407000",
+            "time_gap_sec": 7.879,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 214
+          },
+          {
+            "ts_1": "2024-06-17 13:00:26.528000",
+            "ts_2": "2024-06-17 13:00:34.407000",
+            "time_gap_sec": 7.879,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 214
+          },
+          {
+            "ts_1": "2024-06-17 13:00:34.407000",
+            "ts_2": "2024-06-17 13:00:34.407000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 2.7,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 27000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:01:01.554000",
+            "ts_2": "2024-06-17 13:01:01.554000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 2.65,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 26500.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 13:52:47.295000",
+            "ts_2": "2024-06-17 13:52:47.295000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 13.15,
+            "strike": 15.0,
+            "right": "C",
+            "capital_each": 131500.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 15:30:23.334000",
+            "ts_2": "2024-06-17 15:30:23.334000",
+            "time_gap_sec": 0.0,
+            "size": 119,
+            "price": 3.4,
+            "strike": 18.0,
+            "right": "P",
+            "capital_each": 40460.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-17 15:30:34.860000",
+            "ts_2": "2024-06-17 15:30:34.862000",
+            "time_gap_sec": 0.002,
+            "size": 100,
+            "price": 2.0,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 20000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 4
+          },
+          {
+            "ts_1": "2024-06-17 15:30:34.860000",
+            "ts_2": "2024-06-17 15:30:34.863000",
+            "time_gap_sec": 0.003,
+            "size": 100,
+            "price": 2.0,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 20000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 4
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240618": {
+        "test": "H_wash_cross",
+        "date": "20240618",
+        "total_block_trades": 85,
+        "wash_pairs_found": 17,
+        "sub_second_pairs": 14,
+        "total_wash_capital": 528294.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-18 09:33:15.875000",
+            "ts_2": "2024-06-18 09:33:15.875000",
+            "time_gap_sec": 0.0,
+            "size": 203,
+            "price": 2.0,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 40600.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 213
+          },
+          {
+            "ts_1": "2024-06-18 09:41:16.567000",
+            "ts_2": "2024-06-18 09:41:18.775000",
+            "time_gap_sec": 2.208,
+            "size": 100,
+            "price": 1.01,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 10100.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-18 10:26:39.567000",
+            "ts_2": "2024-06-18 10:26:39.567000",
+            "time_gap_sec": 0.0,
+            "size": 345,
+            "price": 1.3,
+            "strike": 16.0,
+            "right": "P",
+            "capital_each": 44850.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 11:56:40.507000",
+            "ts_2": "2024-06-18 11:56:47.203000",
+            "time_gap_sec": 6.696,
+            "size": 100,
+            "price": 1.07,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 10700.0,
+            "exchange_1": "MIAX_PEARL_EQUITIES",
+            "exchange_2": "NSDQ_ISE_GEMINI",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-18 11:59:20.087000",
+            "ts_2": "2024-06-18 11:59:31.955000",
+            "time_gap_sec": 11.868,
+            "size": 100,
+            "price": 1.04,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 10400.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "ISE",
+            "condition_1": 125,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 3
+          },
+          {
+            "ts_1": "2024-06-18 12:04:38.013000",
+            "ts_2": "2024-06-18 12:04:38.013000",
+            "time_gap_sec": 0.0,
+            "size": 120,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 4440.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:38.035000",
+            "ts_2": "2024-06-18 12:04:38.035000",
+            "time_gap_sec": 0.0,
+            "size": 297,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 10989.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.986000",
+            "ts_2": "2024-06-18 12:04:47.986000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 95,
+            "condition_2": 95,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.986000",
+            "ts_2": "2024-06-18 12:04:47.987000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.986000",
+            "ts_2": "2024-06-18 12:04:47.987000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.986000",
+            "ts_2": "2024-06-18 12:04:47.987000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 213
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.986000",
+            "ts_2": "2024-06-18 12:04:47.987000",
+            "time_gap_sec": 0.001,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 95,
+            "condition_2": 18,
+            "same_exchange": "False",
+            "dte": 213
+          },
+          {
+            "ts_1": "2024-06-18 12:04:47.987000",
+            "ts_2": "2024-06-18 12:04:47.987000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 3700.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 213
+          },
+          {
+            "ts_1": "2024-06-18 12:04:48.087000",
+            "ts_2": "2024-06-18 12:04:48.087000",
+            "time_gap_sec": 0.0,
+            "size": 109,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 4033.0,
+            "exchange_1": "MIAX_PEARL_EQUITIES",
+            "exchange_2": "MIAX_PEARL_EQUITIES",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 12:04:48.091000",
+            "ts_2": "2024-06-18 12:04:48.091000",
+            "time_gap_sec": 0.0,
+            "size": 155,
+            "price": 0.37,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 5735.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 13:29:15.961000",
+            "ts_2": "2024-06-18 13:29:15.961000",
+            "time_gap_sec": 0.0,
+            "size": 200,
+            "price": 0.38,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 7600.0,
+            "exchange_1": "MIAX_PEARL_EQUITIES",
+            "exchange_2": "MIAX_PEARL_EQUITIES",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-18 15:34:42.018000",
+            "ts_2": "2024-06-18 15:34:42.018000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 9.25,
+            "strike": 21.0,
+            "right": "C",
+            "capital_each": 92500.0,
+            "exchange_1": "NYSE_AMEX",
+            "exchange_2": "NYSE_AMEX",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": 213
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "wash_cross_20240620": {
+        "test": "H_wash_cross",
+        "date": "20240620",
+        "total_block_trades": 66,
+        "wash_pairs_found": 3,
+        "sub_second_pairs": 3,
+        "total_wash_capital": 100540.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-20 10:36:39.975000",
+            "ts_2": "2024-06-20 10:36:39.975000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 1.26,
+            "strike": 25.5,
+            "right": "C",
+            "capital_each": 12600.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 1
+          },
+          {
+            "ts_1": "2024-06-20 12:24:47.312000",
+            "ts_2": "2024-06-20 12:24:47.312000",
+            "time_gap_sec": 0.0,
+            "size": 130,
+            "price": 0.39,
+            "strike": 10.0,
+            "right": "P",
+            "capital_each": 5070.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 211
+          },
+          {
+            "ts_1": "2024-06-20 12:26:06.967000",
+            "ts_2": "2024-06-20 12:26:06.967000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 3.26,
+            "strike": 18.0,
+            "right": "P",
+            "capital_each": 32600.0,
+            "exchange_1": "EDGX_COB",
+            "exchange_2": "EDGX_COB",
+            "condition_1": 125,
+            "condition_2": 125,
+            "same_exchange": "True",
+            "dte": 211
+          }
+        ],
+        "verdict": "SUSPICIOUS PAIRS FOUND"
+      },
+      "wash_cross_20240621": {
+        "test": "H_wash_cross",
+        "date": "20240621",
+        "total_block_trades": 73,
+        "wash_pairs_found": 8,
+        "sub_second_pairs": 7,
+        "total_wash_capital": 681820.0,
+        "pairs": [
+          {
+            "ts_1": "2024-06-21 09:56:02.395000",
+            "ts_2": "2024-06-21 09:56:04.454000",
+            "time_gap_sec": 2.059,
+            "size": 100,
+            "price": 0.3,
+            "strike": 26.0,
+            "right": "C",
+            "capital_each": 3000.0,
+            "exchange_1": "PHLX_FLOOR",
+            "exchange_2": "PHLX_FLOOR",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 0
+          },
+          {
+            "ts_1": "2024-06-21 10:18:53.184000",
+            "ts_2": "2024-06-21 10:18:53.184000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 4.75,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 47500.0,
+            "exchange_1": "OPRA",
+            "exchange_2": "OPRA",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-21 10:38:04.256000",
+            "ts_2": "2024-06-21 10:38:04.256000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 2.68,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 26800.0,
+            "exchange_1": "BZX_OPTIONS",
+            "exchange_2": "BZX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-21 10:39:39.438000",
+            "ts_2": "2024-06-21 10:39:39.438000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 2.6,
+            "strike": 125.0,
+            "right": "C",
+            "capital_each": 26000.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": 210
+          },
+          {
+            "ts_1": "2024-06-21 11:19:29.823000",
+            "ts_2": "2024-06-21 11:19:29.823000",
+            "time_gap_sec": 0.0,
+            "size": 100,
+            "price": 4.75,
+            "strike": 20.0,
+            "right": "P",
+            "capital_each": 47500.0,
+            "exchange_1": "EDGX_OPTIONS",
+            "exchange_2": "EDGX_OPTIONS",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-21 13:35:07.700000",
+            "ts_2": "2024-06-21 13:35:07.700000",
+            "time_gap_sec": 0.0,
+            "size": 105,
+            "price": 12.19,
+            "strike": 15.0,
+            "right": "C",
+            "capital_each": 127995.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 131,
+            "condition_2": 131,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-21 13:35:07.700000",
+            "ts_2": "2024-06-21 13:35:07.700000",
+            "time_gap_sec": 0.0,
+            "size": 105,
+            "price": 1.75,
+            "strike": 15.0,
+            "right": "P",
+            "capital_each": 18375.0,
+            "exchange_1": "NSDQ_BX_OPT",
+            "exchange_2": "NSDQ_BX_OPT",
+            "condition_1": 131,
+            "condition_2": 131,
+            "same_exchange": "True",
+            "dte": null
+          },
+          {
+            "ts_1": "2024-06-21 15:46:50.803000",
+            "ts_2": "2024-06-21 15:46:50.803000",
+            "time_gap_sec": 0.0,
+            "size": 108,
+            "price": 4.05,
+            "strike": 60.0,
+            "right": "C",
+            "capital_each": 43740.0,
+            "exchange_1": "ISE",
+            "exchange_2": "ISE",
+            "condition_1": 18,
+            "condition_2": 18,
+            "same_exchange": "True",
+            "dte": null
+          }
+        ],
+        "verdict": "WASH TRADES DETECTED \u2014 HIGH CONFIDENCE"
+      },
+      "stepping_20240604": {
+        "test": "I_algo_stepping",
+        "date": "20240604",
+        "total_sequences": 13,
+        "dark_venue_sequences": 0,
+        "sequences": [
+          {
+            "length": 3,
+            "sizes": [
+              117,
+              112,
+              114
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 09:33:58.339000",
+                "size": 117,
+                "strike": 31.0,
+                "price": 7.3,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:35:03.045000",
+                "size": 112,
+                "strike": 35.0,
+                "price": 3.85,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:35:06.843000",
+                "size": 114,
+                "strike": 40.0,
+                "price": 2.73,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 68.504
+          },
+          {
+            "length": 3,
+            "sizes": [
+              106,
+              105,
+              100
+            ],
+            "dominant_exchange": "CBOE",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 09:35:21.315000",
+                "size": 106,
+                "strike": 31.0,
+                "price": 2.0,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2024-06-04 09:37:59.264000",
+                "size": 105,
+                "strike": 20.0,
+                "price": 0.41,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:40:01.643000",
+                "size": 100,
+                "strike": 100.0,
+                "price": 0.12,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 280.328
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              101,
+              100
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-04 09:44:07.244000",
+                "size": 100,
+                "strike": 35.0,
+                "price": 1.75,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:46:15.352000",
+                "size": 101,
+                "strike": 30.0,
+                "price": 2.5,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:48:14.571000",
+                "size": 100,
+                "strike": 18.0,
+                "price": 0.1,
+                "exchange": "BATS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 247.327
+          },
+          {
+            "length": 3,
+            "sizes": [
+              195,
+              196,
+              200
+            ],
+            "dominant_exchange": "BZX_OPTIONS",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 09:50:41.136000",
+                "size": 195,
+                "strike": 10.0,
+                "price": 0.08,
+                "exchange": "BZX_OPTIONS",
+                "condition": 95
+              },
+              {
+                "ts": "2024-06-04 09:51:10",
+                "size": 196,
+                "strike": 40.0,
+                "price": 0.92,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 09:55:51.623000",
+                "size": 200,
+                "strike": 20.0,
+                "price": 0.25,
+                "exchange": "EDGX_OPTIONS",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 310.487
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              102,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-04 09:59:15.396000",
+                "size": 100,
+                "strike": 24.5,
+                "price": 1.89,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              },
+              {
+                "ts": "2024-06-04 10:05:12.593000",
+                "size": 102,
+                "strike": 125.0,
+                "price": 0.79,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:05:41.427000",
+                "size": 100,
+                "strike": 100.0,
+                "price": 0.13,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 386.031
+          },
+          {
+            "length": 4,
+            "sizes": [
+              100,
+              102,
+              101,
+              102
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 1.0,
+            "trades": [
+              {
+                "ts": "2024-06-04 10:17:11.302000",
+                "size": 100,
+                "strike": 20.0,
+                "price": 0.2,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:21:29.398000",
+                "size": 102,
+                "strike": 25.0,
+                "price": 1.67,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:21:29.398000",
+                "size": 101,
+                "strike": 25.0,
+                "price": 1.67,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:21:29.398000",
+                "size": 102,
+                "strike": 25.0,
+                "price": 1.67,
+                "exchange": "ISE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 258.096
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              103,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 10:22:15.650000",
+                "size": 100,
+                "strike": 80.0,
+                "price": 0.21,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              },
+              {
+                "ts": "2024-06-04 10:27:04.210000",
+                "size": 103,
+                "strike": 26.0,
+                "price": 2.23,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:27:13.118000",
+                "size": 100,
+                "strike": 50.0,
+                "price": 0.61,
+                "exchange": "EDGX_COB",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 297.468
+          },
+          {
+            "length": 3,
+            "sizes": [
+              150,
+              154,
+              150
+            ],
+            "dominant_exchange": "PHLX_FLOOR",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 10:49:17.554000",
+                "size": 150,
+                "strike": 22.0,
+                "price": 0.4,
+                "exchange": "PHLX_FLOOR",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 10:53:41.666000",
+                "size": 154,
+                "strike": 20.5,
+                "price": 0.17,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 11:02:24.716000",
+                "size": 150,
+                "strike": 20.0,
+                "price": 0.13,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 787.162
+          },
+          {
+            "length": 3,
+            "sizes": [
+              180,
+              175,
+              180
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-04 11:08:54.436000",
+                "size": 180,
+                "strike": 50.0,
+                "price": 2.95,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 11:11:48.578000",
+                "size": 175,
+                "strike": 27.0,
+                "price": 3.45,
+                "exchange": "BZX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 11:22:21.641000",
+                "size": 180,
+                "strike": 55.0,
+                "price": 0.56,
+                "exchange": "EDGX_OPTIONS",
+                "condition": 130
+              }
+            ],
+            "time_span_sec": 807.205
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              104,
+              100
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-04 11:30:37.259000",
+                "size": 100,
+                "strike": 30.0,
+                "price": 2.05,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-04 11:43:12.045000",
+                "size": 104,
+                "strike": 100.0,
+                "price": 0.12,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              },
+              {
+                "ts": "2024-06-04 11:45:41.300000",
+                "size": 100,
+                "strike": 30.0,
+                "price": 1.8,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 904.041
+          }
+        ],
+        "verdict": "ALGORITHMIC STEPPING DETECTED"
+      },
+      "stepping_20240607": {
+        "test": "I_algo_stepping",
+        "date": "20240607",
+        "total_sequences": 72,
+        "dark_venue_sequences": 0,
+        "sequences": [
+          {
+            "length": 3,
+            "sizes": [
+              118,
+              120,
+              117
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:30:45.268000",
+                "size": 118,
+                "strike": 22.5,
+                "price": 2.43,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:30:46.861000",
+                "size": 120,
+                "strike": 40.0,
+                "price": 8.6,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:31:01.217000",
+                "size": 117,
+                "strike": 60.0,
+                "price": 1.39,
+                "exchange": "ISE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 15.949
+          },
+          {
+            "length": 3,
+            "sizes": [
+              112,
+              110,
+              112
+            ],
+            "dominant_exchange": "NYSE_AMEX",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:31:09.322000",
+                "size": 112,
+                "strike": 30.0,
+                "price": 11.0,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:31:15.093000",
+                "size": 110,
+                "strike": 40.0,
+                "price": 3.05,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:31:26.590000",
+                "size": 112,
+                "strike": 25.0,
+                "price": 0.13,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 17.268
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              101,
+              100
+            ],
+            "dominant_exchange": "NSDQ_BX_OPT",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:38:25.727000",
+                "size": 100,
+                "strike": 28.5,
+                "price": 0.24,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:38:49.323000",
+                "size": 101,
+                "strike": 100.0,
+                "price": 6.0,
+                "exchange": "NYSE_AMEX",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:38:50.025000",
+                "size": 100,
+                "strike": 70.0,
+                "price": 2.5,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 24.298
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              103,
+              100
+            ],
+            "dominant_exchange": "NSDQ_BX_OPT",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:45:10.227000",
+                "size": 100,
+                "strike": 50.0,
+                "price": 15.15,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 125
+              },
+              {
+                "ts": "2024-06-07 09:45:14.487000",
+                "size": 103,
+                "strike": 20.0,
+                "price": 2.7,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:45:14.925000",
+                "size": 100,
+                "strike": 45.0,
+                "price": 15.16,
+                "exchange": "EDGX_COB",
+                "condition": 130
+              }
+            ],
+            "time_span_sec": 4.698
+          },
+          {
+            "length": 3,
+            "sizes": [
+              200,
+              195,
+              200
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:45:39.550000",
+                "size": 200,
+                "strike": 60.0,
+                "price": 12.0,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:45:49.851000",
+                "size": 195,
+                "strike": 35.0,
+                "price": 1.65,
+                "exchange": "EDGX_OPTIONS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:45:55.513000",
+                "size": 200,
+                "strike": 100.0,
+                "price": 1.3,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 15.963
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              105,
+              100
+            ],
+            "dominant_exchange": "BATS",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:51:57.675000",
+                "size": 100,
+                "strike": 55.0,
+                "price": 12.42,
+                "exchange": "BATS",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:52:11.922000",
+                "size": 105,
+                "strike": 100.0,
+                "price": 0.81,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 09:52:35.491000",
+                "size": 100,
+                "strike": 80.0,
+                "price": 8.3,
+                "exchange": "NYSE_AMEX",
+                "condition": 125
+              }
+            ],
+            "time_span_sec": 37.816
+          },
+          {
+            "length": 3,
+            "sizes": [
+              204,
+              200,
+              197
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.3333333333333333,
+            "trades": [
+              {
+                "ts": "2024-06-07 09:54:19.832000",
+                "size": 204,
+                "strike": 10.0,
+                "price": 0.16,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:00:00.401000",
+                "size": 200,
+                "strike": 30.0,
+                "price": 0.52,
+                "exchange": "OPRA",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:00:05.580000",
+                "size": 197,
+                "strike": 40.0,
+                "price": 4.75,
+                "exchange": "PHLX_FLOOR",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 345.748
+          },
+          {
+            "length": 4,
+            "sizes": [
+              118,
+              120,
+              125,
+              129
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.5,
+            "trades": [
+              {
+                "ts": "2024-06-07 10:00:20.342000",
+                "size": 118,
+                "strike": 20.0,
+                "price": 4.0,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:00:20.981000",
+                "size": 120,
+                "strike": 65.0,
+                "price": 1.75,
+                "exchange": "CBOE",
+                "condition": 130
+              },
+              {
+                "ts": "2024-06-07 10:00:26.986000",
+                "size": 125,
+                "strike": 10.0,
+                "price": 0.8,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:00:38.381000",
+                "size": 129,
+                "strike": 60.0,
+                "price": 9.65,
+                "exchange": "OPRA",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 18.039
+          },
+          {
+            "length": 3,
+            "sizes": [
+              100,
+              101,
+              100
+            ],
+            "dominant_exchange": "ISE",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-07 10:00:41.669000",
+                "size": 100,
+                "strike": 60.0,
+                "price": 6.7,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:01:07.249000",
+                "size": 101,
+                "strike": 40.0,
+                "price": 5.4,
+                "exchange": "ISE",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:01:14.127000",
+                "size": 100,
+                "strike": 10.0,
+                "price": 0.09,
+                "exchange": "MULTI_EXCHANGE",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 32.458
+          },
+          {
+            "length": 3,
+            "sizes": [
+              125,
+              120,
+              125
+            ],
+            "dominant_exchange": "C2",
+            "exchange_concentration": 0.6666666666666666,
+            "trades": [
+              {
+                "ts": "2024-06-07 10:01:35.659000",
+                "size": 125,
+                "strike": 47.0,
+                "price": 8.0,
+                "exchange": "NSDQ_BX_OPT",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:01:57.465000",
+                "size": 120,
+                "strike": 27.0,
+                "price": 2.32,
+                "exchange": "C2",
+                "condition": 18
+              },
+              {
+                "ts": "2024-06-07 10:01:58.550000",
+                "size": 125,
+                "strike": 36.0,
+                "price": 3.2,
+                "exchange": "C2",
+                "condition": 18
+              }
+            ],
+            "time_span_sec": 22.891
+          }
+        ],
+        "verdict": "ALGORITHMIC STEPPING DETECTED"
+      },
+      "cob_routing_20240604": {
+        "test": "J_cob_routing",
+        "date": "20240604",
+        "total_trades": 92094,
+        "complex_trades": 18670,
+        "complex_volume": 74179,
+        "cob_clusters": 5537,
+        "dark_clusters": 1723,
+        "total_cob_volume": 55592,
+        "dark_cob_volume": 15816,
+        "exchange_breakdown": {
+          "EDGX_COB": {
+            "clusters": 834,
+            "volume": 8827,
+            "capital": 2515936.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 334,
+            "volume": 3483,
+            "capital": 840266.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 1385,
+            "volume": 16351,
+            "capital": 5283903.0
+          },
+          "CBOE": {
+            "clusters": 1104,
+            "volume": 12172,
+            "capital": 3226876.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 154,
+            "volume": 1790,
+            "capital": 469410.0
+          },
+          "C2_COB": {
+            "clusters": 395,
+            "volume": 2380,
+            "capital": 472434.0
+          },
+          "C2": {
+            "clusters": 144,
+            "volume": 1514,
+            "capital": 327971.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 205,
+            "volume": 1847,
+            "capital": 606492.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 24,
+            "volume": 319,
+            "capital": 10635.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 33,
+            "volume": 296,
+            "capital": 23916.0
+          },
+          "ISE": {
+            "clusters": 593,
+            "volume": 4584,
+            "capital": 927585.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 203,
+            "volume": 1270,
+            "capital": 391482.0
+          },
+          "BATS": {
+            "clusters": 15,
+            "volume": 190,
+            "capital": 4851.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 96,
+            "volume": 407,
+            "capital": 79628.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 7,
+            "volume": 104,
+            "capital": 7287.999999999999
+          },
+          "OPRA": {
+            "clusters": 11,
+            "volume": 58,
+            "capital": 13965.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-04 10:20:57.803000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 6,
+            "unique_strikes": 2,
+            "strikes": [
+              26.0,
+              26.5
+            ],
+            "total_volume": 1100,
+            "capital": 636350.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1,
+              237,
+              312
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-04 11:22:21.641000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              55.0
+            ],
+            "total_volume": 965,
+            "capital": 20285.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              180,
+              785
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-04 12:00:04.941000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 7,
+            "unique_strikes": 2,
+            "strikes": [
+              34.0,
+              35.0
+            ],
+            "total_volume": 570,
+            "capital": 681751.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              29,
+              30,
+              53,
+              188
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 14:01:42.241000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 6,
+            "unique_strikes": 2,
+            "strikes": [
+              28.0,
+              29.0
+            ],
+            "total_volume": 570,
+            "capital": 210045.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              14,
+              45,
+              226
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 09:32:36.095000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 12,
+            "unique_strikes": 2,
+            "strikes": [
+              26.5,
+              27.0
+            ],
+            "total_volume": 500,
+            "capital": 187024.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              12,
+              14,
+              45,
+              77,
+              90
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 15:18:41.156000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              20.5,
+              21.0
+            ],
+            "total_volume": 430,
+            "capital": 73530.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              215
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 09:57:21.198000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              30.0
+            ],
+            "total_volume": 400,
+            "capital": 332200.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              200
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 12:33:30.315000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 8,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              26.0
+            ],
+            "total_volume": 400,
+            "capital": 130200.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              7,
+              26,
+              80,
+              87
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 12:33:52.271000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 8,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              26.0
+            ],
+            "total_volume": 400,
+            "capital": 129000.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              6,
+              28,
+              80,
+              86
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 14:50:30.791000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              17.5,
+              18.0
+            ],
+            "total_volume": 360,
+            "capital": 22500.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              180
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 15:50:51.570000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 10,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              23.0
+            ],
+            "total_volume": 340,
+            "capital": 10710.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              16,
+              33,
+              37,
+              68
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 10:03:31.819000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              35.0,
+              40.0
+            ],
+            "total_volume": 320,
+            "capital": 36960.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              160
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 12:43:05.550000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              125.0
+            ],
+            "total_volume": 320,
+            "capital": 121600.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              160
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-04 09:40:11.482000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              13.5,
+              21.0
+            ],
+            "total_volume": 310,
+            "capital": 9455.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              155
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-04 09:56:09.461000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              18.0,
+              19.0
+            ],
+            "total_volume": 300,
+            "capital": 262500.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              150
+            ],
+            "is_dark": true
+          }
+        ],
+        "verdict": "COB ROUTING \u2014 INSTITUTIONAL DARK POOL"
+      },
+      "cob_routing_20240607": {
+        "test": "J_cob_routing",
+        "date": "20240607",
+        "total_trades": 506506,
+        "complex_trades": 99712,
+        "complex_volume": 438424,
+        "cob_clusters": 31074,
+        "dark_clusters": 9867,
+        "total_cob_volume": 355623,
+        "dark_cob_volume": 94596,
+        "exchange_breakdown": {
+          "C2_COB": {
+            "clusters": 2213,
+            "volume": 20193,
+            "capital": 7456090.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 5834,
+            "volume": 74388,
+            "capital": 35248579.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 732,
+            "volume": 11898,
+            "capital": 3176104.0
+          },
+          "C2": {
+            "clusters": 826,
+            "volume": 10808,
+            "capital": 4168248.0
+          },
+          "EDGX_COB": {
+            "clusters": 4504,
+            "volume": 46955,
+            "capital": 20279968.0
+          },
+          "CBOE": {
+            "clusters": 8771,
+            "volume": 113425,
+            "capital": 53472923.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 2326,
+            "volume": 21347,
+            "capital": 9424070.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 1050,
+            "volume": 10277,
+            "capital": 4786399.0
+          },
+          "ISE": {
+            "clusters": 2718,
+            "volume": 26059,
+            "capital": 8390937.0
+          },
+          "BATS": {
+            "clusters": 60,
+            "volume": 1032,
+            "capital": 734962.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 1161,
+            "volume": 12499,
+            "capital": 5334411.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 441,
+            "volume": 2428,
+            "capital": 1049278.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 209,
+            "volume": 2166,
+            "capital": 482171.0
+          },
+          "OPRA": {
+            "clusters": 53,
+            "volume": 637,
+            "capital": 101818.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 133,
+            "volume": 1074,
+            "capital": 134777.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 41,
+            "volume": 433,
+            "capital": 55150.0
+          },
+          "ISE2": {
+            "clusters": 2,
+            "volume": 4,
+            "capital": 825.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-07 12:57:49.968000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              40.0,
+              45.0
+            ],
+            "total_volume": 2998,
+            "capital": 467688.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1499
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-07 13:16:06.159000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              35.0,
+              37.0
+            ],
+            "total_volume": 2000,
+            "capital": 157000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1000
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 15:58:16.727000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              28.0,
+              28.5
+            ],
+            "total_volume": 2000,
+            "capital": 95000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 15:58:28.520000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              27.0,
+              27.5
+            ],
+            "total_volume": 2000,
+            "capital": 121000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              500
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 14:01:30.916000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.5
+            ],
+            "total_volume": 1716,
+            "capital": 1388244.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              858
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 13:31:14.747000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 1687,
+            "capital": 43862.00000000001,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              5,
+              48,
+              1633
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 10:13:41.501000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              40.0,
+              41.0
+            ],
+            "total_volume": 1000,
+            "capital": 399000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              2,
+              498
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-07 10:32:49.743000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 6,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 1000,
+            "capital": 70000.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              33,
+              67,
+              400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 14:08:58.142000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              26.0
+            ],
+            "total_volume": 1000,
+            "capital": 51000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              500
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-07 15:04:19.233000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              28.0
+            ],
+            "total_volume": 992,
+            "capital": 289664.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              496
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 13:16:06.159000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              35.0,
+              37.0
+            ],
+            "total_volume": 986,
+            "capital": 77401.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              493
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-07 10:47:41.956000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              26.0,
+              26.5
+            ],
+            "total_volume": 976,
+            "capital": 953552.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              488
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 13:55:27.465000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              42.0,
+              125.0
+            ],
+            "total_volume": 968,
+            "capital": 152460.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              242,
+              726
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 10:56:51.775000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              40.0
+            ],
+            "total_volume": 900,
+            "capital": 1696500.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              300
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-07 14:01:20.926000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 6,
+            "unique_strikes": 1,
+            "strikes": [
+              22.5
+            ],
+            "total_volume": 830,
+            "capital": 544065.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              21,
+              128,
+              266
+            ],
+            "is_dark": true
+          }
+        ],
+        "verdict": "COB ROUTING \u2014 INSTITUTIONAL DARK POOL"
+      },
+      "cob_routing_20240610": {
+        "test": "J_cob_routing",
+        "date": "20240610",
+        "total_trades": 40968,
+        "complex_trades": 8501,
+        "complex_volume": 48286,
+        "cob_clusters": 1578,
+        "dark_clusters": 493,
+        "total_cob_volume": 24976,
+        "dark_cob_volume": 8628,
+        "exchange_breakdown": {
+          "C2_COB": {
+            "clusters": 102,
+            "volume": 2475,
+            "capital": 2153784.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 44,
+            "volume": 985,
+            "capital": 693014.0
+          },
+          "ISE": {
+            "clusters": 162,
+            "volume": 2832,
+            "capital": 1116377.0
+          },
+          "EDGX_COB": {
+            "clusters": 249,
+            "volume": 4434,
+            "capital": 1096868.0
+          },
+          "CBOE": {
+            "clusters": 375,
+            "volume": 5667,
+            "capital": 2551931.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 338,
+            "volume": 5113,
+            "capital": 2269939.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 85,
+            "volume": 1146,
+            "capital": 494562.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 65,
+            "volume": 735,
+            "capital": 392026.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 61,
+            "volume": 667,
+            "capital": 335082.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 18,
+            "volume": 300,
+            "capital": 159748.0
+          },
+          "OPRA": {
+            "clusters": 10,
+            "volume": 92,
+            "capital": 13730.0
+          },
+          "C2": {
+            "clusters": 24,
+            "volume": 240,
+            "capital": 93868.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 14,
+            "volume": 136,
+            "capital": 156515.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 20,
+            "volume": 106,
+            "capital": 22443.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 5,
+            "volume": 31,
+            "capital": 17220.0
+          },
+          "BATS": {
+            "clusters": 6,
+            "volume": 17,
+            "capital": 5874.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-10 12:46:53.920000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              35.0
+            ],
+            "total_volume": 1704,
+            "capital": 1531896.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              426
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 12:46:53.813000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              35.0
+            ],
+            "total_volume": 516,
+            "capital": 464658.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              129
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 12:46:53.813000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              35.0
+            ],
+            "total_volume": 476,
+            "capital": 428162.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              119
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 12:38:04.287000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              19.5,
+              20.0
+            ],
+            "total_volume": 420,
+            "capital": 40320.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              210
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 12:46:53.814000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              35.0
+            ],
+            "total_volume": 408,
+            "capital": 366996.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              102
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 12:17:10.360000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 400,
+            "capital": 203999.99999999997,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              18,
+              382
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 10:26:05.989000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 365,
+            "capital": 8760.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              45,
+              320
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 11:11:22.238000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              60.0
+            ],
+            "total_volume": 234,
+            "capital": 180648.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              117
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 09:30:03.480000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              6.0,
+              11.0
+            ],
+            "total_volume": 200,
+            "capital": 6520.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              20,
+              80
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 09:33:45.108000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              100.0
+            ],
+            "total_volume": 200,
+            "capital": 81400.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              60,
+              80
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 09:43:35.842000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              100.0
+            ],
+            "total_volume": 200,
+            "capital": 78000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 09:44:08.706000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              100.0
+            ],
+            "total_volume": 200,
+            "capital": 79700.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 09:56:53.766000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              12.0,
+              13.0
+            ],
+            "total_volume": 200,
+            "capital": 15100.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-10 09:38:55.128000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              100.0
+            ],
+            "total_volume": 199,
+            "capital": 89152.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              94,
+              105
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-10 11:11:22.238000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              60.0
+            ],
+            "total_volume": 196,
+            "capital": 151312.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              98
+            ],
+            "is_dark": true
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20240611": {
+        "test": "J_cob_routing",
+        "date": "20240611",
+        "total_trades": 35122,
+        "complex_trades": 8015,
+        "complex_volume": 37915,
+        "cob_clusters": 1464,
+        "dark_clusters": 477,
+        "total_cob_volume": 18055,
+        "dark_cob_volume": 5004,
+        "exchange_breakdown": {
+          "CBOE": {
+            "clusters": 318,
+            "volume": 5748,
+            "capital": 2242956.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 287,
+            "volume": 3419,
+            "capital": 1125133.0
+          },
+          "C2_COB": {
+            "clusters": 76,
+            "volume": 714,
+            "capital": 245166.0
+          },
+          "C2": {
+            "clusters": 50,
+            "volume": 709,
+            "capital": 215864.0
+          },
+          "ISE": {
+            "clusters": 149,
+            "volume": 1332,
+            "capital": 372467.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 75,
+            "volume": 813,
+            "capital": 224492.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 45,
+            "volume": 532,
+            "capital": 179358.0
+          },
+          "EDGX_COB": {
+            "clusters": 270,
+            "volume": 2821,
+            "capital": 860858.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 76,
+            "volume": 979,
+            "capital": 294286.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 49,
+            "volume": 452,
+            "capital": 274903.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 36,
+            "volume": 337,
+            "capital": 165222.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 8,
+            "volume": 54,
+            "capital": 20024.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 1,
+            "volume": 30,
+            "capital": 9300.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 10,
+            "volume": 69,
+            "capital": 21553.0
+          },
+          "BATS": {
+            "clusters": 7,
+            "volume": 30,
+            "capital": 12934.0
+          },
+          "OPRA": {
+            "clusters": 7,
+            "volume": 16,
+            "capital": 5890.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-11 09:31:38.581000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              14.0,
+              15.0
+            ],
+            "total_volume": 800,
+            "capital": 155600.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              400
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 10:24:14.704000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 4,
+            "strikes": [
+              10.0,
+              15.0,
+              25.0,
+              30.0
+            ],
+            "total_volume": 400,
+            "capital": 200000.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 10:52:57.644000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              39.0,
+              45.0
+            ],
+            "total_volume": 400,
+            "capital": 253800.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              200
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 15:59:33.063000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              31.0
+            ],
+            "total_volume": 300,
+            "capital": 126450.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              75
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 15:20:41.169000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              30.0
+            ],
+            "total_volume": 270,
+            "capital": 86659.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              11,
+              259
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-11 12:08:57.969000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 7,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              30.5
+            ],
+            "total_volume": 200,
+            "capital": 37300.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              5,
+              10,
+              18,
+              27,
+              36,
+              50,
+              54
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 12:08:57.974000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              30.0,
+              30.5,
+              31.0
+            ],
+            "total_volume": 200,
+            "capital": 36250.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              50,
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 12:08:57.974000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              30.0,
+              30.5,
+              31.0
+            ],
+            "total_volume": 200,
+            "capital": 36450.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              50,
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 13:25:21.107000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 6,
+            "unique_strikes": 2,
+            "strikes": [
+              20.0,
+              21.0
+            ],
+            "total_volume": 200,
+            "capital": 11600.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              13,
+              40,
+              47
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 12:08:57.969000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 7,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              30.5
+            ],
+            "total_volume": 174,
+            "capital": 32042.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              6,
+              10,
+              12,
+              20,
+              24,
+              34,
+              68
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 11:36:35.389000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 152,
+            "capital": 8816.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              2,
+              23,
+              127
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 14:45:36.193000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              19.0
+            ],
+            "total_volume": 150,
+            "capital": 72050.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              50
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 15:09:18.988000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              19.0
+            ],
+            "total_volume": 150,
+            "capital": 69650.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              50
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 15:20:40.960000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              30.0
+            ],
+            "total_volume": 150,
+            "capital": 47550.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              53,
+              97
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-11 09:46:56.735000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              30.0
+            ],
+            "total_volume": 141,
+            "capital": 21432.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              23,
+              118
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20240617": {
+        "test": "J_cob_routing",
+        "date": "20240617",
+        "total_trades": 27712,
+        "complex_trades": 6048,
+        "complex_volume": 29624,
+        "cob_clusters": 1086,
+        "dark_clusters": 348,
+        "total_cob_volume": 15028,
+        "dark_cob_volume": 4948,
+        "exchange_breakdown": {
+          "NSDQ_BX_OPT": {
+            "clusters": 229,
+            "volume": 3663,
+            "capital": 2117783.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 34,
+            "volume": 725,
+            "capital": 639036.0
+          },
+          "CBOE": {
+            "clusters": 185,
+            "volume": 2441,
+            "capital": 1010595.0
+          },
+          "ISE": {
+            "clusters": 139,
+            "volume": 1517,
+            "capital": 647318.0
+          },
+          "EDGX_COB": {
+            "clusters": 136,
+            "volume": 2127,
+            "capital": 532344.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 74,
+            "volume": 979,
+            "capital": 337420.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 73,
+            "volume": 1208,
+            "capital": 509009.0
+          },
+          "C2_COB": {
+            "clusters": 89,
+            "volume": 1022,
+            "capital": 300098.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 8,
+            "volume": 158,
+            "capital": 12243.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 38,
+            "volume": 454,
+            "capital": 182039.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 18,
+            "volume": 129,
+            "capital": 6886.0
+          },
+          "C2": {
+            "clusters": 36,
+            "volume": 291,
+            "capital": 52591.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 21,
+            "volume": 287,
+            "capital": 83478.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 3,
+            "volume": 17,
+            "capital": 1370.0
+          },
+          "ISE2": {
+            "clusters": 1,
+            "volume": 6,
+            "capital": 660.0
+          },
+          "OPRA": {
+            "clusters": 1,
+            "volume": 2,
+            "capital": 720.0
+          },
+          "BATS": {
+            "clusters": 1,
+            "volume": 2,
+            "capital": 1820.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-17 10:54:26.323000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 8,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 858,
+            "capital": 1281852.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              55,
+              56,
+              159
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 10:54:26.165000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 258,
+            "capital": 386742.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              129
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 10:54:26.165000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 240,
+            "capital": 361200.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              120
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 10:54:26.165000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 240,
+            "capital": 359760.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              120
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 15:56:22.213000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 204,
+            "capital": 1224.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              24,
+              180
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-17 10:19:08.746000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              100.0
+            ],
+            "total_volume": 200,
+            "capital": 86000.0,
+            "conditions": [
+              129
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 10:24:11.653000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              21.0,
+              26.0
+            ],
+            "total_volume": 200,
+            "capital": 14400.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-17 13:07:02.617000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 190,
+            "capital": 122170.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              95
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-17 12:58:48.452000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 171,
+            "capital": 2052.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              8,
+              162
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 13:07:02.617000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 160,
+            "capital": 102880.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              80
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-17 09:57:13.364000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 3,
+            "unique_strikes": 3,
+            "strikes": [
+              10.0,
+              13.0,
+              20.0
+            ],
+            "total_volume": 150,
+            "capital": 13600.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              25,
+              50,
+              75
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 15:22:08.700000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 140,
+            "capital": 1120.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              34,
+              106
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-17 15:55:46.868000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 140,
+            "capital": 980.0000000000001,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              22,
+              31,
+              56
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 13:07:02.517000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 130,
+            "capital": 83590.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              65
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-17 13:07:02.518000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              30.0,
+              40.0
+            ],
+            "total_volume": 120,
+            "capital": 77160.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              60
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20240618": {
+        "test": "J_cob_routing",
+        "date": "20240618",
+        "total_trades": 11752,
+        "complex_trades": 2186,
+        "complex_volume": 12904,
+        "cob_clusters": 401,
+        "dark_clusters": 107,
+        "total_cob_volume": 6720,
+        "dark_cob_volume": 1820,
+        "exchange_breakdown": {
+          "OPRA": {
+            "clusters": 1,
+            "volume": 240,
+            "capital": 8880.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 5,
+            "volume": 484,
+            "capital": 17628.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 107,
+            "volume": 1838,
+            "capital": 373739.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 19,
+            "volume": 459,
+            "capital": 127082.0
+          },
+          "ISE": {
+            "clusters": 59,
+            "volume": 745,
+            "capital": 73694.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 13,
+            "volume": 295,
+            "capital": 40729.0
+          },
+          "CBOE": {
+            "clusters": 82,
+            "volume": 1239,
+            "capital": 536567.0
+          },
+          "EDGX_COB": {
+            "clusters": 49,
+            "volume": 517,
+            "capital": 184851.0
+          },
+          "C2": {
+            "clusters": 5,
+            "volume": 286,
+            "capital": 11682.0
+          },
+          "C2_COB": {
+            "clusters": 23,
+            "volume": 206,
+            "capital": 42605.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 14,
+            "volume": 156,
+            "capital": 52964.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 2,
+            "volume": 50,
+            "capital": 6261.000000000001
+          },
+          "BATS": {
+            "clusters": 3,
+            "volume": 35,
+            "capital": 1647.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 9,
+            "volume": 104,
+            "capital": 33749.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 10,
+            "volume": 66,
+            "capital": 33537.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-18 12:04:38.013000",
+            "exchange": "OPRA",
+            "exchange_code": 31,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 240,
+            "capital": 8880.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              120
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 12:04:38.012000",
+            "exchange": "BZX_OPTIONS",
+            "exchange_code": 60,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 208,
+            "capital": 7696.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              7,
+              97
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-18 10:16:02.916000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 8,
+            "unique_strikes": 2,
+            "strikes": [
+              20.5,
+              21.0
+            ],
+            "total_volume": 200,
+            "capital": 75700.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              20,
+              40
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 12:04:47.986000",
+            "exchange": "BZX_OPTIONS",
+            "exchange_code": 60,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 200,
+            "capital": 7400.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              100
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-18 12:04:38.012000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 180,
+            "capital": 6660.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              9,
+              81
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-18 15:37:37.414000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 5,
+            "unique_strikes": 1,
+            "strikes": [
+              20.5
+            ],
+            "total_volume": 156,
+            "capital": 2028.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              18,
+              36,
+              39,
+              62
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 13:12:03.288000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              32.0
+            ],
+            "total_volume": 150,
+            "capital": 5100.000000000001,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              75
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 12:04:47.987000",
+            "exchange": "NYSE_AMEX",
+            "exchange_code": 9,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 134,
+            "capital": 4958.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              67
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 14:48:27.614000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 3,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              35.0
+            ],
+            "total_volume": 120,
+            "capital": 84560.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              40
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 12:50:48.721000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              32.0
+            ],
+            "total_volume": 106,
+            "capital": 3604.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              16,
+              26,
+              29,
+              35
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-18 12:04:33.169000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              10.0
+            ],
+            "total_volume": 102,
+            "capital": 3774.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              8,
+              43
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 09:34:06.560000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              21.0
+            ],
+            "total_volume": 100,
+            "capital": 1800.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              50
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 09:54:04.545000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              26.0,
+              31.0
+            ],
+            "total_volume": 100,
+            "capital": 6750.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              50
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 11:26:02.372000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              31.0
+            ],
+            "total_volume": 100,
+            "capital": 4800.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              23,
+              77
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-18 15:59:02.876000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 100,
+            "capital": 20400.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              36,
+              64
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20240620": {
+        "test": "J_cob_routing",
+        "date": "20240620",
+        "total_trades": 13979,
+        "complex_trades": 2667,
+        "complex_volume": 11261,
+        "cob_clusters": 454,
+        "dark_clusters": 141,
+        "total_cob_volume": 4824,
+        "dark_cob_volume": 1381,
+        "exchange_breakdown": {
+          "EDGX_COB": {
+            "clusters": 55,
+            "volume": 884,
+            "capital": 152934.0
+          },
+          "CBOE": {
+            "clusters": 121,
+            "volume": 1686,
+            "capital": 679971.0
+          },
+          "NSDQ_BX_OPT": {
+            "clusters": 77,
+            "volume": 745,
+            "capital": 345381.0
+          },
+          "C2": {
+            "clusters": 10,
+            "volume": 154,
+            "capital": 58269.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 21,
+            "volume": 293,
+            "capital": 60656.0
+          },
+          "ISE": {
+            "clusters": 59,
+            "volume": 429,
+            "capital": 41720.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 36,
+            "volume": 206,
+            "capital": 46509.0
+          },
+          "C2_COB": {
+            "clusters": 37,
+            "volume": 165,
+            "capital": 60699.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 17,
+            "volume": 114,
+            "capital": 30054.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 8,
+            "volume": 59,
+            "capital": 21429.0
+          },
+          "MIAX_EMERALD": {
+            "clusters": 1,
+            "volume": 22,
+            "capital": 1628.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 3,
+            "volume": 43,
+            "capital": 1810.0
+          },
+          "NYSE_AMEX": {
+            "clusters": 6,
+            "volume": 18,
+            "capital": 5359.0
+          },
+          "BATS": {
+            "clusters": 2,
+            "volume": 4,
+            "capital": 542.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 1,
+            "volume": 2,
+            "capital": 556.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-20 11:29:11.172000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              17.0,
+              18.0
+            ],
+            "total_volume": 360,
+            "capital": 73080.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              180
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-20 15:37:52.574000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              25.0,
+              45.0
+            ],
+            "total_volume": 240,
+            "capital": 185040.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              60
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 10:16:02.265000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 6,
+            "unique_strikes": 2,
+            "strikes": [
+              40.0,
+              125.0
+            ],
+            "total_volume": 198,
+            "capital": 56346.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              30,
+              36
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 12:53:57.379000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 7,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 100,
+            "capital": 4464.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              1,
+              7,
+              14,
+              32
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 13:12:25.735000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 97,
+            "capital": 4446.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              16,
+              81
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 13:52:57.228000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              13.0
+            ],
+            "total_volume": 82,
+            "capital": 109306.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              41
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 11:49:22.449000",
+            "exchange": "C2",
+            "exchange_code": 4,
+            "legs": 5,
+            "unique_strikes": 1,
+            "strikes": [
+              11.0
+            ],
+            "total_volume": 76,
+            "capital": 1900.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              3,
+              5,
+              7,
+              30,
+              31
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 15:09:11.132000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 4,
+            "unique_strikes": 2,
+            "strikes": [
+              26.0,
+              32.0
+            ],
+            "total_volume": 72,
+            "capital": 5544.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              18
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-20 11:49:22.454000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              11.0
+            ],
+            "total_volume": 71,
+            "capital": 1775.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              17,
+              53
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 14:47:38.473000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 5,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 70,
+            "capital": 10080.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1,
+              3,
+              5,
+              56
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-20 10:49:36.884000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 8,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 60,
+            "capital": 10620.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1,
+              2,
+              3,
+              49
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 14:33:16.275000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              31.0
+            ],
+            "total_volume": 60,
+            "capital": 1680.0000000000002,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              12,
+              48
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-20 14:22:47.041000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 56,
+            "capital": 4872.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              16,
+              40
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 13:47:09.551000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 54,
+            "capital": 3779.9999999999995,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              15,
+              39
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-20 13:52:57.386000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              13.0
+            ],
+            "total_volume": 50,
+            "capital": 66950.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              25
+            ],
+            "is_dark": false
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "cob_routing_20240621": {
+        "test": "J_cob_routing",
+        "date": "20240621",
+        "total_trades": 13809,
+        "complex_trades": 2957,
+        "complex_volume": 13741,
+        "cob_clusters": 502,
+        "dark_clusters": 163,
+        "total_cob_volume": 6220,
+        "dark_cob_volume": 1482,
+        "exchange_breakdown": {
+          "NSDQ_BX_OPT": {
+            "clusters": 108,
+            "volume": 1884,
+            "capital": 868796.0
+          },
+          "CBOE": {
+            "clusters": 107,
+            "volume": 1509,
+            "capital": 677402.0
+          },
+          "MULTI_EXCHANGE": {
+            "clusters": 34,
+            "volume": 336,
+            "capital": 175769.0
+          },
+          "ISE": {
+            "clusters": 48,
+            "volume": 648,
+            "capital": 171291.0
+          },
+          "NSDQ_ISE_GEMINI": {
+            "clusters": 17,
+            "volume": 270,
+            "capital": 82773.0
+          },
+          "EDGX_COB": {
+            "clusters": 74,
+            "volume": 478,
+            "capital": 206234.0
+          },
+          "C2_COB": {
+            "clusters": 33,
+            "volume": 414,
+            "capital": 86379.0
+          },
+          "PHLX_FLOOR": {
+            "clusters": 6,
+            "volume": 130,
+            "capital": 7127.0
+          },
+          "EDGX_OPTIONS": {
+            "clusters": 26,
+            "volume": 295,
+            "capital": 113378.0
+          },
+          "MIAX_PEARL_EQUITIES": {
+            "clusters": 18,
+            "volume": 140,
+            "capital": 71710.0
+          },
+          "C2": {
+            "clusters": 13,
+            "volume": 57,
+            "capital": 28625.000000000004
+          },
+          "NYSE_AMEX": {
+            "clusters": 5,
+            "volume": 20,
+            "capital": 7142.0
+          },
+          "BZX_OPTIONS": {
+            "clusters": 6,
+            "volume": 25,
+            "capital": 1223.0
+          },
+          "OPRA": {
+            "clusters": 4,
+            "volume": 8,
+            "capital": 1704.0
+          },
+          "BATS": {
+            "clusters": 3,
+            "volume": 6,
+            "capital": 1364.0
+          }
+        },
+        "top_clusters": [
+          {
+            "ts": "2024-06-21 13:35:07.700000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 420,
+            "capital": 292740.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              105
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 14:26:47.380000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 3,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 400,
+            "capital": 50400.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              17,
+              160,
+              223
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 15:38:22.594000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 265,
+            "capital": 100965.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              126,
+              139
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 13:35:07.533000",
+            "exchange": "MULTI_EXCHANGE",
+            "exchange_code": 46,
+            "legs": 20,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 128,
+            "capital": 89472.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              1,
+              28
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 13:35:07.531000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 116,
+            "capital": 80794.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              29
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 13:35:07.532000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 4,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 116,
+            "capital": 81142.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              29
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 11:57:28.447000",
+            "exchange": "ISE",
+            "exchange_code": 7,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              21.0
+            ],
+            "total_volume": 101,
+            "capital": 101.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              100
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 15:22:28.615000",
+            "exchange": "NSDQ_BX_OPT",
+            "exchange_code": 5,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 100,
+            "capital": 20800.0,
+            "conditions": [
+              131
+            ],
+            "sizes": [
+              50
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 10:02:34.166000",
+            "exchange": "NSDQ_ISE_GEMINI",
+            "exchange_code": 11,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 93,
+            "capital": 46500.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              1,
+              92
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 12:36:18.957000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              15.0
+            ],
+            "total_volume": 91,
+            "capital": 89362.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              31,
+              60
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 13:13:18.244000",
+            "exchange": "EDGX_COB",
+            "exchange_code": 43,
+            "legs": 3,
+            "unique_strikes": 2,
+            "strikes": [
+              32.0,
+              35.0
+            ],
+            "total_volume": 84,
+            "capital": 54292.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              28
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-21 14:29:12.124000",
+            "exchange": "C2_COB",
+            "exchange_code": 42,
+            "legs": 2,
+            "unique_strikes": 2,
+            "strikes": [
+              21.0,
+              26.0
+            ],
+            "total_volume": 84,
+            "capital": 15582.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              42
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-21 09:51:43.222000",
+            "exchange": "PHLX_FLOOR",
+            "exchange_code": 69,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              31.0
+            ],
+            "total_volume": 81,
+            "capital": 567.0,
+            "conditions": [
+              95
+            ],
+            "sizes": [
+              10,
+              71
+            ],
+            "is_dark": true
+          },
+          {
+            "ts": "2024-06-21 14:39:29.241000",
+            "exchange": "CBOE",
+            "exchange_code": 6,
+            "legs": 2,
+            "unique_strikes": 1,
+            "strikes": [
+              26.0
+            ],
+            "total_volume": 81,
+            "capital": 13942.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              5,
+              76
+            ],
+            "is_dark": false
+          },
+          {
+            "ts": "2024-06-21 10:12:07.838000",
+            "exchange": "EDGX_OPTIONS",
+            "exchange_code": 65,
+            "legs": 6,
+            "unique_strikes": 1,
+            "strikes": [
+              20.0
+            ],
+            "total_volume": 78,
+            "capital": 39390.0,
+            "conditions": [
+              130
+            ],
+            "sizes": [
+              3,
+              4,
+              22,
+              41
+            ],
+            "is_dark": true
+          }
+        ],
+        "verdict": "COB ROUTING PRESENT"
+      },
+      "dark_venue": {
+        "test": "K_dark_venue",
+        "symbol": "GME",
+        "dates": [
+          "20240604",
+          "20240607",
+          "20240610",
+          "20240611",
+          "20240617",
+          "20240618",
+          "20240620",
+          "20240621"
+        ],
+        "date_results": [
+          {
+            "date": "20240604",
+            "total_volume": 393437,
+            "lit_volume": 283127,
+            "dark_volume": 110310,
+            "dark_pct": "28.0%",
+            "dark_condition_breakdown": {
+              "Regular": 60179,
+              "Spread": 13595,
+              "ISO/ISS": 30206,
+              "Cond_126": 79,
+              "Straddle": 1917,
+              "Customer ISO": 246,
+              "Buyer/Seller ISS": 73
+            }
+          },
+          {
+            "date": "20240607",
+            "total_volume": 2152961,
+            "lit_volume": 1512861,
+            "dark_volume": 640100,
+            "dark_pct": "29.7%",
+            "dark_condition_breakdown": {
+              "Regular": 424042,
+              "Cond_21": 312,
+              "Spread": 79632,
+              "ISO/ISS": 98670,
+              "Cond_126": 418,
+              "Cond_127": 25,
+              "Straddle": 8256,
+              "Customer ISO": 2137,
+              "Cond_135": 5,
+              "Buyer/Seller ISS": 218
+            }
+          },
+          {
+            "date": "20240610",
+            "total_volume": 239472,
+            "lit_volume": 174816,
+            "dark_volume": 64656,
+            "dark_pct": "27.0%",
+            "dark_condition_breakdown": {
+              "Regular": 40443,
+              "Cond_41": 5,
+              "Spread": 11588,
+              "ISO/ISS": 9311,
+              "Cond_126": 166,
+              "Straddle": 1262,
+              "Customer ISO": 133,
+              "Buyer/Seller ISS": 27
+            }
+          },
+          {
+            "date": "20240611",
+            "total_volume": 161857,
+            "lit_volume": 114048,
+            "dark_volume": 47809,
+            "dark_pct": "29.5%",
+            "dark_condition_breakdown": {
+              "Regular": 28018,
+              "Spread": 6475,
+              "ISO/ISS": 10150,
+              "Cond_126": 110,
+              "Straddle": 1612,
+              "Customer ISO": 61,
+              "Buyer/Seller ISS": 23
+            }
+          },
+          {
+            "date": "20240617",
+            "total_volume": 167527,
+            "lit_volume": 113845,
+            "dark_volume": 53682,
+            "dark_pct": "32.0%",
+            "dark_condition_breakdown": {
+              "Regular": 32668,
+              "Spread": 7159,
+              "ISO/ISS": 11014,
+              "Cond_126": 152,
+              "Straddle": 629,
+              "Customer ISO": 434,
+              "Cond_135": 1,
+              "Buyer/Seller ISS": 35
+            }
+          },
+          {
+            "date": "20240618",
+            "total_volume": 67089,
+            "lit_volume": 49089,
+            "dark_volume": 18000,
+            "dark_pct": "26.8%",
+            "dark_condition_breakdown": {
+              "Regular": 10054,
+              "Spread": 1330,
+              "ISO/ISS": 5036,
+              "Straddle": 284,
+              "Customer ISO": 66
+            }
+          },
+          {
+            "date": "20240620",
+            "total_volume": 66575,
+            "lit_volume": 45396,
+            "dark_volume": 21179,
+            "dark_pct": "31.8%",
+            "dark_condition_breakdown": {
+              "Regular": 11894,
+              "Spread": 2108,
+              "ISO/ISS": 6255,
+              "Cond_126": 41,
+              "Straddle": 323,
+              "Customer ISO": 27,
+              "Buyer/Seller ISS": 15
+            }
+          },
+          {
+            "date": "20240621",
+            "total_volume": 65301,
+            "lit_volume": 45815,
+            "dark_volume": 19486,
+            "dark_pct": "29.8%",
+            "dark_condition_breakdown": {
+              "Regular": 12064,
+              "Spread": 1783,
+              "ISO/ISS": 4110,
+              "Cond_126": 1,
+              "Straddle": 711,
+              "Customer ISO": 192
+            }
+          }
+        ],
+        "dark_exchange_totals": {
+          "EDGX_OPTIONS": 316986,
+          "EDGX_COB": 230604,
+          "BZX_OPTIONS": 140429,
+          "PHLX_FLOOR": 117924,
+          "MIAX_EMERALD": 71108,
+          "C2_COB": 56675,
+          "MIAX_PEARL_EQUITIES": 41496
+        },
+        "all_exchange_totals": {
+          "ISE": 688215,
+          "EDGX_OPTIONS": 316986,
+          "NSDQ_BX_OPT": 281804,
+          "NYSE_AMEX": 266815,
+          "EDGX_COB": 230604,
+          "CBOE": 219965,
+          "BATS": 198601,
+          "MULTI_EXCHANGE": 192418,
+          "NSDQ_ISE_GEMINI": 155989,
+          "C2": 146835,
+          "OPRA": 145645,
+          "BZX_OPTIONS": 140429,
+          "PHLX_FLOOR": 117924,
+          "MIAX_EMERALD": 71108,
+          "C2_COB": 56675,
+          "ISE2": 42710,
+          "MIAX_PEARL_EQUITIES": 41496
+        },
+        "total_volume": 3314219,
+        "total_dark_volume": 975222,
+        "dark_pct": "29.4%",
+        "verdict": "INSTITUTIONAL DARK ROUTING \u2014 HIGH CONCENTRATION"
+      }
+    }
+  }
+}
