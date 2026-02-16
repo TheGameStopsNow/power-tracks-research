@@ -1,6 +1,8 @@
 # I Watched the Algorithm Execute in Real Time. Here's What 34 Milliseconds Looks Like.
 
-**NOTE:** This is Part 3 of an ongoing series. [Part 1](REDDIT_POST_PART1.md) covered the six anomalies. [Part 2](REDDIT_POST_PART2.md) covered the Player Piano and the FINRA CAT roadmap. If you haven't read those, start there. This post covers what happened when I zoomed in from statistical patterns to the millisecond tape itself, and then followed the money.
+I bet you thought I was done, right? Nah. I spent the weekend finishing new research that I submitted to the SEC today, and figured I'd give the mods another boring Monday. This one's nothing but prime footlong beef.
+
+**NOTE:** This is Part 3 of an ongoing series. [Part 1](https://www.reddit.com/r/Superstonk/comments/1r5vcke/the_strike_price_symphony_1) covered the six anomalies. [Part 2](https://www.reddit.com/r/Superstonk/comments/1r4tr5l/the_strike_price_symphony_2) covered the Player Piano and the FINRA CAT roadmap. If you haven't read those, start there. This post covers what happened when I zoomed in from statistical patterns to the millisecond tape itself, and then followed the money.
 
 **TL;DR: I synchronized four independent data feeds to millisecond resolution and reconstructed exactly how the algorithm executes a single strike. It probes hidden liquidity with a micro-lot order on an adjacent strike, waits 586 milliseconds, then fires a 1,056-contract sweep that extracts 7.4x the visible order book depth -- all in 34 milliseconds. It does this on 7 out of 7 confirmed strikes across 3.5 years. The hedging prints that follow omit the condition codes that would link them to the options sweep, creating a gap in FINRA's surveillance chain. Separately, I reconstructed a $34 million off-tape conversion using put-call parity and found independent confirmation in Citadel's Q2 2024 13F filing. Everything is in the public tape. Three new CAT queries at the bottom.**
 
@@ -32,7 +34,7 @@ I selected the April 9, 2024 occurrence for full cross-asset reconstruction beca
 
 ### The Four Tapes
 
-To see the full blast radius of a single algorithmic strike, I synchronized four independent data feeds to the same UTC clock:
+To see the full blast radius of a single algorithmic strike, I synchronized four independent data feeds to the same UTC clock: ([squeeze_mechanics_forensic.py](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/squeeze_mechanics_forensic.py#L94-L293) | [results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/squeeze_mechanics_GME_20260216_123338.json))
 
 | Feed | Source | Resolution | What It Shows |
 |------|--------|-----------|---------------|
@@ -56,7 +58,7 @@ At 10:56:22.357 ET, a 2-lot IOC (Immediate or Cancel) order executed on the $12.
 
 Two contracts on a slightly-out-of-the-money strike, one strike above the target. That's the probe.
 
-Why do I call it a probe? Because of what happened next. The sweep that followed 586 milliseconds later routed **49% of its total volume** (513 of 1,056 contracts) directly through MIAX Pearl. The algorithm tested that exchange's hidden reserve depth via an adjacent strike, confirmed liquidity was there, computed optimal routing weights, and then sent its largest allocation to that exact venue.
+Why do I call it a probe? Because of what happened next. The sweep that followed 586 milliseconds later routed **49% of its total volume** (513 of 1,056 contracts) directly through MIAX Pearl. The algorithm tested that exchange's hidden reserve depth via an adjacent strike, confirmed liquidity was there, computed optimal routing weights, and then sent its largest allocation to that exact venue. ([shadow_hunter.py — algo_stepping](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/shadow_hunter.py#L290-L387) | [results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/shadow_hunter_GME_20260216_122900.json))
 
 And the target strike ($11.50 Calls) had **zero trades** in the 5 seconds before the sweep. The algorithm went silent on the target while testing the adjacent strike. That's not noise. That's sequencing.
 
@@ -99,7 +101,7 @@ Here's what happened after the probe confirmed the target:
 | **T+13** (.956) | **Jitter Payload** | The `[100, 102, 100]` triplet deploys on MIAX Pearl. The exchange tested 586ms earlier. 302 contracts consume the hidden reserve depth the probe confirmed. |
 | **T+27** (.970) | **Peak** | Options fills hit $0.41 (+5.1% from $0.39). GME equity hits $11.06 (+0.27% in 27ms). Ask depth collapses from 41 to 7 contracts. Dark pool absorbs 26.3% of hedging volume. |
 
-The NBBO showed 41 contracts on the Ask. The algorithm extracted **1,056 contracts** -- 7.4x the visible depth. It knew where the hidden liquidity was because it physically tested for it 586 milliseconds earlier.
+The NBBO showed 41 contracts on the Ask. The algorithm extracted **1,056 contracts** -- 7.4x the visible depth. It knew where the hidden liquidity was because it physically tested for it 586 milliseconds earlier. ([squeeze_mechanics_forensic.py — strike_ladder_cascade](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/squeeze_mechanics_forensic.py#L94-L293) | [results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/squeeze_mechanics_GME_20260216_123338.json))
 
 Total elapsed time: 34 milliseconds.
 
@@ -122,7 +124,7 @@ In that window: liquidity depleted, IV warped, equity displaced, dark pool hedgi
 
 This is the part that should concern regulators most.
 
-When the dark pool hedging prints arrived at T+3ms, they carried **Condition Code 37 ([Odd Lot](https://polygon.io/blog/api-with-trade-conditions))**. Under [FINRA Rule 6380A](https://www.finra.org/rules-guidance/rulebooks/finra-rules/6380a), trades reported to the TRF must carry appropriate trade report modifiers. Trades that are part of a stock-option strategy *should* be flagged with **Condition Code 52 ([Contingent Trade](https://polygon.io/blog/api-with-trade-conditions)) or 53 ([Qualified Contingent Trade](https://polygon.io/blog/api-with-trade-conditions))**. Those codes tell surveillance systems: "This equity trade was executed as part of a multi-leg strategy. Link it to the corresponding options event."
+When the dark pool hedging prints arrived at T+3ms, they carried **Condition Code 37 ([Odd Lot](https://polygon.io/blog/api-with-trade-conditions))**. Under [FINRA Rule 6380A](https://www.finra.org/rules-guidance/rulebooks/finra-rules/6380a), trades reported to the TRF must carry appropriate trade report modifiers. Trades that are part of a stock-option strategy *should* be flagged with **Condition Code 52 ([Contingent Trade](https://polygon.io/blog/api-with-trade-conditions)) or 53 ([Qualified Contingent Trade](https://polygon.io/blog/api-with-trade-conditions))**. Those codes tell surveillance systems: "This equity trade was executed as part of a multi-leg strategy. Link it to the corresponding options event." ([dark_venue_analysis](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/shadow_hunter.py#L502-L598) | [manipulation_forensic.py](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/manipulation_forensic.py#L116-L266))
 
 By printing as standard Odd Lots instead, the trade was fragmented not just across exchanges but across *regulatory definitions*. Any surveillance system that relies on condition-code flags to connect options activity to equity hedging has no visibility into this synchronization.
 
@@ -136,7 +138,7 @@ And here's what's ironic: this same condition code system works correctly for le
 
 One question you might ask: are these just ephemeral trades that cancel out by end of day?
 
-No. I checked T+1 Open Interest across every leg of the algorithmic strikes. In **17 of 18 analyzed legs**, the execution resulted in persistent OI accumulation. The algorithm is building and warehousing real synthetic positions on institutional balance sheets.
+No. I checked T+1 Open Interest across every leg of the algorithmic strikes. In **17 of 18 analyzed legs**, the execution resulted in persistent OI accumulation. The algorithm is building and warehousing real synthetic positions on institutional balance sheets. ([manipulation_forensic.py — constructor_fingerprint](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/manipulation_forensic.py#L426-L562) | [results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/manipulation_forensic_GME_20260216_122910.json))
 
 This is the signature of "bulletproofing" -- a strategy where a heavily short institution buys a synthetic long (long call + short put at the same strike) to perfectly offset their short equity delta. The synthetic immunizes their margin requirements, letting them carry the short position indefinitely without facing forced buy-ins. The options positions stay open through expiration. The short position stays hidden behind the synthetic.
 
@@ -179,7 +181,7 @@ The put-call parity relationship requires:
 
 For a near-expiration conversion where the risk-free rate contribution is negligible, the equity leg should settle at approximately the strike price plus the difference between call and put premiums.
 
-I scanned the entire GME options tape for June 7, 2024. Looking for 10,000-contract blocks that would correspond to 1,000,000 shares (standard 100 multiplier). Here's what I found:
+I scanned the entire GME options tape for June 7, 2024. Looking for 10,000-contract blocks that would correspond to 1,000,000 shares (standard 100 multiplier). Here's what I found: ([squeeze_mechanics_forensic.py — implied_delta_exposure](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/squeeze_mechanics_forensic.py#L423-L593) | [counterfactual results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/counterfactual_GME_20260216_123427.json))
 
 | Time | Leg | Contracts | Strike | Price | Exchange |
 |------|-----|:---------:|--------|-------|----------|
@@ -207,7 +209,7 @@ The $34 million conversion isn't isolated. When I searched for all GME TRF print
 
 **Code 12 (Form T)** designates a trade executed outside of regular market hours (before 9:30 or after 16:00 ET) and reported to the [FINRA TRF](https://www.finra.org/rules-guidance/rulebooks/finra-rules/6380a). These trades are legitimate under FINRA reporting rules, but they settle *entirely outside the lit price-discovery window*. Anyone monitoring the regular-session tape never saw them.
 
-On the high-activity dates surrounding the June 2024 events, I found dozens of Code 12 prints, each one settling conversion or reversal arbitrage legs that had been locked in hours (or in some cases, a full day) earlier via the options chain. The pattern is straightforward:
+On the high-activity dates surrounding the June 2024 events, I found dozens of Code 12 prints, each one settling conversion or reversal arbitrage legs that had been locked in hours (or in some cases, a full day) earlier via the options chain. The pattern is straightforward: ([squeeze_mechanics_forensic.py](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/code/squeeze_mechanics_forensic.py) | [results](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/results/squeeze_mechanics_GME_20260216_123338.json))
 
 1. **T = 0 (Options):** Lock in synthetic price via call/put conversion on a lit options exchange. This prints immediately. It looks like normal institutional flow.
 
@@ -319,7 +321,7 @@ Across three posts, I've built the case layer by layer:
 
 Each layer uses different data, different methodology, and different time scales. They all converge on the same conclusion: GME's price microstructure is being shaped with institutional precision by an entity with co-located exchange access, cross-asset order routing capability, and the balance sheet to warehouse six-figure synthetic positions.
 
-The evidence is computational. Every claim links to public data, replicable code, and pre-computed results. Nothing in this series relies on trust. It relies on math.
+The evidence is computational. Every claim links to public data, replicable code, and pre-computed results. Nothing in this series relies on trust. It relies on math. All 113 pre-computed JSON results are loadable from the [evidence viewer](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) with zero setup.
 
 This is not financial advice. It's forensic research. Whether it changes anything depends on whether the people in a position to run Query 8 decide to look.
 
