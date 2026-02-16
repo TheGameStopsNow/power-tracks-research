@@ -289,7 +289,7 @@ I've spent months building the case. I've filed with the SEC. I've published the
 
 **Full Paper (PDF):** [The Long Gamma Default: How Options Market Makers Stabilize Equity Markets](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/The%20Long%20Gamma%20Default-%20How%20Options%20Market%20Structure%20Creates%20Artificial%20Stability%20in%20Equity%20Prices-%20Academic.pdf) — 160,000 words, 32 tables, 14 references, 6 appendices
 
-**Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 89 pre-computed results. Every smoking gun, every table, every claim check. **Start here.**
+**Evidence Viewer (no setup required):** [01_evidence_viewer.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/01_evidence_viewer.ipynb) — Loads all 113 pre-computed results. Every smoking gun, every table, every claim check. **Start here.**
 
 **Replication Notebooks:**
 - [02_forensic_replication.ipynb](https://github.com/TheGameStopsNow/power-tracks-research/blob/main/research/options_hedging_microstructure/review_package/02_forensic_replication.ipynb) — Shadow Hunter, manipulation forensic battery, squeeze mechanics

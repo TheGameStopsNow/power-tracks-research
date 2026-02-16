@@ -19,7 +19,7 @@
 
 | Notebook | Requirements | Description |
 |----------|-------------|-------------|
-| **`01_evidence_viewer.ipynb`** | **None** — zero setup | Loads all 89 pre-computed JSON results. Renders smoking guns, panel ACF, manipulation forensic battery, squeeze mechanics, NMF archaeology, and claim verification matrix. **Start here.** |
+| **`01_evidence_viewer.ipynb`** | **None** — zero setup | Loads all 113 pre-computed JSON results. Renders smoking guns, panel ACF, manipulation forensic battery, squeeze mechanics, NMF archaeology, and claim verification matrix. **Start here.** |
 | **`02_forensic_replication.ipynb`** | ThetaData + Polygon API | Re-runs Shadow Hunter, Manipulation Forensic, Squeeze Mechanics, and Counterfactual Analysis. Falls back to pre-computed results if data is unavailable. |
 | **`03_microstructure_replication.ipynb`** | Polygon + ThetaData API | Re-runs Panel ACF Scan, ACF Engines, Lead-Lag, NMF Archaeology, Robustness, and Stacking Resonance. Falls back to pre-computed results if data is unavailable. |
 

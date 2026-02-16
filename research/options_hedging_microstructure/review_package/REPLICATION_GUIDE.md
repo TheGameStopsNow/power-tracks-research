@@ -510,7 +510,7 @@ Jun 7:  72 algorithmic stepping sequences detected (16 dark-venue)
 
 ## 5. Verifying Pre-Computed Results
 
-All 89 pre-computed JSON results are in `results/`. To inspect any result:
+All 113 pre-computed JSON results are in `results/`. To inspect any result:
 
 ```bash
 python -m json.tool results/<filename>.json | head -50
